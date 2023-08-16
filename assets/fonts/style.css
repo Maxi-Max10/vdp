@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'Vidaloka-Regular';
+   font-display: swap;
+   src: url('Vidaloka-Regular/font.ttf');
+}
+@font-face {
+   font-family: 'Roboto-Regular';
+   font-display: swap;
+   src: url('Roboto-Regular/font.ttf');
+}

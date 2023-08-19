@@ -58,7 +58,6 @@
                 <p class="mbr-text mbr-fonts-style display-4">
                 &copy;<script>document.write(new Date().getFullYear());</script> Vivacs del Plata- All Rights Reserved&nbsp; &nbsp; Terms &amp; Conditions&nbsp;
                     &nbsp; Privacy Policy</p>
-                    <p class="mbr-text mbr-fonts-style display-4">Powered by <a class="fst-italic link-underline-opacity-100-hover" href="https://polopositivoar.com/">PoloPositivo</a></p>
             </div>
         </div>
     </div>

@@ -15,10 +15,10 @@ include "assets/views/nav.php";
     <div class="container">
         <div class="row">
             <div class="content-wrap">
-                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>Frequently Asked Questions</strong></h1>
+                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1">Frequently Asked Questions</h1>
                 
                 <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7">
-                    Learn more! Here are some common questions about Vivacs del Plata.
+                    Learn more! Here are some common <br> questions about Vivacs del Plata.
                 </p>
 
                 
@@ -29,9 +29,6 @@ include "assets/views/nav.php";
 
 <section data-bs-version="5.1" class="content16 cid-tL7jvB3Ksf" id="content16-19">
 
-    
-
-    
     
     <div class="container">
         <div class="row justify-content-center">
@@ -131,7 +128,7 @@ include "assets/views/nav.php";
                 
                 <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-1">Still need help?</h4>
                 <p class="mbr-text mbr-fonts-style display-7">
-                    For any other questions, please contact us here or write us at <strong> vivacsdelplata@gmail.com </strong></p>
+                    For any other questions, please contact us here <br> or write us at <strong> vivacsdelplata@gmail.com </strong></p>
             </div>
         </div>
     </div>

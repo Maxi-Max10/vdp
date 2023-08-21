@@ -1,0 +1,103 @@
+.trip-img{
+  width: 400px;
+  height: 500px;
+}
+
+.trip-paragraph{
+  font-family: "Helvetica";
+  font-size: 0.90rem;
+  padding-right: 4rem;
+  line-height: 1.25;
+}
+
+.trip-title{
+  font-family: 'Vidaloka-Regular';
+  font-size: 3.5rem;
+  padding-right: 5rem;
+}
+
+.text-width{
+  width: 30% !important;
+}
+
+.slide-width{
+  width: 70% !important;
+}
+
+.dropdown-button-atamisque{
+  margin-left: 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.dropdown-button-club{
+  position: absolute;
+  top: 93.5%;
+  right: 73%;
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#dropdownButton{
+  position: absolute;
+  right: -5%;
+  cursor: pointer;
+}
+
+.font-light{
+  color: rgb(88, 88, 88);
+}
+
+.slide-container{
+  position: relative;
+  display: flex;
+  margin-left: 190px;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.slide-container2{
+  position: relative;
+  display: flex;
+  margin-right: 190px;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.trip-slide{
+  --swiffy-slider-item-gap-totalwidth: 0.5rem !important
+}
+
+.trip-slide2{
+  --swiffy-slider-item-gap-totalwidth: 0.5rem !important
+}
+
+.next-trip{
+  color: white;
+  position: absolute;
+  top: 45%;
+  right: 2.5%;
+}
+
+.next-trip2{
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 4.5%;
+}
+
+.margin-slide{
+  padding-left: 3rem;
+}
+
+.margin-slide2{
+  padding-right: 3rem;
+}
+
+.slide-gap{
+  
+}

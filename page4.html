@@ -56,7 +56,7 @@
             pleased to help you.
         </h5>
         <div id="mensajeC"></div>
-            <form id="form_enviar" method="post">
+            <form id="form_enviar" method="post" action="mail.php">
             <div class="input-container">
                 <input type="text" id="name" name="name" required="">
                 <label for="input" class="label">Your name<span class="mandatory">*</span></label>
@@ -74,12 +74,12 @@
             </div>
              <div class="input-container">
                 <div id="aboutIcon" class="plus dropdown-about">+</div>
-                <select id="about" class="select" aria-label="Default select example">
-                    <option selected class="label">About</option>
+                <select id="about" class="select" name="about[]" aria-label="Default select example">
+                    <option selected class="label" >About</option>
                     <div class="underline"></div>
-                    <option class="select-label" value="1">Country day</option>
-                    <option class="select-label" value="2">Country Day + Overnight</option>
-                    <option class="select-label" value="3">Half Day</option>
+                    <option class="select-label" value="Country day">Country day</option>
+                    <option class="select-label" value="Country Day + Overnight">Country Day + Overnight</option>
+                    <option class="select-label" value="Half Day">Half Day</option>
                 </select>
             </div> 
             
@@ -87,31 +87,31 @@
                 <h6 class="label">Other interests<span class="mandatory">*</span></h6>
                 <div class="check-container row">
                     <div class="d-flex flex-column col-3 pe-0">
-                        <input class="check-input" id="wine" type="checkbox" name="wine" value="">
+                        <input class="check-input" id="wine" type="checkbox" value="Wine" name='check_list[]'>
                         <label class="check-label" for="wine">Wine</label>
-                        <input class="check-input" id="motorcycle" type="checkbox" name="motorcycle" value=''>
+                        <input class="check-input" id="motorcycle" type="checkbox" value="Motorcycle" name='check_list[]'>
                         <label class="check-label" for="motorcycle">Motorcycle</label>
-                        <input class="check-input" id="sailing" type="checkbox" name="sailing" value=''>
+                        <input class="check-input" id="sailing" type="checkbox" value="Sailing" name='check_list[]'>
                         <label class="check-label" for="sailing">Sailing</label>
                     </div>
                     <div class="d-flex flex-column col-3 pe-0 ps-4">
-                        <input class="check-input" id="food" type="checkbox" name="food" value=''>
+                        <input class="check-input" id="food" type="checkbox" value="Food" name='check_list[]'>
                         <label class="check-label" for="food">Food</label>
-                        <input class="check-input" id="horses" type="checkbox" name="horses" value=''>
+                        <input class="check-input" id="horses" type="checkbox" value="Horses" name='check_list[]'>
                         <label class="check-label" for="horses">Horses</label>
-                        <input class="check-input" id="golf" type="checkbox" name="golf" value=''>
+                        <input class="check-input" id="golf" type="checkbox" value="Golf" name='check_list[]'>
                         <label class="check-label" for="golf">Golf</label>
                     </div>
                     <div class="d-flex flex-column col-3 pe-0 ps-4">
-                        <input class="check-input" id="adventure" type="checkbox" name="adventure" value=''>
-                        <label class="check-label" for="adventure">Adventure</label>
-                        <input class="check-input" id="ranch" type="checkbox" name="ranch" value=''>
+                        <input class="check-input" id="adventure" type="checkbox" value="Ranch" name='check_list[]'>
+                        <label class="check-label" for="adventure">Ranch</label>
+                        <input class="check-input" id="ranch" type="checkbox" value="Ranch" name='check_list[]'>
                         <label class="check-label" for="ranch">Ranch</label>
-                        <input class="check-input" id="4x4" type="checkbox" name="4x4" value=''>
+                        <input class="check-input" id="4x4" type="checkbox" value="4x4" name='check_list[]'>
                         <label class="check-label" for="4x4">4x4</label>
                     </div>
                     <div class="d-flex flex-column col-3 pe-0 ps-4">
-                        <input class="check-input" id="relaxation" type="checkbox" name="relaxation" value=''>
+                        <input class="check-input" id="relaxation" type="checkbox" value="Relaxation" name='check_list[]'>
                         <label class="check-label" for="relaxation">Relaxation</label>
                     </div>
                 </div>
@@ -137,15 +137,18 @@
             </div>
 
             <div class="input-container message">
-                <input type="text" id="input" required="">
-                <label for="input" class="label">Message</label>
+                <input type="text" id="input" required="" name="message">
+                <label for="input" class="label" >Message</label>
                 <div class="underline"></div>
             </div>
 
             <!--<a class="btn btn-dark btn-lg submit">
                 Submit
-            </a>-->
+            </a>
             <input type="button" class="btn btn-dark btn-lg submit" id="btnEnviarF" value="Enviar">
+            -->
+
+            <button type="submit" class="btn btn-dark btn-lg submit">Submit</button>
 
             <div class="input-container">
                 <div class="divider-medium"></div>
@@ -283,34 +286,3 @@
   </body>
 </html>
 
-<script>
-    $(function()
-    {
-        $("#btnEnviarF").click(function(){
-            var url = "controller/datos.php";
-            $.ajax({
-                type:"POST",
-                url: url,
-                data: $("#form_enviar").serialize(),
-                success: function(data)
-                {
-                    $('#e_name').html('');
-                    $('#e_email').html('');
-                    $('#e_phone').html('');
-                    $('#aler_mensaje').html('');
-    
-                    /*
-                    $('#nombre').css('border-color','');
-                    $('#email').css('border-color','');
-                    $('#telefono').css('border-color','');
-                    $('#mensaje').css('border-color','');
-                    */
-                    $("#mensajeC").html(data);
-                    
-                    
-                }
-    
-            });
-        });
-    });
-</script>

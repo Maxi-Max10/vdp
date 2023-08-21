@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="assets/images/vdp-isologotipo-final-10-298x298.png" type="image/x-icon">
     <meta name="description" content="">
 
-<title>Vivacs del Plata | Our Story</title>
+<title>Vivacs del Plata | Contact us</title>
 <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -50,35 +50,36 @@
 <section>
     <div class="contact-container">
         <h5>
-            If you have any questions or need any general 
-            information, please complete this form to 
-            request the information you need. We will be 
+            If you have any questions or need any general <br> 
+            information, please complete this form to <br> 
+            request the information you need. We will be <br> 
             pleased to help you.
         </h5>
-        <form action="" method="">
+        <div id="mensajeC"></div>
+            <form id="form_enviar" method="post" action="mail.php">
             <div class="input-container">
-                <input type="text" id="input" required="">
+                <input type="text" id="name" name="name" required="">
                 <label for="input" class="label">Your name<span class="mandatory">*</span></label>
                 <div class="underline"></div>
             </div>
             <div class="input-container">
-                <input type="text" id="input" required="">
+                <input type="text" id="email" name="email" required="">
                 <label for="input" class="label">Your email<span class="mandatory">*</span></label>
                 <div class="underline"></div>
             </div>
             <div class="input-container">
-                <input type="text" id="input" required="">
+                <input type="text" id="phone" name="phone" required="">
                 <label for="input" class="label">Phone</label>
                 <div class="underline"></div>
             </div>
              <div class="input-container">
                 <div id="aboutIcon" class="plus dropdown-about">+</div>
-                <select id="about" class="select" aria-label="Default select example">
-                    <option selected class="label">About</option>
+                <select id="about" class="select" name="about[]" aria-label="Default select example">
+                    <option selected class="label" >About</option>
                     <div class="underline"></div>
-                    <option class="select-label" value="1">Country day</option>
-                    <option class="select-label" value="2">Country Day + Overnight</option>
-                    <option class="select-label" value="3">Half Day</option>
+                    <option class="select-label" value="Country day">Country day</option>
+                    <option class="select-label" value="Country Day + Overnight">Country Day + Overnight</option>
+                    <option class="select-label" value="Half Day">Half Day</option>
                 </select>
             </div> 
             
@@ -86,31 +87,31 @@
                 <h6 class="label">Other interests<span class="mandatory">*</span></h6>
                 <div class="check-container row">
                     <div class="d-flex flex-column col-3 pe-0">
-                        <input class="check-input" id="wine" type="checkbox" name="wine" value="wine">
+                        <input class="check-input" id="wine" type="checkbox" value="Wine" name='check_list[]'>
                         <label class="check-label" for="wine">Wine</label>
-                        <input class="check-input" id="motorcycle" type="checkbox" name="" value=''>
+                        <input class="check-input" id="motorcycle" type="checkbox" value="Motorcycle" name='check_list[]'>
                         <label class="check-label" for="motorcycle">Motorcycle</label>
-                        <input class="check-input" id="sailing" type="checkbox" name="" value=''>
+                        <input class="check-input" id="sailing" type="checkbox" value="Sailing" name='check_list[]'>
                         <label class="check-label" for="sailing">Sailing</label>
                     </div>
                     <div class="d-flex flex-column col-3 pe-0 ps-4">
-                        <input class="check-input" id="food" type="checkbox" name="" value=''>
+                        <input class="check-input" id="food" type="checkbox" value="Food" name='check_list[]'>
                         <label class="check-label" for="food">Food</label>
-                        <input class="check-input" id="horses" type="checkbox" name="" value=''>
+                        <input class="check-input" id="horses" type="checkbox" value="Horses" name='check_list[]'>
                         <label class="check-label" for="horses">Horses</label>
-                        <input class="check-input" id="golf" type="checkbox" name="" value=''>
+                        <input class="check-input" id="golf" type="checkbox" value="Golf" name='check_list[]'>
                         <label class="check-label" for="golf">Golf</label>
                     </div>
                     <div class="d-flex flex-column col-3 pe-0 ps-4">
-                        <input class="check-input" id="adventure" type="checkbox" name="" value=''>
-                        <label class="check-label" for="adventure">Adventure</label>
-                        <input class="check-input" id="ranch" type="checkbox" name="" value=''>
+                        <input class="check-input" id="adventure" type="checkbox" value="Ranch" name='check_list[]'>
+                        <label class="check-label" for="adventure">Ranch</label>
+                        <input class="check-input" id="ranch" type="checkbox" value="Ranch" name='check_list[]'>
                         <label class="check-label" for="ranch">Ranch</label>
-                        <input class="check-input" id="4x4" type="checkbox" name="" value=''>
+                        <input class="check-input" id="4x4" type="checkbox" value="4x4" name='check_list[]'>
                         <label class="check-label" for="4x4">4x4</label>
                     </div>
                     <div class="d-flex flex-column col-3 pe-0 ps-4">
-                        <input class="check-input" id="relaxation" type="checkbox" name="" value=''>
+                        <input class="check-input" id="relaxation" type="checkbox" value="Relaxation" name='check_list[]'>
                         <label class="check-label" for="relaxation">Relaxation</label>
                     </div>
                 </div>
@@ -122,28 +123,33 @@
                 <div class="underline-text"></div>
             </div>
             <div id="dateHide" class="hidden d-flex">
-                <input maxlength="2" class="day-input" type="text" id="day" placeholder="DD">
+                <input maxlength="2" class="day-input" type="text" name="fechainD" id="day" placeholder="DD">
                 <h6 class="slash">/</h6>
-                <input maxlength="2" class="date-input" type="text" id="month" placeholder="MM">
+                <input maxlength="2" class="date-input" type="text" name="fechainM" id="month" placeholder="MM">
                 <h6 class="slash">/</h6>
-                <input maxlength="2" class="year-input" type="text" id="year" placeholder="YY">
+                <input maxlength="2" class="year-input" type="text" name="fechainA" id="year" placeholder="YY">
                 <h6 class="to">to</h6>
-                <input maxlength="2" class="day-input" type="text" id="day" placeholder="DD">
+                <input maxlength="2" class="day-input" type="text" name="fechasalD" id="day" placeholder="DD">
                 <h6 class="slash">/</h6>
-                <input maxlength="2" class="date-input" type="text" id="month" placeholder="MM">
+                <input maxlength="2" class="date-input" type="text" name="fechasalM" id="month" placeholder="MM">
                 <h6 class="slash">/</h6>
-                <input maxlength="2" class="year-input" type="text" id="year" placeholder="YY">
+                <input maxlength="2" class="year-input" type="text" name="fechasalA" id="year" placeholder="YY">
             </div>
 
             <div class="input-container message">
-                <input type="text" id="input" required="">
-                <label for="input" class="label">Message<span class="mandatory">*</span></label>
+                <input type="text" id="input" required="" name="message">
+                <label for="input" class="label" >Message</label>
                 <div class="underline"></div>
             </div>
 
-            <a class="btn btn-dark btn-lg submit">
+            <!--<a class="btn btn-dark btn-lg submit">
                 Submit
             </a>
+            <input type="button" class="btn btn-dark btn-lg submit" id="btnEnviarF" value="Enviar">
+            -->
+
+            <button type="submit" class="btn btn-dark btn-lg submit">Submit</button>
+
             <div class="input-container">
                 <div class="divider-medium"></div>
             </div>
@@ -279,3 +285,4 @@
   <input name="animation" type="hidden">
   </body>
 </html>
+

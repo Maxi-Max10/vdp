@@ -12,10 +12,10 @@ include "assets/views/nav.php";
     <div class="container">
         <div class="row">
             <div class="content-wrap mt-5">
-                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>Getting Here</strong></h1>
+                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1">Getting Here</h1>
                 
                 <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7">
-                    Vivacs del Plata is nestled in the picturesque Valle de Uco, at the base of the majestic Cerro El Plata, one of the highest peaks in the Andes, Soaring at 5970 meters above sea level.</p>
+                    Vivacs del Plata is nestled <br> in the picturesque Valle de Uco, <br> at the base of the majestic <br> Cerro El Plata, one of the <br> highest peaks in the Andes, <br> Soaring at 5970 meters <br> above sea level.</p>
 
                 
             </div>
@@ -26,16 +26,16 @@ include "assets/views/nav.php";
 <section data-bs-version="5.1" class="features16 cid-tKt4skVtmt" id="features17-5">
 
     <div class="container">
-        <div class="row align-items-center justify-content-center mb-4" style="margin-top: -32px;">
-            <div class="col-12 col-md-5 image-wrapper">
-                <img src="assets/images/lacarrera.png" alt="">
+        <div class="row align-items-center justify-content-center mb-4">
+            <div class="col-12 col-md-6 image-wrapper">
+                <img src="assets/images/Mapa-04.jpg" alt="">
             </div>
             <div class="col-12 col-md mt-4">
                 <div class="text-wrapper">
                     <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1">
-                        <strong>A hidden gem in "La Carrera"</strong></h1>
+                        A hidden gem<br>in "La Carrera"</h1>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        Vivacs del Plata&nbsp; is a family-owned ranch in the Andes Mountain range in Mendoza Argentina.</p>
+                        Vivacs del Plata&nbsp; is a family-owned<br>ranch in the Andes Mountain range<br>in Mendoza Argentina.</p>
                     
                 </div>
             </div>
@@ -55,14 +55,14 @@ include "assets/views/nav.php";
                 <div class="text-wrapper">
                     <h6 class="card-title mbr-fonts-style display-2 mt-5"><strong>OUR
                         VEHICLES</strong><br><strong>____</strong></h6>
-                <p class="mbr-text mbr-fonts-style mb-4 display-7">Experience hassle-free transportation to
-                    our farm facilities with Vivacs del Plata! As part of our commitment to providing
-                    exceptional service, we offer transportation options in our reliable fleet of three 4x4
-                    Toyota vehicles.<br>Whether you're arriving from Mendoza downtown or Mendoza airport, we
-                    are delighted to offer round-trip transportation at a price of U$D 250 per vehicle, each
-                    vehicle being able to transport up to 4 guests. Enjoy a comfortable ride as you soak in
-                    the scenic beauty on road to our farm.<br>If you're coming from Valle de Uco wineries,
-                    we offer the same excellent service at a discounted rate of U$D 200 (4 PAX max) per
+                <p class="mbr-text mbr-fonts-style mb-4 display-7 text-justify">Experience hassle-free transportation  to
+                    our<br>farm facilities  with Vivacs del Plata! As part<br>of our commitment to providing
+                    exceptional<br>service, we offer transportation options in our<br>reliable fleet of three 4x4
+                    Toyota vehicles.<br>Whether you're arriving from Mendoza <br> downtown or Mendoza airport, we
+                    are delighted<br>to offer round-trip transportation at a price of<br>U$D 250 per vehicle, each
+                    vehicle being able to <br> transport up to 4 guests. Enjoy a comfortable<br> ride as you soak in
+                    the scenic beauty on road<br> to our farm.<br>If you're coming from Valle de Uco wineries,
+                    we<br> offer the same excellent service at a discounted<br>rate of U$D 200 (4 PAX max) per
                     vehicle.</p>
 
                 </div>

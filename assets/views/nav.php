@@ -11,8 +11,9 @@
 
 
     <title>Vivacs del Plata | <?php print $campo ?></title>
-    <link rel="stylesheet" href="assets2/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+    <link rel="stylesheet" href="assets/web/assets/mobirse-icons/mobirise-icons.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
@@ -21,7 +22,7 @@
     <link rel="stylesheet" href="assets/dropdown/css/style.css">
     <link rel="stylesheet" href="assets/socicon/css/styles.css">
     <link rel="stylesheet" href="assets/theme/css/style.css">
-    <link rel="stylesheet" href="assets2/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="assets/fonts/style.css" rel="stylesheet">
     <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">

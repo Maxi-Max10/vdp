@@ -69,7 +69,7 @@
 <script src="assets/dropdown/js/navbar-dropdown.js"></script>  
 <script src="assets/theme/js/script.js"></script>  
 <script src="https://kit.fontawesome.com/8f914819e1.js" crossorigin="anonymous"></script>
-<script src="assets2/js/options.js"></script>
+<script src="assets/js/options.js"></script>
   
   <input name="animation" type="hidden">
   </body>

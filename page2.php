@@ -38,8 +38,8 @@ include "assets/views/nav.php";
                     <div class="card">
                         <div class="card-header" role="tab" id="headingOne">
                             
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>FAQ</strong></h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>FAQ's</strong></h6>
+                                
                             
                         </div>
                         
@@ -48,7 +48,7 @@ include "assets/views/nav.php";
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_1" aria-expanded="false" aria-controls="collapse2">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>How does the transfer service operate?</strong></h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                <span class="sign mbr-iconfont mbri-plus"></span>
                             </a>
                         </div>
                         <div id="collapse2_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">

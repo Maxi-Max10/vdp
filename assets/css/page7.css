@@ -169,7 +169,7 @@
   .slide-container{
     position: relative;
     display: flex;
-    margin-left: 13%;
+    margin-left: 15%;
     margin-top: 8rem;
     margin-bottom: 8rem;
   }
@@ -178,7 +178,7 @@
   .slide-container{
     position: relative;
     display: flex;
-    margin-left: 11%;
+    margin-left: 14%;
     margin-top: 8rem;
     margin-bottom: 8rem;
   }
@@ -224,7 +224,7 @@
   .slide-container-2{
     position: relative;
     display: flex;
-    margin-right: 13%;
+    margin-right: 11%;
     margin-top: 8rem;
     margin-bottom: 8rem;
   }
@@ -301,7 +301,12 @@
 }
 @media(max-width:1400px){
   .margin-slide{
-    margin-left: 1.5% !important;
+    margin-left: 2% !important;
+  }
+}
+@media(max-width:1350px){
+  .margin-slide{
+    margin-left: 1.7% !important;
   }
 }
 @media(max-width:1300px){
@@ -326,38 +331,48 @@
 }
 @media(max-width:1600px){
   .margin-slide-2{
-    margin-right: 6% !important;
+    margin-right: 6% ;
   }
 }
 @media(max-width:1500px){
   .margin-slide-2{
-    margin-right: 6% !important;
+    margin-right: 6% ;
   }
 }
 @media(max-width:1450px){
   .margin-slide-2{
-    margin-right: 0.5% !important;
+    margin-right: 0% ;
+  }
+}
+@media(max-width:1450px){
+  .margin-slide-2{
+    margin-right: 1% ;
   }
 }
 @media(max-width:1400px){
   .margin-slide-2{
-    margin-right: 1.5% !important;
+    margin-right: 0% ;
+  }
+}
+@media(max-width:1350px){
+  .margin-slide-2{
+    margin-right: 0% ;
   }
 }
 @media(max-width:1300px){
   .margin-slide-2{
-    margin-right: 2% !important;
+    margin-right: 2% ;
   }
 }
 @media(max-width:1260px){
   .margin-slide-2{
-    margin-right: 1% !important;
+    margin-right: 1% ;
   }
 }
 @media(max-width:1200px){
   .margin-slide-2{
-    margin-right: 0% !important;
-    margin-top: 10% !important;
+    margin-right: 0% ;
+    margin-top: 10% ;
   }
 }
 
@@ -381,6 +396,11 @@
   }
 }
 @media(max-width:1400px){
+  .ss{
+    padding-left: 2%;
+  }
+}
+@media(max-width:1350px){
   .ss{
     padding-left: 2%;
   }
@@ -463,7 +483,8 @@
 }
 @media(max-width:1400px){
   .ss-2{
-    padding-right: 2%;
+    padding-right: 0%;
+    padding-left: 0%;
   }
 }
 @media(max-width:1300px){
@@ -478,8 +499,8 @@
 }
 @media(max-width:1200px){
   .ss-2{
-    padding-left: 5.5%;
-    padding-right: 0.5%;
+    padding-left: 1%;
+    padding-right: 0.5% !important;
   }
 }
 @media(max-width:720px){
@@ -489,26 +510,31 @@
 }
 @media(max-width:660px){
   .ss-2{
+    padding-left: 8% !important;
     padding-right: 8%;
   }
 }
 @media(max-width:600px){
   .ss-2{
+    padding-left: 5% !important;
     padding-right: 4%;
   }
 }
 @media(max-width:550px){
   .ss-2{
+    padding-left: 1% !important;
     padding-right: 1%;
   }
 }
 @media(max-width:500px){
   .ss-2{
+    padding-left: 6% !important;
     padding-right: 7%;
   }
 }
 @media(max-width:460px){
   .ss-2{
+    padding-left: 1% !important;
     padding-right: 4%;
   }
 }
@@ -524,6 +550,7 @@
 }
 @media(max-width:400px){
   .ss-2{
+    padding-left: 5% !important;
     padding-right: 7%;
   }
 }
@@ -738,6 +765,11 @@ svg .arrow__line {
     left: 6% !important;
   }
 }
+@media(max-width:1000px){
+  .prev {
+    left: 87% !important;
+  }
+}
 @media(max-width:592px){
   .prev {
     left: 15% !important;
@@ -807,4 +839,313 @@ svg .arrow__line {
   opacity: 1;
   visibility: visible;
   transform: translateX(0);
+}
+
+/* ITINERARY */
+
+.itinerary{
+  margin-top: 5rem;
+}
+
+.item-itinerary{
+  width: 17%;
+  padding-right: 2%;
+}
+
+.itinerary-text{
+  
+}
+
+.item-itinerary2{
+  width: 12.2%;
+  padding-right: 2.5%;
+}
+
+.prices-container{
+  margin-bottom: 2rem;
+}
+
+.margin-price{
+  margin-top: 5rem;
+}
+
+.timeline {
+  position: relative;
+  max-width: 65%;
+  margin-top: 1rem;
+  list-style: none;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  z-index: 1;
+}
+
+.p1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 0%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.p2 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 25%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.p3 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.p4 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 75%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.p5 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 100%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.timeline2 {
+  position: relative;
+  max-width: 100%;
+  margin-top: 1rem;
+  list-style: none;
+}
+
+.timeline2::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  z-index: 1;
+}
+
+.c1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 0%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.c2 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 14.2%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.c3 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 28.5%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.c4 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 42.8% ;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.c5 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 57.1%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+
+.c6 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 71.4%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.c7 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 85.7%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.c8 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 100%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.itinerary-title{
+  font-family: 'Roboto-Bold';
+  font-size: 1.8rem;
+}
+
+.itinerary-subtitle{
+  font-family: 'Roboto-Bold';
+  font-size: 1.2rem;
+}
+
+.divider {
+  width: 4rem;
+  height: 2.5px;
+  background-color: #000000; /* Color de la línea */
+}
+
+.divider-vertical {
+  margin-inline: 0.7rem;
+  width: 2px;
+  height: 16px;
+  background-color: #000000; /* Color de la línea */
+}
+
+.divider-light {
+  position: relative;
+  width: 5rem;
+  height: 2px;
+  margin-inline: 0.5rem;
+  background-color: #000000; /* Color de la línea */
+}
+
+.distance{
+  font-family: 'Roboto-Regular';
+  font-size: 1rem;
 }

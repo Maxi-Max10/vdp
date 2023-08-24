@@ -339,3 +339,11 @@ svg .arrow__line {
 .slider-nav-scrollbar {
   --swiffy-slider-track-height: 0.3rem !important;
 }
+
+.nav-pad{
+  padding-bottom: 2.5rem;
+}
+
+.accomodation{
+  position: absolute;
+}

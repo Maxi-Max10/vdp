@@ -33,7 +33,7 @@
   flex-direction: row;
   align-items: center;
   position: relative;
-  height: 100vh;
+  margin-top: 15%;
 }
 
 .elemento-1 {
@@ -495,8 +495,10 @@ h3 {
 }
 
 .subtitulo-subseccion-4 {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  padding-left: 4.5%;
   font-weight: 600;
+  font-family: 'Roboto-Bold';
 }
 
 .divisor-3 {
@@ -521,15 +523,16 @@ h3 {
   content: "";
   display: block;
   width: 1px;
-  height: 25%;
+  height: 50%;
   background-color: #000;
   position: absolute;
   transform: translateX(-50%);
-  transform: translateY(-50%);
+  transform: translateY(-75%);
 }
 
 .parrafo-subseccion-5 {
-  font-size: 0.9rem;
+  margin-top: 5%;
+  font-size: 1.1rem;
   text-align: center;
   width: 18rem;
 }
@@ -545,6 +548,7 @@ h3 {
 }
 
 .h3-subseccion-5 {
+  font-family: 'Roboto-Bold';
   text-align: center;
   color: #000;
   z-index: 3;

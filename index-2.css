@@ -38,7 +38,7 @@
 
 .elemento-1 {
   margin-right: 3rem;
-
+  margin-top: -7%;
 }
 
 .h2-subseccion-1-1 {
@@ -63,8 +63,8 @@
 
 .divisor-2 {
   width: 97%;
-  height: 1px;
-  background-color: #ccc;
+  height: 2px;
+  background-color: #000000;
   margin: 1.65rem 0;
 }
 
@@ -73,13 +73,35 @@
   width: 15rem;
   font-size: 1rem;
   padding-right: 0%;
+  line-height: 1.2;
+}
+
+.parrafo-subseccion-1-2 {
+  font-family: 'Roboto-Regular';
+  width: 15rem;
+  font-size: 1rem;
+  padding-right: 0%;
+  line-height: 1.2;
+}
+
+.parrafo-subseccion-1-3 {
+  font-family: 'Roboto-Regular';
+  width: 15rem;
+  font-size: 1rem;
+  padding-right: 0%;
+  line-height: 1.2;
 }
 
 .parrafo-subseccion-1-4 {
-  font-size: 1.1rem;
+  font-family: 'Roboto-Regular';
+  width: 15rem;
+  font-size: 1rem;
+  padding-right: 0%;
+  line-height: 1.2;
 }
 
 .parrafo {
+  font-size: 1.2rem;
 }
 
 .parrafo-slider {
@@ -257,8 +279,9 @@
 .subtitulo-subseccion-2 {
   position: relative;
   left: 16%;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
 }
 
 .nav-next-subseccion-2 {

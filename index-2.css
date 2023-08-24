@@ -42,20 +42,23 @@
 }
 
 .h2-subseccion-1-1 {
-  font-size: 1rem;
-
+  font-size: 1.1rem;
+  font-family: 'Roboto-Bold';
 }
 
 .h2-subseccion-1-2 {
-  margin-bottom: 2rem;
-  margin-left: 29rem;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  margin-left: 26rem;
+  font-family: 'Vidaloka-Regular';
 }
 
 .divisor-1 {
   width: 25%;
-  height: 1px;
-  background-color: #ccc;
-  margin: 10px 0;
+  height: 2px;
+  background-color: #000000;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .divisor-2 {
@@ -66,8 +69,10 @@
 }
 
 .parrafo-subseccion-1-1 {
-  width: 12rem;
-  font-size: 1.1rem;
+  font-family: 'Roboto-Regular';
+  width: 15rem;
+  font-size: 1rem;
+  padding-right: 0%;
 }
 
 .parrafo-subseccion-1-4 {
@@ -546,7 +551,7 @@ h3 {
 .slider-nav.slider-nav-next {
   right: 0;
   left: unset;
-  margin-right: 5rem;
+  margin-right: 2rem;
 }
 
 .slider-item-show3 {
@@ -595,12 +600,12 @@ h3 {
 
   .elemento-2 {
     margin-top: -3rem;
+    margin-left: 1rem;
   }
 
   .parrafo-subseccion-1-1 {
     width: 16rem;
-    height: 11rem;
-    font-size: 0.99rem;
+    font-size: 0.7rem;
   }
 
   .carrusel {

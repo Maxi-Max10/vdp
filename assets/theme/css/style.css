@@ -959,3 +959,27 @@ blockquote {
 	top: 0;
 	left: -2400px;
 }
+.nav-dropdown{
+  height: 80vh !important;
+}
+.no-bullets{
+  list-style: none;
+}
+.dropdown-transition{
+  transition: top 5.5s ease-in-out;
+}
+.navbar-short{
+  background-color: white !important;
+}
+.white-img{
+  background: white !important;
+}
+.white-burger{
+  background: white !important;
+}
+.white-text{
+  color: white  !important;
+}
+.img-color{
+    filter: invert(0%) !important;
+}

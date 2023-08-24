@@ -58,12 +58,12 @@ include "assets/views/nav.php";
 
 <section>
     <div class="container">
-        <h2 class="fw-bold my-5 text-center text-md-start">YOUR HOST FAMILY</h2>
+        <h2 class="mt-5 mb-4 text-center text-md-start title">YOUR HOST FAMILY</h2>
         <div class="row">
             <div class="col-12 col-md-8">
                 <img src="./assets/images/foto familia 2.jpg" alt="image" class="responsive-img" width="100rem" height="400rem"></img>
             </div>
-            <div class="col-12 col-md-3 text-center text-md-start mt-3 mt-md-auto pe-0">
+            <div class="col-12 col-md-3 text-center text-md-start mt-3 mt-md-auto px-0">
                 <p class="family-text">
                     Steeped in history and nestled in the 
                     heart of The Andes, Vivacs del Plata 
@@ -120,27 +120,37 @@ include "assets/views/nav.php";
                             <img src="assets/images/IMG_5014.JPG" class="slider-img">
                         </li>
                     </ul>
-                    <button class="next">
+                        <div class="arrow next" style="opacity: 1; transform: translate3d(0px, 25px, 0px);">
+                            <span class="svg svg-arrow-right">
+                                <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line" d="M0 12.9h28.5"/></svg>
+                            </span>
+                        </div>
+                     
+                    <!-- <button class="next">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="slider-nav slider-nav-next bi bi-arrow-right-circle" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
                         </svg>
-                    </button>
+                    </button> -->
                 </div>
             </div>
         </div>
     <div class="container">
         <div class="row d-flex flex-column-reverse flex-md-row">
-            <div class="col-12 col-md-3 mt-3 mt-md-auto fs-5 text-center text-md-start">
-                <p class="family-text">
-                    Vivacs del Plata is a family owned ranch situated in
-                    “La Carrera”, a hidden gem
-                    in the Andes Mountain range
-                    in Mendoza, Argentina
+            <div class="px-0 col-12 col-md-4 mt-3 mt-md-auto text-center text-md-start">
+                <p class="the-ranch-text">
+                    Vivacs del Plata is a family-owned ranch situated in
                 </p>
-                </div>
-            <div class="col-12 col-md-9 justify-content-center">
+                <p class="the-ranch-text-2">
+                        “La Carrera”, a hidden gem
+                </p>
+                <p class="the-ranch-text-3">
+                        in the Andes Mountain range
+                        in Mendoza, Argentina
+                </p>
+            </div>
+            <div class="col-12 col-md-8 justify-content-center">
                 <h2 class="text-center text-md-start fw-bold mt-5 mb-4">THE RANCH</h2>
-                <img src="assets/images/9E98C698-3E75-4600-8053-BEFBCC3425BE.JPG" 
+                <img src="assets/images/The ranch.jpeg" 
                 alt="image" class="responsive-img ranch-img"></img>
             </div>
         </div>
@@ -164,13 +174,13 @@ include "assets/views/nav.php";
                       </div>
                     </div>
                 </div>
-                <div id="cardTitle" class="d-flex align-items-center justify-content-center">
-                    <h5 class="my-3 fw-bold">ANIMAL BREEDING</h5>
-                    <p id="cardIcon" class="plus mb-0 fw-bold ms-auto fs-5">+</p>
+                <div id="cardTitle" class="fade-slide-down d-flex align-items-text-card center justify-content-center">
+                    <h5 class="my-3 title-card">ANIMAL BREEDING</h5>
+                    <p id="cardIcon" class="plus mb-0 fw-bold ms-auto fs-5 transition pt-3">+</p>
                 </div>
                 <div class="divider mb-2"></div>
-                <div id="textoDesplegable" class="hidden">
-                    <p class="my-4 fs-5">Este es el texto que se despliega suavemente al hacer clic en el botón.</p>
+                <div id="textoDesplegable" class="hidden fade-slide-down">
+                    <p class="text-card my-3">Este es el texto que se despliega suavemente al hacer clic en el botón.</p>
                 </div>
                 <div class="swiper" id="swiper2">
                     <div class="swiper-wrapper">
@@ -189,12 +199,12 @@ include "assets/views/nav.php";
                     </div>
                 </div>
                 <div id="cardTitle2" class="d-flex align-items-center justify-content-center">
-                    <h5 class="my-3 fw-bold">CROPS</h5>
-                    <p id="cardIcon2" class="plus2 mb-0 fw-bold ms-auto fs-5">+</p>
+                    <h5 class="my-3 title-card">CROPS</h5>
+                    <p id="cardIcon2" class="plus2 mb-0 fw-bold ms-auto fs-5 transition">+</p>
                 </div>
                 <div class="divider mb-2"></div>
-                <div id="textoDesplegable2" class="hidden">
-                    <p class="my-4 fs-5">
+                <div id="textoDesplegable2" class="hidden fade-slide-down">
+                    <p class="text-card my-3">
                         At Vivacs del Plata, we are not only stewards 
                         of animals but also cultivators of the land. Our fields flourish with an array of crops including 
                         potatoes, peas, and rye.
@@ -223,12 +233,12 @@ include "assets/views/nav.php";
                         </div>
                     </div>
                 <div id="cardTitle3" class="d-flex align-items-center justify-content-center">
-                    <h5 class="my-3 fw-bold">HORSES</h5>
-                    <p id="cardIcon3" class="plus3 mb-0 fw-bold ms-auto fs-5">+</p>
+                    <h5 class="my-3 title-card">HORSES</h5>
+                    <p id="cardIcon3" class="plus3 mb-0 fw-bold ms-auto fs-5 transition">+</p>
                 </div>
                 <div class="divider mb-2"></div>
-                <div id="textoDesplegable3" class="hidden">
-                    <p class="my-4 fs-5">Este es el texto que se despliega suavemente al hacer clic en el botón.</p>
+                <div id="textoDesplegable3" class="hidden fade-slide-down">
+                    <p class="text-card my-3">Este es el texto que se despliega suavemente al hacer clic en el botón.</p>
                 </div>
                     <div class="swiper" id="swiper4">
                         <div class="swiper-wrapper">
@@ -247,12 +257,12 @@ include "assets/views/nav.php";
                         </div>
                     </div>
                 <div id="cardTitle4" class="d-flex align-items-center justify-content-center">
-                    <h5 class="my-3 fw-bold">PETS</h5>
-                    <p id="cardIcon4" class="plus4 mb-0 fw-bold ms-auto fs-5">+</p>
+                    <h5 class="my-3 title-card">PETS</h5>
+                    <p id="cardIcon4" class="plus4 mb-0 fw-bold ms-auto fs-5 transition">+</p>
                 </div>
                 <div class="divider mb-2"></div>
-                <div id="textoDesplegable4" class="hidden">
-                    <p class="my-4 fs-5">Este es el texto que se despliega suavemente al hacer clic en el botón.</p>
+                <div id="textoDesplegable4" class="hidden fade-slide-down">
+                    <p class="text-card my-3">Este es el texto que se despliega suavemente al hacer clic en el botón.</p>
                 </div>
             </div>
         </div>
@@ -649,6 +659,38 @@ if (prices3.classList.contains('hidden')) {
       window.scrollTo(0, 0);
     }
     window.onload = scrollToTop;
+</script>
+<script>
+    const hamburgerButton = document.getElementById('burger');
+    const logo = document.getElementById('img-logo');
+    const es = document.getElementById('tes-1');
+    const en = document.getElementById('tes-2');
+    const separator = document.getElementById('separator');
+    const contact = document.getElementById('tes-3');
+    const burger1 = document.getElementById('burger-1');
+    const burger2 = document.getElementById('burger-2');
+    const burger3 = document.getElementById('burger-3');
+    const burger4 = document.getElementById('burger-4');
+
+    hamburgerButton.addEventListener('click', () => {
+     logo.classList.toggle('img-color');
+     es.classList.toggle('white-text');
+     en.classList.toggle('white-text');
+     separator.classList.toggle('white-text');
+     burger1.classList.toggle('white-burger');
+     burger2.classList.toggle('white-burger');
+     burger3.classList.toggle('white-burger');
+     burger4.classList.toggle('white-burger');
+     contact.classList.toggle('white-text');
+     es.classList.toggle('tes');
+     en.classList.toggle('tes');
+     separator.classList.toggle('tes');
+     contact.classList.toggle('tes');
+     burger1.classList.toggle('tes-2');
+     burger2.classList.toggle('tes-2');
+     burger3.classList.toggle('tes-2');
+     burger4.classList.toggle('tes-2');
+    });
 </script>
   <input name="animation" type="hidden">
   </body>

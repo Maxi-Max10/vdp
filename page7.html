@@ -40,25 +40,25 @@
                 <div class="col-auto me-auto mt-5 mb-0">
                     <span class="navbar-logo">
                         <a href="page3.php">
-                            <img src="assets/images/vdp-isologotipo-final-10-298x298.png" alt=""
+                            <img id="img-logo" class="" src="assets/images/vdp-isologotipo-final-10-298x298.png" alt=""
                                 style="height: 5rem; z-index: 3;">
                         </a>
                     </span>
                 </div>
                 <ul class="nav col-auto mb-2 justify-content-center mb-md-0">
-                    <li class="nav-item"><a href="#" class="nav-link px-2 link-light tes">ES</a></li>
-                    <li class="nav-link px-2 link-light tes" style="top: -6px;">|</li>
-                    <li class="nav-item"><a href="page3.php" class="nav-link px-2 link-light tes">EN</a></li>
-                    <li class="nav-item"><a href="page4.php" class="nav-link px-2 link-light tes">Contact</a></li>
-                    <li class="ms-2"> <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    <li class="nav-item"><a id="tes-1" href="#" class="nav-link px-2 link-light tes">ES</a></li>
+                    <li id="separator" class="nav-link px-2 link-light tes" style="top: -6px;">|</li>
+                    <li class="nav-item"><a id="tes-2" href="page3.php" class="nav-link px-2 link-light tes">EN</a></li>
+                    <li class="nav-item"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes">Contact</a></li>
+                    <li id="burger" class="ms-2"> <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-bs-toggle="collapse" data-target="#navbarSupportedContent"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <div class="hamburger">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
+                                <span id="burger-1" class="tes-2"></span>
+                                <span id="burger-2" class="tes-2"></span>
+                                <span id="burger-3" class="tes-2"></span>
+                                <span id="burger-4" class="tes-2"></span>
                             </div>
                         </button>
                     </li>
@@ -70,22 +70,22 @@
                         <div class="row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-5"
                             data-app-modern-menu="true">
                             <div class="col-4">
-                                <ul class="">
-                                    <li><a href="page8.php" class="text-decoration-none link-light">Our Story</a></li>
-                                    <li><a href="page6.php" class="text-decoration-none link-light">All-Inclusive
+                                <ul class="no-bullets dropdown-transition">
+                                    <li class="fs-1 dropdown-transition"><a href="page8.php" class="text-decoration-none link-light">Our Story</a></li>
+                                    <li class="fs-1 dropdown-transition"><a href="page6.php" class="text-decoration-none link-light">All-Inclusive
                                             Experience</a></li>
-                                    <li><a href="page1.php" class="text-decoration-none link-light">Getting Here</a>
+                                    <li class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light">Getting Here</a>
                                     </li>
-                                    <li><a href="Page7.php" class="text-decoration-none link-light">Trip
+                                    <li class="fs-1 dropdown-transition"><a href="Page7.php" class="text-decoration-none link-light">Trip
                                             Enhancements</a></li>
                                 </ul>
                             </div>
       
                             <div class="col-4">
-                                <ul class="list-unstyled">
-                                    <li><a href="page5.php" class="text-decoration-none link-light">Gallery</a></li>
-                                    <li><a href="page2.php" class="text-decoration-none link-light">FAQ </a></li>
-                                    <li><a href="page4.php" class="text-decoration-none link-light">Contact</a></li>
+                                <ul class="list-unstyled dropdown-transition">
+                                    <li class="fs-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light">Gallery</a></li>
+                                    <li class="fs-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light">FAQ </a></li>
+                                    <li class="fs-1 dropdown-transition"><a href="page4.php" class="text-decoration-none link-light">Contact</a></li>
                                 </ul>
                                 <div class="social-row display-5 nav col-md-4 justify-content-start ">
                                     <div class="soc-item ms-3">
@@ -448,7 +448,7 @@
             <div class="hour-container-2">
                 <p class="start-hour-2">8:00AM</p>
                 <p class="middle-hour">9:00AM</p>
-                <p class="end-hour-3">4:00PM</p>
+                <p class="end-hour">4:00PM</p>
             </div>
             <ul class="timeline-2">
                 <li id="circle-20" class="text-20 hoverable c1 circle-gray"></li>
@@ -754,6 +754,38 @@
       window.scrollTo(0, 0);
     }
     window.onload = scrollToTop;
+</script>
+<script>
+    const hamburgerButton = document.getElementById('burger');
+    const logo = document.getElementById('img-logo');
+    const es = document.getElementById('tes-1');
+    const en = document.getElementById('tes-2');
+    const separator = document.getElementById('separator');
+    const contact = document.getElementById('tes-3');
+    const burger1 = document.getElementById('burger-1');
+    const burger2 = document.getElementById('burger-2');
+    const burger3 = document.getElementById('burger-3');
+    const burger4 = document.getElementById('burger-4');
+
+    hamburgerButton.addEventListener('click', () => {
+     logo.classList.toggle('img-color');
+     es.classList.toggle('white-text');
+     en.classList.toggle('white-text');
+     separator.classList.toggle('white-text');
+     burger1.classList.toggle('white-burger');
+     burger2.classList.toggle('white-burger');
+     burger3.classList.toggle('white-burger');
+     burger4.classList.toggle('white-burger');
+     contact.classList.toggle('white-text');
+     es.classList.toggle('tes');
+     en.classList.toggle('tes');
+     separator.classList.toggle('tes');
+     contact.classList.toggle('tes');
+     burger1.classList.toggle('tes-2');
+     burger2.classList.toggle('tes-2');
+     burger3.classList.toggle('tes-2');
+     burger4.classList.toggle('tes-2');
+    });
 </script>
   <input name="animation" type="hidden">
   </body>

@@ -1896,8 +1896,12 @@ a {
 .cid-tL7nLROMV3 .navbar.navbar-short .tes {
   color: #232323 !important;
 }
-.cid-tL7nLROMV3 .navbar.navbar-short span {
+.cid-tL7nLROMV3 .navbar.navbar-short .tes-2 {
   background: #232323 !important;
+}
+
+.cid-tL7nLROMV3 .navbar.navbar-short span {
+  background: #232323 ;
 }
 .cid-tL7nLROMV3 .navbar.navbar-short .navbar-logo img {
   height: 4rem !important;
@@ -1971,8 +1975,9 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background: #ffffff;
 }
+
 .cid-tL7nLROMV3 button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
   transition: all 0.2s;

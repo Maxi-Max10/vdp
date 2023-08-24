@@ -46,7 +46,6 @@
     />
 </head>
 
-
 <section data-bs-version="5.1" class="header4 cid-tMz2KIjoKu mbr-fullscreen mbr-parallax-background" id="header4-25">
 
 
@@ -861,8 +860,39 @@
   }
   window.onload = scrollToTop;
 </script>
+<script>
+  const hamburgerButton = document.getElementById('burger');
+  const logo = document.getElementById('img-logo');
+  const es = document.getElementById('tes-1');
+  const en = document.getElementById('tes-2');
+  const separator = document.getElementById('separator');
+  const contact = document.getElementById('tes-3');
+  const burger1 = document.getElementById('burger-1');
+  const burger2 = document.getElementById('burger-2');
+  const burger3 = document.getElementById('burger-3');
+  const burger4 = document.getElementById('burger-4');
+
+  hamburgerButton.addEventListener('click', () => {
+   logo.classList.toggle('img-color');
+   es.classList.toggle('white-text');
+   en.classList.toggle('white-text');
+   separator.classList.toggle('white-text');
+   burger1.classList.toggle('white-burger');
+   burger2.classList.toggle('white-burger');
+   burger3.classList.toggle('white-burger');
+   burger4.classList.toggle('white-burger');
+   contact.classList.toggle('white-text');
+   es.classList.toggle('tes');
+   en.classList.toggle('tes');
+   separator.classList.toggle('tes');
+   contact.classList.toggle('tes');
+   burger1.classList.toggle('tes-2');
+   burger2.classList.toggle('tes-2');
+   burger3.classList.toggle('tes-2');
+   burger4.classList.toggle('tes-2');
+  });
+</script>
   <input name="animation" type="hidden">
   <script src="./index-2.js"></script>
-
   </body>
 </html>

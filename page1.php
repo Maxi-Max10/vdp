@@ -53,8 +53,7 @@ include "assets/views/nav.php";
             </div>
             <div class="col-12 col-md">
                 <div class="text-wrapper">
-                    <h6 class="card-title mbr-fonts-style display-2 mt-5"><strong>OUR
-                        VEHICLES</strong><br><strong>____</strong></h6>
+                    <h6 class="card-title mbr-fonts-style display-2 mt-5"><strong>OUR VEHICLES</strong><br><strong>____</strong></h6>
                 <p class="mbr-text mbr-fonts-style mb-4 display-7 text-justify">Experience hassle-free transportation  to
                     our<br>farm facilities  with Vivacs del Plata! As part<br>of our commitment to providing
                     exceptional<br>service, we offer transportation options in our<br>reliable fleet of three 4x4
@@ -89,9 +88,8 @@ include "assets/views/nav.php";
     <div class="container">
         <div class="row justify-content-center">
             <div class="title col-12 col-lg">
-                <h3 class="mbr-section-title mbr-fonts-style align-center display-2">
-                    <strong>HELITRANSFER&nbsp;</strong><br><strong>___</strong><br></h3>
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">Soar above the
+                <h6 class="mbr-section-title mbr-fonts-style align-center display-2"><strong>HELITRANSFER</strong><br><strong>____</strong></h6>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7 mt-3">Soar above the
                     picturesque Valle de Uco with a helicopter ride <br>to our ranch.Enjoy a privileged vantage
                     point as you witness the<br> breathtaking beauty of the region from the air.For availability
                     <br>and rates, please contact us directly.</h4>
@@ -100,17 +98,13 @@ include "assets/views/nav.php";
     </div>
 </section>
 
-<section data-bs-version="5.1" class="features18 cid-tKttaD00Ef" id="features19-b">
-
-    
-
-    
+<section data-bs-version="5.1" class="features18 cid-tKttaD00Ef" id="features19-b"> 
     
     <div class="container">
         <div class="row justify-content-center">
             <div class="card col-12 col-lg">
                 <div class="card-wrapper">
-                    <h6 class="card-title mbr-fonts-style mb-4 display-2"><strong>DRIVE TO REACH US</strong><br><strong>____</strong></h6>
+                    <h6 class="card-title mbr-fonts-style mb-3 display-2"><strong>DRIVE TO REACH US</strong><br><strong>____</strong></h6>
                     <p class="mbr-text mbr-fonts-style display-7">To reach our rural farm stay from Mendoza downtown, you have two options: the scenic routes via Potrerillos or Ugarteche. Both roads offer stunning landscapes along the way. While the final 25 kilometres consist of dirt roads, it is accessible by various types of vehicles.<br>We recommend using a pick-up truck for optimal comfort.</p>
                     
                 </div>

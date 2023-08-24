@@ -843,20 +843,263 @@ svg .arrow__line {
 
 /* ITINERARY */
 
+.gray{
+  color: #949599;
+}
+
+.circle-gray{
+  background-color: #949599 !important;
+}
+
+.black{
+  color: #301f11;
+}
+
+.circle-hover{
+  background-color: #301f11 !important;
+}
+
+.hour-container{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1%;
+}
+
+.start-hour{
+ font-family: 'Roboto-Bold';
+ margin-bottom: 0%;
+ margin-left: -1%;
+}
+
+.end-hour{
+  font-family: 'Roboto-Bold';
+  margin-bottom: 0%;
+  margin-right: -3%;
+}
+
+.timeline-container{
+  margin-right: 10%;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.itinerary-container{
+  margin-left: 3.5%;
+}
+
 .itinerary{
   margin-top: 5rem;
 }
 
-.item-itinerary{
+.hour-container-2{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0%;
+}
+
+.start-hour-2{
+ font-family: 'Roboto-Bold';
+ margin-bottom: 0%;
+ margin-left: -1%;
+}
+
+.end-hour-2{
+  font-family: 'Roboto-Bold';
+  margin-bottom: 0%;
+  margin-right: 40%;
+}
+
+.end-hour-3{
+  font-family: 'Roboto-Bold';
+  margin-bottom: 0%;
+  margin-right: 25%;
+}
+
+.middle-hour{
+  font-family: 'Roboto-Bold';
+  margin-bottom: 1.5%;
+  margin-right: 40%;
+}
+
+.timeline-container-2{
+  margin-right: 10%;
+  margin-left: 1%;
+  margin-top: 2%;
+}
+
+.itinerary-container-2{
+  margin-left: 3.5%;
+}
+
+.itinerary-2{
+  margin-top: 5rem;
+}
+
+.item-itinerary-1{
+  cursor:pointer;
+  width: 13%;
+  padding-right: 3%;
+}
+.item-itinerary-2{
+  cursor:pointer;
+  width: 15%;
+  padding-right: 1%;
+}
+.item-itinerary-3{
+  cursor:pointer;
   width: 17%;
+  padding-right: 1%;
+}
+.item-itinerary-4{
+  cursor:pointer;
+  width: 17%;
+  padding-right: 0%;
+}
+.item-itinerary-5{
+  cursor:pointer;
+  width: 17%;
+  padding-right: 0%;
+}
+.item-itinerary-6{
+  cursor:pointer;
+  width: 15%;
+  padding-right: 0%;
+  margin-left: 1%;
+}
+.item-itinerary-7{
+  cursor:pointer;
+  width: 17%;
+  padding-right: 0%;
+}
+.item-itinerary-8{
+  cursor:pointer;
+  width: 17%;
+  padding-right: 0%;
+}
+.item-itinerary-9{
+  cursor:pointer;
+  width: 13%;
+  padding-right: 3%;
+}
+.item-itinerary-10{
+  cursor:pointer;
+  width: 12.5%;
+  padding-right: 3%;
+}
+.item-itinerary-11{
+  cursor:pointer;
+  width: 13%;
   padding-right: 2%;
+}
+.item-itinerary-12{
+  cursor:pointer;
+  width: 12%;
+  padding-right: 3%;
+}
+.item-itinerary-13{
+  cursor:pointer;
+  width: 13%;
+  padding-right: 0%;
+}
+.item-itinerary-14{
+  cursor:pointer;
+  width: 13%;
+  padding-right: 5%;
+}
+.item-itinerary-15{
+  cursor:pointer;
+  width: 13%;
+  padding-right: 0%;
+}
+.item-itinerary-16{
+  cursor:pointer;
+  width: 13%;
+  padding-right: 2.5%;
+}
+.span-16{
+  
+}
+@media screen and (width: 1369px) and (height: 629px) {
+  .span-16{
+    padding-right: 4%;
+  }
+}
+.item-itinerary-17{
+  cursor:pointer;
+  width: 12.5%;
+  padding-right: 2%;
+}
+.item-itinerary-18{
+  cursor:pointer;
+  width: 12.5%;
+  padding-right: 2%;
+}
+.item-itinerary-19{
+  cursor:pointer;
+  width: 12%;
+  padding-right: 2%;
+}
+.item-itinerary-20{
+  cursor:pointer;
+  width: 13.5%;
+  padding-right: 1%;
+}
+.item-itinerary-21{
+  cursor:pointer;
+  width: 13%;
+  padding-right: 0%;
+}
+.item-itinerary-22{
+  cursor:pointer;
+  width: 13%;
+  padding-right: 4%;
+}
+.item-itinerary-23{
+  cursor:pointer;
+  width: 13%;
+  padding-right: 5%;
+}
+.item-itinerary-24{
+  cursor:pointer;
+  width: 14%;
+  padding-right: 0%;
+}
+.item-itinerary-25{
+  cursor:pointer;
+  width: 13%;
+  padding-right: 0%;
+}
+.item-itinerary-26{
+  cursor:pointer;
+  width: 13%;
+  padding-right: 3%;
+}
+.item-itinerary-27{
+  cursor:pointer;
+  width: 11%;
+  padding-right: 0%;
 }
 
 .itinerary-text{
-  
+  font-family: 'Roboto-Bold';
+  font-size: 0.68rem;
 }
 
+.text-items{
+  max-width: 100% !important;
+  margin-left: 0.4%;
+  margin-top: -1%;
+}
+
+.text-items-2{
+  max-width: 100% !important;
+  margin-left: 0.4%;
+}
+
+
+
 .item-itinerary2{
+  cursor:pointer;
   width: 12.2%;
   padding-right: 2.5%;
 }
@@ -871,12 +1114,32 @@ svg .arrow__line {
 
 .timeline {
   position: relative;
-  max-width: 65%;
+  max-width: 57%;
   margin-top: 1rem;
   list-style: none;
 }
 
+
 .timeline::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  z-index: 1;
+}
+
+.timeline-3 {
+  position: relative;
+  max-width: 71.5%;
+  margin-top: 1rem;
+  list-style: none;
+}
+
+
+.timeline-3::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -967,14 +1230,13 @@ svg .arrow__line {
   z-index: 2;
 }
 
-.timeline2 {
+.timeline-2 {
   position: relative;
   max-width: 100%;
-  margin-top: 1rem;
   list-style: none;
 }
 
-.timeline2::before {
+.timeline-2::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -986,6 +1248,7 @@ svg .arrow__line {
 }
 
 .c1 {
+  cursor:pointer;
   position: relative;
   padding: 0;
   margin: 0;
@@ -1002,6 +1265,7 @@ svg .arrow__line {
 }
 
 .c2 {
+  cursor:pointer;
   position: relative;
   padding: 0;
   margin: 0;
@@ -1018,6 +1282,7 @@ svg .arrow__line {
 }
 
 .c3 {
+  cursor:pointer;
   position: relative;
   padding: 0;
   margin: 0;
@@ -1034,6 +1299,7 @@ svg .arrow__line {
 }
 
 .c4 {
+  cursor:pointer;
   position: relative;
   padding: 0;
   margin: 0;
@@ -1050,6 +1316,7 @@ svg .arrow__line {
 }
 
 .c5 {
+  cursor:pointer;
   position: relative;
   padding: 0;
   margin: 0;
@@ -1067,6 +1334,7 @@ svg .arrow__line {
 
 
 .c6 {
+  cursor:pointer;
   position: relative;
   padding: 0;
   margin: 0;
@@ -1083,6 +1351,7 @@ svg .arrow__line {
 }
 
 .c7 {
+  cursor:pointer;
   position: relative;
   padding: 0;
   margin: 0;
@@ -1099,6 +1368,7 @@ svg .arrow__line {
 }
 
 .c8 {
+  cursor:pointer;
   position: relative;
   padding: 0;
   margin: 0;
@@ -1112,6 +1382,123 @@ svg .arrow__line {
   background-color: #333;
   transform: translateX(-50%);
   z-index: 2;
+}
+
+.d1 {
+  cursor:pointer;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 0%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.d2 {
+  cursor:pointer;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 20%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.d3 {
+  cursor:pointer;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 40%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.d4 {
+  cursor:pointer;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 60% ;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.d5 {
+  cursor:pointer;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 80%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.d6 {
+  cursor:pointer;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 100%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.asterik{
+  margin-left: -0.5%;
+  padding-right: 0.5%;
+}
+
+.itinerary-end{
+  font-family: 'Roboto-Medium';
+  font-size: 0.781rem;
+  padding-right: 4.5%;
+}
+
+.text-end-padding{
+  padding-left: 0.5%;
 }
 
 .itinerary-title{

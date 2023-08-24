@@ -524,7 +524,6 @@ a.text-black.active {
 a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
   transition: 0.2s;
   position: relative;
-  background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-size: 10000px 2px;
   background-repeat: no-repeat;
   background-position: 0 1.2em;
@@ -1535,6 +1534,9 @@ a {
   height: 2.5rem;
   width: 2.5rem;
 }
+.geo-icon{
+  position: relative;
+}
 .cid-tL7pgnT2e9 .mbr-iconfont {
   color: black;
 }
@@ -1892,6 +1894,15 @@ a {
 }
 .cid-tL7nLROMV3 .navbar.navbar-short  {
   min-height: 60px;
+}
+.cid-tL7nLROMV3 .navbar.navbar-short.nav-height {
+  height: 18%;
+}
+.all-inclusive{
+  padding-right: 0%;
+}
+.cid-tL7nLROMV3 .navbar.navbar-short .container{
+  margin-bottom: 1% !important;
 }
 .cid-tL7nLROMV3 .navbar.navbar-short .tes {
   color: #232323 !important;

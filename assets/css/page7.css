@@ -121,6 +121,10 @@
   display: none;
 }
 
+.close{
+  
+}
+
 .dropdown-button-atamisque{
   margin-left: 5rem;
   font-weight: bold;
@@ -301,7 +305,7 @@
 }
 @media(max-width:1400px){
   .margin-slide{
-    margin-left: 2% !important;
+    margin-left: 0% !important;
   }
 }
 @media(max-width:1350px){
@@ -351,7 +355,7 @@
 }
 @media(max-width:1400px){
   .margin-slide-2{
-    margin-right: 1% !important;
+    margin-right: 4% !important;
   }
 }
 @media(max-width:1350px){
@@ -397,7 +401,7 @@
 }
 @media(max-width:1400px){
   .ss{
-    padding-left: 2%;
+    padding-left: 3%;
   }
 }
 @media(max-width:1350px){

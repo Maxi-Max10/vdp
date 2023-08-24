@@ -557,7 +557,6 @@ nav .mbr-section-btn {
     max-height: 93.5vh;
   }
   .menu .collapsed .navbar-collapse.show {
-    overflow: auto;
   }
 }
 @media (max-width: 767px) {
@@ -961,6 +960,18 @@ blockquote {
 }
 .nav-dropdown{
   height: 80vh !important;
+  margin-left: 10rem;
+}
+.text-nav{
+  font-family: 'Roboto-Regular' !important;
+}
+.vidaloka-nav{
+  font-family: 'Vidaloka-Regular';
+  text-decoration: none;
+}
+.black-underline {
+  text-decoration: none;
+  border-bottom: 1px solid black; /* Cambia el color y grosor del subrayado */
 }
 .no-bullets{
   list-style: none;

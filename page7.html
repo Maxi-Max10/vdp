@@ -29,13 +29,14 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 <body>
 
     <section data-bs-version="5.1" class="menu menu2 cid-tL7nLROMV3" once="menu" id="menu2-1c">
 
-        <nav class="navbar navbar-dropdown navbar-fixed-top collapsed">
+        <nav id="nav" class="navbar navbar-dropdown nav-height navbar-fixed-top collapsed">
             <div class="container mb-5">
                 <div class="col-auto me-auto mt-5 mb-0">
                     <span class="navbar-logo">
@@ -45,11 +46,11 @@
                         </a>
                     </span>
                 </div>
-                <ul class="nav col-auto mb-2 justify-content-center mb-md-0">
-                    <li class="nav-item"><a id="tes-1" href="#" class="nav-link px-2 link-light tes">ES</a></li>
-                    <li id="separator" class="nav-link px-2 link-light tes" style="top: -6px;">|</li>
-                    <li class="nav-item"><a id="tes-2" href="page3.php" class="nav-link px-2 link-light tes">EN</a></li>
-                    <li class="nav-item"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes">Contact</a></li>
+                <ul class="nav col-auto mb-2 justify-content-center mb-md-0 mt-0 mt-md-4">
+                    <li class="nav-item"><a id="tes-1" href="#" class="nav-link px-2 link-light tes text-nav">ES</a></li>
+                    <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
+                    <li class="nav-item"><a id="tes-2" href="page3.php" class="nav-link px-2 link-light tes text-nav">EN</a></li>
+                    <li class="nav-item"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
                     <li id="burger" class="ms-2"> <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-bs-toggle="collapse" data-target="#navbarSupportedContent"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup"
@@ -69,25 +70,25 @@
       
                         <div class="row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-5"
                             data-app-modern-menu="true">
-                            <div class="col-4">
+                            <div class="col-7">
                                 <ul class="no-bullets dropdown-transition">
-                                    <li class="fs-1 dropdown-transition"><a href="page8.php" class="text-decoration-none link-light">Our Story</a></li>
-                                    <li class="fs-1 dropdown-transition"><a href="page6.php" class="text-decoration-none link-light">All-Inclusive
+                                    <li class="fs-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light">Our Story</a></li>
+                                    <li class="fs-1 dropdown-transition"><a href="page6.php" class="text-decoration-none link-light all-inclusive vidaloka-nav">All-Inclusive
                                             Experience</a></li>
-                                    <li class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light">Getting Here</a>
+                                    <li class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a>
                                     </li>
-                                    <li class="fs-1 dropdown-transition"><a href="Page7.php" class="text-decoration-none link-light">Trip
+                                    <li class="fs-1 dropdown-transition"><a href="Page7.php" class="text-decoration-none link-light vidaloka-nav">Trip
                                             Enhancements</a></li>
                                 </ul>
                             </div>
       
-                            <div class="col-4">
+                            <div class="col-5">
                                 <ul class="list-unstyled dropdown-transition">
-                                    <li class="fs-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light">Gallery</a></li>
-                                    <li class="fs-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light">FAQ </a></li>
-                                    <li class="fs-1 dropdown-transition"><a href="page4.php" class="text-decoration-none link-light">Contact</a></li>
+                                    <li class="fs-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav">Gallery</a></li>
+                                    <li class="fs-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ </a></li>
+                                    <li class="fs-1 dropdown-transition"><a href="page4.php" class="text-decoration-none link-light vidaloka-nav">Contact</a></li>
                                 </ul>
-                                <div class="social-row display-5 nav col-md-4 justify-content-start ">
+                                <div class="social-row display-5 nav col-md-5 justify-content-start ">
                                     <div class="soc-item ms-3">
                                         <a href="" target="_blank">
                                             <span class="mbr-iconfont socicon socicon-whatsapp"
@@ -106,7 +107,11 @@
                                                 style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
                                         </a>
                                     </div>
-      
+                                    <div class="soc-item ms-3">
+                                        <a href="" target="_blank">
+                                            <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                                        </a>
+                                    </div>
                                 </div>
       
                             </div>
@@ -755,6 +760,7 @@
     window.onload = scrollToTop;
 </script>
 <script>
+    const closeButton = document.getElementById('close');
     const hamburgerButton = document.getElementById('burger');
     const logo = document.getElementById('img-logo');
     const es = document.getElementById('tes-1');
@@ -765,8 +771,10 @@
     const burger2 = document.getElementById('burger-2');
     const burger3 = document.getElementById('burger-3');
     const burger4 = document.getElementById('burger-4');
+    const nav = document.getElementById('nav');
 
     hamburgerButton.addEventListener('click', () => {
+    nav.classList.toggle('nav-height');
      logo.classList.toggle('img-color');
      es.classList.toggle('white-text');
      en.classList.toggle('white-text');
@@ -784,6 +792,7 @@
      burger2.classList.toggle('tes-2');
      burger3.classList.toggle('tes-2');
      burger4.classList.toggle('tes-2');
+    
     });
 </script>
   <input name="animation" type="hidden">

@@ -11,6 +11,10 @@
     height: 100vh !important;
 }
 
+.nav-height{
+    height: 18%;
+}
+
   
 .carrusel-container{
     width: 100vw;
@@ -18,7 +22,6 @@
     overflow: hidden;
     transition: all .5 ease;
     position: relative;
-    
 }
 .carrusel {
     width: 600%;

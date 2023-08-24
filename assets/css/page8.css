@@ -526,7 +526,7 @@ svg .arrow__line {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-150%, -87%);
+  transform: translate(-85%, -70%);
   width: 15px;
   height: 13px;
   fill: rgb(0, 0, 0);
@@ -555,6 +555,10 @@ svg .arrow__line {
   }
 }
 
+.svg-next{
+  width: 22px;
+}
+
 .svg:before {
   position: absolute;
   height: 1px;
@@ -566,8 +570,8 @@ svg .arrow__line {
     top: 50%;
     cursor: pointer;
     z-index: 3;
-    width: 45px;
-    height: 45px;
+    width: 38px;
+    height: 38px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 50%;
 }
@@ -675,7 +679,7 @@ svg .arrow__line {
 }
 
 .slider-nav-scrollbar {
-  --swiffy-slider-track-height: 0.4rem;
+  --swiffy-slider-track-height: 0.3rem;
 }
 
 .fade-slide-down {

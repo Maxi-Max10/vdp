@@ -5,7 +5,7 @@ include "assets/views/nav.php";
 ?>
 
 <section data-bs-version="5.1" class="slider1 cid-tLdPgbAvY8 mb-0" id="slider1-1i">
-
+    <div class="mbr-overlay" style="z-index: 2;"></div>
     <div class="carousel slide carousel-fade" id="tLdXy8znRP" data-ride="carousel" data-bs-ride="carousel" data-interval="5000" data-bs-interval="5000">
 
         <div class="carousel-inner">
@@ -42,19 +42,19 @@ include "assets/views/nav.php";
         </div>
 
     </div>
+
     <div class="carousel-caption d-md-block text-start w-50 barra">
         <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1 animate__animated animate__delay-1s animate__fadeInUp">
-            <strong>Mountain Resort</strong><br>
-            <strong>Farmstay</strong>
+            Mountain Resort<br>Farmstay
         </h1>
         <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7 animate__animated animate__delay-1s animate__fadeInUp">
             Steeped in history, Vivacs del Plata has been <br> in the Palma family for more than 200 years, <br> recently opening
             its doors to share its culture, <br> traditions and a variety of activities to guests <br> from all over the world.
         </p>
     </div>
-    
-</section>
 
+       
+</section>
 <?php
 
 include "assets/views/footer.php"

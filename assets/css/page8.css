@@ -517,16 +517,11 @@ svg {
   will-change: transform;
 }
 
-svg .arrow__line {
-  opacity: 0;
-  visibility: hidden;
-}
-
 .svg {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-85%, -70%);
+  transform: translate(-65%, -70%);
   width: 15px;
   height: 13px;
   fill: rgb(0, 0, 0);
@@ -608,19 +603,13 @@ svg .arrow__line {
     stroke: rgb(0, 0, 0); 
     stroke-width: 2;
     stroke-miterlimit: 10;
-    transition: all 0.5s cubic-bezier(0.645,  0.045, 0.355, 1.000);
     position: absolute;
-    will-change: transform, opacity, visibility;
 }
 @media(max-width:1000px){
   .arrow__line {
     fill:none;
     stroke: rgb(0, 0, 0); 
-    stroke-width: 2;
-    stroke-miterlimit: 10;
-    transition: all 0.5s cubic-bezier(0.645,  0.045, 0.355, 1.000);
     position: absolute;
-    will-change: transform, opacity, visibility;
   }
 }
 @media(max-width:720px){
@@ -628,11 +617,7 @@ svg .arrow__line {
     display: none;
     fill:none;
     stroke: rgb(255, 255, 255); 
-    stroke-width: 2;
-    stroke-miterlimit: 10;
-    transition: all 0.5s cubic-bezier(0.645,  0.045, 0.355, 1.000);
     position: absolute;
-    will-change: transform, opacity, visibility;
   }
 }
 
@@ -664,22 +649,9 @@ svg .arrow__line {
   transform: translateX(-2px);
 }
 
-.next svg .arrow__line {
-  transform: translateX(50px);
-}
-
-.next:hover .svg svg {
-  transform: translateX(2px);
-}
-
-.next:hover .svg svg .arrow__line {
-  opacity: 1;
-  visibility: visible;
-  transform: translateX(0);
-}
 
 .slider-nav-scrollbar {
-  --swiffy-slider-track-height: 0.3rem;
+  --swiffy-slider-track-height: 0.2rem;
 }
 
 .fade-slide-down {
@@ -693,6 +665,23 @@ svg .arrow__line {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.fade-slide-up {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeAndSlideUp 1s ease forwards;
+}
+
+@keyframes fadeAndSlideUp {
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+.pointer{
+  cursor: pointer;
 }
 
 .transition{
@@ -710,4 +699,23 @@ svg .arrow__line {
   font-family: 'Roboto-Bold';
 }
 
+.animate__animated.animate__delay-1s {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
 
+.animate__fadeInUp {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+
+.animate__animated {
+  -webkit-animation-duration: var(--animate-duration)s;
+  animation-duration: var(--animate-duration);
+  -webkit-animation-duration: var(--animate-duration);
+  animation-duration: var(--animate-duration);
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}

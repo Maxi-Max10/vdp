@@ -223,3 +223,30 @@
   font-weight: 500;
   font-size: 0.95rem;
 }
+
+.custom-checkbox {
+  display: none; /* Ocultar el checkbox original */
+}
+
+.checkbox-label {
+  width: 20px; /* Ancho del símbolo */
+  height: 20px; /* Altura del símbolo */
+  background-color: #ffffff; /* Color de fondo del símbolo */
+  border: 2px solid #000000; /* Borde del símbolo */
+  cursor: pointer;
+  position: relative; /* Agregar posición relativa para posicionar la palomita */
+}
+
+.checkbox-label::before {
+  content: '\2713'; /* Código Unicode para el símbolo de palomita */
+  font-size: 16px; /* Tamaño de la palomita */
+  color: transparent; /* Hacer transparente por defecto */
+  position: absolute; /* Posicionar la palomita */
+  top: 50%; /* Alinear en la mitad vertical */
+  left: 50%; /* Alinear en la mitad horizontal */
+  transform: translate(-50%, -50%); /* Centrar la palomita */
+}
+
+.custom-checkbox:checked + .checkbox-label::before {
+  color: #000000; /* Mostrar la palomita cuando el checkbox esté seleccionado */
+}

@@ -16,18 +16,11 @@ svg {
   will-change: transform;
 }
 
-svg .arrow__line {
-  opacity: 0;
-  visibility: hidden;
-}
-
-
-
 .svg {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(11%, -51%);
+  transform: translate(18%, -51%);
   width: 15px;
   height: 13px;
   fill: rgb(0, 0, 0);
@@ -129,28 +122,20 @@ svg .arrow__line {
     stroke: rgb(0, 0, 0); 
     stroke-width: 2;
     stroke-miterlimit: 10;
-    transition: all 0.5s cubic-bezier(0.645,  0.045, 0.355, 1.000);
     position: absolute;
-    will-change: transform, opacity, visibility;
 }
 .arrow__line-2 {
   fill:none;
   stroke: rgb(255, 255, 255); 
   stroke-width: 2;
   stroke-miterlimit: 10;
-  transition: all 0.5s cubic-bezier(0.645,  0.045, 0.355, 1.000);
   position: absolute;
-  will-change: transform, opacity, visibility;
 }
 @media(max-width:1000px){
   .arrow__line {
     fill:none;
     stroke: rgb(0, 0, 0); 
-    stroke-width: 2;
-    stroke-miterlimit: 10;
-    transition: all 0.5s cubic-bezier(0.645,  0.045, 0.355, 1.000);
     position: absolute;
-    will-change: transform, opacity, visibility;
   }
 }
 @media(max-width:720px){
@@ -158,11 +143,7 @@ svg .arrow__line {
     display: none;
     fill:none;
     stroke: rgb(255, 255, 255); 
-    stroke-width: 2;
-    stroke-miterlimit: 10;
-    transition: all 0.5s cubic-bezier(0.645,  0.045, 0.355, 1.000);
     position: absolute;
-    will-change: transform, opacity, visibility;
   }
 }
 
@@ -210,13 +191,6 @@ svg .arrow__line {
   transform: translateX(-2px);
 }
 
-.next svg .arrow__line {
-  transform: translateX(50px);
-}
-
-.next:hover .svg svg {
-  transform: translateX(2px);
-}
 
 .next:hover .svg svg .arrow__line {
   opacity: 1;
@@ -252,21 +226,21 @@ svg .arrow__line {
 }
 .sc-1{
   padding-bottom: 2.5rem !important;
-  --swiffy-slider-item-gap-totalwidth: 28% !important
+  --swiffy-slider-item-gap-totalwidth: 8% !important
 }
 @media(max-width:1600px){
   .sc-1{
-    --swiffy-slider-item-gap-totalwidth: 25% !important;
+    --swiffy-slider-item-gap-totalwidth: 8% !important;
   }
 }
 @media(max-width:1460px){
   .sc-1{
-    --swiffy-slider-item-gap-totalwidth: 23% !important;
+    --swiffy-slider-item-gap-totalwidth: 8% !important;
   }
 }
 @media(max-width:1368px){
   .sc-1{
-    --swiffy-slider-item-gap-totalwidth: 20% !important;
+    --swiffy-slider-item-gap-totalwidth: 6% !important;
   }
 }
 @media(max-width:1236px){
@@ -326,18 +300,18 @@ svg .arrow__line {
 }
 
 .plan-title{
+  font-size: 0.9rem;
   font-family: 'Roboto-Bold';
 }
 
 .plan-text{
   font-family: 'Vidaloka-Regular';
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 1.3;
-  padding-right: 16%;
 }
 
 .slider-nav-scrollbar {
-  --swiffy-slider-track-height: 0.3rem !important;
+  --swiffy-slider-track-height: 0.2rem !important;
 }
 
 .nav-pad{
@@ -350,4 +324,26 @@ svg .arrow__line {
 }
 
 .p-borde{
+}
+
+
+.animate__animated.animate__delay-1s {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.animate__fadeInUp {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+
+.animate__animated {
+  -webkit-animation-duration: var(--animate-duration)s;
+  animation-duration: var(--animate-duration);
+  -webkit-animation-duration: var(--animate-duration);
+  animation-duration: var(--animate-duration);
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }

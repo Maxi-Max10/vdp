@@ -147,20 +147,20 @@
             <div class="w-100 w-xl-50 mx-auto mx-xl-0">
 
                 <p class="trip-paragraph mb-1 pe-0">
-                    <span class="fw-bold">Location:</span> Potrerillos Dam<span class="font-light"> (30 minutes away 
+                    <span class="fw-bold">Location:</span> Potrerillos Dam<span class="font-light"> (30 minutes away <br> 
                         from Vivacs del Plata)</span>
                     </p>
                     <p class="trip-paragraph mb-4 pe-0">
-               <span class="fw-bold">Availability:</span> All year <span class="font-light">(subject to climate 
+               <span class="fw-bold">Availability:</span> All year <span class="font-light">(subject to climate <br>
                 conditions)</span>
                 </p>
                 <p class="trip-paragraph pe-0">
-                    Hop on board our sailboat “Prana” and 
-                    experience the beauty of Potrerillos Dam, a 
-                    stunning water mirror surrounded by desertic 
-                    mountains. Helmed by Captain Pedro, you’ll 
-                    sail on a 24.5 ft MASTRACCHIO boat, while 
-                    relishing the picturesque views and indulging 
+                    Hop on board our sailboat “Prana” and <br>
+                    experience the beauty of Potrerillos Dam, a <br>
+                    stunning water mirror surrounded by desertic <br>
+                    mountains. Helmed by Captain Pedro, you’ll <br>
+                    sail on a 24.5 ft MASTRACCHIO boat, while <br>
+                    relishing the picturesque views and indulging <br>
                     in wine and snacks.
                 </p>
                 <div id="dropdown-trip">
@@ -244,7 +244,7 @@
             </div>
         
             <div id="swiper-button-prev2" class="swiper-button-prev arrow prev" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-                <span class="svg svg-arrow-left">
+                <span class="svg-2 svg-arrow-left">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M13 26c-.3 0-.5-.1-.7-.3l-12-12c-.4-.4-.4-1 0-1.4l12-12c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-11.3 11.3 11.3 11.3c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3z"/><path class="arrow__line" d="M29.9 13.1h-28.4"/></svg>
                 </span>
             </div>
@@ -259,20 +259,20 @@
                 <span class="fw-bold">Availability:</span> Throughout the year
                 </p>
                 <p class="trip-paragraph">
-                    At Vivacs del Plata, we have a deep passion 
-                    for outdoor activities, and motorcycling 
-                    holds a special place in our hearts. Mendoza 
-                    offers the perfect combination of weather, 
-                    roads, and landscapes for an unforgettable 
-                    motorcycle road trip. Choose between KTM or 
-                    BMW GS motorcycles and let our experienced 
-                    guides show you the hidden gems of 
-                    Mendoza’s mountains.
+                    At Vivacs del Plata, we have a deep passion <br>
+                    for outdoor activities, and motorcycling <br>
+                    holds a special place in our hearts. Mendoza <br>
+                    offers the perfect combination of weather, <br>
+                    roads, and landscapes for an unforgettable <br>
+                    motorcycle road trip. Choose between KTM or <br>
+                    BMW GS motorcycles and let our experienced <br>
+                    guides show you the hidden gems of <br>
+                    Mendoza’s mountains.<span id="dropdownButtonMotorcycle" class="dropdown-button-motorcycle mb-1 ms-auto plus">+</span>
                 </p>
             </div>
         </div>
     </div>
-    <section class="itinerary-container">
+    <section id="itineraryMotorcycle" class="itinerary-container fade-slide-down hidden">
         <div class="d-flex align-items-center justify-content-between itinerary">
             <h2 class="itinerary-title">SAMPLE ITINERARY*</h2>
         </div>
@@ -521,7 +521,7 @@
                     <h6 class="trip-paragraph fw-bold mb-0">ATAMISQUE</h6>
                     <span id="dropdownButtonAtamisque" class="dropdown-button-atamisque mb-1 ms-auto plus">+</span>
                 </div>
-                <div id="dropdownAtamisque" class="hidden">
+                <div id="dropdownAtamisque" class="hidden fade-slide-down">
                     <p class="trip-paragraph mb-1">
                     <span class="fw-bold">Location:</span> Atamisque, San José, Tupungato<span class="font-light"> (30 minutes away 
                         from Vivacs del Plata)</span>
@@ -565,7 +565,7 @@
                 </div>
             </div>
             <div id="swiper-button-next3" class="swiper-button-next3 arrow next" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-                <span class="svg svg-arrow-right">
+                <span class="svg-3 svg-arrow-right">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line" d="M0 12.9h28.5"/></svg>
                 </span>
             </div>
@@ -733,16 +733,46 @@
 });
 </script>
 <script>
-    var buttonAtamisque = document.getElementById("dropdownButtonAtamisque");
+    var buttonAtamisque = document.getElementById('dropdownButtonAtamisque');
     var contentAtamisque = document.getElementById("dropdownAtamisque");
     const iconoAtamisque = document.getElementById('plusAtamisque');
+    var buttonMotorcycle = document.getElementById('dropdownButtonMotorcycle')
+    var itineraryMotorcycle = document.getElementById('itineraryMotorcycle')
+
+    const hideItinerary = (  ) => {
+        itineraryMotorcycle.classList.add('hidden');
+    }
+
+    const hideAtamisque = (  ) => {
+        contentAtamisque.classList.add('hidden');
+    }
+
+    buttonMotorcycle.addEventListener('click', () => {
+        if (itineraryMotorcycle.classList.contains('hidden')){
+            itineraryMotorcycle.classList.remove('fade-slide-up');
+            itineraryMotorcycle.classList.remove('hidden');
+        } else {
+            itineraryMotorcycle.classList.add('fade-slide-up');
+            setTimeout(hideItinerary, 700)
+        }
+
+        if (buttonMotorcycle.classList.contains('plus')){
+            buttonMotorcycle.textContent = '-';
+            buttonMotorcycle.classList.remove('plus');
+        } else {
+            buttonMotorcycle.textContent = '+';
+            buttonMotorcycle.classList.add('plus');
+        }
+    })
 
     buttonAtamisque.addEventListener('click', () => {
-  if (contentAtamisque.classList.contains('hidden')) {
-    contentAtamisque.classList.remove('hidden');
-      } else {
-        contentAtamisque.classList.add('hidden');
-     }
+        if (contentAtamisque.classList.contains('hidden')) {
+            contentAtamisque.classList.remove('fade-slide-up')
+            contentAtamisque.classList.remove('hidden');
+        } else {
+            contentAtamisque.classList.add('fade-slide-up');
+            setTimeout(hideAtamisque, 700)
+        }
 
      if (buttonAtamisque.classList.contains('plus')) {
         buttonAtamisque.textContent = '-';

@@ -22,7 +22,6 @@
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: repeat(2, 0.18fr);
-  gap: 1rem 2rem;
   margin-top: 4rem;
   height: 40rem;
 }
@@ -101,7 +100,7 @@
 }
 
 .parrafo {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .parrafo-slider {
@@ -397,7 +396,8 @@ h3 {
   align-items: center;
   flex-direction: column;
   position: relative;
-  top: 3rem
+  top: 3rem;
+  left: 2rem;
 }
 
 .elemento-2-subseccion-4 {
@@ -426,7 +426,7 @@ h3 {
 
 .imagen-grande-subseccion-4 {
   width: 40rem;
-  height: 33rem;
+  height: 27rem;
 }
 
 .imagen-subseccion-4 {
@@ -478,25 +478,35 @@ h3 {
 
 }
 
-
 .parrafo-subseccion-4-1 {
-  font-size: 1.4rem;
+  position: relative;
+  top: -15px;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  font-weight: bold;
   width: 18rem;
   text-align: start;
   margin-left: 2rem;
-  margin-top: 1.5rem;
 }
 
 .parrafo-subseccion-4-2 {
+  font-weight: bold;
+  line-height: 1.2;
   font-size: 1.4rem;
   width: 48rem;
   text-align: start;
   margin-top: 4rem;
 }
 
+.slider-gap{
+  --swiffy-slider-item-gap: 0.5rem !important;
+}
+
 .subtitulo-subseccion-4 {
-  font-size: 1rem;
-  padding-left: 4.5%;
+  position: relative;
+  top: -25px;
+  font-size: 0.9rem;
+  padding-left: 0%;
   font-weight: 600;
   font-family: 'Roboto-Bold';
 }
@@ -523,7 +533,7 @@ h3 {
   content: "";
   display: block;
   width: 1px;
-  height: 50%;
+  height: 60%;
   background-color: #000;
   position: absolute;
   transform: translateX(-50%);
@@ -531,8 +541,9 @@ h3 {
 }
 
 .parrafo-subseccion-5 {
-  margin-top: 5%;
-  font-size: 1.1rem;
+  font-weight: 100;
+  margin-top: 3%;
+  font-size: 1rem;
   text-align: center;
   width: 18rem;
 }
@@ -543,11 +554,21 @@ h3 {
 }
 
 .imagen-subseccion-4-a {
-  width: 17rem;
-  height: 20rem;
+  width: 16rem;
+  height: 21rem;
 }
 
 .h3-subseccion-5 {
+  font-family: 'Roboto-Bold';
+  text-align: center;
+  color: #000;
+  z-index: 3;
+  bottom: 0rem;
+  left: 0rem;
+  /* margin-top: -1.2rem; */
+  font-size: 1rem;
+}
+.h3-subseccion-5-name {
   font-family: 'Roboto-Bold';
   text-align: center;
   color: #000;
@@ -700,7 +721,6 @@ h3 {
     width: 18rem;
     text-align: start;
     margin-left: -4rem;
-    margin-top: 1.5rem;
   }
 
   .parrafo-subseccion-4-2 {
@@ -947,7 +967,6 @@ h3 {
     width: 18rem;
     text-align: start;
     margin-left: 0rem;
-    margin-top: 1.5rem;
   }
 
   .parrafo-subseccion-4-2 {

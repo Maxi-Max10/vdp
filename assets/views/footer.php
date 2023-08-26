@@ -48,10 +48,6 @@
                             <span class="mbr-iconfont mbr-iconfont-social socicon-Marker socicon"
                                         style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
                         </a>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" class="bi bi-geo-alt mbr-iconfont mbr-iconfont-social socicon" viewBox="0 0 16 16">
-  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-</svg>
                     </div>
                     
                 </div>
@@ -67,7 +63,7 @@
             <div class="col-12 col-md-12 copyright text-center">
             <div class="col-md-12 copyright">
                 <p class="mbr-text mbr-fonts-style display-4">
-                &copy;<script>document.write(new Date().getFullYear());</script> Vivacs del Plata- All Rights Reserved&nbsp; &nbsp; Terms &amp; Conditions&nbsp;
+                &copy;<script>document.write(new Date().getFullYear());</script> Vivacs del Plata - All Rights Reserved&nbsp; &nbsp; &nbsp;Terms &amp; Conditions&nbsp;
                     &nbsp; Privacy Policy</p>
             </div>
         </div>
@@ -80,7 +76,156 @@
 <script src="assets/dropdown/js/navbar-dropdown.js"></script>  
 <script src="assets/theme/js/script.js"></script>  
 <script src="https://kit.fontawesome.com/8f914819e1.js" crossorigin="anonymous"></script>
-<script src="assets/js/options.js"></script>
+<script src="assets2/js/options.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('#swiper', {
+    loop: true,
+    slidesPerView: 1,
+    // Navigation arrows
+    navigation: {
+        nextEl: '#swiper-button-next',
+        prevEl: '#swiper-button-prev',
+    },
+    breakpoints: {
+        1000: {
+        slidesPerView: 2,
+        },
+    }
+    });
+    const swiper2 = new Swiper('#swiper2', {
+    loop: true,
+    initialSlide: 8,
+    slidesPerView: 1,
+    // Navigation arrows
+    navigation: {
+        nextEl: '#swiper-button-next2',
+        prevEl: '#swiper-button-prev2',
+    },
+    breakpoints: {
+        1000: {
+        slidesPerView: 2,
+        },
+    }
+    });
+    const swiper3 = new Swiper('#swiper3', {
+    loop: true,
+    slidesPerView: 1,
+    // Navigation arrows
+    navigation: {
+        nextEl: '#swiper-button-next3',
+        prevEl: '#swiper-button-prev3',
+    },
+    breakpoints: {
+        1000: {
+        slidesPerView: 2,
+        },
+    }
+    });
+</script>
+<script>
+    const hoverableElements = document.querySelectorAll('.hoverable');
+    var pairElement;
+    hoverableElements.forEach(element => {
+    element.addEventListener('mouseenter', () => {
+        if(element.classList.contains('gray')){
+            pairElement = document.querySelector('#' + element.classList[0]);
+            pairElement.classList.add('circle-black')
+            pairElement.classList.remove('circle-gray')
+            element.classList.add('black');
+            element.classList.remove('gray');
+        }
+        if(element.classList.contains('circle-gray')){
+            pairElement = document.querySelector('#' + element.classList[0]);
+            pairElement.classList.add('black')
+            pairElement.classList.remove('gray')
+            element.classList.add('circle-black')
+            element.classList.remove('circle-gray')
+        }
+    });
+
+    element.addEventListener('mouseleave', () => {
+        if(element.classList.contains('black')){
+            pairElement = document.querySelector('#' + element.classList[0]);
+            pairElement.classList.add('circle-gray')
+            pairElement.classList.remove('circle-black')
+            element.classList.add('gray');
+            element.classList.remove('black');
+        }
+        if(element.classList.contains('circle-black')){
+            pairElement = document.querySelector('#' + element.classList[0]);
+            pairElement.classList.add('gray')
+            pairElement.classList.remove('black')
+            element.classList.add('circle-gray')
+            element.classList.remove('circle-black')
+        }
+    });
+});
+</script>
+<script>
+    var buttonAtamisque = document.getElementById("dropdownButtonAtamisque");
+    var contentAtamisque = document.getElementById("dropdownAtamisque");
+    const iconoAtamisque = document.getElementById('plusAtamisque');
+
+    buttonAtamisque.addEventListener('click', () => {
+  if (contentAtamisque.classList.contains('hidden')) {
+    contentAtamisque.classList.remove('hidden');
+      } else {
+        contentAtamisque.classList.add('hidden');
+     }
+
+     if (buttonAtamisque.classList.contains('plus')) {
+        buttonAtamisque.textContent = '-';
+        buttonAtamisque.classList.remove('plus');
+     } else {
+        buttonAtamisque.textContent = '+';
+        buttonAtamisque.classList.add('plus');
+     }
+    });
+</script>
+<script>
+    function scrollToTop() {
+      window.scrollTo(0, 0);
+    }
+    window.onload = scrollToTop;
+</script>
+<script>
+    const closeButton = document.getElementById('close');
+    const hamburgerButton = document.getElementById('burger');
+    const logo = document.getElementById('img-logo');
+    const es = document.getElementById('tes-1');
+    const en = document.getElementById('tes-2');
+    const separator = document.getElementById('separator');
+    const contact = document.getElementById('tes-3');
+    const burger1 = document.getElementById('burger-1');
+    const burger2 = document.getElementById('burger-2');
+    const burger3 = document.getElementById('burger-3');
+    const burger4 = document.getElementById('burger-4');
+    const nav = document.getElementById('nav');
+
+    hamburgerButton.addEventListener('click', () => {
+    nav.classList.toggle('nav-height');
+     logo.classList.toggle('img-color');
+     es.classList.toggle('white-text');
+     en.classList.toggle('white-text');
+     separator.classList.toggle('white-text');
+     burger1.classList.toggle('white-burger');
+     burger2.classList.toggle('white-burger');
+     burger3.classList.toggle('white-burger');
+     burger4.classList.toggle('white-burger');
+     contact.classList.toggle('white-text');
+     es.classList.toggle('tes');
+     en.classList.toggle('tes');
+     separator.classList.toggle('tes');
+     contact.classList.toggle('tes');
+     burger1.classList.toggle('tes-2');
+     burger2.classList.toggle('tes-2');
+     burger3.classList.toggle('tes-2');
+     burger4.classList.toggle('tes-2');
+    
+    });
+</script>
   
   <input name="animation" type="hidden">
   </body>

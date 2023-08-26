@@ -171,7 +171,7 @@
                     <div class="col-5">
                         <ul class="list-unstyled dropdown-transition">
                             <li class="fs-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav">Gallery</a></li>
-                            <li class="fs-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ </a></li>
+                            <li class="fs-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ´s</a></li>
                             <li class="fs-1 dropdown-transition"><a href="page4.html" class="text-decoration-none link-light vidaloka-nav">Contact</a></li>
                         </ul>
                         <div class="social-row display-5 nav col-md-5 justify-content-start ">

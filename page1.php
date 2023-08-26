@@ -117,8 +117,8 @@ include "assets/views/nav.php";
         </div>
     </div>
 </section>
-<?php
 
+<?php
 
 include "assets/views/footer.php"
 

@@ -19,7 +19,7 @@
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <ul class="list mbr-fonts-style display-5">
                     <a href="page5.php"></a><li class="mbr-text item-wrap">Gallery</li></a>
-                    <a href="page2.php"><li class="mbr-text item-wrap">FAQ</li></a>
+                    <a href="page2.php"><li class="mbr-text item-wrap">FAQ´s</li></a>
                     <a href="page4.php"></a><li class="mbr-text item-wrap">Contact</li></a>
                 </ul>
             </div>
@@ -63,7 +63,7 @@
             <div class="col-12 col-md-12 copyright text-center">
             <div class="col-md-12 copyright">
                 <p class="mbr-text mbr-fonts-style display-4">
-                &copy;<script>document.write(new Date().getFullYear());</script> Vivacs del Plata - All Rights Reserved&nbsp; &nbsp; &nbsp;Terms &amp; Conditions&nbsp;
+                &copy;<script>document.write(new Date().getFullYear());</script> Vivacs del Plata - All Rights Reserved&nbsp; &nbsp;Terms &amp; Conditions&nbsp;
                     &nbsp; Privacy Policy</p>
             </div>
         </div>

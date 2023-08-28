@@ -69,6 +69,8 @@
         </div>
     </div>
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script> 
 <script src="assets/parallax/jarallax.js"></script>  
 <script src="assets/smoothscroll/smooth-scroll.js"></script>  
@@ -77,124 +79,162 @@
 <script src="assets/theme/js/script.js"></script>  
 <script src="https://kit.fontawesome.com/8f914819e1.js" crossorigin="anonymous"></script>
 <script src="assets2/js/options.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<script src="assets/js/scriptL.js"></script>
-<script src="js/scriptL.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper('#swiper', {
-    loop: true,
-    slidesPerView: 1,
-    // Navigation arrows
-    navigation: {
-        nextEl: '#swiper-button-next',
-        prevEl: '#swiper-button-prev',
-    },
-    breakpoints: {
-        1000: {
-        slidesPerView: 2,
-        },
-    }
+        speed: 400,
+        spaceBetween: 100,
+        loop: true, // Permite el bucle continuo del carrusel
+      autoplay: {
+        delay: 3000, // Cambia la diapositiva cada 3 segundos
+      },
+      disableOnInteraction:false,
+      allowTouchMove:false,
     });
     const swiper2 = new Swiper('#swiper2', {
-    loop: true,
-    initialSlide: 8,
-    slidesPerView: 1,
-    // Navigation arrows
-    navigation: {
-        nextEl: '#swiper-button-next2',
-        prevEl: '#swiper-button-prev2',
-    },
-    breakpoints: {
-        1000: {
-        slidesPerView: 2,
-        },
-    }
+        speed: 400,
+        spaceBetween: 100,
+        loop: true, // Permite el bucle continuo del carrusel
+      autoplay: {
+        delay: 5000, // Cambia la diapositiva cada 3 segundos
+      },
+      disableOnInteraction:false,
+      allowTouchMove:false,
     });
     const swiper3 = new Swiper('#swiper3', {
-    loop: true,
-    slidesPerView: 1,
-    // Navigation arrows
-    navigation: {
-        nextEl: '#swiper-button-next3',
-        prevEl: '#swiper-button-prev3',
-    },
-    breakpoints: {
-        1000: {
-        slidesPerView: 2,
-        },
+        speed: 400,
+        spaceBetween: 100,
+        loop: true, // Permite el bucle continuo del carrusel
+      autoplay: {
+        delay: 4000, // Cambia la diapositiva cada 3 segundos
+      },
+      disableOnInteraction:false,
+      allowTouchMove:false,
+    });
+    const swiper4 = new Swiper('#swiper4', {
+        speed: 400,
+        spaceBetween: 100,
+        loop: true, // Permite el bucle continuo del carrusel
+      autoplay: {
+        delay: 6000, // Cambia la diapositiva cada 3 segundos
+      },
+      disableOnInteraction:false,
+      allowTouchMove:false,
+    });
+</script>
+<script>
+    var boton = document.getElementById("cardTitle");
+    var textoDesplegable = document.getElementById("textoDesplegable");
+    const toggleText = document.getElementById('cardIcon');
+    var boton2 = document.getElementById("cardTitle2");
+    var textoDesplegable2 = document.getElementById("textoDesplegable2");
+    const toggleText2 = document.getElementById('cardIcon2');
+    var boton3 = document.getElementById("cardTitle3");
+    var textoDesplegable3 = document.getElementById("textoDesplegable3");
+    const toggleText3 = document.getElementById('cardIcon3');
+    var boton4 = document.getElementById("cardTitle4");
+    var textoDesplegable4 = document.getElementById("textoDesplegable4");
+    const toggleText4 = document.getElementById('cardIcon4');
+
+    const hideTexto = () =>{
+        textoDesplegable.classList.add('hidden')
     }
-    });
-</script>
-<script>
-    const hoverableElements = document.querySelectorAll('.hoverable');
-    var pairElement;
-    hoverableElements.forEach(element => {
-    element.addEventListener('mouseenter', () => {
-        if(element.classList.contains('gray')){
-            pairElement = document.querySelector('#' + element.classList[0]);
-            pairElement.classList.add('circle-black')
-            pairElement.classList.remove('circle-gray')
-            element.classList.add('black');
-            element.classList.remove('gray');
-        }
-        if(element.classList.contains('circle-gray')){
-            pairElement = document.querySelector('#' + element.classList[0]);
-            pairElement.classList.add('black')
-            pairElement.classList.remove('gray')
-            element.classList.add('circle-black')
-            element.classList.remove('circle-gray')
-        }
-    });
+    const hideTexto2 = () =>{
+        textoDesplegable2.classList.add('hidden')
+    }
+    const hideTexto3 = () =>{
+        textoDesplegable3.classList.add('hidden')
+    }
+    const hideTexto4 = () =>{
+        textoDesplegable4.classList.add('hidden')
+    }
 
-    element.addEventListener('mouseleave', () => {
-        if(element.classList.contains('black')){
-            pairElement = document.querySelector('#' + element.classList[0]);
-            pairElement.classList.add('circle-gray')
-            pairElement.classList.remove('circle-black')
-            element.classList.add('gray');
-            element.classList.remove('black');
-        }
-        if(element.classList.contains('circle-black')){
-            pairElement = document.querySelector('#' + element.classList[0]);
-            pairElement.classList.add('gray')
-            pairElement.classList.remove('black')
-            element.classList.add('circle-gray')
-            element.classList.remove('circle-black')
-        }
-    });
-});
-</script>
-<script>
-    var buttonAtamisque = document.getElementById("dropdownButtonAtamisque");
-    var contentAtamisque = document.getElementById("dropdownAtamisque");
-    const iconoAtamisque = document.getElementById('plusAtamisque');
-
-    buttonAtamisque.addEventListener('click', () => {
-  if (contentAtamisque.classList.contains('hidden')) {
-    contentAtamisque.classList.remove('hidden');
+    boton.addEventListener('click', () => {
+  if (textoDesplegable.classList.contains('hidden')) {
+    textoDesplegable.classList.remove('fade-slide-up');
+    textoDesplegable.classList.remove('hidden');
       } else {
-        contentAtamisque.classList.add('hidden');
+        textoDesplegable.classList.add('fade-slide-up');
+        setTimeout(hideTexto, 700);
      }
 
-     if (buttonAtamisque.classList.contains('plus')) {
-        buttonAtamisque.textContent = '-';
-        buttonAtamisque.classList.remove('plus');
+     if (toggleText.classList.contains('plus')) {
+       toggleText.textContent = '-';
+       toggleText.classList.remove('plus');
      } else {
-        buttonAtamisque.textContent = '+';
-        buttonAtamisque.classList.add('plus');
+       toggleText.textContent = '+';
+       toggleText.classList.add('plus');
+     }
+    });
+    boton2.addEventListener('click', () => {
+  if (textoDesplegable2.classList.contains('hidden')) {
+    textoDesplegable2.classList.remove('fade-slide-up');
+    textoDesplegable2.classList.remove('hidden');
+      } else {
+        textoDesplegable2.classList.add('fade-slide-up');
+        setTimeout(hideTexto2, 700);
+     }
+
+     if (toggleText2.classList.contains('plus2')) {
+       toggleText2.textContent = '-';
+       toggleText2.classList.remove('plus2');
+     } else {
+       toggleText2.textContent = '+';
+       toggleText2.classList.add('plus2');
+     }
+    });
+    boton3.addEventListener('click', () => {
+  if (textoDesplegable3.classList.contains('hidden')) {
+    textoDesplegable3.classList.remove('fade-slide-up');
+    textoDesplegable3.classList.remove('hidden');
+      } else {
+        textoDesplegable3.classList.add('fade-slide-up');
+        setTimeout(hideTexto3, 700);
+     }
+
+     if (toggleText3.classList.contains('plus3')) {
+       toggleText3.textContent = '-';
+       toggleText3.classList.remove('plus3');
+     } else {
+       toggleText3.textContent = '+';
+       toggleText3.classList.add('plus3');
+     }
+    });
+    boton4.addEventListener('click', () => {
+  if (textoDesplegable4.classList.contains('hidden')) {
+    textoDesplegable4.classList.remove('fade-slide-up');
+    textoDesplegable4.classList.remove('hidden');
+      } else {
+        textoDesplegable4.classList.add('fade-slide-up');
+        setTimeout(hideTexto4, 700);
+     }
+
+     if (toggleText4.classList.contains('plus4')) {
+       toggleText4.textContent = '-';
+       toggleText4.classList.remove('plus4');
+     } else {
+       toggleText4.textContent = '+';
+       toggleText4.classList.add('plus4');
      }
     });
 </script>
-<script>
-    function scrollToTop() {
+
+
+<!--    SCRIPTS AÑADIDOS    -->    
+<script> //SCRIPT 
+     function scrollToTop() {
       window.scrollTo(0, 0);
+      document.getElementById("nav").style.top = "0"
     }
     window.onload = scrollToTop;
 </script>
-<script>
-    const closeButton = document.getElementById('close');
+<script> //NAVBAR SCRIPT
     const hamburgerButton = document.getElementById('burger');
+    const closeText = document.getElementById('close')
+    const closeLi = document.getElementById('closeLi');
+    const li1 = document.getElementById('li1');
+    const li2 = document.getElementById('li2');
+    const li3 = document.getElementById('li3');
     const logo = document.getElementById('img-logo');
     const es = document.getElementById('tes-1');
     const en = document.getElementById('tes-2');
@@ -204,31 +244,49 @@
     const burger2 = document.getElementById('burger-2');
     const burger3 = document.getElementById('burger-3');
     const burger4 = document.getElementById('burger-4');
-    const nav = document.getElementById('nav');
 
     hamburgerButton.addEventListener('click', () => {
-    nav.classList.toggle('nav-height');
-     logo.classList.toggle('img-color');
-     es.classList.toggle('white-text');
-     en.classList.toggle('white-text');
-     separator.classList.toggle('white-text');
-     burger1.classList.toggle('white-burger');
-     burger2.classList.toggle('white-burger');
-     burger3.classList.toggle('white-burger');
-     burger4.classList.toggle('white-burger');
-     contact.classList.toggle('white-text');
-     es.classList.toggle('tes');
-     en.classList.toggle('tes');
-     separator.classList.toggle('tes');
-     contact.classList.toggle('tes');
-     burger1.classList.toggle('tes-2');
-     burger2.classList.toggle('tes-2');
-     burger3.classList.toggle('tes-2');
-     burger4.classList.toggle('tes-2');
-    
+    separator.classList.toggle('hidden');
+    li1.classList.toggle('hidden');
+    li2.classList.toggle('hidden');
+    li3.classList.toggle('hidden');
+    closeLi.classList.toggle('hidden');
+    logo.classList.toggle('img-color');
+    closeText.classList.toggle('white-text');
+    es.classList.toggle('white-text');
+    en.classList.toggle('white-text');
+    separator.classList.toggle('white-text');
+    burger1.classList.toggle('white-burger');
+    burger2.classList.toggle('white-burger');
+    burger3.classList.toggle('white-burger');
+    burger4.classList.toggle('white-burger');
+    contact.classList.toggle('white-text');
+    closeText.classList.toggle('tes');
+    es.classList.toggle('tes');
+    en.classList.toggle('tes');
+    separator.classList.toggle('tes');
+    contact.classList.toggle('tes');
+    burger1.classList.toggle('tes-2');
+    burger2.classList.toggle('tes-2');
+    burger3.classList.toggle('tes-2');
+    burger4.classList.toggle('tes-2');
     });
 </script>
-  
+<script> // NAVBAR SCRIPT 
+    let prevScrollPos = window.pageYOffset;
+
+    window.addEventListener("scroll", function () {
+    let currentScrollPos = window.pageYOffset;
+
+    if (prevScrollPos > currentScrollPos) {
+        document.getElementById("nav").style.top = "0";
+    } else {
+        document.getElementById("nav").style.top = "-120px"; // Altura de la barra
+    }
+
+    prevScrollPos = currentScrollPos;
+    });
+</script>
   <input name="animation" type="hidden">
   </body>
 </html>

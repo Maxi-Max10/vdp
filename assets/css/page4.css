@@ -51,6 +51,16 @@
   background-color: #000000;
 }
 
+.underline-about {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  top: 1.5rem;
+  height: 2.5px;
+  width: 100%;
+  background-color: #000000;
+}
+
 .underline-text {
   position: absolute;
   top: 2.5rem;
@@ -121,9 +131,10 @@
 }
 
 .dropdown-about{
+  cursor: pointer;
   position: absolute;
   font-weight: bold;
-  top: 0rem;
+  top: -0.5rem;
   left: 41rem;
   font-size: 1.5rem;
 }
@@ -224,29 +235,109 @@
   font-size: 0.95rem;
 }
 
+.checkbox-container {
+  display: inline-block;
+  vertical-align: middle; /* Alineación vertical */
+}
+
 .custom-checkbox {
   display: none; /* Ocultar el checkbox original */
 }
 
 .checkbox-label {
-  width: 20px; /* Ancho del símbolo */
-  height: 20px; /* Altura del símbolo */
+  display: inline-block;
+  width: 14px; /* Ancho del símbolo */
+  height: 13px; /* Altura del símbolo */
   background-color: #ffffff; /* Color de fondo del símbolo */
   border: 2px solid #000000; /* Borde del símbolo */
   cursor: pointer;
-  position: relative; /* Agregar posición relativa para posicionar la palomita */
+  margin-right: 0px; /* Espacio entre el símbolo y el texto */
 }
 
-.checkbox-label::before {
-  content: '\2713'; /* Código Unicode para el símbolo de palomita */
-  font-size: 16px; /* Tamaño de la palomita */
-  color: transparent; /* Hacer transparente por defecto */
-  position: absolute; /* Posicionar la palomita */
-  top: 50%; /* Alinear en la mitad vertical */
-  left: 50%; /* Alinear en la mitad horizontal */
-  transform: translate(-50%, -50%); /* Centrar la palomita */
+.label-text {
+  vertical-align: text-top; /* Alinear verticalmente con el símbolo */
+  position: relative;
+  top: -4px;
+  font-family: 'Roboto-Regular';
+  font-size: 0.9rem;
 }
 
-.custom-checkbox:checked + .checkbox-label::before {
-  color: #000000; /* Mostrar la palomita cuando el checkbox esté seleccionado */
+.select-menu{
+}
+
+.select-menu .select-btn{
+  font-family: 'Roboto-Bold';
+  display: flex;
+  padding-bottom: 1%;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.select-btn i{
+  font-size: 16px;
+  transition: 0.3s;
+}
+.select-menu.active .select-btn i{
+  transform: rotate(-180deg);
+}
+.select-menu .options{
+  position: relative;
+  margin-top: 15px;
+  left: -2.7rem;
+  background: #fff;
+  display: none;
+}
+.select-menu.active .options{
+  display: block;
+}
+.options .option{
+  display: flex;
+  height: 35px;
+  cursor: pointer;
+  background: #fff;
+}
+.options .option:hover{
+  color: black;
+  background: #fff;
+}
+.option .option-text:hover{
+  color: black;
+}
+.option i{
+  font-size: 16px;
+  margin-right: 12px;
+}
+.option .option-text{
+  font-family: 'Roboto-Bold';
+  font-size: 16px;
+  color: #bdbdbd;
+}
+
+.fade-slide-down {
+  opacity: 0;
+  transform: translateY(-20px); /* Inicia con un desplazamiento hacia arriba */
+  animation: fadeAndSlide 1s ease forwards;
+}
+
+@keyframes fadeAndSlide {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-slide-up {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeAndSlideUp 1s ease forwards;
+}
+
+@keyframes fadeAndSlideUp {
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
 }

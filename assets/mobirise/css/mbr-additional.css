@@ -522,7 +522,7 @@ a.text-black.active {
   color: #000000 !important;
 }
 a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
-  transition: 0.2s;
+  transition: 0.3s;
   position: relative;
   background-size: 10000px 2px;
   background-repeat: no-repeat;
@@ -1786,7 +1786,7 @@ a {
   background: rgba(55, 52, 47, 0);
 }
 .cid-tL7nLROMV3 .navbar.opened {
-  transition: all 0.3s;
+  transition: top 1.3s ease-in;
 }
 .cid-tL7nLROMV3 .navbar .dropdown-item {
   padding: 0.5rem 1.8rem;
@@ -1897,6 +1897,9 @@ a {
 }
 .cid-tL7nLROMV3 .navbar.navbar-short.nav-height {
   height: 16%;
+}
+.cid-tL7nLROMV3 .navbar.navbar-short.opened.nav-height {
+  height: 100%;
 }
 .all-inclusive{
   padding-right: 0%;

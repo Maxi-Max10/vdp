@@ -370,7 +370,7 @@ svg {
 
 .itinerary-section{
   margin-top: 15%;
-  margin-left: 4%;
+  margin-left: 5%;
 }
 
 .itinerary-title{
@@ -781,4 +781,8 @@ svg {
 
 .circle-hover{
   background-color: #301f11 !important;
+}
+
+.transition{
+  transition: transform 0.5s ease
 }

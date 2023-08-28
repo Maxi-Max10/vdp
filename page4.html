@@ -164,12 +164,12 @@
             <form id="form_enviar" method="post" action="mail.php">
             <div class="input-container">
                 <input type="text" id="name" name="name" required="">
-                <label for="input" class="label">Your name<span class="mandatory">*</span></label>
+                <label for="input" class="label">Your Name<span class="mandatory">*</span></label>
                 <div class="underline"></div>
             </div>
             <div class="input-container">
                 <input type="text" id="email" name="email" required="">
-                <label for="input" class="label">Your email<span class="mandatory">*</span></label>
+                <label for="input" class="label">Your Email<span class="mandatory">*</span></label>
                 <div class="underline"></div>
             </div>
             <div class="input-container">
@@ -177,47 +177,93 @@
                 <label for="input" class="label">Phone</label>
                 <div class="underline"></div>
             </div>
-             <div class="input-container">
-                <div id="aboutIcon" class="plus dropdown-about">+</div>
-                <select id="about" class="select" name="about[]" aria-label="Default select example">
-                    <option selected class="label" >About</option>
-                    <div class="underline"></div>
-                    <option class="select-label" value="Country day">Country day</option>
-                    <option class="select-label" value="Country Day + Overnight">Country Day + Overnight</option>
-                    <option class="select-label" value="Half Day">Half Day</option>
-                </select>
+
+
+            <div class="input-container">
+                <div class="underline-about"></div>
+                <div class="select-menu fade-slide-down">
+                    <div id="aboutIcon" class="plus dropdown-about">+</div>
+                    <div class="select-btn">
+                        <span class="sBtn-text">About</span>
+                        <i class="bx bx-chevron-down"></i>
+                    </div>
+                    <ul class="options">
+                        <li class="option">
+                            <i class="bx bxl-github" style="color: #171515;"></i>
+                            <span class="option-text">Country Day</span>
+                        </li>
+                        <li class="option">
+                            <i class="bx bxl-instagram-alt" style="color: #E1306C;"></i>
+                            <span class="option-text">Country Day + Overnight</span>
+                        </li>
+                        <li class="option">
+                            <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
+                            <span class="option-text">Half Day</span>
+                        </li>
+                    </ul>
+                </div>
             </div> 
             
             <div class="input-container">
                 <h6 class="label">Other interests<span class="mandatory">*</span></h6>
                 <div class="check-container row">
                     <div class="d-flex flex-column col-3 pe-0">
-                        <input class="check-input" id="wine" type="checkbox" value="Wine" name='check_list[]'>
-                        <label class="check-label" for="wine">Wine</label>
-                        <input class="check-input custom-checkbox" id="motorcycle" type="checkbox" value="Motorcycle" name='check_list[]'>
-                        <label class="check-label checkbox-label" for="motorcycle">Motorcycle</label>
-                        <input class="check-input" id="sailing" type="checkbox" value="Sailing" name='check_list[]'>
-                        <label class="check-label" for="sailing">Sailing</label>
+                        <div class="checkbox-container">
+                            <input class="check-input custom-checkbox" id="wine" type="checkbox" value="Wine" name='check_list[]'>
+                            <label class="check-label checkbox-label" for="wine"></label> 
+                            <span class="label-text">Wine</span>
+                        </div> 
+                        <div class="checkbox-container">      
+                            <input class="check-input custom-checkbox" id="motorcycle" type="checkbox" value="Motorcycle" name='check_list[]'>
+                            <label class="check-label checkbox-label" for="motorcycle"></label>
+                            <span class="label-text">Motorcycle</span>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="check-input custom-checkbox" id="sailing" type="checkbox" value="Sailing" name='check_list[]'>
+                            <label class="check-label checkbox-label" for="sailing"></label>
+                            <span class="label-text">Sailing</span>
+                        </div> 
                     </div>
-                    <div class="d-flex flex-column col-3 pe-0 ps-4">
-                        <input class="check-input" id="food" type="checkbox" value="Food" name='check_list[]'>
-                        <label class="check-label" for="food">Food</label>
-                        <input class="check-input" id="horses" type="checkbox" value="Horses" name='check_list[]'>
-                        <label class="check-label" for="horses">Horses</label>
-                        <input class="check-input" id="golf" type="checkbox" value="Golf" name='check_list[]'>
-                        <label class="check-label" for="golf">Golf</label>
+                     <div class="d-flex flex-column col-3 pe-0 ps-0">
+                        <div class="checkbox-container">
+                            <input class="check-input custom-checkbox" id="food" type="checkbox" value="Food" name='check_list[]'>
+                            <label class="check-label checkbox-label" for="food"></label>
+                            <span class="label-text">Food</span>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="check-input custom-checkbox" id="horses" type="checkbox" value="Horses" name='check_list[]'>
+                            <label class="check-label checkbox-label" for="horses"></label>
+                            <span class="label-text">Horses</span>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="check-input custom-checkbox" id="golf" type="checkbox" value="Golf" name='check_list[]'>
+                            <label class="check-label checkbox-label" for="golf"></label>
+                            <span class="label-text">Golf</span>
+                        </div>
                     </div>
-                    <div class="d-flex flex-column col-3 pe-0 ps-4">
-                        <input class="check-input" id="adventure" type="checkbox" value="Ranch" name='check_list[]'>
-                        <label class="check-label" for="adventure">Ranch</label>
-                        <input class="check-input" id="ranch" type="checkbox" value="Ranch" name='check_list[]'>
-                        <label class="check-label" for="ranch">Ranch</label>
-                        <input class="check-input" id="4x4" type="checkbox" value="4x4" name='check_list[]'>
-                        <label class="check-label" for="4x4">4x4</label>
+                    <div class="d-flex flex-column col-3 pe-0 ps-0">
+                        <div class="checkbox-container">
+                            <input class="check-input custom-checkbox" id="adventure" type="checkbox" value="Ranch" name='check_list[]'>
+                            <label class="check-label checkbox-label" for="adventure"></label>
+                            <span class="label-text">Adventure</span>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="check-input custom-checkbox" id="ranch" type="checkbox" value="Ranch" name='check_list[]'>
+                            <label class="check-label checkbox-label" for="ranch"></label>
+                            <span class="label-text">Ranch</span>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="check-input custom-checkbox" id="4x4" type="checkbox" value="4x4" name='check_list[]'>
+                            <label class="check-label checkbox-label" for="4x4"></label>
+                            <span class="label-text">4x4</span>
+                        </div>
                     </div>
-                    <div class="d-flex flex-column col-3 pe-0 ps-4">
-                        <input class="check-input" id="relaxation" type="checkbox" value="Relaxation" name='check_list[]'>
-                        <label class="check-label" for="relaxation">Relaxation</label>
+                    <div class="d-flex flex-column col-3 pe-0 ps-0">
+                        <div class="checkbox-container">
+                            <input class="check-input custom-checkbox" id="relaxation" type="checkbox" value="Relaxation" name='check_list[]'>
+                            <label class="check-label checkbox-label" for="relaxation"></label>
+                            <span class="label-text">Relaxation</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -276,13 +322,11 @@
             </div>
         </form>
     </div>
-
 </section>
 
 
 
 <section data-bs-version="5.1" class="footer4 cid-tMlWvWDpDR mb-0" once="footers" id="footer4-24">
-    
     <div class="mbr-overlay" style="opacity: 0.9; background-color: rgb(35, 35, 35);"></div>   
     <div class="container">
         <div class="row mbr-white mb-3">
@@ -296,7 +340,6 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <p class="mbr-text mbr-fonts-style mb-4 display-4"></p>
-                
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
@@ -325,11 +368,7 @@
                                         style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
                         </a>
                     </div>
-                    
                 </div>
-
-               
-
             </div>
             <div class="mt-5 mb-4" style="height: 1px; background-color: white; text-align: center">
             <span style="background-color: white; position: relative; top: -0.5em;">
@@ -424,6 +463,27 @@
      burger2.classList.toggle('tes-2');
      burger3.classList.toggle('tes-2');
      burger4.classList.toggle('tes-2');
+    });
+  </script>
+  <script>
+        const optionMenu = document.querySelector(".select-menu"),
+        selectBtn = optionMenu.querySelector(".select-btn"),
+        options = optionMenu.querySelectorAll(".option"),
+        sBtn_text = optionMenu.querySelector(".sBtn-text");
+        selectBtn.addEventListener("click", () => {optionMenu.classList.toggle("active")
+        if (about.classList.contains('plus')) {
+        about.textContent = '-';
+        about.classList.remove('plus');
+        } else {
+        about.textContent = '+';
+        about.classList.add('plus');
+        }});       
+        options.forEach(option =>{
+        option.addEventListener("click", ()=>{
+        let selectedOption = option.querySelector(".option-text").innerText;
+        sBtn_text.innerText = selectedOption;
+        optionMenu.classList.remove("active");
+        });
     });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>

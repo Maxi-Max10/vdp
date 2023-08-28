@@ -51,10 +51,11 @@ include "assets/views/nav.php";
                     </span>
                 </div>
                 <ul class="nav col-auto mb-2 justify-content-center mb-md-0 mt-0 mt-md-4">
-                    <li class="nav-item"><a id="tes-1" href="#" class="nav-link px-2 link-light tes text-nav">ES</a></li>
-                    <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
-                    <li class="nav-item"><a id="tes-2" href="#" class="nav-link px-2 link-light tes text-nav">EN</a></li>
-                    <li class="nav-item"><a id="tes-3" href="page4.html" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
+                        <li id="closeLi" class="nav-item hidden"><a id="close" class="nav-link px-2 link-light tes text-nav">CLOSE</a></li>    
+                        <li id="li1" class="nav-item"><a id="tes-1" href="#" class="nav-link px-2 link-light tes text-nav">ES</a></li>
+                        <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
+                        <li id="li2" class="nav-item"><a id="tes-2" href="#" class="nav-link px-2 link-light tes text-nav">EN</a></li>
+                        <li id="li3" class="nav-item"><a id="tes-3" href="page4.html" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
                     <li id="burger" class="ms-2"> <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-bs-toggle="collapse" data-target="#navbarSupportedContent"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup"
@@ -72,7 +73,7 @@ include "assets/views/nav.php";
                     aria-labelledby="navbarSupportedContent">
                     <div class="navbar-nav nav-dropdown" data-app-modern-menu="true">
         
-                        <div class="row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-5"
+                        <div class="fade-slide-down row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-5"
                             data-app-modern-menu="true">
                             <div class="col-7">
                                 <ul class="no-bullets dropdown-transition">
@@ -567,74 +568,21 @@ include "assets/views/footer.php"
 </script>
 
 
-<!--    SCRIPTS AÑADIDOS    -->
-<script>
-    var itinerary = document.getElementById("itinerary");
-    var prices = document.getElementById("prices");
-    const plusIcon = document.getElementById('plusIcon');
-    var itinerary2 = document.getElementById("itinerary2");
-    var prices2 = document.getElementById("prices2");
-    const plusIcon2 = document.getElementById('plusIcon2');
-    var itinerary3 = document.getElementById("itinerary3");
-    var prices3 = document.getElementById("prices3");
-    const plusIcon3 = document.getElementById('plusIcon3');
-
-    itinerary.addEventListener('click', () => {
-if (prices.classList.contains('hidden')) {
-    prices.classList.remove('hidden');
-    } else {
-    prices.classList.add('hidden');
-    }
-
-    if (plusIcon.classList.contains('plus')) {
-    plusIcon.textContent = '-';
-    plusIcon.classList.remove('plus');
-    } else {
-    plusIcon.textContent = '+';
-    plusIcon.classList.add('plus');
-    }
-    });
-
-    itinerary2.addEventListener('click', () => {
-if (prices2.classList.contains('hidden')) {
-    prices2.classList.remove('hidden');
-    } else {
-    prices2.classList.add('hidden');
-    }
-
-    if (plusIcon2.classList.contains('plus2')) {
-    plusIcon2.textContent = '-';
-    plusIcon2.classList.remove('plus2');
-    } else {
-    plusIcon2.textContent = '+';
-    plusIcon2.classList.add('plus2');
-    }
-    });
-
-    itinerary3.addEventListener('click', () => {
-if (prices3.classList.contains('hidden')) {
-    prices3.classList.remove('hidden');
-    } else {
-    prices3.classList.add('hidden');
-    }
-
-    if (plusIcon3.classList.contains('plus3')) {
-    plusIcon3.textContent = '-';
-    plusIcon3.classList.remove('plus3');
-    } else {
-    plusIcon3.textContent = '+';
-    plusIcon3.classList.add('plus3');
-    }
-    });
-</script>
-<script>
+<!--    SCRIPTS AÑADIDOS    -->    
+<script> //SCRIPT 
      function scrollToTop() {
       window.scrollTo(0, 0);
+      document.getElementById("nav").style.top = "0"
     }
     window.onload = scrollToTop;
 </script>
-<script>
+<script> //NAVBAR SCRIPT
     const hamburgerButton = document.getElementById('burger');
+    const closeText = document.getElementById('close')
+    const closeLi = document.getElementById('closeLi');
+    const li1 = document.getElementById('li1');
+    const li2 = document.getElementById('li2');
+    const li3 = document.getElementById('li3');
     const logo = document.getElementById('img-logo');
     const es = document.getElementById('tes-1');
     const en = document.getElementById('tes-2');
@@ -646,23 +594,45 @@ if (prices3.classList.contains('hidden')) {
     const burger4 = document.getElementById('burger-4');
 
     hamburgerButton.addEventListener('click', () => {
-     logo.classList.toggle('img-color');
-     es.classList.toggle('white-text');
-     en.classList.toggle('white-text');
-     separator.classList.toggle('white-text');
-     burger1.classList.toggle('white-burger');
-     burger2.classList.toggle('white-burger');
-     burger3.classList.toggle('white-burger');
-     burger4.classList.toggle('white-burger');
-     contact.classList.toggle('white-text');
-     es.classList.toggle('tes');
-     en.classList.toggle('tes');
-     separator.classList.toggle('tes');
-     contact.classList.toggle('tes');
-     burger1.classList.toggle('tes-2');
-     burger2.classList.toggle('tes-2');
-     burger3.classList.toggle('tes-2');
-     burger4.classList.toggle('tes-2');
+    separator.classList.toggle('hidden');
+    li1.classList.toggle('hidden');
+    li2.classList.toggle('hidden');
+    li3.classList.toggle('hidden');
+    closeLi.classList.toggle('hidden');
+    logo.classList.toggle('img-color');
+    closeText.classList.toggle('white-text');
+    es.classList.toggle('white-text');
+    en.classList.toggle('white-text');
+    separator.classList.toggle('white-text');
+    burger1.classList.toggle('white-burger');
+    burger2.classList.toggle('white-burger');
+    burger3.classList.toggle('white-burger');
+    burger4.classList.toggle('white-burger');
+    contact.classList.toggle('white-text');
+    closeText.classList.toggle('tes');
+    es.classList.toggle('tes');
+    en.classList.toggle('tes');
+    separator.classList.toggle('tes');
+    contact.classList.toggle('tes');
+    burger1.classList.toggle('tes-2');
+    burger2.classList.toggle('tes-2');
+    burger3.classList.toggle('tes-2');
+    burger4.classList.toggle('tes-2');
+    });
+</script>
+<script> // NAVBAR SCRIPT 
+    let prevScrollPos = window.pageYOffset;
+
+    window.addEventListener("scroll", function () {
+    let currentScrollPos = window.pageYOffset;
+
+    if (prevScrollPos > currentScrollPos) {
+        document.getElementById("nav").style.top = "0";
+    } else {
+        document.getElementById("nav").style.top = "-120px"; // Altura de la barra
+    }
+
+    prevScrollPos = currentScrollPos;
     });
 </script>
   <input name="animation" type="hidden">

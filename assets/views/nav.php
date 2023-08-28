@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="Mobirise v5.8.14, mobirise.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="shortcut icon" href="assets/images/vdp-isologotipo-final-10-298x298.png" type="image/x-icon">
     <meta name="description" content="">
@@ -124,7 +123,7 @@
 
 <nav id="nav" class="navbar navbar-dropdown nav-height navbar-fixed-top collapsed">
     <div class="container mb-5">
-        <div class="col-auto me-auto mt-5 mb-0">
+        <div class="col-auto me-auto mt-5 mb-0" >
             <span class="navbar-logo">
                 <a href="index.php">
                     <img id="img-logo" class="" src="assets/images/vdp-isologotipo-final-10-298x298.png" alt=""
@@ -132,10 +131,14 @@
                 </a>
             </span>
         </div>
-        <ul class="nav col-auto mb-2 justify-content-center mb-md-0 mt-0 mt-md-4">
-            <li class="nav-item"><a id="tes-1" href="#" class="nav-link px-2 link-light tes text-nav">ES</a></li>
+        <ul class="nav col-auto mb-2 justify-content-center mb-md-0 mt-0 mt-md-4 flags" id="flags">
+
+            <li class="nav-item flags__item" data-language="es"><a id="tes-1" class="nav-link px-2 link-light tes text-nav" >ES</a></li>
+
             <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
-            <li class="nav-item"><a id="tes-2" href="#" class="nav-link px-2 link-light tes text-nav">EN</a></li>
+
+            <li class="nav-item flags__item" data-language="en"><a id="tes-2" class="nav-link px-2 link-light tes text-nav flags__item">EN</a></li>
+
             <li class="nav-item"><a id="tes-3" href="page4.html" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
             <li id="burger" class="ms-2"> <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-bs-toggle="collapse" data-target="#navbarSupportedContent"
@@ -158,21 +161,18 @@
                     data-app-modern-menu="true">
                     <div class="col-7">
                         <ul class="no-bullets dropdown-transition">
-                            <li class="fs-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light">Our Story</a></li>
-                            <li class="fs-1 dropdown-transition"><a href="page6.html" class="text-decoration-none link-light all-inclusive vidaloka-nav">All-Inclusive
-                                    Experience</a></li>
-                            <li class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a>
-                            </li>
-                            <li class="fs-1 dropdown-transition"><a href="page7.html" class="text-decoration-none link-light vidaloka-nav">Trip
-                                    Enhancements</a></li>
+                            <li class="fs-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
+                            <li class="fs-1 dropdown-transition"><a href="page6.html" class="text-decoration-none link-light all-inclusive vidaloka-nav">All-Inclusive Experience</a></li>
+                            <li class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a></li>
+                            <li class="fs-1 dropdown-transition"><a href="page7.html" class="text-decoration-none link-light vidaloka-nav">Trip Enhancements</a></li>
                         </ul>
                     </div>
 
                     <div class="col-5">
                         <ul class="list-unstyled dropdown-transition">
-                            <li class="fs-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav">Gallery</a></li>
+                            <li class="fs-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gallery">Gallery</a></li>
                             <li class="fs-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ´s</a></li>
-                            <li class="fs-1 dropdown-transition"><a href="page4.html" class="text-decoration-none link-light vidaloka-nav">Contact</a></li>
+                            <li class="fs-1 dropdown-transition"><a href="page4.html" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>
                         </ul>
                         <div class="social-row display-5 nav col-md-5 justify-content-start ">
                             <div class="soc-item ms-3">

@@ -54,7 +54,7 @@ include "assets/views/nav.php";
             <div class="col-12 col-md">
                 <div class="text-wrapper">
                     <h6 class="card-title mbr-fonts-style display-2 mt-5"><strong>OUR VEHICLES</strong><br><strong>____</strong></h6>
-                <p class="mbr-text mbr-fonts-style mb-4 display-7 text-justify">Experience hassle-free transportation  to
+                <p class="mbr-text mbr-fonts-style mb-4 display-7 text-justify">Experience hassle-free transportation to
                     our<br>farm facilities  with Vivacs del Plata! As part<br>of our commitment to providing
                     exceptional<br>service, we offer transportation options in our<br>reliable fleet of three 4x4
                     Toyota vehicles.<br>Whether you're arriving from Mendoza <br> downtown or Mendoza airport, we

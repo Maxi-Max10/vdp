@@ -18,9 +18,9 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <ul class="list mbr-fonts-style display-5">
-                    <a href="page5.php"></a><li class="mbr-text item-wrap">Gallery</li></a>
+                    <a href="page5.php"></a><li class="mbr-text item-wrap" data-section="nav" data-value="gallery">Gallery</li></a>
                     <a href="page2.php"><li class="mbr-text item-wrap">FAQ´s</li></a>
-                    <a href="page4.php"></a><li class="mbr-text item-wrap">Contact</li></a>
+                    <a href="page4.php"></a><li class="mbr-text item-wrap" data-section="nav" data-value="contact">Contact</li></a>
                 </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
@@ -79,6 +79,8 @@
 <script src="assets2/js/options.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="assets/js/scriptL.js"></script>
+<script src="js/scriptL.js"></script>
 <script>
     const swiper = new Swiper('#swiper', {
     loop: true,

@@ -30,11 +30,12 @@
 <link rel="stylesheet" href="assets/css/page4.css">
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 </head>
+
 <section data-bs-version="5.1" class="menu menu2 cid-tL7nLROMV3" once="menu" id="menu2-1c">
 
     <nav id="nav" class="navbar navbar-dropdown nav-height navbar-fixed-top collapsed">
         <div class="container mb-5">
-            <div class="col-auto me-auto mt-5 mb-0">
+            <div class="col-auto me-auto mt-5 mb-0" >
                 <span class="navbar-logo">
                     <a href="index.php">
                         <img id="img-logo" class="" src="assets/images/vdp-isologotipo-final-10-298x298.png" alt=""
@@ -42,10 +43,14 @@
                     </a>
                 </span>
             </div>
-            <ul class="nav col-auto mb-2 justify-content-center mb-md-0 mt-0 mt-md-4">
-                <li class="nav-item"><a id="tes-1" href="#" class="nav-link px-2 link-light tes text-nav">ES</a></li>
+            <ul class="nav col-auto mb-2 justify-content-center mb-md-0 mt-0 mt-md-4 flags" id="flags">
+    
+                <li class="nav-item flags__item" data-language="es"><a id="tes-1" class="nav-link px-2 link-light tes text-nav" >ES</a></li>
+    
                 <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
-                <li class="nav-item"><a id="tes-2" href="#" class="nav-link px-2 link-light tes text-nav">EN</a></li>
+    
+                <li class="nav-item flags__item" data-language="en"><a id="tes-2" class="nav-link px-2 link-light tes text-nav flags__item">EN</a></li>
+    
                 <li class="nav-item"><a id="tes-3" href="page4.html" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
                 <li id="burger" class="ms-2"> <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-bs-toggle="collapse" data-target="#navbarSupportedContent"
@@ -80,9 +85,9 @@
     
                         <div class="col-5">
                             <ul class="list-unstyled dropdown-transition">
-                                <li class="fs-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav">Gallery</a></li>
-                                <li class="fs-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ </a></li>
-                                <li class="fs-1 dropdown-transition"><a href="page4.html" class="text-decoration-none link-light vidaloka-nav">Contact</a></li>
+                                <li class="fs-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav"  data-section="nav" data-value="gallery">Gallery</a></li>
+                                <li class="fs-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ´s</a></li>
+                                <li class="fs-1 dropdown-transition"><a href="page4.html" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>
                             </ul>
                             <div class="social-row display-5 nav col-md-5 justify-content-start ">
                                 <div class="soc-item ms-3">
@@ -117,7 +122,8 @@
         </div>
     
     </nav>
-</section>
+    </section>
+    
 
 <section data-bs-version="5.1" class="header4 cid-tLp8n5ZlJ8 mbr-fullscreen mbr-parallax-background" id="header4-1m">
     <div class="mbr-overlay"></div>
@@ -127,7 +133,7 @@
                 <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1">Contact us</h1>
 
                 <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7">
-                    What sets us apart is our unwavering commitment to personalized exclusive service</p>
+                    What sets us apart is our unwavering commitment to personalized exclusive service.</p>
 
             </div>
         </div>
@@ -295,7 +301,7 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <ul class="list mbr-fonts-style display-5">
-                    <a href="page5.php"></a><li class="mbr-text item-wrap">Gallery</li></a>
+                    <a href="page5.php"></a><li class="mbr-text item-wrap" >Gallery</li></a>
                     <a href="page2.php"><li class="mbr-text item-wrap">FAQ</li></a>
                     <a href="page4.php"></a><li class="mbr-text item-wrap">Contact</li></a>
                 </ul>
@@ -347,6 +353,7 @@
 <script src="assets/theme/js/script.js"></script>  
 <script src="https://kit.fontawesome.com/8f914819e1.js" crossorigin="anonymous"></script>
 <script src="assets/js/options.js"></script>
+<script src="js/scriptL.js"></script>
 <script>
     var aboutButton = document.getElementById("about");
     const about = document.getElementById("aboutIcon");

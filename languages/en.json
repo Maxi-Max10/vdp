@@ -1,0 +1,95 @@
+{
+    "nav":{
+        "gettinghere": "Getting Here",
+        "questions": "Frequently Asked Questions",
+        "contact":"Contact",
+        "gallery":"Gallery",
+        "ourStory":"Our Story",
+        "allInclusive": "All-Inclusive Experience",
+        "tripEnhancements": "Trip Enhancements"
+    },
+
+    "page1":{
+        "descrip": "Vivacs del Plata is nestled <br> in the picturesque Valle de Uco, <br> at the base of the majestic <br> Cerro El Plata, one of the <br> highest peaks in the Andes, <br> Soaring at 5970 meters <br> above sea level.",
+        "title1": "A hidden gem<br>in 'La Carrera'",
+        "descrip1": "Vivacs del Plata&nbsp; is a family-owned<br>ranch in the Andes Mountain range<br>in Mendoza Argentina.",
+        "title2": "OUR VEHICLES",
+        "descrip2": "Experience hassle-free transportation to our<br>farm facilities  with Vivacs del Plata! As part<br>of our commitment to providing exceptional<br>service, we offer transportation options in our<br>reliable fleet of three 4x4 Toyota vehicles.<br>Whether you're arriving from Mendoza <br> downtown or Mendoza airport, we are delighted<br>to offer round-trip transportation at a price of<br>U$D 250 per vehicle, each vehicle being able to <br> transport up to 4 guests. Enjoy a comfortable<br> ride as you soak in the scenic beauty on road<br> to our farm.<br>If you're coming from Valle de Uco wineries,  we<br> offer the same excellent service at a discounted<br>rate of U$D 200 (4 PAX max) per vehicle.",
+        "title3": "HELITRANSFER",
+        "descrip3": "Soar above the picturesque Valle de Uco with a helicopter ride <br>to our ranch.Enjoy a privileged vantage point as you witness the<br> breathtaking beauty of the region from the air.For availability <br>and rates, please contact us directly.",
+        "title4": "DRIVE TO REACH US",
+        "descrip4": "To reach our rural farm stay from Mendoza downtown, you have two options: the scenic routes via Potrerillos or Ugarteche. Both roads offer stunning landscapes along the way. While the final 25 kilometres consist of dirt roads, it is accessible by various types of vehicles.<br>We recommend using a pick-up truck for optimal comfort."
+    },
+
+    "page2":{
+        "descrip":"Learn more! Here are some common <br> questions about Vivacs del Plata.",
+        "preg1":"How does the transfer service operate?",
+        "resp1":"The transfer service covers trips from the airport, downtown Mendoza, or Valle de Uco to Vivacs del Plata, as well as the return journey, all at a flat rate.",
+        "preg2":"What is the capacity for the sailing excursion?",
+        "resp2":"",
+        "preg3":"What is the weather like?",
+        "resp3":"",
+        "preg4":"What does the all-inclusive experience include?",
+        "resp4":"",
+        "preg5":"What is the overnight capacity of the inn?",
+        "resp5":"",
+        "preg6":"Still need help?",
+        "resp6":"For any other questions, please contact us here <br> or write us at <strong> vivacsdelplata@gmail.com </strong>"
+    },
+
+    "index":{
+        "descrip":"Steeped in history, Vivacs del Plata has been <br> in the Palma family for more than 200 years, <br> recently opening its doors to share its culture, <br> traditions and a variety of activities to guests <br> from all over the world."
+    },
+
+    "page4":{
+        "descrip":"What sets us apart is our unwavering commitment to personalized exclusive service.",
+        "descrip2":"What sets us apart is our unwavering commitment to personalized exclusive service",
+        "name": "Your name",
+        "email": "Your email",
+        "phone": "Phone",
+        "about": "About",
+        "select1":"Country day",
+        "select2":"Country Day + Overnight",
+        "select3":"Half Day",
+        "interests":"Other interests",
+        "check1":"Wine",
+        "check2":"Motorcycle",
+        "check3":"Sailing",
+        "check4":"Food",
+        "check5":"Horses",
+        "check6":"Golf",
+        "check7":"Ranch",
+        "check8":"Relaxation",
+        "estimated":"Estimated date for your journey",
+        "dia":"day",
+        "mes":"month",
+        "anio":"year",
+        "message":"Message",
+        "submit":"Submit",
+        "general":"GENERAL INQUIRES",
+        "social":"SOCIAL MEDIA"
+
+
+    },
+
+    "page5":{
+        "gallery":"<strong>Explore Our Gallery</strong>",
+        "descrip":"Welcome to Vivacs del Plata's memories. Send us <br>your pictures to be featured!"
+    },
+
+    "page6":{
+
+    },
+
+    "page7":{
+
+    },
+
+    "page8":{
+    
+    }
+
+}
+
+
+    

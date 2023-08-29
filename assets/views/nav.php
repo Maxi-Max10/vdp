@@ -59,9 +59,9 @@
                     <li id="closeLi" class="nav-item hidden"><a id="close" class="nav-link px-2 link-light tes text-nav">CLOSE</a></li>
                     <li id="li1" class="nav-item flags" ><a id="tes-1" data-language="es" class="nav-link px-2 link-light tes text-nav flags__item" >ES</a></li>
                     <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
-                    <li id="li2" class="nav-item"><a id="tes-2" href="#" class="nav-link px-2 link-light tes text-nav">EN</a></li>
-                    <li id="li3" class="nav-item"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
-                    <li class="ms-2"> <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <li id="li2" class="nav-item flags"><a id="tes-2" data-language="en"  class="nav-link px-2 link-light tes text-nav flags__item">EN</a></li>
+                    <li id="li3" class="nav-item"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes text-nav" data-section="nav" data-value="contact">CONTACT</a></li>
+                    <li id="burger" class="ms-2"> <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <div class="hamburger">
                                 <span id="burger-1" class="tes-2"></span>
                                 <span id="burger-2" class="tes-2"></span>

@@ -194,7 +194,7 @@ include "assets/views/nav.php";
                 Short on time? Experience a taste of the Argentinian countryside with our flexible <br> outing package. Choose an activity accompanied by delightful wine in the Heights <br>and delicious bites.
             </p>
             <p class="itinerary-text w-50">
-                Our half day experience lasts no more than 4 hours allowing you to seamlessly <br> fit into your morning morning or afternoon schedule
+                Our half day experience lasts no more than 4 hours allowing you to seamlessly <br> fit into your morning morning or afternoon schedule.
             </p>
             <p class="itinerary-text lh-sm pt-3">
                 <span class="fw-bold fs-5">USD 150</span><span class="italic"> per guest</span>

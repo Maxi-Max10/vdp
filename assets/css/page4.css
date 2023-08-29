@@ -335,7 +335,7 @@
   animation: fadeAndSlideUp 1s ease forwards;
 }
 .nav-height{
-  height: 18%;
+  height: 22%;
 }
 
 @keyframes fadeAndSlideUp {

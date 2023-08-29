@@ -1,5 +1,5 @@
 
-const flagsElemet = document.getElementById('flags');
+const flagsElement = document.getElementById ('flags');
 
 const textsToChange = document.querySelectorAll("[data-section]");
 
@@ -16,7 +16,9 @@ const changeLanguage = async (language) =>{
 
 }
 
-flagsElemet.addEventListener('click', (e) =>{
-    changeLanguage(e.target.parentElement.dataset.language);
+
+flagsElement.addEventListener('click', (e) =>{
+    changeLanguage(e.target.dataset.language);
+    //console.log(e.target.dataset.language);
 });
 

@@ -11,9 +11,9 @@ include "assets/views/nav.php";
     <div class="container">
         <div class="row">
             <div class="content-wrap">
-                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>Explore Our Gallery</strong></h1>
+                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1" data-section="page5" data-value="gallery"><strong>Explore Our Gallery</strong></h1>
 
-                <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7">
+                <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7" data-section="page5" data-value="descrip">
                     Welcome to Vivacs del Plata's memories. Send us <br>your pictures to be featured!</p>
 
             </div>

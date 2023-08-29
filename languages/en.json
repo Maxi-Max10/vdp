@@ -44,7 +44,7 @@
 
     "page4":{
         "descrip":"What sets us apart is our unwavering commitment to personalized exclusive service.",
-        "descrip2":"What sets us apart is our unwavering commitment to personalized exclusive service",
+        "descrip2":" If you have any questions or need any general <br> information, please complete this form to <br> request the information you need. We will be <br> pleased to help you.",
         "name": "Your name",
         "email": "Your email",
         "phone": "Phone",
@@ -61,6 +61,7 @@
         "check6":"Golf",
         "check7":"Ranch",
         "check8":"Relaxation",
+        "check9":"Adventure",
         "estimated":"Estimated date for your journey",
         "dia":"day",
         "mes":"month",
@@ -101,7 +102,6 @@
         "WELCOME WITH COFFE <br> AND TEMPTING SNACKS":"WELCOME WITH COFFE <br> AND TEMPTING SNACKS",
         "ROOMS ALOCATION":"ROOMS ALOCATION",
         "Morning Adventure":"Morning Adventure",
-        "Horseback riding":"Horseback riding",
         "DINNER PREPARATION WITH OPTIONAL PARTICIPATION":"DINNER PREPARATION <br>WITH OPTIONAL <br>PARTICIPATION",
         "FIREPLACE GATHERING":"FIREPLACE <br>GATHERING",
         "HALF DAY":"HALF DAY",

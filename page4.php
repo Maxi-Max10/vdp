@@ -404,6 +404,7 @@
 <script src="js/the-ranch-script.js"></script>
 <script src="js/navbar-script.js"></script>
 <script src="js/contact-script.js"></script>
+<script src="js/page6-script.js"></script>
 <input name="animation" type="hidden">
 </body>
 </html>

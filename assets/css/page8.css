@@ -650,36 +650,7 @@ svg {
   transform: translateX(-2px);
 }
 
-.slider-nav-scrollbar {
-  --swiffy-slider-track-height: 0.2rem;
-}
 
-
-.fade-slide-down {
-  opacity: 0;
-  transform: translateY(-20px); /* Inicia con un desplazamiento hacia arriba */
-  animation: fadeAndSlide 1s ease forwards;
-}
-
-@keyframes fadeAndSlide {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fade-slide-up {
-  opacity: 1;
-  transform: translateY(0);
-  animation: fadeAndSlideUp 1s ease forwards;
-}
-
-@keyframes fadeAndSlideUp {
-  to {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-}
 
 .pointer{
   cursor: pointer;

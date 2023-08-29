@@ -1,4 +1,5 @@
 const hamburgerButton = document.getElementById('burger');
+    var opened = false;
     const closeText = document.getElementById('close')
     const closeLi = document.getElementById('closeLi');
     const li1 = document.getElementById('li1');
@@ -15,6 +16,8 @@ const hamburgerButton = document.getElementById('burger');
     const burger4 = document.getElementById('burger-4');
 
     hamburgerButton.addEventListener('click', () => {
+    document.getElementById("nav").classList.toggle('nav-height');
+    opened = !opened;
     separator.classList.toggle('hidden');
     li1.classList.toggle('hidden');
     li2.classList.toggle('hidden');
@@ -50,7 +53,9 @@ const hamburgerButton = document.getElementById('burger');
     if (prevScrollPos > currentScrollPos) {
         document.getElementById("nav").style.top = "0";
     } else {
-        document.getElementById("nav").style.top = "-120px"; // Altura de la barra
+        if(!opened){
+            document.getElementById("nav").style.top = "-120px";
+        }
     }
 
     prevScrollPos = currentScrollPos;

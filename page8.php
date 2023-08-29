@@ -47,7 +47,7 @@ include "assets/views/nav.php";
     <div class="slider">
         <div class="col-9 ms-auto">
             <div class="swiffy-slider slider-item-snapstart slider-nav-visible slider-nav-arrow slider-nav-scrollbar slider-item-show2 slider-item-show1-sm slider-item-reveal">
-                <ul class="slider-container sc-1">
+                <ul class="slider-container sc-1-p8">
                     <li>
                         <img src="assets/images/6178F5F3-63AD-4C29-8EEF-818B6EA94CBE.JPG" class="slider-img">
                     </li>
@@ -85,8 +85,8 @@ include "assets/views/nav.php";
                         <img src="assets/images/IMG_5014.JPG" class="slider-img">
                     </li>
                 </ul>
-                <div class="arrow next" style="opacity: 1; transform: translate3d(0px, 25px, 0px);">
-                    <span class="svg svg-arrow-right svg-next">
+                <div class="arrow-p8 next-p8" style="opacity: 1; transform: translate3d(0px, 25px, 0px);">
+                    <span class="svg-p8 svg-arrow-right svg-next-p8">
                         <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 16" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line" d="M0 12.9h28.5"/></svg>
                     </span>
                 </div>
@@ -108,7 +108,7 @@ include "assets/views/nav.php";
                 </p>
             </div>
             <div class="col-12 col-md-8 justify-content-center">
-                <h2 class="text-center text-md-start fw-bold mt-5 mb-4">THE RANCH</h2>
+                <h2 class="text-center text-md-start mt-5 mb-4 title">THE RANCH</h2>
                 <img src="assets/images/The ranch.jpeg" 
                 alt="image" class="responsive-img ranch-img"></img>
             </div>

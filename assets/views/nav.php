@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Mobirise v5.8.14, mobirise.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="shortcut icon" href="assets/images/vdp-isologotipo-final-10-298x298.png" type="image/x-icon">
     <meta name="description" content="">
@@ -34,13 +35,8 @@
 <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/page8.css">
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-/>
-</head>
-<link rel="stylesheet" href="index-2.css" />
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+<!-- <link rel="stylesheet" href="index-2.css" />ESTE LINK ARMA DESORDEN EN LAS PAGE 2-1 -->
 <link
       rel="stylesheet"
       type="text/css"
@@ -61,6 +57,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/page6.css">
+
+</head>
+
 <body>
     <section data-bs-version="5.1" class="menu menu2 cid-tL7nLROMV3" once="menu" id="menu2-1c">
 

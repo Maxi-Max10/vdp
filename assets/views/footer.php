@@ -78,9 +78,8 @@
 <script src="assets/dropdown/js/navbar-dropdown.js"></script>  
 <script src="assets/theme/js/script.js"></script>  
 <script src="https://kit.fontawesome.com/8f914819e1.js" crossorigin="anonymous"></script>
-<script src="assets2/js/options.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="js/scriptL.js"></script>
+
 <script src="js/swiper-script.js"></script>
 <script src="js/the-ranch-script.js"></script>
 <script src="navbar-script.js"></script>

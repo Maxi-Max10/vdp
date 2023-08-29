@@ -117,7 +117,7 @@ include "assets/views/nav.php";
         </div>
     </div>
 </section>
-
+<script src="js/scriptL.js"></script>
 <?php
 
 include "assets/views/footer.php"

@@ -53,7 +53,6 @@ include "assets/views/nav.php";
         </p>
     </div>
 
-       
 </section>
 <?php
 

@@ -1,9 +1,129 @@
-<?php
+<!DOCTYPE html>
+<html>
 
-$campo = "Contact Us";
-include "assets/views/nav.php";
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Mobirise v5.8.14, mobirise.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="assets/images/vdp-isologotipo-final-10-298x298.png" type="image/x-icon">
+    <meta name="description" content="">
+    <title>Vivacs del Plata | <?php print $campo ?></title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+    <link rel="stylesheet" href="assets/web/assets/mobirse-icons/mobirise-icons.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/parallax/jarallax.css">
+    <link rel="stylesheet" href="assets/animatecss/animate.css">
+    <link rel="stylesheet" href="assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="stylesheet" href="assets/styleju/stylej.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/page7.css">
+    <link rel="stylesheet" href="assets/css/page4.css">
+    <link rel="stylesheet" href="assets/css/page6.css">
+    <link rel="stylesheet" href="assets/css/page8.css">
+    <link rel="stylesheet" href="assets/fonts/Roboto-Medium/style.css">
+    <link rel="stylesheet" href="assets/fonts/Roboto-Bold/style.css">
+    <link href="assets/fonts/style.css" rel="stylesheet">
+    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
+    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/page8.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="index-2.css" />ESTE LINK ARMA DESORDEN EN LAS PAGE 2-1 -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/page6.css">
+</head>
 
-?>
+<body>
+    <section data-bs-version="5.1" class="menu menu2 cid-tL7nLROMV3" once="menu" id="menu2-1c">
+
+        <nav id="nav" class="navbar navbar-dropdown nav-height navbar-fixed-top collapsed">
+            <div class="container mb-5">
+                <div class="col-auto me-auto mt-5 mb-0">
+                    <span class="navbar-logo">
+                        <a href="index.php">
+                            <img id="img-logo" class="" src="assets/images/vdp-isologotipo-final-10-298x298.png" alt="" style="height: 5rem; z-index: 3;">
+                        </a>
+                    </span>
+                </div>
+                <ul class="nav col-auto mb-2 justify-content-center mb-md-0 mt-0 mt-md-4"  id="flags">
+                    <li id="closeLi" class="nav-item hidden"><a id="close" class="nav-link px-2 link-light tes text-nav">CLOSE</a></li>
+                    <li id="li1" class="nav-item flags" ><a id="tes-1" data-language="es" class="nav-link px-2 link-light tes text-nav flags__item" >ES</a></li>
+                    <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
+                    <li id="li2" class="nav-item"><a id="tes-2" href="#" class="nav-link px-2 link-light tes text-nav">EN</a></li>
+                    <li id="li3" class="nav-item"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
+                    <li class="ms-2"> <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="hamburger">
+                                <span id="burger-1" class="tes-2"></span>
+                                <span id="burger-2" class="tes-2"></span>
+                                <span id="burger-3" class="tes-2"></span>
+                                <span id="burger-4" class="tes-2"></span>
+                            </div>
+                        </button>
+                    </li>
+                </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" aria-labelledby="navbarSupportedContent">
+                    <div class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+
+                        <div class="fade-slide-down row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-5" data-app-modern-menu="true">
+                            <div class="col-7">
+                                <ul class="no-bullets dropdown-transition">
+                                    <li id="nav-href-1" class="fs-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
+                                    <li id="nav-href-2" class="fs-1 dropdown-transition"><a href="page6.php" class="text-decoration-none link-light all-inclusive vidaloka-nav">All-Inclusive
+                                            Experience</a></li>
+                                    <li id="nav-href-3" class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a>
+                                    </li>
+                                    <li id="nav-href-4" class="fs-1 dropdown-transition"><a href="page7.php" class="text-decoration-none link-light vidaloka-nav">Trip
+                                            Enhancements</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-5">
+                                <ul class="list-unstyled dropdown-transition">
+                                    <li id="nav-href-5" class="fs-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gallery">Gallery</a></li>
+                                    <li id="nav-href-6" class="fs-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ </a></li>
+                                    <li id="nav-href-7" class="fs-1 dropdown-transition"><a href="page4.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>
+                                </ul>
+                                <div id="nav-href-8" class="social-row display-5 nav col-md-5 justify-content-start ">
+                                    <div class="soc-item ms-3">
+                                        <a href="" target="_blank">
+                                            <span class="mbr-iconfont socicon socicon-whatsapp" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
+                                        </a>
+                                    </div>
+                                    <div class="soc-item ms-3">
+                                        <a href="" target="_blank">
+                                            <span class="mbr-iconfont socicon socicon-tripadvisor" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 16pt"></span>
+                                        </a>
+                                    </div>
+                                    <div class="soc-item ms-3">
+                                        <a href="" target="_blank">
+                                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
+                                        </a>
+                                    </div>
+                                    <div class="soc-item ms-3">
+                                        <a href="" target="_blank">
+                                            <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- EndMenu -->
+            </div>
+
+        </nav>
+    </section>
     
 
 <section data-bs-version="5.1" class="header4 cid-tLp8n5ZlJ8 mbr-fullscreen mbr-parallax-background" id="header4-1m">
@@ -63,10 +183,9 @@ include "assets/views/nav.php";
             <div class="input-container">
                 <div class="underline-about"></div>
                 <div class="select-menu fade-slide-down">
-                    <div id="aboutIcon" class="plus dropdown-about">+</div>
-                    <div class="select-btn">
+                    <div id="about" class="select-btn">
+                        <div id="aboutIcon" class="plus dropdown-about">+</div>
                         <span class="sBtn-text">About</span>
-                        <i class="bx bx-chevron-down"></i>
                     </div>
                     <ul class="options">
                         <li class="option">
@@ -170,15 +289,9 @@ include "assets/views/nav.php";
 
             <div class="input-container message">
                 <input type="text" id="input" required="" name="message">
-                <label for="input" class="label" >Message</label>
+                <label for="input" class="label" >Message<span class="mandatory">*</span></label>
                 <div class="underline"></div>
             </div>
-
-            <!--<a class="btn btn-dark btn-lg submit">
-                Submit
-            </a>
-            <input type="button" class="btn btn-dark btn-lg submit" id="btnEnviarF" value="Enviar">
-            -->
 
             <button type="submit" class="btn btn-dark btn-lg submit roboto">Submit</button>
 
@@ -205,115 +318,92 @@ include "assets/views/nav.php";
     </div>
 </section>
 
+<section data-bs-version="5.1" class="footer4 cid-tMlWvWDpDR mb-0" once="footers" id="footer4-24">
+    
+    <div class="mbr-overlay" style="opacity: 0.9; background-color: rgb(35, 35, 35);"></div>   
+    <div class="container">
+        <div class="row mbr-white mb-3">
+            <div class="col-6 col-lg-3">
+                <div class="media-wrap col-md-8 col-12">
+                    <a href="">
+                        <img src="assets/images/vdp-isologotipo-final-10-337x337.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
+                <p class="mbr-text mbr-fonts-style mb-4 display-4"></p>
+                
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
+                <ul class="list mbr-fonts-style display-5">
+                    <a href="page5.php"></a><li class="mbr-text item-wrap" data-section="nav" data-value="gallery">Gallery</li></a>
+                    <a href="page2.php"><li class="mbr-text item-wrap">FAQ´s</li></a>
+                    <a href="page4.php"></a><li class="mbr-text item-wrap" data-section="nav" data-value="contact">Contact</li></a>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
+                <div class="social-row display-7">
+                    <div class="soc-item">
+                        <a href="" target="_blank">
+                            <span class="mbr-iconfont socicon socicon-whatsapp" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://www.tripadvisor.com.ar/Attraction_Review-g664097-d25241616-Reviews-Vivacs_Del_Plata-Tupungato_Province_of_Mendoza_Cuyo.html" target="_blank">
+                            <span class="mbr-iconfont socicon socicon-tripadvisor" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"
+                                        style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
+                        </a>
+                    </div>
+                    
+                    <div class="soc-item">
+                        <a href="" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-Marker socicon"
+                                        style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
+                        </a>
+                    </div>
+                    
+                </div>
 
+               
 
+            </div>
+            <div class="mt-5 mb-4" style="height: 1px; background-color: white; text-align: center">
+            <span style="background-color: white; position: relative; top: -0.5em;">
+                
+            </span>
+            </div>
+            <div class="col-12 col-md-12 copyright text-center">
+            <div class="col-md-12 copyright">
+                <p class="mbr-text mbr-fonts-style display-4">
+                &copy;<script>document.write(new Date().getFullYear());</script> Vivacs del Plata - All Rights Reserved&nbsp; &nbsp;Terms &amp; Conditions&nbsp;
+                    &nbsp; Privacy Policy</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-
-<?php
-
-include "assets/views/footer.php";
-
-?>
-
-<script>
-    var aboutButton = document.getElementById("about");
-    const about = document.getElementById("aboutIcon");
-
-    var button = document.getElementById("dropdown");
-    var dropdownSection = document.getElementById("dateHide");
-    const toggleText = document.getElementById('dropdownIcon');
-
-    button.addEventListener('click', () => {
-        if (dropdownSection.classList.contains('hidden')) {
-        dropdownSection.classList.remove('hidden');
-        } else {
-        dropdownSection.classList.add('hidden');
-        }
-
-        if (toggleText.classList.contains('plus')) {
-        toggleText.textContent = '-';
-        toggleText.classList.remove('plus');
-        } else {
-        toggleText.textContent = '+';
-        toggleText.classList.add('plus');
-        }
-    });
-
-    aboutButton.addEventListener('click', () => {
-        if (about.classList.contains('plus')) {
-        about.textContent = '-';
-        about.classList.remove('plus');
-        } else {
-        about.textContent = '+';
-        about.classList.add('plus');
-        }
-    });
-</script>
-<script>
-    function scrollToTop() {
-      window.scrollTo(0, 0);
-    }
-    window.onload = scrollToTop;
-</script>
-<script>
-    const hamburgerButton = document.getElementById('burger');
-    const logo = document.getElementById('img-logo');
-    const es = document.getElementById('tes-1');
-    const en = document.getElementById('tes-2');
-    const separator = document.getElementById('separator');
-    const contact = document.getElementById('tes-3');
-    const burger1 = document.getElementById('burger-1');
-    const burger2 = document.getElementById('burger-2');
-    const burger3 = document.getElementById('burger-3');
-    const burger4 = document.getElementById('burger-4');
-  
-    hamburgerButton.addEventListener('click', () => {
-     logo.classList.toggle('img-color');
-     es.classList.toggle('white-text');
-     en.classList.toggle('white-text');
-     separator.classList.toggle('white-text');
-     burger1.classList.toggle('white-burger');
-     burger2.classList.toggle('white-burger');
-     burger3.classList.toggle('white-burger');
-     burger4.classList.toggle('white-burger');
-     contact.classList.toggle('white-text');
-     es.classList.toggle('tes');
-     en.classList.toggle('tes');
-     separator.classList.toggle('tes');
-     contact.classList.toggle('tes');
-     burger1.classList.toggle('tes-2');
-     burger2.classList.toggle('tes-2');
-     burger3.classList.toggle('tes-2');
-     burger4.classList.toggle('tes-2');
-    });
-  </script>
-  <script>
-        const optionMenu = document.querySelector(".select-menu"),
-        selectBtn = optionMenu.querySelector(".select-btn"),
-        options = optionMenu.querySelectorAll(".option"),
-        sBtn_text = optionMenu.querySelector(".sBtn-text");
-        selectBtn.addEventListener("click", () => {optionMenu.classList.toggle("active")
-        if (about.classList.contains('plus')) {
-        about.textContent = '-';
-        about.classList.remove('plus');
-        } else {
-        about.textContent = '+';
-        about.classList.add('plus');
-        }});       
-        options.forEach(option =>{
-        option.addEventListener("click", ()=>{
-            if (about.classList.contains('plus')) {
-        about.textContent = '-';
-        about.classList.remove('plus');
-        } else {
-        about.textContent = '+';
-        about.classList.add('plus');
-        }
-        let selectedOption = option.querySelector(".option-text").innerText;
-        sBtn_text.innerText = selectedOption;
-        optionMenu.classList.remove("active");
-        });
-    });
-  </script>
-  
-
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<script src="assets/parallax/jarallax.js"></script>  
+<script src="assets/smoothscroll/smooth-scroll.js"></script>  
+<script src="assets/ytplayer/index.js"></script>  
+<script src="assets/dropdown/js/navbar-dropdown.js"></script>  
+<script src="assets/theme/js/script.js"></script>  
+<script src="https://kit.fontawesome.com/8f914819e1.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="scriptL.js"></script>
+<script src="js/swiper-script.js"></script>
+<script src="js/the-ranch-script.js"></script>
+<script src="js/navbar-script.js"></script>
+<script src="js/contact-script.js"></script>
+<input name="animation" type="hidden">
+</body>
+</html>

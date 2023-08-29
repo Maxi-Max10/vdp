@@ -406,10 +406,6 @@ svg {
   font-style: italic;
 }
 
-.hidden{
-  display: none;
-}
-
 .pointer{
   cursor: pointer;
 }

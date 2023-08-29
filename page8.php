@@ -55,9 +55,9 @@
                         </a>
                     </span>
                 </div>
-                <ul class="nav col-auto mb-2 justify-content-center mb-md-0 mt-0 mt-md-4">
+                <ul class="nav col-auto mb-2 justify-content-center mb-md-0 mt-0 mt-md-4"  id="flags">
                     <li id="closeLi" class="nav-item hidden"><a id="close" class="nav-link px-2 link-light tes text-nav">CLOSE</a></li>
-                    <li id="li1" class="nav-item"><a id="tes-1" href="#" class="nav-link px-2 link-light tes text-nav">ES</a></li>
+                    <li id="li1" class="nav-item flags" ><a id="tes-1" data-language="es" class="nav-link px-2 link-light tes text-nav flags__item" >ES</a></li>
                     <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
                     <li id="li2" class="nav-item"><a id="tes-2" href="#" class="nav-link px-2 link-light tes text-nav">EN</a></li>
                     <li id="li3" class="nav-item"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
@@ -132,7 +132,7 @@
       <div class="content-wrap">
         <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1">Our Story</h1>
         <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7">
-          As a family-run retreat, we take immense <br> pride in our rich heritage spanning over<br>200 years. Now, we invite you to be a part<br>of our story as we open our doors to share<br>our culture, traditions, and an array of<br>unforgettable experiences with guests from<br>around the globe.
+          As a family-run retreat, we take immense pride <br> in our rich heritage spanning over 200 years.<br> Now, we invite you to be a part of our story <br>as we open our doors to share our culture,<br> traditions, and an array of unforgettable <br>experiences with guests from around the <br> globe.
         </p>
       </div>
     </div>
@@ -165,7 +165,7 @@
     </div>
     <div class="slider">
         <div class="col-9 ms-auto">
-            <div class="swiffy-slider slider-item-snapstart slider-nav-visible slider-nav-arrow slider-nav-scrollbar slider-item-show2 slider-item-show1-sm slider-item-reveal">
+            <div class="swiffy-slider slider-item-snapstart slider-nav-scrollbar slider-nav-visible slider-nav-arrow slider-item-show2 slider-item-show1-sm slider-item-reveal">
                 <ul class="slider-container sc-1-p8">
                     <li>
                         <img src="assets/images/6178F5F3-63AD-4C29-8EEF-818B6EA94CBE.JPG" class="slider-img">
@@ -427,9 +427,11 @@
 <script src="assets/theme/js/script.js"></script>  
 <script src="https://kit.fontawesome.com/8f914819e1.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="scriptL.js"></script>
 <script src="js/swiper-script.js"></script>
 <script src="js/the-ranch-script.js"></script>
-<script src="js/navbar-script.js"></script>   
+<script src="js/navbar-script.js"></script>
+<script src="js/contact-script.js"></script>
 <input name="animation" type="hidden">
 </body>
 </html>

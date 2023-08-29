@@ -51,13 +51,13 @@ input[type=checkbox] + label:before {
   display: inline-block;
 }
 
-input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+input[type=checkbox] + label:before { content: ""; } /* unchecked icon */
 input[type=checkbox] + label:before { letter-spacing: 5px;
   position: relative;
   top: -6px;
   left: -1px; } /* space between checkbox and label */
 
-input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
+input[type=checkbox]:checked + label:before { content: "\f00c"; } /* checked icon */
 input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */
 
 :root {

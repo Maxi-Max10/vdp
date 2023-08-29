@@ -1,5 +1,5 @@
 
-const flagsElemet = document.getElementById('flags');
+const flagsElemet = document.getElementById ('flags');
 
 const textsToChange = document.querySelectorAll("[data-section]");
 

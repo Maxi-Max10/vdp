@@ -59,7 +59,7 @@
                 </div>
                 <ul class="nav col-auto mb-2 justify-content-center mb-md-0 mt-0 mt-md-4">
                     <li id="closeLi" class="nav-item hidden"><a id="close" class="nav-link px-2 link-light tes text-nav">CLOSE</a></li>
-                    <li id="li1" class="nav-item"><a id="tes-1" href="#" class="nav-link px-2 link-light tes text-nav">ES</a></li>
+                    <li id="li1" id="flags" class="nav-item flags"><a id="tes-1" class="nav-link px-2 link-light tes text-nav flags__item" data-language="es">ES</a></li>
                     <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
                     <li id="li2" class="nav-item"><a id="tes-2" href="#" class="nav-link px-2 link-light tes text-nav">EN</a></li>
                     <li id="li3" class="nav-item"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
@@ -82,10 +82,8 @@
                                     <li class="fs-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
                                     <li class="fs-1 dropdown-transition"><a href="page6.php" class="text-decoration-none link-light all-inclusive vidaloka-nav">All-Inclusive
                                             Experience</a></li>
-                                    <li class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a>
-                                    </li>
-                                    <li class="fs-1 dropdown-transition"><a href="page7.php" class="text-decoration-none link-light vidaloka-nav">Trip
-                                            Enhancements</a></li>
+                                    <li class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a></li>
+                                    <li class="fs-1 dropdown-transition"><a href="page7.php" class="text-decoration-none link-light vidaloka-nav">Trip Enhancements</a></li>
                                 </ul>
                             </div>
 

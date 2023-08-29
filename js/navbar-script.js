@@ -68,6 +68,7 @@ const hamburgerButton = document.getElementById('burger');
     } else {
         if(!opened){
             document.getElementById("nav").style.top = "-180px";
+            console.log(opened + "ALSDJFALSDKF")
         }
     }
 
@@ -104,7 +105,7 @@ const hamburgerButton = document.getElementById('burger');
     }
 
     function scrollToTop() {
-        window.scrollTo(0, 0);
-        setTimeout(topNav,500);
-      }
+    window.scrollTo(0, 0);
+    setTimeout(topNav,500);
+    }
       window.onload = scrollToTop;

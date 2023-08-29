@@ -331,12 +331,11 @@ include "assets/views/nav.php";
                     <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
-                        src="./assets/images/IMG_3675 2.JPEG"
+                        src="./assets/images/IMG_3675 2.jpeg"
                         alt="Imagen grande"
                       />
                     </div>
                     <div class="divisor-2"></div>
-        
                     <div class="thumbnails">
                       <img
                         class="thumbnail"
@@ -345,7 +344,7 @@ include "assets/views/nav.php";
                       />
                       <img
                         class="thumbnail"
-                        src="./assets/images/IMG_3689.JPEG"
+                        src="./assets/images/IMG_3689.jpeg"
                         alt="imagen 2"
                         />
                         <img
@@ -496,7 +495,7 @@ include "assets/views/nav.php";
                       />
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/IMG_4707.JPG"
+                        src="./assets/images/IMG_4707.jpg"
                         alt=""
                       />
                     

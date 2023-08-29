@@ -1,50 +1,9 @@
-<!DOCTYPE html>
-<html>
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="Mobirise v5.8.14, mobirise.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="shortcut icon" href="assets/images/vdp-isologotipo-final-10-298x298.png" type="image/x-icon">
-    <meta name="description" content="">
+$campo = "All Inclusive Experience";
+include "assets/views/nav.php";
 
-    <title>Vivacs del Plata | All Inclusive Experience</title>
-    <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="assets/parallax/jarallax.css">
-    <link rel="stylesheet" href="assets/animatecss/animate.css">
-    <link rel="stylesheet" href="assets/dropdown/css/style.css">
-    <link rel="stylesheet" href="assets/socicon/css/styles.css">
-    <link rel="stylesheet" href="assets/theme/css/style.css">
-    <link rel="stylesheet" href="assets2/css/style.css">
-    <link href="assets/fonts/style.css" rel="stylesheet">
-    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
-    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-    <link rel="stylesheet" href="./index-2.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
-      rel="stylesheet"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/page6.css">
-</head>
+?>
 
 <section data-bs-version="5.1" class="header4 cid-tMz2KIjoKu mbr-fullscreen mbr-parallax-background" id="header4-25">
     <div class="mbr-overlay"></div>
@@ -1007,16 +966,13 @@
         </div>
     </div>
 </section>
-<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
-<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script> 
-<script src="assets/parallax/jarallax.js"></script>  
-<script src="assets/smoothscroll/smooth-scroll.js"></script>  
-<script src="assets/ytplayer/index.js"></script>  
-<script src="assets/dropdown/js/navbar-dropdown.js"></script>  
-<script src="assets/theme/js/script.js"></script>  
-<script src="https://kit.fontawesome.com/8f914819e1.js" crossorigin="anonymous"></script>
-<script src="assets2/js/options.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<?php
+
+include "assets/views/footer.php";
+
+?>
+
 <script>
   function scrollToTop() {
     window.scrollTo(0, 0);

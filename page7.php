@@ -1,217 +1,10 @@
-<!DOCTYPE html>
-<html>
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="Mobirise v5.8.14, mobirise.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="shortcut icon" href="assets/images/vdp-isologotipo-final-10-298x298.png" type="image/x-icon">
-    <meta name="description" content="">
-    <title>Vivacs del Plata | Trip Enhacements</title>
-    <link rel="stylesheet" href="assets2/css/normalize.css">
-    <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="assets/parallax/jarallax.css">
-    <link rel="stylesheet" href="assets/animatecss/animate.css">
-    <link rel="stylesheet" href="assets/dropdown/css/style.css">
-    <link rel="stylesheet" href="assets/socicon/css/styles.css">
-    <link rel="stylesheet" href="assets/theme/css/style.css">
-    <link rel="stylesheet" href="assets2/css/style.css">
-    <link rel="stylesheet" href="assets/css/page7.css">
-    <link href="assets/fonts/style.css" rel="stylesheet">
-    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
-    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-</head>
+$campo = "Trip Enhacements";
+include "assets/views/nav.php";
 
-<body>
+?>
     
-<section data-bs-version="5.1" class="menu menu2 cid-tL7nLROMV3" once="menu" id="menu2-1c">
-
-    <nav id="nav" class="navbar navbar-dropdown nav-height navbar-fixed-top collapsed">
-        <div class="container mb-5">
-            <div class="col-auto me-auto mt-5 mb-0">
-                <span class="navbar-logo">
-                    <a href="index.php">
-                        <img id="img-logo" class="" src="assets/images/vdp-isologotipo-final-10-298x298.png" alt=""
-                            style="height: 5rem; z-index: 3;">
-                    </a>
-                </span>
-            </div>
-            <ul class="nav col-auto mb-2 justify-content-center mb-md-0 mt-0 mt-md-4">
-                <li class="nav-item"><a id="tes-1" href="#" class="nav-link px-2 link-light tes text-nav">ES</a></li>
-                <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
-                <li class="nav-item"><a id="tes-2" href="#" class="nav-link px-2 link-light tes text-nav">EN</a></li>
-                <li class="nav-item"><a id="tes-3" href="page4.html" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
-                <li id="burger" class="ms-2"> <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-bs-toggle="collapse" data-target="#navbarSupportedContent"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <div class="hamburger">
-                            <span id="burger-1" class="tes-2"></span>
-                            <span id="burger-2" class="tes-2"></span>
-                            <span id="burger-3" class="tes-2"></span>
-                            <span id="burger-4" class="tes-2"></span>
-                        </div>
-                    </button>
-                </li>
-            </ul>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent"
-                aria-labelledby="navbarSupportedContent">
-                <div class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-    
-                    <div class="row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-5"
-                        data-app-modern-menu="true">
-                        <div class="col-7">
-                            <ul class="no-bullets dropdown-transition">
-                                <li class="fs-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light">Our Story</a></li>
-                                <li class="fs-1 dropdown-transition"><a href="page6.html" class="text-decoration-none link-light all-inclusive vidaloka-nav">All-Inclusive
-                                        Experience</a></li>
-                                <li class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a>
-                                </li>
-                                <li class="fs-1 dropdown-transition"><a href="page7.html" class="text-decoration-none link-light vidaloka-nav">Trip
-                                        Enhancements</a></li>
-                            </ul>
-                        </div>
-    
-                        <div class="col-5">
-                            <ul class="list-unstyled dropdown-transition">
-                                <li class="fs-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav">Gallery</a></li>
-                                <li class="fs-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ </a></li>
-                                <li class="fs-1 dropdown-transition"><a href="page4.html" class="text-decoration-none link-light vidaloka-nav">Contact</a></li>
-                            </ul>
-                            <div class="social-row display-5 nav col-md-5 justify-content-start ">
-                                <div class="soc-item ms-3">
-                                    <a href="" target="_blank">
-                                        <span class="mbr-iconfont socicon socicon-whatsapp"
-                                            style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
-                                    </a>
-                                </div>
-                                <div class="soc-item ms-3">
-                                    <a href="" target="_blank">
-                                        <span class="mbr-iconfont socicon socicon-tripadvisor"
-                                            style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 16pt"></span>
-                                    </a>
-                                </div>
-                                <div class="soc-item ms-3">
-                                    <a href="" target="_blank">
-                                        <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"
-                                            style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
-                                    </a>
-                                </div>
-                                <div class="soc-item ms-3">
-                                    <a href="" target="_blank">
-                                        <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
-                                    </a>
-                                </div>
-                            </div>
-    
-                        </div>
-                    </div>
-                </div>
-            </div><!-- EndMenu -->
-        </div>
-    
-    </nav>
-    </section>
-    
-
-    <section data-bs-version="5.1" class="menu menu2 cid-tL7nLROMV3" once="menu" id="menu2-1c">
-
-        <nav id="nav" class="navbar navbar-dropdown nav-height navbar-fixed-top collapsed">
-            <div class="container mb-5">
-                <div class="col-auto me-auto mt-5 mb-0">
-                    <span class="navbar-logo">
-                        <a href="page3.php">
-                            <img id="img-logo" class="" src="assets/images/vdp-isologotipo-final-10-298x298.png" alt=""
-                                style="height: 5rem; z-index: 3;">
-                        </a>
-                    </span>
-                </div>
-                <ul class="nav col-auto mb-2 justify-content-center mb-md-0 mt-0 mt-md-4">
-                    <li class="nav-item"><a id="tes-1" href="#" class="nav-link px-2 link-light tes text-nav">ES</a></li>
-                    <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
-                    <li class="nav-item"><a id="tes-2" href="page3.php" class="nav-link px-2 link-light tes text-nav">EN</a></li>
-                    <li class="nav-item"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
-                    <li id="burger" class="ms-2"> <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-bs-toggle="collapse" data-target="#navbarSupportedContent"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <div class="hamburger">
-                                <span id="burger-1" class="tes-2"></span>
-                                <span id="burger-2" class="tes-2"></span>
-                                <span id="burger-3" class="tes-2"></span>
-                                <span id="burger-4" class="tes-2"></span>
-                            </div>
-                        </button>
-                    </li>
-                </ul>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent"
-                    aria-labelledby="navbarSupportedContent">
-                    <div class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-      
-                        <div class="row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-5"
-                            data-app-modern-menu="true">
-                            <div class="col-7">
-                                <ul class="no-bullets dropdown-transition">
-                                    <li class="fs-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light">Our Story</a></li>
-                                    <li class="fs-1 dropdown-transition"><a href="page6.php" class="text-decoration-none link-light all-inclusive vidaloka-nav">All-Inclusive
-                                            Experience</a></li>
-                                    <li class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a>
-                                    </li>
-                                    <li class="fs-1 dropdown-transition"><a href="Page7.php" class="text-decoration-none link-light vidaloka-nav">Trip
-                                            Enhancements</a></li>
-                                </ul>
-                            </div>
-      
-                            <div class="col-5">
-                                <ul class="list-unstyled dropdown-transition">
-                                    <li class="fs-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav">Gallery</a></li>
-                                    <li class="fs-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ </a></li>
-                                    <li class="fs-1 dropdown-transition"><a href="page4.php" class="text-decoration-none link-light vidaloka-nav">Contact</a></li>
-                                </ul>
-                                <div class="social-row display-5 nav col-md-5 justify-content-start ">
-                                    <div class="soc-item ms-3">
-                                        <a href="" target="_blank">
-                                            <span class="mbr-iconfont socicon socicon-whatsapp"
-                                                style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
-                                        </a>
-                                    </div>
-                                    <div class="soc-item ms-3">
-                                        <a href="" target="_blank">
-                                            <span class="mbr-iconfont socicon socicon-tripadvisor"
-                                                style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 16pt"></span>
-                                        </a>
-                                    </div>
-                                    <div class="soc-item ms-3">
-                                        <a href="" target="_blank">
-                                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"
-                                                style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
-                                        </a>
-                                    </div>
-                                    <div class="soc-item ms-3">
-                                        <a href="" target="_blank">
-                                            <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
-                                        </a>
-                                    </div>
-                                </div>
-      
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- EndMenu -->
-            </div>
-      
-        </nav>
-</section>
 
 <section data-bs-version="5.1" class="header4 cid-tMz88lY0XA mbr-fullscreen mbr-parallax-background" id="header4-2c">
 
@@ -728,16 +521,13 @@
         </div>
     </div>
 </section>
-<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script> 
-<script src="assets/parallax/jarallax.js"></script>  
-<script src="assets/smoothscroll/smooth-scroll.js"></script>  
-<script src="assets/ytplayer/index.js"></script>  
-<script src="assets/dropdown/js/navbar-dropdown.js"></script>  
-<script src="assets/theme/js/script.js"></script>  
-<script src="https://kit.fontawesome.com/8f914819e1.js" crossorigin="anonymous"></script>
-<script src="assets2/js/options.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<?php
+
+include "assets/views/footer.php";
+
+?>
+
 <script>
     const swiper = new Swiper('#swiper', {
     loop: true,
@@ -915,5 +705,3 @@
     
     });
 </script>
-  <input name="animation" type="hidden">
-  </body>

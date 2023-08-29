@@ -58,7 +58,6 @@ const hamburgerButton = document.getElementById('burger');
         burger4.classList.toggle('tes-2');
     });
 
-
     let prevScrollPos = window.pageYOffset;
 
     window.addEventListener("scroll", function () {
@@ -68,7 +67,7 @@ const hamburgerButton = document.getElementById('burger');
         document.getElementById("nav").style.top = "0";
     } else {
         if(!opened){
-            document.getElementById("nav").style.top = "-140px";
+            document.getElementById("nav").style.top = "-180px";
         }
     }
 

@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="shortcut icon" href="assets/images/vdp-isologotipo-final-10-298x298.png" type="image/x-icon">
     <meta name="description" content="">
-
     <title>Vivacs del Plata | <?php print $campo ?></title>
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
@@ -62,7 +61,7 @@
                     <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
                     <li id="li2" class="nav-item"><a id="tes-2" href="#" class="nav-link px-2 link-light tes text-nav">EN</a></li>
                     <li id="li3" class="nav-item"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
-                    <li id="burger" class="ms-2"> <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <li class="ms-2"> <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <div class="hamburger">
                                 <span id="burger-1" class="tes-2"></span>
                                 <span id="burger-2" class="tes-2"></span>
@@ -78,23 +77,23 @@
                         <div class="fade-slide-down row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-5" data-app-modern-menu="true">
                             <div class="col-7">
                                 <ul class="no-bullets dropdown-transition">
-                                    <li class="fs-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
-                                    <li class="fs-1 dropdown-transition"><a href="page6.php" class="text-decoration-none link-light all-inclusive vidaloka-nav">All-Inclusive
+                                    <li id="nav-href-1" class="fs-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
+                                    <li id="nav-href-2" class="fs-1 dropdown-transition"><a href="page6.php" class="text-decoration-none link-light all-inclusive vidaloka-nav">All-Inclusive
                                             Experience</a></li>
-                                    <li class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a>
+                                    <li id="nav-href-3" class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a>
                                     </li>
-                                    <li class="fs-1 dropdown-transition"><a href="page7.php" class="text-decoration-none link-light vidaloka-nav">Trip
+                                    <li id="nav-href-4" class="fs-1 dropdown-transition"><a href="page7.php" class="text-decoration-none link-light vidaloka-nav">Trip
                                             Enhancements</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-5">
                                 <ul class="list-unstyled dropdown-transition">
-                                    <li class="fs-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gallery">Gallery</a></li>
-                                    <li class="fs-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ </a></li>
-                                    <li class="fs-1 dropdown-transition"><a href="page4.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>
+                                    <li id="nav-href-5" class="fs-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gallery">Gallery</a></li>
+                                    <li id="nav-href-6" class="fs-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ </a></li>
+                                    <li id="nav-href-7" class="fs-1 dropdown-transition"><a href="page4.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>
                                 </ul>
-                                <div class="social-row display-5 nav col-md-5 justify-content-start ">
+                                <div id="nav-href-8" class="social-row display-5 nav col-md-5 justify-content-start ">
                                     <div class="soc-item ms-3">
                                         <a href="" target="_blank">
                                             <span class="mbr-iconfont socicon socicon-whatsapp" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>

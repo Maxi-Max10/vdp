@@ -66,7 +66,7 @@ const hamburgerButton = document.getElementById('burger');
     if (prevScrollPos > currentScrollPos) {
         document.getElementById("nav").style.top = "0";
     } else {
-        if(!opened && window.scrollY !== 0){
+        if(!opened){
             document.getElementById("nav").style.top = "-180px";
         }
     }
@@ -99,8 +99,12 @@ const hamburgerButton = document.getElementById('burger');
         navHref8.classList.remove('fade-slide-up');
     }
 
+    const topNav = () =>{
+        document.getElementById("nav").style.top = "0"
+    }
+
     function scrollToTop() {
         window.scrollTo(0, 0);
-        document.getElementById("nav").style.top = "0"
+        setTimeout(topNav,500);
       }
       window.onload = scrollToTop;

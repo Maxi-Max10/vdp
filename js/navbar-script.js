@@ -66,7 +66,7 @@ const hamburgerButton = document.getElementById('burger');
     if (prevScrollPos > currentScrollPos) {
         document.getElementById("nav").style.top = "0";
     } else {
-        if(!opened){
+        if(!opened && window.scrollY !== 0){
             document.getElementById("nav").style.top = "-180px";
         }
     }

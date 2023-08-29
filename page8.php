@@ -236,7 +236,7 @@
     <div class="container cards-desplegables">
         <div class="ms-3 me-3 ms-md-0 me-md-0 me-lg-5 ms-lg-5 row justify-content-center my-5">
             <div class="col-12 col-md-6 col-lg-5">
-                <div class="swiper" id="swiper">
+                <div class="swiper" id="swiperP8">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
                           <img src="./assets/images/753A5FFF-7898-405B-98AE-DBA474F87BFC.JPG" alt="image" class="card-image"></img>
@@ -260,7 +260,7 @@
                 <div id="textoDesplegable" class="hidden fade-slide-down">
                     <p class="text-card my-3">Este es el texto que se despliega suavemente al hacer clic en el botón.</p>
                 </div>
-                <div class="swiper" id="swiper2">
+                <div class="swiper" id="swiper2P8">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
                           <img src="./assets/images/8EE3E467-F9FB-44A1-A630-BF8BDC3F2DAA.JPG" alt="image" class="card-image"></img>
@@ -290,7 +290,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-5 ms-0 ms-lg-5 card-margin-top">
-                    <div class="swiper" id="swiper3">
+                    <div class="swiper" id="swiper3P8">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
                             <img src="./assets/images/IMG_3646.jpeg" alt="image" class="card-image">
@@ -318,7 +318,7 @@
                 <div id="textoDesplegable3" class="hidden fade-slide-down">
                     <p class="text-card my-3">Este es el texto que se despliega suavemente al hacer clic en el botón.</p>
                 </div>
-                    <div class="swiper" id="swiper4">
+                    <div class="swiper" id="swiper4P8">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
                               <img src="./assets/images/IMG_3516.jpeg" alt="image" class="card-image"></img>

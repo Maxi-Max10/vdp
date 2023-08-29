@@ -856,6 +856,9 @@ svg {
 .circle-gray{
   background-color: #949599 !important;
 }
+.nav-height{
+  height: 18%;
+}
 
 .black{
   color: #301f11;

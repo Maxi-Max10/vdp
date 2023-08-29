@@ -299,7 +299,7 @@
             <input type="button" class="btn btn-dark btn-lg submit" id="btnEnviarF" value="Enviar">
             -->
 
-            <button type="submit" class="btn btn-dark btn-lg submit">Submit</button>
+            <button type="submit" class="btn btn-dark btn-lg submit roboto">Submit</button>
 
             <div class="input-container">
                 <div class="divider-medium"></div>
@@ -307,17 +307,17 @@
 
             <div class="row">
                 <div class="d-flex flex-column col-6">
-                    <h5 class="contact-footer-title">GENERAL INQUIRES</h5>
-                    <h6 class="fw-bold mt-2">Email</h6>
-                    <p class="mb-2">vivacsdelplata@gmail.com</p>
-                    <h6 class="fw-bold">Phone</h6>
-                    <p class="phone-number">+54 9 (261) 631 6497</p>
+                    <h5 class="contact-footer-title roboto-bold">GENERAL INQUIRES</h5>
+                    <h6 class="fw-bold mt-2 roboto-bold">Email</h6>
+                    <p class="mb-2 roboto-regular">vivacsdelplata@gmail.com</p>
+                    <h6 class="fw-bold roboto-bold">Phone</h6>
+                    <p class="phone-number roboto-regular">+54 9 (261) 631 6497</p>
                 </div>
                 <div class="d-flex flex-column col-6">
-                    <h5 class="contact-footer-title">SOCIAL MEDIA</h5>
-                    <a class="fw-bold mt-2" href="">Instagram</a>
-                    <a class="fw-bold mt-2" href="">Facebook</a>
-                    <a class="fw-bold mt-2" href="">Tripadvisor</a>
+                    <h5 class="contact-footer-title roboto-bold">SOCIAL MEDIA</h5>
+                    <a class="fw-bold mt-2 roboto-regular" href="">Instagram</a>
+                    <a class="fw-bold mt-2 roboto-regular" href="">Facebook</a>
+                    <a class="fw-bold mt-2 roboto-regular" href="">Tripadvisor</a>
                 </div>
             </div>
         </form>
@@ -480,6 +480,13 @@
         }});       
         options.forEach(option =>{
         option.addEventListener("click", ()=>{
+            if (about.classList.contains('plus')) {
+        about.textContent = '-';
+        about.classList.remove('plus');
+        } else {
+        about.textContent = '+';
+        about.classList.add('plus');
+        }
         let selectedOption = option.querySelector(".option-text").innerText;
         sBtn_text.innerText = selectedOption;
         optionMenu.classList.remove("active");

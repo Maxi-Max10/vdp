@@ -653,6 +653,9 @@ svg {
 .slider-nav-scrollbar {
   --swiffy-slider-track-height: 0.2rem;
 }
+.nav-height{
+  height: 18%;
+}
 
 .fade-slide-down {
   opacity: 0;

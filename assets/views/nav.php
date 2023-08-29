@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="assets/css/page8.css">
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <!-- <link rel="stylesheet" href="index-2.css" />ESTE LINK ARMA DESORDEN EN LAS PAGE 2-1 -->
+    <link rel="stylesheet" href="index-2.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
@@ -61,8 +61,8 @@
                     <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
                     <li id="li2" class="nav-item flags"><a id="tes-2" data-language="en"  class="nav-link px-2 link-light tes text-nav flags__item">EN</a></li>
                     <li id="li3" class="nav-item"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes text-nav" data-section="nav" data-value="contact">CONTACT</a></li>
-                    <li id="burger" class="ms-2"> <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <div class="hamburger">
+                    <li class="ms-2"> <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <div id="burger" class="hamburger">
                                 <span id="burger-1" class="tes-2"></span>
                                 <span id="burger-2" class="tes-2"></span>
                                 <span id="burger-3" class="tes-2"></span>

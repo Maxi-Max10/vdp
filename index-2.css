@@ -41,11 +41,13 @@
 }
 
 .h2-subseccion-1-1 {
+  color: black;
   font-size: 1.1rem;
   font-family: 'Roboto-Bold';
 }
 
 .h2-subseccion-1-2 {
+  color: black;
   font-size: 1.8rem;
   margin-bottom: 1rem;
   margin-left: 26rem;
@@ -113,14 +115,14 @@
   margin: 0.6rem;
 }
 
-.carrusel-container {
+.carrusel-container-p6 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.carrusel {
+.carrusel-p6 {
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -276,6 +278,7 @@
 }
 
 .subtitulo-subseccion-2 {
+  color: black;
   position: relative;
   left: 16%;
   font-size: 1.6rem;

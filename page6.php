@@ -32,13 +32,13 @@ include "assets/views/nav.php";
         <div class="swiffy-slider slider-item-snapstart slider-nav-visible slider-nav-arrow slider-nav-scrollbar slider-item-show2 slider-item-show1-sm slider-item-reveal">
             <ul class="slider-container sc-1-p6">
                 <li>
-                    <img src="assets/images/IMG_7133.JPG" class="slider-img">
+                    <img src="assets/images/IMG_7133.jpg" class="slider-img">
                 </li>
                 <li>
-                    <img src="assets/images/IMG_5017.JPG" class="slider-img">
+                    <img src="assets/images/IMG_5017.jpg" class="slider-img">
                 </li>
                 <li>
-                    <img src="assets/images/IMG_5019.JPG" class="slider-img">
+                    <img src="assets/images/IMG_5019.jpg" class="slider-img">
                 </li>
                 <li>
                     <img src="assets/images/horseman-resize.jpg" class="slider-img">
@@ -50,13 +50,13 @@ include "assets/views/nav.php";
                     <img src="assets/images/guitar-round.jpg" class="slider-img">
                 </li>
                 <li>
-                    <img src="assets/images/AEC242DE-9F25-4D60-9862-528A8992E37D.JPG" class="slider-img">
+                    <img src="assets/images/AEC242DE-9F25-4D60-9862-528A8992E37D.jpg" class="slider-img">
                 </li>
                 <li>
-                    <img src="assets/images/F9B9E600-148F-4DAB-ACF4-FEE9AC23E404.JPG" class="slider-img">
+                    <img src="assets/images/F9B9E600-148F-4DAB-ACF4-FEE9AC23E404.jpg" class="slider-img">
                 </li>
                 <li>
-                    <img src="assets/images/805D1E98-3ADE-4795-BDCA-73EBF09CC005.JPG" class="slider-img">
+                    <img src="assets/images/805D1E98-3ADE-4795-BDCA-73EBF09CC005.jpg" class="slider-img">
                 </li>
                 <li>
                     <img src="assets/images/IMG_3025.jpeg" class="slider-img">

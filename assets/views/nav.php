@@ -23,11 +23,17 @@
 <link rel="stylesheet" href="assets/styleju/stylej.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/page7.css">
+<link rel="stylesheet" href="assets/css/page4.css">
+<link rel="stylesheet" href="assets/css/page6.css">
+<link rel="stylesheet" href="assets/css/page8.css">
+<link rel="stylesheet" href="assets/fonts/Roboto-Medium/style.css">
+<link rel="stylesheet" href="assets/fonts/Roboto-Bold/style.css">
 <link href="assets/fonts/style.css" rel="stylesheet">
 <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
 <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/page8.css">
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"

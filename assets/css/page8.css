@@ -521,7 +521,7 @@ svg {
   transform: translate(-65%, -70%);
   width: 15px;
   height: 13px;
-  fill: rgb(0, 0, 0);
+  fill: rgb(119, 119, 119);
 }
 @media(max-width:1000px){
   .svg-p8 {
@@ -531,7 +531,7 @@ svg {
     transform: translate(-50%, -50%);
     width: 15px;
     height: 13px;
-    fill: rgb(0, 0, 0);
+    fill: rgb(119, 119, 119);
   }
 }
 @media(max-width:720px){
@@ -568,7 +568,7 @@ svg {
     z-index: 3;
     width: 38px;
     height: 38px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(119, 119, 119);
     border-radius: 50%;
 }
 @media(max-width:1000px){
@@ -580,7 +580,7 @@ svg {
     z-index: 3;
     width: 55px;
     height: 55px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(119, 119, 119);
     border-radius: 50%;
   }
 }
@@ -601,7 +601,7 @@ svg {
   
 .arrow__line-p8 {
     fill:none;
-    stroke: rgb(0, 0, 0); 
+    stroke: rgb(119, 119, 119); 
     stroke-width: 2;
     stroke-miterlimit: 10;
     position: absolute;
@@ -609,7 +609,7 @@ svg {
 @media(max-width:1000px){
   .arrow__line-p8 {
     fill:none;
-    stroke: rgb(0, 0, 0); 
+    stroke: rgb(119, 119, 119); 
     position: absolute;
   }
 }

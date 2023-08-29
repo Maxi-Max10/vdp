@@ -30,7 +30,7 @@ include "assets/views/nav.php";
     </div>
     <div class="col-7 ms-auto">
         <div class="swiffy-slider slider-item-snapstart slider-nav-visible slider-nav-arrow slider-nav-scrollbar slider-item-show2 slider-item-show1-sm slider-item-reveal">
-            <ul class="slider-container sc-1">
+            <ul class="slider-container sc-1-p6">
                 <li>
                     <img src="assets/images/IMG_7133.JPG" class="slider-img">
                 </li>
@@ -62,9 +62,9 @@ include "assets/views/nav.php";
                     <img src="assets/images/IMG_3025.jpeg" class="slider-img">
                 </li>
             </ul>
-            <div class="arrow next" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-                <span class="svg svg-arrow-right svg-next">
-                    <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line" d="M0 12.9h28.5"/></svg>
+            <div class="arrow-p6 next-p6" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                <span class="svg-p6 svg-arrow-right svg-next-p6">
+                    <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p6" d="M0 12.9h28.5"/></svg>
                 </span>
             </div>
         </div>
@@ -149,7 +149,7 @@ include "assets/views/nav.php";
                     <p class="pointer text-item itinerary-text fw-bold">ROOMS ALOCATION</p>
                 </div>
                 <div id="text-8" class="circle-8 hoverable gray item-itinerary-8 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold">Morning Adventure</p>
+                    <p class="pointer text-item itinerary-text fw-bold">MORNING ADVENTURE</p>
                     <p class="pointer text-item itinerary-text fw-bold">Horseback riding</p>
                     <p class="pointer text-item itinerary-text fw-bold">4x4 off-road escapade</p>
                     <p class="pointer text-item itinerary-text fw-bold">Cycling</p>
@@ -221,8 +221,8 @@ include "assets/views/nav.php";
                   </p>
                 </div>
                 <div class="elemento-2">
-                  <div class="carrusel-container">
-                    <div class="carrusel">
+                  <div class="carrusel-container-p6">
+                    <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
                         src="./assets/images/5C101611-152C-4641-87D7-19080C6455F2.JPG"
@@ -271,8 +271,8 @@ include "assets/views/nav.php";
                   </p>
                 </div>
                 <div class="elemento-2">
-                  <div class="carrusel-container">
-                    <div class="carrusel">
+                  <div class="carrusel-container-p6">
+                    <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
                         src="./assets/images/A9D5D6D7-00D1-441C-A18A-5265142BA601.JPG"
@@ -327,8 +327,8 @@ include "assets/views/nav.php";
         
                 <div class="elemento-2">
       
-                  <div class="carrusel-container">
-                    <div class="carrusel">
+                  <div class="carrusel-container-p6">
+                    <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
                         src="./assets/images/IMG_3675 2.JPEG"
@@ -382,8 +382,8 @@ include "assets/views/nav.php";
         
                 <div class="elemento-2">
       
-                  <div class="carrusel-container">
-                    <div class="carrusel">
+                  <div class="carrusel-container-p6">
+                    <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
                         src="./assets/images/cerro-recortada.jpg"
@@ -415,9 +415,9 @@ include "assets/views/nav.php";
             </div>
           </li>
         </ul>
-        <div class="arrow next-2" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-          <span class="svg svg-arrow-right svg-next">
-              <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line" d="M0 12.9h28.5"/></svg>
+        <div class="arrow-p6 next-2-p6" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+          <span class="svg-p6 svg-arrow-right svg-next-p6">
+              <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p6" d="M0 12.9h28.5"/></svg>
           </span>
         </div>
       </div>
@@ -641,9 +641,9 @@ include "assets/views/nav.php";
               </div>
           </li>
           </ul>
-          <div class="arrow next-3" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-            <span class="svg svg-arrow-right svg-next">
-                <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line" d="M0 12.9h28.5"/></svg>
+          <div class="arrow-p6 next-3-p6" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+            <span class="svg-p6 svg-arrow-right svg-next-p6">
+                <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p6" d="M0 12.9h28.5"/></svg>
             </span>
           </div>
         </div>
@@ -677,9 +677,9 @@ include "assets/views/nav.php";
               </li>
             </ul>
   
-            <div class="arrow-2 next-4" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-              <span class="svg-white svg-arrow-right svg-next">
-                  <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-2" d="M0 12.9h28.5"/></svg>
+            <div class="arrow-2-p6 next-4-p6" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+              <span class="svg-white-p6 svg-arrow-right svg-next-p6">
+                  <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-2-p6" d="M0 12.9h28.5"/></svg>
               </span>
             </div>
           </div>
@@ -904,169 +904,8 @@ include "assets/views/nav.php";
       </div>
 </section>
 
-
-
 <?php
 
 include "assets/views/footer.php";
 
 ?>
-
-<script>
-  function scrollToTop() {
-    window.scrollTo(0, 0);
-  }
-  window.onload = scrollToTop;
-</script>
-<script>
-  const hoverableElements = document.querySelectorAll('.hoverable');
-  var pairElement;
-  hoverableElements.forEach(element => {
-  element.addEventListener('mouseenter', () => {
-      if(element.classList.contains('gray')){
-          pairElement = document.querySelector('#' + element.classList[0]);
-          pairElement.classList.add('circle-black')
-          pairElement.classList.remove('circle-gray')
-          element.classList.add('black');
-          element.classList.remove('gray');
-      }
-      if(element.classList.contains('circle-gray')){
-          pairElement = document.querySelector('#' + element.classList[0]);
-          pairElement.classList.add('black')
-          pairElement.classList.remove('gray')
-          element.classList.add('circle-black')
-          element.classList.remove('circle-gray')
-      }
-  });
-
-  element.addEventListener('mouseleave', () => {
-      if(element.classList.contains('black')){
-          pairElement = document.querySelector('#' + element.classList[0]);
-          pairElement.classList.add('circle-gray')
-          pairElement.classList.remove('circle-black')
-          element.classList.add('gray');
-          element.classList.remove('black');
-      }
-      if(element.classList.contains('circle-black')){
-          pairElement = document.querySelector('#' + element.classList[0]);
-          pairElement.classList.add('gray')
-          pairElement.classList.remove('black')
-          element.classList.add('circle-gray')
-          element.classList.remove('circle-black')
-      }
-  });
-});
-</script>
-<script>
-  var buttonDaily = document.getElementById('itinerary');
-  var prices = document.getElementById("prices");
-  const buttonPlus = document.getElementById('plusIcon');
-  var buttonOvernight = document.getElementById('itinerary2')
-  var prices2 = document.getElementById('prices2')
-  const buttonPlus2 = document.getElementById('plusIcon2');
-  var buttonHalfDay = document.getElementById('itinerary3')
-  var prices3 = document.getElementById('prices3')
-  const buttonPlus3 = document.getElementById('plusIcon3');
-
-  const hidePrices = (  ) => {
-    prices.classList.add('hidden');
-  }
-
-  const hidePrices2 = (  ) => {
-    prices2.classList.add('hidden');
-  }
-
-  const hidePrices3 = (  ) => {
-    prices3.classList.add('hidden');
-  }
-
-  buttonDaily.addEventListener('click', () => {
-      if (prices.classList.contains('hidden')){
-        prices.classList.remove('fade-slide-up');
-        prices.classList.remove('hidden');
-      } else {
-        prices.classList.add('fade-slide-up');
-          setTimeout(hidePrices, 700)
-      }
-
-      if (buttonPlus.classList.contains('plus')){
-        buttonPlus.textContent = '-';
-        buttonPlus.classList.remove('plus');
-      } else {
-        buttonPlus.textContent = '+';
-        buttonPlus.classList.add('plus');
-      }
-  })
-
-  buttonOvernight.addEventListener('click', () => {
-      if (prices2.classList.contains('hidden')) {
-          prices2.classList.remove('fade-slide-up')
-          prices2.classList.remove('hidden');
-      } else {
-          prices2.classList.add('fade-slide-up');
-          setTimeout(hidePrices2, 700)
-      }
-
-   if (buttonPlus2.classList.contains('plus')) {
-      buttonPlus2.textContent = '-';
-      buttonPlus2.classList.remove('plus');
-   } else {
-      buttonPlus2.textContent = '+';
-      buttonPlus2.classList.add('plus');
-   }
-  })
-
-  buttonHalfDay.addEventListener('click', () => {
-      if (prices3.classList.contains('hidden')) {
-          prices3.classList.remove('fade-slide-up')
-          prices3.classList.remove('hidden');
-      } else {
-          prices3.classList.add('fade-slide-up');
-          setTimeout(hidePrices3, 700)
-      }
-
-   if (buttonPlus3.classList.contains('plus')) {
-      buttonPlus3.textContent = '-';
-      buttonPlus3.classList.remove('plus');
-   } else {
-      buttonPlus3.textContent = '+';
-      buttonPlus3.classList.add('plus');
-   }
-  })
-</script>
-<script>
-  const hamburgerButton = document.getElementById('burger');
-  const logo = document.getElementById('img-logo');
-  const es = document.getElementById('tes-1');
-  const en = document.getElementById('tes-2');
-  const separator = document.getElementById('separator');
-  const contact = document.getElementById('tes-3');
-  const burger1 = document.getElementById('burger-1');
-  const burger2 = document.getElementById('burger-2');
-  const burger3 = document.getElementById('burger-3');
-  const burger4 = document.getElementById('burger-4');
-
-  hamburgerButton.addEventListener('click', () => {
-   logo.classList.toggle('img-color');
-   es.classList.toggle('white-text');
-   en.classList.toggle('white-text');
-   separator.classList.toggle('white-text');
-   burger1.classList.toggle('white-burger');
-   burger2.classList.toggle('white-burger');
-   burger3.classList.toggle('white-burger');
-   burger4.classList.toggle('white-burger');
-   contact.classList.toggle('white-text');
-   es.classList.toggle('tes');
-   en.classList.toggle('tes');
-   separator.classList.toggle('tes');
-   contact.classList.toggle('tes');
-   burger1.classList.toggle('tes-2');
-   burger2.classList.toggle('tes-2');
-   burger3.classList.toggle('tes-2');
-   burger4.classList.toggle('tes-2');
-  });
-</script>
-  <input name="animation" type="hidden">
-  <script src="./index-2.js"></script>
-  </body>
-</html>

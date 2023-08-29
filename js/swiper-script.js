@@ -38,3 +38,9 @@
       disableOnInteraction:false,
       allowTouchMove:false,
     });
+
+    function scrollToTop() {
+      window.scrollTo(0, 0);
+      document.getElementById("nav").style.top = "0"
+    }
+    window.onload = scrollToTop;

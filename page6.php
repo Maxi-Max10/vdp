@@ -284,17 +284,17 @@ include "assets/views/nav.php";
                     <div class="thumbnails">
                       <img
                         class="thumbnail"
-                        src="./assets/images/IMG_7111.JPeG"
+                        src="./assets/images/IMG_7111.jpeg"
                         alt="imagen 1"
                       />
                       <img
                         class="thumbnail"
-                        src="./assets/images/IMG_3933.JPeG"
+                        src="./assets/images/IMG_3933.jpeg"
                         alt="imagen 2"
                         />
                         <img
                         class="thumbnail"
-                        src="./assets/images/IMG_7104.JPeG"
+                        src="./assets/images/IMG_7104.jpeg"
                         alt="imagen 3"
                         />
                     </div>
@@ -460,10 +460,9 @@ include "assets/views/nav.php";
                       />
                       <img
                       class="imagen-subseccion-5"
-                      src="./assets/images/IMG_4040.JPeG"
+                      src="./assets/images/IMG_4040.jpeg"
                       alt=""
                     />
-                    
                   </div>
 
                   </div>
@@ -528,7 +527,7 @@ include "assets/views/nav.php";
                     <div class="flex-column d-flex col-3 slide-item">
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/IMG_8537.JPeG"
+                        src="./assets/images/IMG_8537.jpeg"
                         alt=""
                       />
                       <img
@@ -553,7 +552,7 @@ include "assets/views/nav.php";
                       </div>
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/IMG_4052 2.JPeG"
+                        src="./assets/images/IMG_4052 2.jpeg"
                         alt=""
                       />
                       
@@ -566,7 +565,7 @@ include "assets/views/nav.php";
                     <div class="flex-column d-flex col-3 slide-item">
                       <img
                       class="imagen-subseccion-5"
-                      src="./assets/images/IMG_4052 2.JPeG"
+                      src="./assets/images/IMG_4052 2.jpeg"
                       alt=""
                       />
                       <img
@@ -707,7 +706,7 @@ include "assets/views/nav.php";
                   <div id="slide1">
                     <img
                       class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_4616.JPeG"
+                      src="./assets/images/IMG_4616.jpeg"
                       alt=""
                     />
                   </div>
@@ -716,7 +715,7 @@ include "assets/views/nav.php";
                   <div id="slide2">
                     <img
                       class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_4620.JPeG"
+                      src="./assets/images/IMG_4620.jpeg"
                       alt=""
                     />
                   </div>

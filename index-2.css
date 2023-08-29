@@ -178,14 +178,14 @@
   flex-direction: column;
 }
 
-.grid-container {
+.grid-container-p6 {
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: repeat(4, 0.18fr);
   gap: 1rem 0rem;
 }
 
-.grid-item {
+.grid-item-p6 {
   /* padding: 1rem; */
   text-align: center;
   width: 12rem;

@@ -197,6 +197,9 @@ svg {
   visibility: visible;
   transform: translateX(0);
 }
+.nav-height{
+  height: 18%;
+}
 
 .slider-nav-scrollbar {
   --swiffy-slider-track-height: 0.4rem;

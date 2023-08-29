@@ -334,6 +334,9 @@
   transform: translateY(0);
   animation: fadeAndSlideUp 1s ease forwards;
 }
+.nav-height{
+  height: 18%;
+}
 
 @keyframes fadeAndSlideUp {
   to {
@@ -341,3 +344,17 @@
     transform: translateY(-20px);
   }
 }
+
+.roboto{
+  font-family: 'Roboto-Regular';
+  font-size: 1.1rem;
+}
+
+.roboto-regular{
+  font-family: 'Roboto-Regular';
+}
+
+.roboto-bold{
+  font-family: 'Roboto-Bold';
+}
+

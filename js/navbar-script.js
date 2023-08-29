@@ -98,3 +98,9 @@ const hamburgerButton = document.getElementById('burger');
         navHref7.classList.remove('fade-slide-up');
         navHref8.classList.remove('fade-slide-up');
     }
+
+    function scrollToTop() {
+        window.scrollTo(0, 0);
+        document.getElementById("nav").style.top = "0"
+      }
+      window.onload = scrollToTop;

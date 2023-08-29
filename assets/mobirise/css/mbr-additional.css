@@ -4762,3 +4762,6 @@ a {
 .slider-nav-scrollbar {
   --swiffy-slider-track-height: 0.2rem !important;
 }
+.hidden{
+  display: none;
+}

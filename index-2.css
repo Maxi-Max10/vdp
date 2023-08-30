@@ -215,7 +215,7 @@
 }
 
 
-.slide {
+.slide-p6 {
   flex: 0 0 47%;
   width: 100%;
   position: relative;
@@ -836,7 +836,7 @@ h3 {
     margin-left: 22rem !important;
   }
 
-  .slide {
+  .slide-p6 {
     width: 24rem;
     margin-left: -0.3rem;
 

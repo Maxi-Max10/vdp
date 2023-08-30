@@ -87,7 +87,7 @@ include "nav2.php";
                 </div>
             </div>
         
-            <div id="swiper-button-next" class="swiper-button-next arrow-p7 next-p7" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+            <div id="swiper-button-next-p7" class="swiper-button-next arrow-p7 next-p7" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
                 <span class="svg-p7 svg-arrow-right">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p7" d="M0 12.9h28.5"/></svg>
                 </span>
@@ -126,7 +126,7 @@ include "nav2.php";
                 </div>
             </div>
         
-            <div id="swiper-button-prev2" class="swiper-button-prev arrow-p7 prev-p7" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+            <div id="swiper-button-prev2-p7" class="swiper-button-prev arrow-p7 prev-p7" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
                 <span class="svg-2-p7 svg-arrow-left">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M13 26c-.3 0-.5-.1-.7-.3l-12-12c-.4-.4-.4-1 0-1.4l12-12c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-11.3 11.3 11.3 11.3c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3z"/><path class="arrow__line-p7" d="M29.9 13.1h-28.4"/></svg>
                 </span>
@@ -447,7 +447,7 @@ include "nav2.php";
                     <img class="trip-img" src="assets/images/Imágenes Golf/2018-10-13.jpeg" alt="Sailing_1"></img>
                 </div>
             </div>
-            <div id="swiper-button-next3" class="swiper-button-next3 arrow-p7 next-p7" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+            <div id="swiper-button-next3-p7" class="swiper-button-next3 arrow-p7 next-p7" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
                 <span class="svg-3-p7 svg-arrow-right">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p7" d="M0 12.9h28.5"/></svg>
                 </span>

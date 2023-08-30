@@ -91,8 +91,8 @@ const swiper = new Swiper('#swiperP7', {
   slidesPerView: 1,
   // Navigation arrows
   navigation: {
-      nextEl: '#swiper-button-next',
-      prevEl: '#swiper-button-prev',
+      nextEl: '#swiper-button-next-p7',
+      prevEl: '#swiper-button-prev-p7',
   },
   breakpoints: {
       1000: {
@@ -106,8 +106,8 @@ const swiper = new Swiper('#swiperP7', {
   slidesPerView: 1,
   // Navigation arrows
   navigation: {
-      nextEl: '#swiper-button-next2',
-      prevEl: '#swiper-button-prev2',
+      nextEl: '#swiper-button-next2-p7',
+      prevEl: '#swiper-button-prev2-p7',
   },
   breakpoints: {
       1000: {
@@ -120,8 +120,8 @@ const swiper = new Swiper('#swiperP7', {
   slidesPerView: 1,
   // Navigation arrows
   navigation: {
-      nextEl: '#swiper-button-next3',
-      prevEl: '#swiper-button-prev3',
+      nextEl: '#swiper-button-next3-p7',
+      prevEl: '#swiper-button-prev3-p7',
   },
   breakpoints: {
       1000: {

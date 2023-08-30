@@ -518,7 +518,7 @@ svg {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-65%, -70%);
+  transform: translate(82%, -70%);
   width: 15px;
   height: 13px;
   fill: rgb(119, 119, 119);

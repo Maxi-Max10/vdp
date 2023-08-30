@@ -87,7 +87,7 @@ include "nav2.php";
                 </ul>
                 <div class="arrow-p8 next-p8" style="opacity: 1; transform: translate3d(0px, 25px, 0px);">
                     <span class="svg-p8 svg-arrow-right svg-next-p8">
-                        <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 16" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line" d="M0 12.9h28.5"/></svg>
+                        <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 16" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p8" d="M0 12.9h28.5"/></svg>
                     </span>
                 </div>
             </div>

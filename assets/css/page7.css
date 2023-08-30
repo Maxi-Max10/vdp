@@ -61,6 +61,7 @@
 }
 
 .trip-title2{
+  color: black;
   font-family: 'Vidaloka-Regular';
   font-size: 3.5rem;
 }
@@ -880,7 +881,7 @@ svg {
   margin-right: -3%;
 }
 
-.timeline-container{
+.timeline-container-p7{
   margin-right: 10%;
   margin-left: 1%;
   margin-top: 1%;
@@ -920,7 +921,7 @@ svg {
   margin-right: 72%;
 }
 
-.timeline-container-2{
+.timeline-container-2-p7{
   margin-right: 10%;
   margin-left: 1%;
   margin-top: 2%;
@@ -930,87 +931,91 @@ svg {
   margin-left: 3.5%;
 }
 
-.itinerary-2{
+.itinerary-p7{
+  margin-top: 5rem !important;
+}
+
+.itinerary-2-p7{
   margin-top: 5rem;
 }
 
-.item-itinerary-1{
+.item-itinerary-1-p7{
   cursor:pointer;
   width: 13%;
   padding-right: 3%;
 }
-.item-itinerary-2{
+.item-itinerary-2-p7{
   cursor:pointer;
   width: 15%;
   padding-right: 1%;
 }
-.item-itinerary-3{
+.item-itinerary-3-p7{
   cursor:pointer;
   width: 17%;
   padding-right: 1%;
 }
-.item-itinerary-4{
+.item-itinerary-4-p7{
   cursor:pointer;
   width: 17%;
   padding-right: 0%;
 }
-.item-itinerary-5{
+.item-itinerary-5-p7{
   cursor:pointer;
   width: 17%;
   padding-right: 0%;
 }
-.item-itinerary-6{
+.item-itinerary-6-p7{
   cursor:pointer;
   width: 15%;
   padding-right: 0%;
   margin-left: 1%;
 }
-.item-itinerary-7{
+.item-itinerary-7-p7{
   cursor:pointer;
   width: 17%;
   padding-right: 0%;
 }
-.item-itinerary-8{
+.item-itinerary-8-p7{
   cursor:pointer;
   width: 17%;
   padding-right: 0%;
 }
-.item-itinerary-9{
+.item-itinerary-9-p7{
   cursor:pointer;
   width: 13%;
   padding-right: 3%;
 }
-.item-itinerary-10{
+.item-itinerary-10-p7{
   cursor:pointer;
   width: 12.5%;
   padding-right: 3%;
 }
-.item-itinerary-11{
+.item-itinerary-11-p7{
   cursor:pointer;
   width: 13%;
   padding-right: 2%;
 }
-.item-itinerary-12{
+.item-itinerary-12-p7{
   cursor:pointer;
   width: 12%;
   padding-right: 3%;
 }
-.item-itinerary-13{
+.item-itinerary-13-p7{
   cursor:pointer;
   width: 13%;
   padding-right: 0%;
 }
-.item-itinerary-14{
+.item-itinerary-14-p7{
   cursor:pointer;
   width: 13%;
   padding-right: 5%;
 }
-.item-itinerary-15{
+.item-itinerary-15-p7{
   cursor:pointer;
   width: 13%;
   padding-right: 0%;
 }
-.item-itinerary-16{
+.item-itinerary-16-p7{
   cursor:pointer;
   width: 13%;
   padding-right: 2.5%;
@@ -1023,63 +1028,63 @@ svg {
     padding-right: 4%;
   }
 }
-.item-itinerary-17{
+.item-itinerary-17-p7{
   cursor:pointer;
   width: 12.5%;
   padding-right: 2%;
 }
-.item-itinerary-18{
+.item-itinerary-18-p7{
   cursor:pointer;
   width: 12.5%;
   padding-right: 2%;
 }
-.item-itinerary-19{
+.item-itinerary-19-p7{
   cursor:pointer;
   width: 12%;
   padding-right: 2%;
 }
-.item-itinerary-20{
+.item-itinerary-20-p7{
   cursor:pointer;
   width: 13.5%;
   padding-right: 1%;
 }
-.item-itinerary-21{
+.item-itinerary-21-p7{
   cursor:pointer;
   width: 13%;
   padding-right: 0%;
 }
-.item-itinerary-22{
+.item-itinerary-22-p7{
   cursor:pointer;
   width: 13%;
   padding-right: 4%;
 }
-.item-itinerary-23{
+.item-itinerary-23-p7{
   cursor:pointer;
   width: 13%;
   padding-right: 5%;
 }
-.item-itinerary-24{
+.item-itinerary-24-p7{
   cursor:pointer;
   width: 14%;
   padding-right: 0%;
 }
-.item-itinerary-25{
+.item-itinerary-25-p7{
   cursor:pointer;
   width: 13%;
   padding-right: 0%;
 }
-.item-itinerary-26{
+.item-itinerary-26-p7{
   cursor:pointer;
   width: 13%;
   padding-right: 3%;
 }
-.item-itinerary-27{
+.item-itinerary-27-p7{
   cursor:pointer;
   width: 11%;
   padding-right: 0%;
 }
 
-.itinerary-text{
+.itinerary-text-p7{
   font-family: 'Roboto-Bold';
   font-size: 0.68rem;
 }
@@ -1501,6 +1506,7 @@ svg {
 }
 
 .sample-title{
+  color: black;
   font-family: 'Roboto-Bold';
   font-size: 1.8rem;
 }

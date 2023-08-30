@@ -48,9 +48,9 @@ var buttonAtamisque = document.getElementById('dropdownButtonAtamisque');
      }
     });
 
-    const hoverableElements = document.querySelectorAll('.hoverable');
+    const hoverableElementsP7 = document.querySelectorAll('.hoverable-p7');
     var pairElement;
-    hoverableElements.forEach(element => {
+    hoverableElementsP7.forEach(element => {
     element.addEventListener('mouseenter', () => {
         if(element.classList.contains('gray')){
             pairElement = document.querySelector('#' + element.classList[0]);

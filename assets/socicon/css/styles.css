@@ -86,7 +86,7 @@
 .socicon-invision:before {
   content: "\e95a";
 }
-.socicon-torial:before {
+.socicon-pin:before {
   content: "\e95b";
 }
 .socicon-collectorz:before {
@@ -629,6 +629,7 @@
 .socicon-instagram:before {
   content: "\e044";
 }
+
 .socicon-issuu:before {
   content: "\e045";
 }
@@ -931,4 +932,7 @@
 }
 .socicon-zynga:before {
   content: "\e0a9";
+}
+.socicon-mbri-pin:before {
+  content: "\e95b";
 }

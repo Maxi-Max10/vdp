@@ -15,7 +15,7 @@
                 <p class="mbr-text mbr-fonts-style mb-4 display-4"></p>
                 
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3 text-end">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <ul class="list mbr-fonts-style display-5">
                     <a href="page5.php"></a><li class="mbr-text item-wrap" data-section="nav" data-value="gallery">Gallery</li></a>
@@ -43,11 +43,10 @@
                         </a>
                     </div>
                     
-                    <div class="soc-item">
-                        <a href="" target="_blank">
-                            <span class="mbr-iconfont mbr-iconfont-social socicon-Marker socicon"
-                                        style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
+                    <div class="soc-item"><a href="" target="_blank">
+                    <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
                         </a>
+                        
                     </div>
                     
                 </div>

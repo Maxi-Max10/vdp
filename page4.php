@@ -78,7 +78,7 @@ include "nav2.php"
                         </li>
                         <li class="option">
                             <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
-                            <span class="option-text" name="tres"  data-section="page4" data-value="select3">Half Day</span>
+                            <span class="option-text"   data-section="page4" data-value="select3">Half Day</span>
                         </li>
                     </ul>
                 </div>

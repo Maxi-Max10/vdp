@@ -88,7 +88,7 @@
                             </div>
 
                             <div class="col-12 col-sm-5">
-                                <ul class="list-unstyled dropdown-transition ps-2 ps-sm-0">
+                                <ul class="list-unstyled dropdown-transition ps-5 ps-sm-0">
                                     <li id="nav-href-5" class="fs-3 fs-sm-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gallery">Gallery</a></li>
                                     <li id="nav-href-6" class="fs-3 fs-sm-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ </a></li>
                                     <li id="nav-href-7" class="fs-3 fs-sm-1 dropdown-transition"><a href="page4.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>

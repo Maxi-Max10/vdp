@@ -150,10 +150,10 @@ include "assets/views/nav.php";
                 </div>
                 <div id="text-8" class="circle-8 hoverable gray item-itinerary-8 d-flex flex-column">
                     <p class="pointer text-item itinerary-text fw-bold">MORNING ADVENTURE</p>
-                    <p class="pointer text-item itinerary-text fw-bold">Horseback riding</p>
-                    <p class="pointer text-item itinerary-text fw-bold">4x4 off-road escapade</p>
-                    <p class="pointer text-item itinerary-text fw-bold">Cycling</p>
-                    <p class="pointer text-item itinerary-text fw-bold">Trekking expedition</p>
+                    <p class="pointer text-item itinerary-text fw-bold mb-0">Horseback riding</p>
+                    <p class="pointer text-item itinerary-text fw-bold mb-0">4x4 off-road escapade</p>
+                    <p class="pointer text-item itinerary-text fw-bold mb-0">Cycling</p>
+                    <p class="pointer text-item itinerary-text fw-bold mb-0">Trekking expedition</p>
                 </div>
                 <div id="text-9" class="circle-9 hoverable gray item-itinerary-9 d-flex flex-column">
                     <p class="pointer text-item itinerary-text fw-bold">LUNCH</p>

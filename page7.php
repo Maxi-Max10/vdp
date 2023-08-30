@@ -156,7 +156,7 @@ include "nav2.php";
         </div>
     </div>
     <section id="itineraryMotorcycle" class="itinerary-container fade-slide-down hidden">
-        <div class="d-flex align-items-center justify-content-between itinerary">
+        <div class="d-flex align-items-center justify-content-between itinerary-p7">
             <h2 class="sample-title">SAMPLE ITINERARY*</h2>
         </div>
         <div class="divider mt-3"></div>
@@ -165,57 +165,57 @@ include "nav2.php";
                 <div class="divider-vertical"></div>
             <p class="distance mb-0">Distance: 314km</p>
         </div>
-        <div class="timeline-container">
+        <div class="timeline-container-p7">
             <div class="hour-container">
                 <p class="start-hour">8:00AM</p>
                 <p class="end-hour">6:00PM</p>
             </div>
             <ul class="timeline-2">
-                <li id="circle-1" class="text-1 hoverable c1 circle-gray"></li>
-                <li id="circle-2" class="text-2 hoverable c2 circle-gray"></li>
-                <li id="circle-3" class="text-3 hoverable c3 circle-gray"></li>
-                <li id="circle-4" class="text-4 hoverable c4 circle-gray"></li>
-                <li id="circle-5" class="text-5 hoverable c5 circle-gray"></li>
-                <li id="circle-6" class="text-6 hoverable c6 circle-gray"></li>
-                <li id="circle-7" class="text-7 hoverable c7 circle-gray"></li>
-                <li id="circle-8" class="text-8 hoverable c8 circle-gray"></li>
+                <li id="circle-1" class="text-1 hoverable-p7 c1 circle-gray"></li>
+                <li id="circle-2" class="text-2 hoverable-p7 c2 circle-gray"></li>
+                <li id="circle-3" class="text-3 hoverable-p7 c3 circle-gray"></li>
+                <li id="circle-4" class="text-4 hoverable-p7 c4 circle-gray"></li>
+                <li id="circle-5" class="text-5 hoverable-p7 c5 circle-gray"></li>
+                <li id="circle-6" class="text-6 hoverable-p7 c6 circle-gray"></li>
+                <li id="circle-7" class="text-7 hoverable-p7 c7 circle-gray"></li>
+                <li id="circle-8" class="text-8 hoverable-p7 c8 circle-gray"></li>
             </ul>
         </div>
         <div class="text-items">
             <div class="d-flex">
-                <div id="text-1" class="circle-1 hoverable gray item-itinerary-1 d-flex flex-column">
-                    <p class="itinerary-text ">DEPARTURE FROM
+                <div id="text-1" class="circle-1 hoverable-p7 gray item-itinerary-1-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7 ">DEPARTURE FROM
                         VIVACS DEL PLATA
                     </p>
                 </div>
-                <div id="text-2" class="circle-2 hoverable gray item-itinerary-2 d-flex flex-column">
-                    <p class="itinerary-text">NORTHBOUND JOURNEY
+                <div id="text-2" class="circle-2 hoverable-p7 gray item-itinerary-2-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">NORTHBOUND JOURNEY
                     TO POTRERILLOS</p>
                 </div>
-                <div id="text-3" class="circle-3 hoverable gray item-itinerary-3 d-flex flex-column">
-                    <p class="itinerary-text">ROUND POTRERILLOS DAM
+                <div id="text-3" class="circle-3 hoverable-p7 gray item-itinerary-3-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">ROUND POTRERILLOS DAM
                     AND HEAD TO CACHEUTA</p>
                 </div>
-                <div id="text-4" class="circle-4 hoverable gray item-itinerary-4 d-flex flex-column">
-                    <p class="itinerary-text">EXPLORE VILLAVICENCIO
+                <div id="text-4" class="circle-4 hoverable-p7 gray item-itinerary-4-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">EXPLORE VILLAVICENCIO
                         NATURAL RESERVE</p>
                 </div>
-                <div id="text-5" class="circle-5 hoverable gray item-itinerary-5 d-flex flex-column">
-                    <p class="itinerary-text">USPALLATA - PUENTE DEL INCA
+                <div id="text-5" class="circle-5 hoverable-p7 gray item-itinerary-5-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">USPALLATA - PUENTE DEL INCA
                         - USPALLATA
                     </p>
                 </div>
-                <div id="text-6" class="circle-6 hoverable gray item-itinerary-6 d-flex flex-column">
-                    <p class="itinerary-text">LUNCH IN USPALLATA
+                <div id="text-6" class="circle-6 hoverable-p7 gray item-itinerary-6-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">LUNCH IN USPALLATA
                     </p>
                 </div>
-                <div id="text-7" class="circle-7 hoverable gray item-itinerary-7 d-flex flex-column">
-                    <p class="itinerary-text">RETURN VIA RUTA NACIONAL 7
+                <div id="text-7" class="circle-7 hoverable-p7 gray item-itinerary-7-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">RETURN VIA RUTA NACIONAL 7
                         TO POTRERILLOS
                     </p>
                 </div>
-                <div id="text-8" class="circle-8 hoverable gray item-itinerary-8 d-flex flex-column">
-                    <p class="itinerary-text">ARRIVAL AT VIVACS DEL PLATA
+                <div id="text-8" class="circle-8 hoverable-p7 gray item-itinerary-8-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">ARRIVAL AT VIVACS DEL PLATA
                     </p>
                 </div>
             </div>
@@ -229,44 +229,44 @@ include "nav2.php";
         <div class="divider-vertical"></div>
             <p class="distance mb-0">Distance: 311km</p>
         </div>
-        <div class="timeline-container-2">
+        <div class="timeline-container-2-p7">
             <div class="hour-container-2">
                 <p class="start-hour-2">9:00AM</p>
                 <p class="end-hour-2">4:00PM</p>
             </div>
             <ul class="timeline">
-                <li id="circle-9" class="text-9 hoverable p1 circle-gray"></li>
-                <li id="circle-10" class="text-10 hoverable p2 circle-gray"></li>
-                <li id="circle-11" class="text-11 hoverable p3 circle-gray"></li>
-                <li id="circle-12" class="text-12 hoverable p4 circle-gray"></li>
-                <li id="circle-13" class="text-13 hoverable p5 circle-gray"></li>
+                <li id="circle-9" class="text-9 hoverable-p7 p1 circle-gray"></li>
+                <li id="circle-10" class="text-10 hoverable-p7 p2 circle-gray"></li>
+                <li id="circle-11" class="text-11 hoverable-p7 p3 circle-gray"></li>
+                <li id="circle-12" class="text-12 hoverable-p7 p4 circle-gray"></li>
+                <li id="circle-13" class="text-13 hoverable-p7 p5 circle-gray"></li>
             </ul>
         </div>
         <div class="text-items-2">
             <div class="d-flex">
-                <div id="text-9" class="circle-9 hoverable gray item-itinerary-9 d-flex flex-column">
-                    <p class="itinerary-text">DEPARTURE FROM VIVACS
+                <div id="text-9" class="circle-9 hoverable-p7 gray item-itinerary-9-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">DEPARTURE FROM VIVACS
                         DEL PLATA OR MENDOZA
                         DOWNTOWN
                     </p>
                 </div>
-                <div id="text-10" class="circle-10 hoverable gray item-itinerary-10 d-flex flex-column">
-                    <p class="itinerary-text">RUTA 40 SOUTH TO
+                <div id="text-10" class="circle-10 hoverable-p7 gray item-itinerary-10-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">RUTA 40 SOUTH TO
                         PAREDITAS
                     </p>
                 </div>
-                <div id="text-11" class="circle-11 hoverable gray item-itinerary-11 d-flex flex-column">
-                    <p class="itinerary-text">RIGTH DETOUR INTO THE OLD
+                <div id="text-11" class="circle-11 hoverable-p7 gray item-itinerary-11-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">RIGTH DETOUR INTO THE OLD
                         ROUTE 40 VIA LA JAULA
                     </p>
                 </div>
-                <div id="text-12" class="circle-12 hoverable gray item-itinerary-12 d-flex flex-column">
-                    <p class="itinerary-text">COFFEE BREAK AT EL
+                <div id="text-12" class="circle-12 hoverable-p7 gray item-itinerary-12-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">COFFEE BREAK AT EL
                         SOSNEADO
                     </p>
                 </div>
-                <div id="text-13" class="circle-13 hoverable gray item-itinerary-13 d-flex flex-column">
-                    <p class="itinerary-text">ARRIVE AT HOTEL MALARGUE IN
+                <div id="text-13" class="circle-13 hoverable-p7 gray item-itinerary-13-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">ARRIVE AT HOTEL MALARGUE IN
                         MALARGUE
                     </p>
                 </div>
@@ -277,51 +277,51 @@ include "nav2.php";
         <div class="divider-vertical"></div>
             <p class="distance mb-0">Distance: 262km</p>
         </div>
-        <div class="timeline-container-2">
+        <div class="timeline-container-2-p7">
             <div class="hour-container-2">
                 <p class="start-hour-2">9:00AM</p>
                 <p class="end-hour-3">4:00PM</p>
             </div>
             <ul class="timeline-3">
-                <li id="circle-14" class="text-14 hoverable d1 circle-gray"></li>
-                <li id="circle-15" class="text-15 hoverable d2 circle-gray"></li>
-                <li id="circle-16" class="text-16 hoverable d3 circle-gray"></li>
-                <li id="circle-17" class="text-17 hoverable d4 circle-gray"></li>
-                <li id="circle-18" class="text-18 hoverable d5 circle-gray"></li>
-                <li id="circle-19" class="text-19 hoverable d6 circle-gray"></li>
+                <li id="circle-14" class="text-14 hoverable-p7 d1 circle-gray"></li>
+                <li id="circle-15" class="text-15 hoverable-p7 d2 circle-gray"></li>
+                <li id="circle-16" class="text-16 hoverable-p7 d3 circle-gray"></li>
+                <li id="circle-17" class="text-17 hoverable-p7 d4 circle-gray"></li>
+                <li id="circle-18" class="text-18 hoverable-p7 d5 circle-gray"></li>
+                <li id="circle-19" class="text-19 hoverable-p7 d6 circle-gray"></li>
             </ul>
         </div>
         <div class="text-items-2">
             <div class="d-flex">
-                <div id="text-14" class="circle-14 hoverable gray item-itinerary-14 d-flex flex-column">
-                    <p class="itinerary-text">ENJOY BREAKFAST
+                <div id="text-14" class="circle-14 hoverable-p7 gray item-itinerary-14-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">ENJOY BREAKFAST
                         AT THE HOTEL
                     </p>
                 </div>
-                <div id="text-15" class="circle-15 hoverable gray item-itinerary-15 d-flex flex-column">
-                    <p class="itinerary-text">DEPART FROM HOTEL
+                <div id="text-15" class="circle-15 hoverable-p7 gray item-itinerary-15-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">DEPART FROM HOTEL
                         MALARGUE
                     </p>
                 </div>
-                <div id="text-16" class="circle-16 hoverable gray item-itinerary-16 d-flex flex-column">
-                    <p class="itinerary-text">WAY THROUGH
+                <div id="text-16" class="circle-16 hoverable-p7 gray item-itinerary-16-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">WAY THROUGH
                         CASTILLOS DE PINCHEIRA, 
                         PASO EL CARQUEQUE
                         <span class="span-16">AND</span> LAS LOICAS
                     </p>
                 </div>
-                <div id="text-17" class="circle-17 hoverable gray item-itinerary-17 d-flex flex-column">
-                    <p class="itinerary-text">HAVE LUNCH AT TERMAS DE
+                <div id="text-17" class="circle-17 hoverable-p7 gray item-itinerary-17-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">HAVE LUNCH AT TERMAS DE
                         CAJON GRANDE
                     </p>
                 </div>
-                <div id="text-18" class="circle-18 hoverable gray item-itinerary-18 d-flex flex-column">
-                    <p class="itinerary-text">RETURN VIA
+                <div id="text-18" class="circle-18 hoverable-p7 gray item-itinerary-18-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">RETURN VIA
                         BARDAS BLANCAS
                     </p>
                 </div>
-                <div id="text-19" class="circle-19 hoverable gray item-itinerary-19 d-flex flex-column">
-                    <p class="itinerary-text">ARRIVE BACK AT HOTEL
+                <div id="text-19" class="circle-19 hoverable-p7 gray item-itinerary-19-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">ARRIVE BACK AT HOTEL
                         MALARGUE
                     </p>
                 </div>
@@ -332,61 +332,61 @@ include "nav2.php";
         <div class="divider-vertical"></div>
             <p class="distance mb-0">Distance: 434km</p>
         </div>
-        <div class="timeline-container-2">
+        <div class="timeline-container-2-p7">
             <div class="hour-container-2">
                 <p class="start-hour-2">8:00AM</p>
                 <p class="middle-hour">9:00AM</p>
                 <p class="end-hour">4:00PM</p>
             </div>
             <ul class="timeline-2">
-                <li id="circle-20" class="text-20 hoverable c1 circle-gray"></li>
-                <li id="circle-21" class="text-21 hoverable c2 circle-gray"></li>
-                <li id="circle-22" class="text-22 hoverable c3 circle-gray"></li>
-                <li id="circle-23" class="text-23 hoverable c4 circle-gray"></li>
-                <li id="circle-24" class="text-24 hoverable c5 circle-gray"></li>
-                <li id="circle-25" class="text-25 hoverable c6 circle-gray"></li>
-                <li id="circle-26" class="text-26 hoverable c7 circle-gray"></li>
-                <li id="circle-27" class="text-27 hoverable c8 circle-gray"></li>
+                <li id="circle-20" class="text-20 hoverable-p7 c1 circle-gray"></li>
+                <li id="circle-21" class="text-21 hoverable-p7 c2 circle-gray"></li>
+                <li id="circle-22" class="text-22 hoverable-p7 c3 circle-gray"></li>
+                <li id="circle-23" class="text-23 hoverable-p7 c4 circle-gray"></li>
+                <li id="circle-24" class="text-24 hoverable-p7 c5 circle-gray"></li>
+                <li id="circle-25" class="text-25 hoverable-p7 c6 circle-gray"></li>
+                <li id="circle-26" class="text-26 hoverable-p7 c7 circle-gray"></li>
+                <li id="circle-27" class="text-27 hoverable-p7 c8 circle-gray"></li>
             </ul>
         </div>
         <div class="text-items">
             <div class="d-flex">
-                <div id="text-20" class="circle-20 hoverable gray item-itinerary-20 d-flex flex-column">
-                    <p class="itinerary-text">START THE DAY WITH
+                <div id="text-20" class="circle-20 hoverable-p7 gray item-itinerary-20-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">START THE DAY WITH
                         BREAKFAST AT THE HOTEL
                     </p>
                 </div>
-                <div id="text-21" class="circle-21 hoverable gray item-itinerary-21 d-flex flex-column">
-                    <p class="itinerary-text">DEPART FROM HOTEL
+                <div id="text-21" class="circle-21 hoverable-p7 gray item-itinerary-21-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">DEPART FROM HOTEL
                         MALARGUE
                     </p>
                 </div>
-                <div id="text-22" class="circle-22 hoverable gray item-itinerary-22 d-flex flex-column">
-                    <p class="itinerary-text">HEAD NORTHBOUND
+                <div id="text-22" class="circle-22 hoverable-p7 gray item-itinerary-22-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">HEAD NORTHBOUND
                         TO EL SOSNEADO
                     </p>
                 </div>
-                <div id="text-23" class="circle-23 hoverable gray item-itinerary-23 d-flex flex-column">
-                    <p class="itinerary-text">TAKE ROUTE 144
+                <div id="text-23" class="circle-23 hoverable-p7 gray item-itinerary-23-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">TAKE ROUTE 144
                         TO EL NIHUIL
                     </p>
                 </div>
-                <div id="text-24" class="circle-24 hoverable gray item-itinerary-24 d-flex flex-column">
-                    <p class="itinerary-text">EXPLORE VALLE GRANDE
+                <div id="text-24" class="circle-24 hoverable-p7 gray item-itinerary-24-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">EXPLORE VALLE GRANDE
                     </p>
                 </div>
-                <div id="text-25" class="circle-25 hoverable gray item-itinerary-25 d-flex flex-column">
-                    <p class="itinerary-text">LUNCH AT SAN RAFAEL
+                <div id="text-25" class="circle-25 hoverable-p7 gray item-itinerary-25-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">LUNCH AT SAN RAFAEL
                     </p>
                 </div>
-                <div id="text-26" class="circle-26 hoverable gray item-itinerary-26 d-flex flex-column">
-                    <p class="itinerary-text">RETURN TO MENDOZA
+                <div id="text-26" class="circle-26 hoverable-p7 gray item-itinerary-26-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">RETURN TO MENDOZA
                         VIA ROUTE 143
                         AND THEN ROUTE 40
                     </p>
                 </div>
-                <div id="text-27" class="circle-27 hoverable gray item-itinerary-27 d-flex flex-column">
-                    <p class="itinerary-text">PASS THROUGH
+                <div id="text-27" class="circle-27 hoverable-p7 gray item-itinerary-27 d-flex flex-column">
+                    <p class="itinerary-text-p7">PASS THROUGH
                         PAREDITAS, TUNUYAN, 
                         AND FINALLY REACH
                         MENDOZA
@@ -394,7 +394,7 @@ include "nav2.php";
                 </div>
             </div>
         </div>
-        <div class="itinerary-end my-4"><span class="">*</span>To ensure that your motorcycle trip is tailored to your preferences and desires we encouraged riders to contact our dedicated staff. Whether you have specific landmarks you want to visit, prefer scenic routes over challenging terrains, <span class="">or have any other personalization request our guides are ready to work with you on the customization of your trip</span></div>
+        <div class="itinerary-end my-4"><span class="">*</span>To ensure that your motorcycle trip is tailored to your preferences and desires we encouraged riders to contact our dedicated staff. Whether you have specific landmarks you want to visit, prefer scenic routes over challenging terrains, <br>or have any other personalization request our guides are ready to work with you on the customization of your trip</div>
     </section>
     <div class="slide-container">
         <div class="d-flex flex-column text-width mb-auto">

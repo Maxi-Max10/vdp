@@ -82,7 +82,7 @@ include "nav2.php";
             <p id="plusIcon" class="plus mb-0 fw-bold ms-5 fs-4 pointer">+</p>
         </div>
         <section id="prices" class="hidden fade-slide-down">
-          <div class="timeline-container-2">
+          <div class="timeline-container-2-p6">
             <ul class="timeline ">
               <li id="circle-1" class="text-1 hoverable circle-gray p1 pointer"></li>
               <li id="circle-2" class="text-2 hoverable circle-gray p2 pointer"></li>
@@ -129,7 +129,7 @@ include "nav2.php";
             <p id="plusIcon2" class="plus mb-0 fw-bold ms-auto fs-4 pointer">+</p>
         </div>
         <section id="prices2" class="hidden fade-slide-down">
-          <div class="timeline-container">
+          <div class="timeline-container-p6">
             <ul class="timeline-2">
               <li id="circle-6" class="text-6 circle-gray hoverable c1 pointer"></li>
               <li id="circle-7" class="text-7 circle-gray hoverable c2 pointer"></li>

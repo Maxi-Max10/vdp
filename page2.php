@@ -66,7 +66,7 @@ include "nav2.php";
                         <div id="collapse3_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4" data-section="page2" data-value="resp2">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, labore repellendus quae minima incidunt id eaque facilis molestias soluta autem temporibus distinctio explicabo pariatur ab assumenda magni quod ad voluptate!</p>
+                                Our sailing excursions are tailored to accommodate up to eight crew members.</p>
                             </div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ include "nav2.php";
                         <div id="collapse4_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4" data-section="page2" data-value="resp3">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quis, nam voluptatem quisquam impedit dolore dolores sequi vitae saepe neque nemo a asperiores autem deleniti ex ut natus aliquam sunt.</p>
+                                Vivacs del Plata, located at 2100 meters above sea level, offers diverse temperatures. Expect a wide range of temperatures between day and night. Enjoy pleasant summers with sunblock and light clothing, while winters can be sub-zero.</p>
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ include "nav2.php";
                         <div id="collapse5_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4" data-section="page2" data-value="resp4">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates aliquid, maxime tempore vero recusandae nobis nulla quasi itaque distinctio inventore velit nisi maiores at! Iure nulla sint deserunt molestias placeat?</p>
+                                Our all-inclusive experience includes unlimited food and wine for every meal, along with a wide range of activities at your disposal. It allows you to fully enjoy each moment without worrying about additional expenses.</p>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ include "nav2.php";
                         <div id="collapse6_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4" data-section="page2" data-value="resp5">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iusto doloremque dolorum sunt consequuntur vel delectus, nihil voluptas suscipit molestias beatae, quae rem. Nam ipsam, dolorem totam nisi sit eius.</p>
+                                We offer 3 cozy suits to suit your preferences.</p>
                             </div>
                         </div>
                     </div>

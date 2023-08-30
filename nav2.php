@@ -56,7 +56,7 @@
                     </span>
                 </div>
                 <ul class="nav col-auto mb-2 justify-content-center mb-md-0 mt-0 mt-md-4"  id="flags">
-                    <li id="closeLi" class="nav-item hidden"><a id="close" class="nav-link px-2 link-light tes text-nav">CLOSE</a></li>
+                    <li id="closeLi" class="nav-item hidden"><a id="close" class="nav-link px-2 link-light tes text-nav" data-section="nav" data-value="cerrar">CLOSE</a></li>
                     <li id="li1" class="nav-item flags" ><a id="tes-1" data-language="es" class="nav-link px-2 link-light tes text-nav flags__item" >ES</a></li>
                     <li id="separator" class="nav-link px-2 link-light tes text-nav" style="top: -6px;">|</li>
                     <li id="li2" class="nav-item flags"><a id="tes-2" data-language="en"  class="nav-link px-2 link-light tes text-nav flags__item">EN</a></li>
@@ -78,11 +78,11 @@
                             <div class="col-7">
                                 <ul class="no-bullets dropdown-transition">
                                     <li id="nav-href-1" class="fs-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
-                                    <li id="nav-href-2" class="fs-1 dropdown-transition"><a href="page6.php" class="text-decoration-none link-light all-inclusive vidaloka-nav">All-Inclusive
+                                    <li id="nav-href-2" class="fs-1 dropdown-transition"><a href="page6.php" class="text-decoration-none link-light all-inclusive vidaloka-nav" data-section="nav" data-value="allInclusive">All-Inclusive
                                             Experience</a></li>
-                                    <li id="nav-href-3" class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a>
+                                    <li id="nav-href-3" class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gettinghere">Getting Here</a>
                                     </li>
-                                    <li id="nav-href-4" class="fs-1 dropdown-transition"><a href="page7.php" class="text-decoration-none link-light vidaloka-nav">Trip
+                                    <li id="nav-href-4" class="fs-1 dropdown-transition"><a href="page7.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="tripEnhancements">Trip
                                             Enhancements</a></li>
                                 </ul>
                             </div>

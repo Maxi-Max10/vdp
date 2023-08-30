@@ -14,7 +14,7 @@ include "nav2.php";
             <div class="content-wrap mt-5">
                 <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1" data-section="nav" data-value="gettinghere">Getting Here</h1>
                 
-                <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7" data-section="page1" data-value="descrip">
+                <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7" data-section="page1" data-value="descripG">
                     Vivacs del Plata is nestled <br> in the picturesque Valle de Uco, <br> at the base of the majestic <br> Cerro El Plata, one of the <br> highest peaks in the Andes, <br> Soaring at 5970 meters <br> above sea level.</p>
 
                 
@@ -32,9 +32,9 @@ include "nav2.php";
             </div>
             <div class="col-12 col-md mt-4">
                 <div class="text-wrapper">
-                    <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1" data-section="page1" data-value="title1">
+                    <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1" data-section="page1" data-value="title1G">
                         A hidden gem<br>in "La Carrera"</h1>
-                    <p class="mbr-text mbr-fonts-style display-7" data-section="nav" data-value="contact">
+                    <p class="mbr-text mbr-fonts-style display-7" data-section="page1" data-value="descrip1G">
                         Vivacs del Plata&nbsp; is a family-owned<br>ranch in the Andes Mountain range<br>in Mendoza Argentina.</p>
                     
                 </div>
@@ -53,8 +53,8 @@ include "nav2.php";
             </div>
             <div class="col-12 col-md">
                 <div class="text-wrapper">
-                    <h6 class="card-title mbr-fonts-style display-2 mt-5" data-section="page1" data-value="title2"><strong>OUR VEHICLES</strong><br><strong>____</strong></h6>
-                <p class="mbr-text mbr-fonts-style mb-4 display-7 text-justify" data-section="page1" data-value="descrip2">Experience hassle-free transportation to
+                    <h6 class="card-title mbr-fonts-style display-2 mt-5" data-section="page1" data-value="title2G"><strong>OUR VEHICLES</strong><br><strong>____</strong></h6>
+                <p class="mbr-text mbr-fonts-style mb-4 display-7 text-justify" data-section="page1" data-value="descrip2G">Experience hassle-free transportation to
                     our<br>farm facilities  with Vivacs del Plata! As part<br>of our commitment to providing
                     exceptional<br>service, we offer transportation options in our<br>reliable fleet of three 4x4
                     Toyota vehicles.<br>Whether you're arriving from Mendoza <br> downtown or Mendoza airport, we
@@ -88,8 +88,8 @@ include "nav2.php";
     <div class="container">
         <div class="row justify-content-center">
             <div class="title col-12 col-lg">
-                <h6 class="mbr-section-title mbr-fonts-style align-center display-2" data-section="page1" data-value="title3"><strong>HELITRANSFER</strong><br><strong>____</strong></h6>
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7 mt-3" data-section="page1" data-value="descrip3">Soar above the
+                <h6 class="mbr-section-title mbr-fonts-style align-center display-2" data-section="page1" data-value="title3G"><strong>HELITRANSFER</strong><br><strong>____</strong></h6>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7 mt-3" data-section="page1" data-value="descrip3G">Soar above the
                     picturesque Valle de Uco with a helicopter ride <br>to our ranch.Enjoy a privileged vantage
                     point as you witness the<br> breathtaking beauty of the region from the air.For availability
                     <br>and rates, please contact us directly.</h4>
@@ -104,8 +104,8 @@ include "nav2.php";
         <div class="row justify-content-center">
             <div class="card col-12 col-lg">
                 <div class="card-wrapper">
-                    <h6 class="card-title mbr-fonts-style mb-3 display-2" data-section="page1" data-value="title4"><strong>DRIVE TO REACH US</strong><br><strong>____</strong></h6>
-                    <p class="mbr-text mbr-fonts-style display-7" data-section="page1" data-value="descrip4">To reach our rural farm stay from Mendoza downtown, you have two options: the scenic routes via Potrerillos or Ugarteche. Both roads offer stunning landscapes along the way. While the final 25 kilometres consist of dirt roads, it is accessible by various types of vehicles.<br>We recommend using a pick-up truck for optimal comfort.</p>
+                    <h6 class="card-title mbr-fonts-style mb-3 display-2" data-section="page1" data-value="title4G"><strong>DRIVE TO REACH US</strong><br><strong>____</strong></h6>
+                    <p class="mbr-text mbr-fonts-style display-7" data-section="page1" data-value="descrip4G">To reach our rural farm stay from Mendoza downtown, you have two options: the scenic routes via Potrerillos or Ugarteche. Both roads offer stunning landscapes along the way. While the final 25 kilometres consist of dirt roads, it is accessible by various types of vehicles.<br>We recommend using a pick-up truck for optimal comfort.</p>
                     
                 </div>
             </div>

@@ -1,7 +1,7 @@
 <?php
 
 $campo = "All Inclusive Experience";
-include "assets/views/nav.php";
+include "nav2.php";
 
 ?>
 
@@ -904,6 +904,6 @@ include "assets/views/nav.php";
 
 <?php
 
-include "assets/views/footer.php";
+include "footer2.php";
 
 ?>

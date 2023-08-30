@@ -1,6 +1,6 @@
 
 <?php
-
+$campo = "Contact Us";
 include "nav2.php"
 
 ?>

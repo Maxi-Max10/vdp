@@ -1,7 +1,7 @@
 <?php
 
 $campo = "Explore Our Gallery";
-include "assets/views/nav.php";
+include "nav2.php";
 
 ?>
 
@@ -61,6 +61,6 @@ include "assets/views/nav.php";
 <!-- Gallery -->
 <?php
 
-include "assets/views/footer.php"
+include "footer2.php"
 
 ?>

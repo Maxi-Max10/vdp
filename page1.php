@@ -2,7 +2,7 @@
 
 <?php 
 $campo = "Getting Here";
-include "assets/views/nav.php";
+include "nav2.php";
 
 ?>
 
@@ -120,7 +120,7 @@ include "assets/views/nav.php";
 <script src="js/scriptL.js"></script>
 <?php
 
-include "assets/views/footer.php"
+include "footer2.php"
 
 ?>
 

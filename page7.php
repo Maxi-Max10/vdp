@@ -1,7 +1,7 @@
 <?php
 
 $campo = "Trip Enhacements";
-include "assets/views/nav.php";
+include "nav2.php";
 
 ?>
     
@@ -56,7 +56,7 @@ include "assets/views/nav.php";
                 </div>
             </div>
         </div>
-        <div id="swiper" class="swiper slide-width margin-slide">
+        <div id="swiperP7" class="swiper slide-width margin-slide">
             <div class="swiper-wrapper">
                 <div class="swiper-slide ss">
                     <img class="trip-img" src="assets/images/Imágenes Sailing/23715C91-E1BE-4C5C-959F-32DA2CF5E23E.JPG" alt="Sailing_1"></img>
@@ -95,7 +95,7 @@ include "assets/views/nav.php";
         </div>
     </div>
     <div class="slide-container-2">
-        <div id="swiper2" class="swiper slide-width margin-slide-2">
+        <div id="swiper2P7" class="swiper slide-width margin-slide-2">
             <div class="swiper-wrapper mb-0">
                 <div class="swiper-slide ss-2">
                     <img class="trip-img" src="assets/images/Imágenes Moto/mens_resize.jpg" alt="Sailing_1"></img>
@@ -432,7 +432,7 @@ include "assets/views/nav.php";
                 </div>
             </div>
         </div>
-        <div id="swiper3" class="swiper slide-width margin-slide">
+        <div id="swiper3P7" class="swiper slide-width margin-slide">
             <div class="swiper-wrapper">
                 <div class="swiper-slide ss">
                     <img class="trip-img" src="assets/images/Imágenes Golf/golf_resize.jpg" alt="Sailing_1"></img>
@@ -460,184 +460,6 @@ include "assets/views/nav.php";
 
 <?php
 
-include "assets/views/footer.php";
+include "footer2.php";
 
 ?>
-
-<script>
-    const swiper = new Swiper('#swiper', {
-    loop: true,
-    slidesPerView: 1,
-    // Navigation arrows
-    navigation: {
-        nextEl: '#swiper-button-next',
-        prevEl: '#swiper-button-prev',
-    },
-    breakpoints: {
-        1000: {
-        slidesPerView: 2,
-        },
-    }
-    });
-    const swiper2 = new Swiper('#swiper2', {
-    loop: true,
-    initialSlide: 8,
-    slidesPerView: 1,
-    // Navigation arrows
-    navigation: {
-        nextEl: '#swiper-button-next2',
-        prevEl: '#swiper-button-prev2',
-    },
-    breakpoints: {
-        1000: {
-        slidesPerView: 2,
-        },
-    }
-    });
-    const swiper3 = new Swiper('#swiper3', {
-    loop: true,
-    slidesPerView: 1,
-    // Navigation arrows
-    navigation: {
-        nextEl: '#swiper-button-next3',
-        prevEl: '#swiper-button-prev3',
-    },
-    breakpoints: {
-        1000: {
-        slidesPerView: 2,
-        },
-    }
-    });
-</script>
-<script>
-    const hoverableElements = document.querySelectorAll('.hoverable');
-    var pairElement;
-    hoverableElements.forEach(element => {
-    element.addEventListener('mouseenter', () => {
-        if(element.classList.contains('gray')){
-            pairElement = document.querySelector('#' + element.classList[0]);
-            pairElement.classList.add('circle-black')
-            pairElement.classList.remove('circle-gray')
-            element.classList.add('black');
-            element.classList.remove('gray');
-        }
-        if(element.classList.contains('circle-gray')){
-            pairElement = document.querySelector('#' + element.classList[0]);
-            pairElement.classList.add('black')
-            pairElement.classList.remove('gray')
-            element.classList.add('circle-black')
-            element.classList.remove('circle-gray')
-        }
-    });
-
-    element.addEventListener('mouseleave', () => {
-        if(element.classList.contains('black')){
-            pairElement = document.querySelector('#' + element.classList[0]);
-            pairElement.classList.add('circle-gray')
-            pairElement.classList.remove('circle-black')
-            element.classList.add('gray');
-            element.classList.remove('black');
-        }
-        if(element.classList.contains('circle-black')){
-            pairElement = document.querySelector('#' + element.classList[0]);
-            pairElement.classList.add('gray')
-            pairElement.classList.remove('black')
-            element.classList.add('circle-gray')
-            element.classList.remove('circle-black')
-        }
-    });
-});
-</script>
-<script>
-    var buttonAtamisque = document.getElementById('dropdownButtonAtamisque');
-    var contentAtamisque = document.getElementById("dropdownAtamisque");
-    const iconoAtamisque = document.getElementById('plusAtamisque');
-    var buttonMotorcycle = document.getElementById('dropdownButtonMotorcycle')
-    var itineraryMotorcycle = document.getElementById('itineraryMotorcycle')
-
-    const hideItinerary = (  ) => {
-        itineraryMotorcycle.classList.add('hidden');
-    }
-
-    const hideAtamisque = (  ) => {
-        contentAtamisque.classList.add('hidden');
-    }
-
-    buttonMotorcycle.addEventListener('click', () => {
-        if (itineraryMotorcycle.classList.contains('hidden')){
-            itineraryMotorcycle.classList.remove('fade-slide-up');
-            itineraryMotorcycle.classList.remove('hidden');
-        } else {
-            itineraryMotorcycle.classList.add('fade-slide-up');
-            setTimeout(hideItinerary, 700)
-        }
-
-        if (buttonMotorcycle.classList.contains('plus')){
-            buttonMotorcycle.textContent = '-';
-            buttonMotorcycle.classList.remove('plus');
-        } else {
-            buttonMotorcycle.textContent = '+';
-            buttonMotorcycle.classList.add('plus');
-        }
-    })
-
-    buttonAtamisque.addEventListener('click', () => {
-        if (contentAtamisque.classList.contains('hidden')) {
-            contentAtamisque.classList.remove('fade-slide-up')
-            contentAtamisque.classList.remove('hidden');
-        } else {
-            contentAtamisque.classList.add('fade-slide-up');
-            setTimeout(hideAtamisque, 700)
-        }
-
-     if (buttonAtamisque.classList.contains('plus')) {
-        buttonAtamisque.textContent = '-';
-        buttonAtamisque.classList.remove('plus');
-     } else {
-        buttonAtamisque.textContent = '+';
-        buttonAtamisque.classList.add('plus');
-     }
-    });
-</script>
-<script>
-    function scrollToTop() {
-      window.scrollTo(0, 0);
-    }
-    window.onload = scrollToTop;
-</script>
-<script>
-    const closeButton = document.getElementById('close');
-    const hamburgerButton = document.getElementById('burger');
-    const logo = document.getElementById('img-logo');
-    const es = document.getElementById('tes-1');
-    const en = document.getElementById('tes-2');
-    const separator = document.getElementById('separator');
-    const contact = document.getElementById('tes-3');
-    const burger1 = document.getElementById('burger-1');
-    const burger2 = document.getElementById('burger-2');
-    const burger3 = document.getElementById('burger-3');
-    const burger4 = document.getElementById('burger-4');
-    const nav = document.getElementById('nav');
-
-    hamburgerButton.addEventListener('click', () => {
-    nav.classList.toggle('nav-height');
-     logo.classList.toggle('img-color');
-     es.classList.toggle('white-text');
-     en.classList.toggle('white-text');
-     separator.classList.toggle('white-text');
-     burger1.classList.toggle('white-burger');
-     burger2.classList.toggle('white-burger');
-     burger3.classList.toggle('white-burger');
-     burger4.classList.toggle('white-burger');
-     contact.classList.toggle('white-text');
-     es.classList.toggle('tes');
-     en.classList.toggle('tes');
-     separator.classList.toggle('tes');
-     contact.classList.toggle('tes');
-     burger1.classList.toggle('tes-2');
-     burger2.classList.toggle('tes-2');
-     burger3.classList.toggle('tes-2');
-     burger4.classList.toggle('tes-2');
-    
-    });
-</script>

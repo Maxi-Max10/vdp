@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/dropdown/css/style.css">
     <link rel="stylesheet" href="assets/socicon/css/styles.css">
     <link rel="stylesheet" href="assets/theme/css/style.css">
-    <link rel="stylesheet" href="assets/styleju/stylej.css">
+    <!--<link rel="stylesheet" href="assets/styleju/stylej.css">-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/page7.css">
     <link rel="stylesheet" href="assets/css/page4.css">

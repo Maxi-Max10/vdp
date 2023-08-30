@@ -74,7 +74,7 @@ include "nav2.php";
      <section class="itinerary-section">
         <div class="d-flex align-items-center justify-content-between itinerary">
             <h2 class="itinerary-title">SAMPLE ITINERARY</h2>
-            <a class="btn btn-inquire btn-outline-dark me-5">INQUIRE</a>
+            <a class="btn btn-inquire btn-outline-dark me-5" href="page4.php">INQUIRE</a>
         </div>
         <div class="divider mt-3"></div>
         <div id="itinerary" class="d-flex align-items-center w-50">
@@ -203,7 +203,7 @@ include "nav2.php";
     </section> 
     <div class="segunda-hoja">
       <div class="subseccion-1-1">
-      <h2 class="h2-subseccion-1-2">Activities</h2>
+      <h2 class="h2-subseccion-1-2 roboto-regular">Activities</h2>
       <div class="swiffy-slider slider-nav-round slider-nav-outside slider-nav-visible slider-item-snapstart">
         <ul class="slider-container slider-subseccion-1">
           <li>

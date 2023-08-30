@@ -10,6 +10,7 @@ $nombre = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $about = $_POST['about'];
+$tres = $_POST['tres'];
 $interests = $_POST['check_list'];
 $fechainD = $_POST['fechainD'];
 $fechainM = $_POST['fechainM'];

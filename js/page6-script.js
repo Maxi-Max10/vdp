@@ -110,3 +110,29 @@ var buttonDaily = document.getElementById('itinerary');
       buttonPlus3.classList.add('plus');
    }
   })
+
+  const swiperScroll1 = new Swiper(".swiperScroll", {
+    slidesPerView:2,
+    spaceBetween: -50,
+    navigation: {
+      nextEl: ".arrow-p6",
+    },
+    speed: 400,
+    scrollbar: {
+      el: ".swiper-scrollbar",
+      draggable: true,
+    },
+  });
+
+  const swiperScroll2 = new Swiper(".swiperScroll2", {
+    slidesPerView:2,
+    spaceBetween: -200,
+    navigation: {
+      nextEl: ".arrow-p6",
+    },
+    speed: 400,
+    scrollbar: {
+      el: ".swiper-scrollbar",
+      draggable: true,
+    },
+  });

@@ -184,24 +184,24 @@ include "nav2.php";
         <div class="text-items">
             <div class="d-flex">
                 <div id="text-1" class="circle-1 hoverable-p7 gray item-itinerary-1-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7 ">DEPARTURE FROM
+                    <p class="itinerary-text-p7 ">DEPARTURE FROM<br>
                         VIVACS DEL PLATA
                     </p>
                 </div>
                 <div id="text-2" class="circle-2 hoverable-p7 gray item-itinerary-2-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">NORTHBOUND JOURNEY
+                    <p class="itinerary-text-p7">NORTHBOUND JOURNEY<br>
                     TO POTRERILLOS</p>
                 </div>
                 <div id="text-3" class="circle-3 hoverable-p7 gray item-itinerary-3-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">ROUND POTRERILLOS DAM
+                    <p class="itinerary-text-p7">ROUND POTRERILLOS DAM<br>
                     AND HEAD TO CACHEUTA</p>
                 </div>
                 <div id="text-4" class="circle-4 hoverable-p7 gray item-itinerary-4-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">EXPLORE VILLAVICENCIO
+                    <p class="itinerary-text-p7">EXPLORE VILLAVICENCIO<br>
                         NATURAL RESERVE</p>
                 </div>
                 <div id="text-5" class="circle-5 hoverable-p7 gray item-itinerary-5-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">USPALLATA - PUENTE DEL INCA
+                    <p class="itinerary-text-p7">USPALLATA - PUENTE DEL INCA<br>
                         - USPALLATA
                     </p>
                 </div>
@@ -210,7 +210,7 @@ include "nav2.php";
                     </p>
                 </div>
                 <div id="text-7" class="circle-7 hoverable-p7 gray item-itinerary-7-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">RETURN VIA RUTA NACIONAL 7
+                    <p class="itinerary-text-p7">RETURN VIA RUTA NACIONAL 7<br>
                         TO POTRERILLOS
                     </p>
                 </div>
@@ -245,28 +245,28 @@ include "nav2.php";
         <div class="text-items-2">
             <div class="d-flex">
                 <div id="text-9" class="circle-9 hoverable-p7 gray item-itinerary-9-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">DEPARTURE FROM VIVACS
-                        DEL PLATA OR MENDOZA
+                    <p class="itinerary-text-p7">DEPARTURE FROM VIVACS<br>
+                        DEL PLATA OR MENDOZA<br>
                         DOWNTOWN
                     </p>
                 </div>
                 <div id="text-10" class="circle-10 hoverable-p7 gray item-itinerary-10-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">RUTA 40 SOUTH TO
+                    <p class="itinerary-text-p7">RUTA 40 SOUTH TO<br>
                         PAREDITAS
                     </p>
                 </div>
                 <div id="text-11" class="circle-11 hoverable-p7 gray item-itinerary-11-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">RIGTH DETOUR INTO THE OLD
+                    <p class="itinerary-text-p7">RIGTH DETOUR INTO THE OLD<br>
                         ROUTE 40 VIA LA JAULA
                     </p>
                 </div>
                 <div id="text-12" class="circle-12 hoverable-p7 gray item-itinerary-12-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">COFFEE BREAK AT EL
+                    <p class="itinerary-text-p7">COFFEE BREAK AT EL<br>
                         SOSNEADO
                     </p>
                 </div>
                 <div id="text-13" class="circle-13 hoverable-p7 gray item-itinerary-13-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">ARRIVE AT HOTEL MALARGUE IN
+                    <p class="itinerary-text-p7">ARRIVE AT HOTEL MALARGUE IN<br>
                         MALARGUE
                     </p>
                 </div>
@@ -294,34 +294,34 @@ include "nav2.php";
         <div class="text-items-2">
             <div class="d-flex">
                 <div id="text-14" class="circle-14 hoverable-p7 gray item-itinerary-14-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">ENJOY BREAKFAST
+                    <p class="itinerary-text-p7">ENJOY BREAKFAST<br>
                         AT THE HOTEL
                     </p>
                 </div>
                 <div id="text-15" class="circle-15 hoverable-p7 gray item-itinerary-15-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">DEPART FROM HOTEL
+                    <p class="itinerary-text-p7">DEPART FROM HOTEL<br>
                         MALARGUE
                     </p>
                 </div>
                 <div id="text-16" class="circle-16 hoverable-p7 gray item-itinerary-16-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">WAY THROUGH
-                        CASTILLOS DE PINCHEIRA, 
-                        PASO EL CARQUEQUE
-                        <span class="span-16">AND</span> LAS LOICAS
+                    <p class="itinerary-text-p7">WAY THROUGH<br>
+                        CASTILLOS DE PINCHEIRA,<br>
+                        PASO EL CARQUEQUE<br>
+                        AND LAS LOICAS<br>
                     </p>
                 </div>
                 <div id="text-17" class="circle-17 hoverable-p7 gray item-itinerary-17-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">HAVE LUNCH AT TERMAS DE
+                    <p class="itinerary-text-p7">HAVE LUNCH AT TERMAS DE<br>
                         CAJON GRANDE
                     </p>
                 </div>
                 <div id="text-18" class="circle-18 hoverable-p7 gray item-itinerary-18-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">RETURN VIA
+                    <p class="itinerary-text-p7">RETURN VIA<br>
                         BARDAS BLANCAS
                     </p>
                 </div>
                 <div id="text-19" class="circle-19 hoverable-p7 gray item-itinerary-19-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">ARRIVE BACK AT HOTEL
+                    <p class="itinerary-text-p7">ARRIVE BACK AT HOTEL<br>
                         MALARGUE
                     </p>
                 </div>
@@ -352,22 +352,22 @@ include "nav2.php";
         <div class="text-items">
             <div class="d-flex">
                 <div id="text-20" class="circle-20 hoverable-p7 gray item-itinerary-20-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">START THE DAY WITH
+                    <p class="itinerary-text-p7">START THE DAY WITH<br>
                         BREAKFAST AT THE HOTEL
                     </p>
                 </div>
                 <div id="text-21" class="circle-21 hoverable-p7 gray item-itinerary-21-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">DEPART FROM HOTEL
+                    <p class="itinerary-text-p7">DEPART FROM HOTEL<br>
                         MALARGUE
                     </p>
                 </div>
                 <div id="text-22" class="circle-22 hoverable-p7 gray item-itinerary-22-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">HEAD NORTHBOUND
+                    <p class="itinerary-text-p7">HEAD NORTHBOUND<br>
                         TO EL SOSNEADO
                     </p>
                 </div>
                 <div id="text-23" class="circle-23 hoverable-p7 gray item-itinerary-23-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">TAKE ROUTE 144
+                    <p class="itinerary-text-p7">TAKE ROUTE 144<br>
                         TO EL NIHUIL
                     </p>
                 </div>
@@ -380,21 +380,21 @@ include "nav2.php";
                     </p>
                 </div>
                 <div id="text-26" class="circle-26 hoverable-p7 gray item-itinerary-26-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">RETURN TO MENDOZA
-                        VIA ROUTE 143
+                    <p class="itinerary-text-p7">RETURN TO MENDOZA<br>
+                        VIA ROUTE 143<br>
                         AND THEN ROUTE 40
                     </p>
                 </div>
-                <div id="text-27" class="circle-27 hoverable-p7 gray item-itinerary-27 d-flex flex-column">
-                    <p class="itinerary-text-p7">PASS THROUGH
-                        PAREDITAS, TUNUYAN, 
-                        AND FINALLY REACH
+                <div id="text-27" class="circle-27 hoverable-p7 gray item-itinerary-27-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">PASS THROUGH<br>
+                        PAREDITAS, TUNUYAN,<br>
+                        AND FINALLY REACH<br>
                         MENDOZA
                     </p>
                 </div>
             </div>
         </div>
-        <div class="itinerary-end my-4"><span class="">*</span>To ensure that your motorcycle trip is tailored to your preferences and desires we encouraged riders to contact our dedicated staff. Whether you have specific landmarks you want to visit, prefer scenic routes over challenging terrains, <br>or have any other personalization request our guides are ready to work with you on the customization of your trip</div>
+        <div class="itinerary-end my-4"><span class="">*</span>To ensure that your motorcycle trip is tailored to your preferences and desires we encouraged riders to contact our dedicated staff. Whether you have specific landmarks you want to visit, prefer scenic routes over challenging terrains, or have any other personalization request our guides are ready to work with you on the customization of your trip</div>
     </section>
     <div class="slide-container">
         <div class="d-flex flex-column text-width mb-auto">

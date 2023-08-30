@@ -448,15 +448,10 @@
 }
 
 .next-p8{
-  position: absolute !important;
-  right: 110% !important;
-  top: 38% !important;
+  position: relative ;
 }
 @media(max-width:768px){
   .next-p8{
-    position: absolute !important;
-    right: 110% !important;
-    top: 28% !important;
   }
 }
 
@@ -552,7 +547,7 @@ svg {
 }
 
 .svg-next-p8{
-  width: 22px;
+  width: 0.4rem;
 }
 
 .svg-p8:before {
@@ -563,7 +558,7 @@ svg {
 .arrow-p8 {
     margin: -33px 0 0;
     position: absolute;
-    top: 50%;
+    top: 25%;
     cursor: pointer;
     z-index: 3;
     width: 38px;
@@ -623,7 +618,7 @@ svg {
 }
 
 .next-p8 {
-  left: -15% !important;
+  left: 15% !important;
 }
 @media(max-width:1200px){
   .next-p8 {
@@ -647,10 +642,8 @@ svg {
 }
 
 .next-p8 svg {
-  transform: translateX(-2px);
+  transform: translateX(-12px);
 }
-
-
 
 .pointer{
   cursor: pointer;

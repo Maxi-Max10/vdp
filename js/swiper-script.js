@@ -38,3 +38,16 @@
       disableOnInteraction:false,
       allowTouchMove:false,
     });
+
+    const swiperScroll3 = new Swiper(".swiperScroll3", {
+      slidesPerView:2,
+      spaceBetween: -250,
+      navigation: {
+        nextEl: ".arrow-p8",
+      },
+      speed: 400,
+      scrollbar: {
+        el: ".swiper-scrollbar",
+        draggable: true,
+      },
+    });

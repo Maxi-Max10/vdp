@@ -68,7 +68,6 @@ const hamburgerButton = document.getElementById('burger');
     } else {
         if(!opened){
             document.getElementById("nav").style.top = "-180px";
-            console.log(opened + "ALSDJFALSDKF")
         }
     }
 

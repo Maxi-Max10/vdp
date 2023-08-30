@@ -962,8 +962,28 @@ blockquote {
   height: 80vh !important;
   margin-left: 10rem;
 }
+@media (max-width:700px){
+  .nav-dropdown{
+    height: 80vh !important;
+    margin-left: 5rem;
+    overflow: hidden;
+  }
+}
+@media (max-width:365px){
+  .nav-dropdown{
+    height: 80vh !important;
+    margin-left: 0rem;
+    overflow: hidden;
+  }
+}
 .text-nav{
   font-family: 'Roboto-Regular' !important;
+}
+@media(max-width:365px){
+  .text-nav{
+    font-family: 'Roboto-Regular' !important;
+    font-size: 0.7rem !important;
+  }
 }
 .vidaloka-nav{
   font-family: 'Vidaloka-Regular';
@@ -993,4 +1013,7 @@ blockquote {
 }
 .img-color{
     filter: invert(0%) !important;
+}
+.reponsive-nav{
+  padding-top: 2rem;
 }

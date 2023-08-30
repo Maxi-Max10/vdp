@@ -35,7 +35,7 @@ include "nav2.php"
               </span>
             </div>
           </div> -->
-        <h5 data-section="page4" data-value="descrip2">
+        <h5 data-section="page4" data-value="descrip2" class="roboto-regular">
             If you have any questions or need any general <br> 
             information, please complete this form to <br> 
             request the information you need. We will be <br> 

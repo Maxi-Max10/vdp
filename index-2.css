@@ -47,6 +47,7 @@
 }
 
 .h2-subseccion-1-2 {
+  text-transform: none!;
   color: black;
   font-size: 1.8rem;
   margin-bottom: 1rem;
@@ -278,6 +279,7 @@
 }
 
 .subtitulo-subseccion-2 {
+  text-transform: none !important;
   color: black;
   position: relative;
   left: 16%;

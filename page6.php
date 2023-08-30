@@ -13,9 +13,9 @@ include "nav2.php";
                 <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1">All Inclusive Experience</h1>
 
                 <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7">
-                    We strive to make your experience effortless and unforgettable. From horseback riding through
-                    rolling hills to hiking along picturesque trails, you can discover enchanting landscapes at your own pace.
-                    Engage in exciting farm tours, learn about our traditional practices, or simply relax amidst the serenity of nature.
+                    We strive to make your experience <br>effortless and unforgettable. From <br>horseback riding through
+                    rolling hills to <br>hiking along picturesque trails, you can <br>discover enchanting landscapes at your <br>own pace.
+                    Engage in exciting farm tours, <br>learn about our traditional practices, or <br>simply relax amidst the serenity of nature.
                 </p>
             </div>
         </div>

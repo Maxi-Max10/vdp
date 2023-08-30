@@ -5,7 +5,7 @@ include "nav2.php";
 
 ?>
 
-<section data-bs-version="5.1" class="header4 cid-tMz2KIjoKu mbr-fullscreen mbr-parallax-background" id="header4-25">
+     <section data-bs-version="5.1" class="header4 cid-tMz2KIjoKu mbr-fullscreen mbr-parallax-background" id="header4-25">
     <div class="mbr-overlay"></div>
     <div class="container">
         <div class="row">
@@ -29,48 +29,59 @@ include "nav2.php";
       <p class="plan-text">Whether you seek adventure <br>or relaxation, Vivacs del Plata <br> is the perfect retreat.</p>
     </div>
     <div class="col-7 ms-auto">
-        <div class="swiffy-slider slider-item-snapstart slider-nav-visible slider-nav-arrow slider-nav-scrollbar slider-item-show2 slider-item-show1-sm slider-item-reveal">
-            <ul class="slider-container sc-1-p6">
-                <li>
-                    <img src="assets/images/IMG_7133.JPG" class="slider-img">
-                </li>
-                <li>
-                    <img src="assets/images/IMG_5017.JPG" class="slider-img">
-                </li>
-                <li>
-                    <img src="assets/images/IMG_5019.JPG" class="slider-img">
-                </li>
-                <li>
-                    <img src="assets/images/horseman-resize.jpg" class="slider-img">
-                </li>
-                <li>
-                    <img src="assets/images/mate.jpg" class="slider-img">
-                </li>
-                <li>
-                    <img src="assets/images/guitar-round.jpg" class="slider-img">
-                </li>
-                <li>
-                    <img src="assets/images/AEC242DE-9F25-4D60-9862-528A8992E37D.JPG" class="slider-img">
-                </li>
-                <li>
-                    <img src="assets/images/F9B9E600-148F-4DAB-ACF4-FEE9AC23E404.JPG" class="slider-img">
-                </li>
-                <li>
-                    <img src="assets/images/805D1E98-3ADE-4795-BDCA-73EBF09CC005.JPG" class="slider-img">
-                </li>
-                <li>
-                    <img src="assets/images/IMG_3025.jpeg" class="slider-img">
-                </li>
-            </ul>
-            <div class="arrow-p6 next-p6" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-                <span class="svg-p6 svg-arrow-right svg-next-p6">
-                    <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p6" d="M0 12.9h28.5"/></svg>
-                </span>
-            </div>
+      <div class="swiperScroll swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/images/IMG_7133.JPG" class="slider-img" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/IMG_5017.JPG" class="slider-img" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/IMG_5019.JPG" class="slider-img" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/horseman-resize.jpg" class="slider-img" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/mate.jpg" class="slider-img" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/guitar-round.jpg" class="slider-img" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/images/AEC242DE-9F25-4D60-9862-528A8992E37D.JPG"
+              class="slider-img"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/images/F9B9E600-148F-4DAB-ACF4-FEE9AC23E404.JPG"
+              class="slider-img"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/images/805D1E98-3ADE-4795-BDCA-73EBF09CC005.JPG"
+              class="slider-img"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/IMG_3025.jpeg" class="slider-img" />
+          </div>
         </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+      <div class="arrow-p6 next-p6" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+          <span class="svg-p6 svg-arrow-right svg-next-p6">
+              <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p6" d="M0 12.9h28.5"/></svg>
+          </span>
+      </div>
     </div>
-</div>
+  </div>
 
+     
      <section class="itinerary-section">
         <div class="d-flex align-items-center justify-content-between itinerary">
             <h2 class="itinerary-title">SAMPLE ITINERARY</h2>
@@ -414,8 +425,8 @@ include "nav2.php";
             </div>
           </li>
         </ul>
-        <div class="arrow-p6 next-2-p6" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-          <span class="svg-p6 svg-arrow-right svg-next-p6">
+        <div class="arrow-activities next-2-p6" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+          <span class="svg-activities svg-arrow-right svg-next-p6">
               <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p6" d="M0 12.9h28.5"/></svg>
           </span>
         </div>
@@ -639,8 +650,8 @@ include "nav2.php";
               </div>
           </li>
           </ul>
-          <div class="arrow-p6 next-3-p6" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-            <span class="svg-p6 svg-arrow-right svg-next-p6">
+          <div class="arrow-culinary next-3-p6" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+            <span class="svg-culinary svg-arrow-right svg-next-p6">
                 <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p6" d="M0 12.9h28.5"/></svg>
             </span>
           </div>
@@ -699,164 +710,130 @@ include "nav2.php";
             />
           </div>
           <div class="elemento-2-subseccion-4">
-            <div class="swiffy-slider slider-gap slider-nav-visible slider-item-show3 slider-item-reveal slider-item-snapstart slider-nav-round slider-nav-scrollbar">
-              <ul class="nav-pad slider-container slider-subseccion-4">
-                <li>
-                  <div id="slide1">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_4616.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide2">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_4620.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide3">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_4755.JPG"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide4">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_6710.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide5">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_6709.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide6">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_6705.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide7">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_6712.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide8">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_6715.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide9">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_6713.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide10">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_6718.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide11">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_4040.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide12">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/1.JPG"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide13">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_4050 2.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide14">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_5690.jpg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide15">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_4493 2.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide16">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_4518 2.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-                <li>
-                  <div id="slide17">
-                    <img
-                      class="imagen-subseccion-4-a"
-                      src="./assets/images/IMG_8030.jpeg"
-                      alt=""
-                    />
-                  </div>
-                </li>
-              </ul>
+            <div class="swiperScroll2 swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_4616.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_4620.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_4755.JPG"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_6710.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_6709.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_6705.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_6712.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_6715.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_6713.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_6718.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_4040.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/1.JPG"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_4050 2.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_5690.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_4493 2.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_4518 2.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="imagen-subseccion-4-a"
+                    src="./assets/images/IMG_8030.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-scrollbar"></div>
             </div>
-  
   
             <p class="parrafo-subseccion-4-2">
               Each space is meticulously designed to provide a haven of tranquility,  <br>

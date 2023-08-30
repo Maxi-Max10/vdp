@@ -4,7 +4,6 @@ $campo = "Our Story";
 include "nav2.php";
 
 ?>
-    
 
 <section data-bs-version="5.1" class="header4 cid-tMz8FyjtSV mbr-fullscreen mbr-parallax-background" id="header4-2g">
   <div class="mbr-overlay" style="z-index: 3;"></div>
@@ -46,50 +45,51 @@ include "nav2.php";
     </div>
     <div class="slider">
         <div class="col-9 ms-auto">
-            <div class="swiffy-slider slider-item-snapstart slider-nav-scrollbar slider-nav-visible slider-nav-arrow slider-item-show2 slider-item-show1-sm slider-item-reveal">
-                <ul class="slider-container sc-1-p8">
-                    <li>
+            <div class="swiperScroll3 swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
                         <img src="assets/images/6178F5F3-63AD-4C29-8EEF-818B6EA94CBE.JPG" class="slider-img">
-                    </li>
-                    <li>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/5DA48B92-1F22-44EF-8D8A-9CEE90EDC608.JPG" class="slider-img">
-                    </li>
-                    <li>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/IMG_3639.jpeg" class="slider-img">
-                    </li>
-                    <li>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/IMG_0444.jpeg" class="slider-img">
-                    </li>
-                    <li>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/3da8edbb-7dce-4e06-9786-17106bd337cc-1536x2049.jpg" class="slider-img">
-                    </li>
-                    <li>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/IMG_2103.jpeg" class="slider-img">
-                    </li>
-                    <li>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/Webp.net-resizeimage.jpg" class="slider-img">
-                    </li>
-                    <li>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/IMG_8734.jpeg" class="slider-img">
-                    </li>
-                    <li>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/55760A36-ED06-4322-AB4F-D46A2F68E327.JPG" class="slider-img">
-                    </li>
-                    <li>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/IMG_9044.jpg" class="slider-img">
-                    </li>
-                    <li>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/IMG_6440.jpeg" class="slider-img">
-                    </li>
-                    <li>
+                    </div>
+                    <div class="swiper-slide">
                         <img src="assets/images/IMG_5014.JPG" class="slider-img">
-                    </li>
-                </ul>
-                <div class="arrow-p8 next-p8" style="opacity: 1; transform: translate3d(0px, 25px, 0px);">
-                    <span class="svg-p8 svg-arrow-right svg-next-p8">
-                        <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 16" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p8" d="M0 12.9h28.5"/></svg>
-                    </span>
+                    </div>
                 </div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+            <div class="arrow-p8 next-p8" style="opacity: 1; transform: translate3d(0px, 25px, 0px);">
+                <span class="svg-p8 svg-arrow-right svg-next-p8">
+                    <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 16" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p8" d="M0 12.9h28.5"/></svg>
+                </span>
             </div>
         </div>
     </div>
@@ -227,8 +227,6 @@ include "nav2.php";
         </div>
     </div>
 </section>
-
-
 <?php
 
 include "footer2.php";

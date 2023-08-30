@@ -20,7 +20,7 @@ svg {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(18%, -51%);
+  transform: translate(-47%, -50%);
   width: 15px;
   height: 13px;
   fill: rgb(119, 119, 119);
@@ -69,8 +69,8 @@ svg {
 
 .arrow-p6 {
     margin: -33px 0 0;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: -13rem;
     cursor: pointer;
     z-index: 3;
     width: 38px;
@@ -92,8 +92,6 @@ svg {
 @media(max-width:1000px){
   .arrow-p6 {
     margin: -33px 0 0;
-    position: absolute;
-    top: 50%;
     cursor: pointer;
     z-index: 3;
     width: 55px;
@@ -749,4 +747,71 @@ svg {
 
 .transition{
   transition: transform 0.5s ease
+}
+
+.svg-culinary {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(18%, -51%);
+  width: 15px;
+  height: 13px;
+  fill: rgb(119, 119, 119);
+}
+
+.arrow-culinary {
+  margin: -33px 0 0;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  z-index: 3;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgb(119, 119, 119);
+  border-radius: 50%;
+}
+
+.svg-activities {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(18%, -51%);
+  width: 15px;
+  height: 13px;
+  fill: rgb(119, 119, 119);
+}
+
+.arrow-activities {
+  margin: -33px 0 0;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  z-index: 3;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgb(119, 119, 119);
+  border-radius: 50%;
+}
+
+/* CARRUSEL NUEVO */
+
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  top: var(--swiper-scrollbar-top,auto);
+  z-index: 50;
+  height: var(--swiper-scrollbar-size,4px);
+  width: 50%;
+}
+
+.swiper-scrollbar-drag {
+  height: 100%;
+  margin-top: 8%;
+  width: 22% !important;
+  position: relative;
+  background: var(--swiper-scrollbar-drag-bg-color,rgba(0,0,0,.5));
+  border-radius: var(--swiper-scrollbar-border-radius,10px);
+  left: 0;
+  top: 0;
 }

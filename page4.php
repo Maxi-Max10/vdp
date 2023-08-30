@@ -65,20 +65,20 @@ include "nav2.php"
                 <div class="select-menu fade-slide-down">
                     <div id="about" class="select-btn">
                         <div id="aboutIcon" class="plus dropdown-about">+</div>
-                        <span class="sBtn-text" data-section="page4" data-value="about">About</span>
+                        <span class="sBtn-text" value="about" name="about" data-section="page4" data-value="about">About</span>
                     </div>
                     <ul class="options">
                         <li class="option">
                             <i class="bx bxl-github" style="color: #171515;"></i>
-                            <span class="option-text" data-section="page4" data-value="select1">Country Day</span>
+                            <span class="option-text" name="uno" data-section="page4" data-value="select1">Country Day</span>
                         </li>
                         <li class="option">
                             <i class="bx bxl-instagram-alt" style="color: #E1306C;"></i>
-                            <span class="option-text" data-section="page4" data-value="select2">Country Day + Overnight</span>
+                            <span class="option-text" name="dos"  data-section="page4" data-value="select2">Country Day + Overnight</span>
                         </li>
                         <li class="option">
                             <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
-                            <span class="option-text" data-section="page4" data-value="select3">Half Day</span>
+                            <span class="option-text" name="tres"  data-section="page4" data-value="select3">Half Day</span>
                         </li>
                     </ul>
                 </div>

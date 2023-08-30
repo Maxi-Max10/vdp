@@ -394,7 +394,7 @@ include "nav2.php";
                 </div>
             </div>
         </div>
-        <div class="itinerary-end my-4"><span class="">*</span>To ensure that your motorcycle trip is tailored to your preferences and desires we encouraged riders to contact our dedicated staff. Whether you have specific landmarks you want to visit, prefer scenic routes over challenging terrains, <br>or have any other personalization request our guides are ready to work with you on the customization of your trip</div>
+        <div class="itinerary-end my-4"><span class="">*</span>To ensure that your motorcycle trip is tailored to your preferences and desires we encouraged riders to contact our dedicated staff. Whether you have specific landmarks you want to visit, prefer scenic routes over challenging terrains, or have any other personalization request our guides are ready to work with you on the customization of your trip</div>
     </section>
     <div class="slide-container">
         <div class="d-flex flex-column text-width mb-auto">

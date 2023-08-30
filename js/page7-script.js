@@ -86,7 +86,7 @@ var buttonAtamisque = document.getElementById('dropdownButtonAtamisque');
     });
 });
 
-const swiper = new Swiper('#swiperP7', {
+const swiperP7 = new Swiper('#swiperP7', {
   loop: true,
   slidesPerView: 1,
   // Navigation arrows
@@ -100,7 +100,7 @@ const swiper = new Swiper('#swiperP7', {
       },
   }
   });
-  const swiper2 = new Swiper('#swiper2P7', {
+  const swiper2P7 = new Swiper('#swiper2P7', {
   loop: true,
   initialSlide: 8,
   slidesPerView: 1,
@@ -115,7 +115,7 @@ const swiper = new Swiper('#swiperP7', {
       },
   }
   });
-  const swiper3 = new Swiper('#swiper3P7', {
+  const swiper3P7 = new Swiper('#swiper3P7', {
   loop: true,
   slidesPerView: 1,
   // Navigation arrows

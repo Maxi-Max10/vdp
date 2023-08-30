@@ -352,18 +352,18 @@ include "nav2.php";
         <div class="text-items">
             <div class="d-flex">
                 <div id="text-20" class="circle-20 hoverable-p7 gray item-itinerary-20-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">START THE DAY WITH
+                    <p class="itinerary-text-p7">START THE DAY WITH<br>
                         BREAKFAST AT THE HOTEL
                     </p>
                 </div>
                 <div id="text-21" class="circle-21 hoverable-p7 gray item-itinerary-21-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">DEPART FROM HOTEL
+                    <p class="itinerary-text-p7">DEPART FROM HOTEL<br>
                         MALARGUE
                     </p>
                 </div>
                 <div id="text-22" class="circle-22 hoverable-p7 gray item-itinerary-22-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7">HEAD NORTHBOUND
-                        TO<br> EL SOSNEADO
+                    <p class="itinerary-text-p7">HEAD NORTHBOUND<br>
+                        TO EL SOSNEADO
                     </p>
                 </div>
                 <div id="text-23" class="circle-23 hoverable-p7 gray item-itinerary-23-p7 d-flex flex-column">

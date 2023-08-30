@@ -203,7 +203,7 @@ include "nav2.php";
     </section> 
     <div class="segunda-hoja">
       <div class="subseccion-1-1">
-      <h2 class="h2-subseccion-1-2">Activities</h2>
+      <h2 class="h2-subseccion-1-2 roboto-regular">Activities</h2>
       <div class="swiffy-slider slider-nav-round slider-nav-outside slider-nav-visible slider-item-snapstart">
         <ul class="slider-container slider-subseccion-1">
           <li>

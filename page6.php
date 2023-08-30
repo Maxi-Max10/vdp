@@ -32,13 +32,13 @@ include "assets/views/nav.php";
         <div class="swiffy-slider slider-item-snapstart slider-nav-visible slider-nav-arrow slider-nav-scrollbar slider-item-show2 slider-item-show1-sm slider-item-reveal">
             <ul class="slider-container sc-1-p6">
                 <li>
-                    <img src="assets/images/IMG_7133.jpg" class="slider-img">
+                    <img src="assets/images/IMG_7133.JPG" class="slider-img">
                 </li>
                 <li>
-                    <img src="assets/images/IMG_5017.jpg" class="slider-img">
+                    <img src="assets/images/IMG_5017.JPG" class="slider-img">
                 </li>
                 <li>
-                    <img src="assets/images/IMG_5019.jpg" class="slider-img">
+                    <img src="assets/images/IMG_5019.JPG" class="slider-img">
                 </li>
                 <li>
                     <img src="assets/images/horseman-resize.jpg" class="slider-img">
@@ -50,13 +50,13 @@ include "assets/views/nav.php";
                     <img src="assets/images/guitar-round.jpg" class="slider-img">
                 </li>
                 <li>
-                    <img src="assets/images/AEC242DE-9F25-4D60-9862-528A8992E37D.jpg" class="slider-img">
+                    <img src="assets/images/AEC242DE-9F25-4D60-9862-528A8992E37D.JPG" class="slider-img">
                 </li>
                 <li>
-                    <img src="assets/images/F9B9E600-148F-4DAB-ACF4-FEE9AC23E404.jpg" class="slider-img">
+                    <img src="assets/images/F9B9E600-148F-4DAB-ACF4-FEE9AC23E404.JPG" class="slider-img">
                 </li>
                 <li>
-                    <img src="assets/images/805D1E98-3ADE-4795-BDCA-73EBF09CC005.jpg" class="slider-img">
+                    <img src="assets/images/805D1E98-3ADE-4795-BDCA-73EBF09CC005.JPG" class="slider-img">
                 </li>
                 <li>
                     <img src="assets/images/IMG_3025.jpeg" class="slider-img">
@@ -150,10 +150,10 @@ include "assets/views/nav.php";
                 </div>
                 <div id="text-8" class="circle-8 hoverable gray item-itinerary-8 d-flex flex-column">
                     <p class="pointer text-item itinerary-text fw-bold">MORNING ADVENTURE</p>
-                    <p class="pointer text-item itinerary-text fw-bold">Horseback riding</p>
-                    <p class="pointer text-item itinerary-text fw-bold">4x4 off-road escapade</p>
-                    <p class="pointer text-item itinerary-text fw-bold">Cycling</p>
-                    <p class="pointer text-item itinerary-text fw-bold">Trekking expedition</p>
+                    <p class="pointer text-item itinerary-text fw-bold mb-0">Horseback riding</p>
+                    <p class="pointer text-item itinerary-text fw-bold mb-0">4x4 off-road escapade</p>
+                    <p class="pointer text-item itinerary-text fw-bold mb-0">Cycling</p>
+                    <p class="pointer text-item itinerary-text fw-bold mb-0">Trekking expedition</p>
                 </div>
                 <div id="text-9" class="circle-9 hoverable gray item-itinerary-9 d-flex flex-column">
                     <p class="pointer text-item itinerary-text fw-bold">LUNCH</p>
@@ -331,12 +331,11 @@ include "assets/views/nav.php";
                     <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
-                        src="./assets/images/IMG_3675 2.JPEG"
+                        src="./assets/images/IMG_3675 2.jpeg"
                         alt="Imagen grande"
                       />
                     </div>
                     <div class="divisor-2"></div>
-        
                     <div class="thumbnails">
                       <img
                         class="thumbnail"
@@ -345,7 +344,7 @@ include "assets/views/nav.php";
                       />
                       <img
                         class="thumbnail"
-                        src="./assets/images/IMG_3689.JPEG"
+                        src="./assets/images/IMG_3689.jpeg"
                         alt="imagen 2"
                         />
                         <img
@@ -496,7 +495,7 @@ include "assets/views/nav.php";
                       />
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/IMG_4707.JPG"
+                        src="./assets/images/IMG_4707.jpg"
                         alt=""
                       />
                     

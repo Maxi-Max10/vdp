@@ -698,12 +698,12 @@ svg {
   width: 100%;
 }
 
-.carousel {
+.carousel-p8 {
   display: flex;
   transition: transform 0.3s ease-in-out;
 }
 
-.carousel-item {
+.carousel-item-p8 {
   flex: 0 0 100%; /* Asegura que cada elemento ocupe todo el ancho */
   padding: 20px;
   box-sizing: border-box;

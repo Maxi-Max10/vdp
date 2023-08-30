@@ -1,6 +1,6 @@
 <?php
 $campo = "Mountain Resort Farmstay";
-include "assets/views/nav.php";
+include "nav2.php"
 
 ?>
 
@@ -54,8 +54,9 @@ include "assets/views/nav.php";
     </div>
 
 </section>
+
 <?php
 
-include "assets/views/footer.php"
+include "footer2.php"
 
 ?>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
 
 <head>
@@ -119,8 +119,9 @@
                             </div>
                         </div>
                     </div>
-                </div><!-- EndMenu -->
+                </div>
             </div>
 
         </nav>
     </section>
+     -->

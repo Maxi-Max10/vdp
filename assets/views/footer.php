@@ -1,4 +1,4 @@
-<section data-bs-version="5.1" class="footer4 cid-tMlWvWDpDR mb-0" once="footers" id="footer4-24">
+<!--<section data-bs-version="5.1" class="footer4 cid-tMlWvWDpDR mb-0" once="footers" id="footer4-24">
     
     <div class="mbr-overlay" style="opacity: 0.9; background-color: rgb(35, 35, 35);"></div>   
     <div class="container">
@@ -88,3 +88,4 @@
 <input name="animation" type="hidden">
 </body>
 </html>
+-->

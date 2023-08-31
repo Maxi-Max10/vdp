@@ -44,10 +44,10 @@ include "nav2.php"
     </div>
 
     <div class="carousel-caption d-md-block text-start w-50 barra">
-        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1 animate__animated animate__delay-1s animate__fadeInUp" data-section="index" data-value="title">
+        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1 animate__animated animate__delay-1s animate__fadeInUp" data-section="index" data-value="titleI">
             Mountain Resort<br>Farmstay
         </h1>
-        <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7 animate__animated animate__delay-1s animate__fadeInUp" data-section="index" data-value="descrip">
+        <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7 animate__animated animate__delay-1s animate__fadeInUp" data-section="index" data-value="descripI">
             Steeped in history, Vivacs del Plata has been <br> in the Palma family for more than 200 years, <br> recently opening
             its doors to share its culture, <br> traditions and a variety of activities to guests <br> from all over the world.
         </p>

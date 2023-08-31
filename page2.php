@@ -15,7 +15,7 @@ include "nav2.php";
             <div class="content-wrap">
                 <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1" data-section="nav" data-value="questions">Frequently Asked Questions</h1>
                 
-                <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7" data-section="page2" data-value="descrip">
+                <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7" data-section="page2" data-value="descripF">
                     Learn more! Here are some common <br> questions about Vivacs del Plata.
                 </p>
 

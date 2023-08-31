@@ -24,7 +24,7 @@
     },
 
     "page2":{
-        "descrip":"Learn more! Here are some common <br> questions about Vivacs del Plata.",
+        "descripF":"Learn more! Here are some common <br> questions about Vivacs del Plata.",
         "preg1":"¿Cómo funciona el servicio de traslado?",
         "resp1":"El servicio de traslado cubre los viajes desde el aeropuerto, el centro de Mendoza o el Valle de Uco a Vivacs del Plata, así como el viaje de regreso, todo a una tarifa fija.",
         "preg2":"¿Cuál es la capacidad para la excursión en velero?",
@@ -40,8 +40,8 @@
     },
 
     "index":{
-        "title":"Resort de<br>montaña",
-        "descrip":"Steeped in history, Vivacs del Plata has been <br> in the Palma family for more than 200 years, <br> recently opening its doors to share its culture, <br> traditions and a variety of activities to guests <br> from all over the world."
+        "titleI":"Resort de<br>montaña",
+        "descripI":"Steeped in history, Vivacs del Plata has been <br> in the Palma family for more than 200 years, <br> recently opening its doors to share its culture, <br> traditions and a variety of activities to guests <br> from all over the world."
     },
 
     "page4":{

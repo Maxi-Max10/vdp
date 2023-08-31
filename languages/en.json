@@ -24,7 +24,7 @@
     },
 
     "page2":{
-        "descrip":"Learn more! Here are some common <br> questions about Vivacs del Plata.",
+        "descripF":"Learn more! Here are some common <br> questions about Vivacs del Plata.",
         "preg1":"How does the transfer service operate?",
         "resp1":"The transfer service covers trips from the airport, downtown Mendoza, or Valle de Uco to Vivacs del Plata, as well as the return journey, all at a flat rate.",
         "preg2":"What is the capacity for the sailing excursion?",
@@ -40,8 +40,8 @@
     },
 
     "index":{
-        "title":"Mountain Resort<br>Farmstay",
-        "descrip":"Steeped in history, Vivacs del Plata has been <br> in the Palma family for more than 200 years, <br> recently opening its doors to share its culture, <br> traditions and a variety of activities to guests <br> from all over the world."
+        "titleI":"Mountain Resort<br>Farmstay",
+        "descripI":"Steeped in history, Vivacs del Plata has been <br> in the Palma family for more than 200 years, <br> recently opening its doors to share its culture, <br> traditions and a variety of activities to guests <br> from all over the world."
     },
 
     "page4":{

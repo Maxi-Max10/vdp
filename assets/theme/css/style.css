@@ -962,14 +962,14 @@ blockquote {
   height: 80vh !important;
   margin-left: 10rem;
 }
-@media (max-width:700px){
+@media (max-width:991px){
   .nav-dropdown{
     height: 80vh !important;
     margin-left: 5rem;
     overflow: hidden;
   }
 }
-@media (max-width:365px){
+@media (max-width:390px){
   .nav-dropdown{
     height: 80vh !important;
     margin-left: 0rem;
@@ -1016,4 +1016,29 @@ blockquote {
 }
 .reponsive-nav{
   padding-top: 2rem;
+}
+.col-2-padding{
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+@media (max-width:575px){
+  .col-2-padding{
+    padding-left: 2rem;
+  }
+}
+.col-1-padding{
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+.ul-1-padding{
+  padding-right: 0;
+}
+.ul-2-padding{
+  padding-right: 0;
+}
+@media(max-width:390px){
+  .ul-1-padding{
+  }
+  .ul-2-padding{
+  }
 }

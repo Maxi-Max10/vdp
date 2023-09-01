@@ -88,6 +88,7 @@ var buttonAtamisque = document.getElementById('dropdownButtonAtamisque');
 
 const swiperP7 = new Swiper('#swiperP7', {
   loop: true,
+  spaceBetween: 40,
   slidesPerView: 1,
   // Navigation arrows
   navigation: {
@@ -101,6 +102,7 @@ const swiperP7 = new Swiper('#swiperP7', {
   }
   });
   const swiper2P7 = new Swiper('#swiper2P7', {
+    spaceBetween:40,
   loop: true,
   initialSlide: 8,
   slidesPerView: 1,
@@ -116,6 +118,7 @@ const swiperP7 = new Swiper('#swiperP7', {
   }
   });
   const swiper3P7 = new Swiper('#swiper3P7', {
+    spaceBetween:40,
   loop: true,
   slidesPerView: 1,
   // Navigation arrows

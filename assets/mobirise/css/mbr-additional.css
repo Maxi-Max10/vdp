@@ -3200,14 +3200,21 @@ a {
   width: 4.5rem;
   margin-top: 3.5rem;
 }
-
+@media (max-width:395px){
+  .cid-tMlWvWDpDR .soc-item {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+    height: 2.5rem;
+    width: 25%;
+}
+}
 
 .cid-tMlWvWDpDR .mbr-iconfont {
   color: black;
 }
 @media (max-width: 991px) {
   .cid-tMlWvWDpDR div > *:last-child {
-    margin-top: 0 !important;
   }
 }
 .cid-tMlWvWDpDR .copyright {

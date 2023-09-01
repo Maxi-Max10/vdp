@@ -664,27 +664,6 @@ svg {
   font-family: 'Roboto-Bold';
 }
 
-.animate__animated.animate__delay-1s {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.animate__fadeInUp {
-  -webkit-animation-name: none;
-  animation-name: none;
-}
-
-.animate__animated {
-  -webkit-animation-duration: var(--animate-duration)s;
-  animation-duration: var(--animate-duration);
-  -webkit-animation-duration: var(--animate-duration);
-  animation-duration: var(--animate-duration);
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
 .carousel-container {
   position: relative;
   overflow: hidden;
@@ -716,4 +695,33 @@ svg {
   height: 100%;
   background-color: #888;
   cursor: pointer;
+}
+.host-img{
+  margin-left: 0rem;
+}
+.swipper-margin{
+  padding-top: 0;
+}
+@media (max-width:395px){
+  .host-img{
+    margin-left: 1rem;
+  }
+  .slider{
+    margin-top:2rem;
+  }
+  .swiper-margin{
+    margin-left: 25%;
+  }
+  .the-ranch-text{
+    padding-right: 0%;
+  }
+  .the-ranch-text-3{
+    padding-right: 0%;
+  }
+  .cards-desplegables{
+    margin-top: 2rem;
+  }
+  .card-image{
+    height: 400px;
+  }
 }

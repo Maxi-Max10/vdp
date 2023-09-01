@@ -4,7 +4,6 @@ $campo = "Trip Enhacements";
 include "nav2.php";
 
 ?>
-    
 
 <section data-bs-version="5.1" class="header4 cid-tMz88lY0XA mbr-fullscreen mbr-parallax-background" id="header4-2c">
 
@@ -27,23 +26,22 @@ include "nav2.php";
     <div class="slide-container">
         <div class="d-flex flex-column text-width mt-auto">
             <h2 class="trip-title mb-5 mb-xl-5 text-center text-xl-start">Sailing</h2>
-            <div class="w-100 w-xl-50 mx-auto mx-xl-0">
-
+            <div class="w-0 w-xl-50 mx-auto mx-xl-0">
                 <p class="trip-paragraph mb-1 pe-0">
-                    <span class="fw-bold">Location:</span> Potrerillos Dam<span class="font-light"> (30 minutes away <br> 
+                    <span class="fw-bold">Location:</span> Potrerillos Dam<span class="font-light"> (30 minutes away <br class="description-br"> 
                         from Vivacs del Plata)</span>
                     </p>
                     <p class="trip-paragraph mb-4 pe-0">
-               <span class="fw-bold">Availability:</span> All year <span class="font-light">(subject to climate <br>
+               <span class="fw-bold">Availability:</span> All year <span class="font-light">(subject to climate <br class="description-br">
                 conditions)</span>
                 </p>
                 <p class="trip-paragraph pe-0">
-                    Hop on board our sailboat “Prana” and <br>
-                    experience the beauty of Potrerillos Dam, a <br>
-                    stunning water mirror surrounded by desertic <br>
-                    mountains. Helmed by Captain Pedro, you’ll <br>
-                    sail on a 24.5 ft MASTRACCHIO boat, while <br>
-                    relishing the picturesque views and indulging <br>
+                    Hop on board our sailboat “Prana” and <br class="description-br">
+                    experience the beauty of Potrerillos Dam, a <br class="description-br">
+                    stunning water mirror surrounded by desertic <br class="description-br">
+                    mountains. Helmed by Captain Pedro, you’ll <br class="description-br">
+                    sail on a 24.5 ft MASTRACCHIO boat, while <br class="description-br">
+                    relishing the picturesque views and indulging <br class="description-br">
                     in wine and snacks.
                 </p>
                 <div id="dropdown-trip">
@@ -134,24 +132,27 @@ include "nav2.php";
         </div>
         <div class="d-flex flex-column text-width mt-auto">
             <h2 class="trip-title2 mb-5 mt-5 mt-xl-0 mb-xl-5 text-center text-xl-start">Motorcycle road trip</h2>
-            <div class="w-100 w-xl-50 mx-auto mx-xl-0">
+            <div class="w-0 w-xl-50 mx-auto mx-xl-0">
                 <p class="trip-paragraph mb-1">
                     <span class="fw-bold">Location:</span> Mendoza province and surroundings
                 </p>
                 <p class="trip-paragraph mb-4">
-                <span class="fw-bold">Availability:</span> Throughout the year
+                    <span class="fw-bold">Availability:</span> Throughout the year
                 </p>
-                <p class="trip-paragraph">
-                    At Vivacs del Plata, we have a deep passion <br>
-                    for outdoor activities, and motorcycling <br>
-                    holds a special place in our hearts. Mendoza <br>
-                    offers the perfect combination of weather, <br>
-                    roads, and landscapes for an unforgettable <br>
-                    motorcycle road trip. Choose between KTM or <br>
-                    BMW GS motorcycles and let our experienced <br>
-                    guides show you the hidden gems of <br>
-                    Mendoza’s mountains.<span id="dropdownButtonMotorcycle" class="dropdown-button-motorcycle mb-1 ms-auto plus">+</span>
-                </p>
+                <div class="d-flex align-items-end">
+                    <p class="trip-paragraph">
+                        At Vivacs del Plata, we have a deep passion <br class="description-br">
+                        for outdoor activities, and motorcycling <br class="description-br">
+                        holds a special place in our hearts. Mendoza <br class="description-br">
+                        offers the perfect combination of weather, <br class="description-br">
+                        roads, and landscapes for an unforgettable <br class="description-br">
+                        motorcycle road trip. Choose between KTM or <br class="description-br">
+                        BMW GS motorcycles and let our experienced <br class="description-br">
+                        guides show you the hidden gems of <br class="description-br">
+                        Mendoza’s mountains.
+                    </p>
+                    <span id="dropdownButtonMotorcycle" class="dropdown-button-motorcycle plus">+</span>
+                </div>
             </div>
         </div>
     </div>
@@ -165,12 +166,12 @@ include "nav2.php";
                 <div class="divider-vertical"></div>
             <p class="distance mb-0">Distance: 314km</p>
         </div>
-        <div class="timeline-container-p7">
+        <div class="timeline-container-p7 timeline-pc">
             <div class="hour-container">
                 <p class="start-hour">8:00AM</p>
                 <p class="end-hour">6:00PM</p>
             </div>
-            <ul class="timeline-2">
+            <ul class="timeline-2-p7">
                 <li id="circle-1" class="text-1 hoverable-p7 c1 circle-gray"></li>
                 <li id="circle-2" class="text-2 hoverable-p7 c2 circle-gray"></li>
                 <li id="circle-3" class="text-3 hoverable-p7 c3 circle-gray"></li>
@@ -181,7 +182,7 @@ include "nav2.php";
                 <li id="circle-8" class="text-8 hoverable-p7 c8 circle-gray"></li>
             </ul>
         </div>
-        <div class="text-items">
+        <div class="text-items timeline-pc">
             <div class="d-flex">
                 <div id="text-1" class="circle-1 hoverable-p7 gray item-itinerary-1-p7 d-flex flex-column">
                     <p class="itinerary-text-p7 ">DEPARTURE FROM<br>
@@ -220,21 +221,86 @@ include "nav2.php";
                 </div>
             </div>
         </div>
+        <div class="timeline-container-p7 timeline-mobile mt-1">
+            <div class="hour-container">
+                <p class="start-hour">8:00AM</p>
+            </div>
+            <ul class="timeline-5-p7">
+                <li id="circle-28" class="text-28 hoverable-p7 m1 circle-gray"></li>
+                <li id="circle-29" class="text-29 hoverable-p7 m2 circle-gray"></li>
+                <li id="circle-30" class="text-30 hoverable-p7 m3 circle-gray"></li>
+                <li id="circle-31" class="text-31 hoverable-p7 m4 circle-gray"></li>
+            </ul>
+        </div>
+        <div class="text-items timeline-mobile text-items-mobile m-t-mobile">
+            <div class="d-flex">
+                <div id="text-28" class="circle-28 hoverable-p7 gray item-itinerary-28-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7 ">DEPARTURE FROM<br class="br">
+                        VIVACS DEL PLATA
+                    </p>
+                </div>
+                <div id="text-29" class="circle-29 hoverable-p7 gray item-itinerary-29-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">NORTHBOUND JOURNEY<br class="br">
+                    TO POTRERILLOS</p>
+                </div>
+                <div id="text-30" class="circle-30 hoverable-p7 gray item-itinerary-30-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">ROUND POTRERILLOS DAM<br class="br">
+                    AND HEAD TO CACHEUTA</p>
+                </div>
+                <div id="text-31" class="circle-31 hoverable-p7 gray item-itinerary-31-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">EXPLORE VILLAVICENCIO<br class="br">
+                        NATURAL RESERVE</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-container-p7 timeline-mobile">
+            <div class="hour-container">
+                <p class="end-hour ms-auto">6:00PM</p>
+            </div>
+            <ul class="timeline-5-p7">
+                <li id="circle-32" class="text-32 hoverable-p7 m1 circle-gray"></li>
+                <li id="circle-33" class="text-33 hoverable-p7 m2 circle-gray"></li>
+                <li id="circle-34" class="text-34 hoverable-p7 m3 circle-gray"></li>
+                <li id="circle-35" class="text-35 hoverable-p7 m4 circle-gray"></li>
+            </ul>
+        </div>
+        <div class="text-items timeline-mobile text-items-mobile">
+            <div class="d-flex">
+                <div id="text-32" class="circle-32 hoverable-p7 gray item-itinerary-28-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">USPALLATA - PUENTE DEL INCA<br>
+                        - USPALLATA
+                    </p>
+                </div>
+                <div id="text-33" class="circle-33 hoverable-p7 gray item-itinerary-29-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">LUNCH IN USPALLATA
+                    </p>
+                </div>
+                <div id="text-34" class="circle-34 hoverable-p7 gray item-itinerary-30-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">RETURN VIA RUTA NACIONAL 7<br>
+                        TO POTRERILLOS
+                    </p>
+                </div>
+                <div id="text-35" class="circle-35 hoverable-p7 gray item-itinerary-31-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">ARRIVAL AT VIVACS DEL PLATA
+                    </p>
+                </div>
+            </div>
+        </div>
         <div class="divider mt-5"></div>
-        <div id="itinerary2" class="d-flex align-items-center w-50">
+        <div id="itinerary2" class="d-flex align-items-center w-75 w-sm-50">
             <h6 class="itinerary-subtitle my-3">THREE-DAY ESCAPADE</h6>
         </div>
-        <div class="d-flex align-items-center w-50">
+        <div class="d-flex align-items-center w-75 w-sm-50">
             <p class="mt-0 fw-bold distance mb-0">DAY 1</p>
         <div class="divider-vertical"></div>
             <p class="distance mb-0">Distance: 311km</p>
         </div>
-        <div class="timeline-container-2-p7">
+        <div class="timeline-container-2-p7 timeline-pc">
             <div class="hour-container-2">
                 <p class="start-hour-2">9:00AM</p>
                 <p class="end-hour-2">4:00PM</p>
             </div>
-            <ul class="timeline">
+            <ul class="timeline-p7">
                 <li id="circle-9" class="text-9 hoverable-p7 p1 circle-gray"></li>
                 <li id="circle-10" class="text-10 hoverable-p7 p2 circle-gray"></li>
                 <li id="circle-11" class="text-11 hoverable-p7 p3 circle-gray"></li>
@@ -242,7 +308,7 @@ include "nav2.php";
                 <li id="circle-13" class="text-13 hoverable-p7 p5 circle-gray"></li>
             </ul>
         </div>
-        <div class="text-items-2">
+        <div class="text-items-2 timeline-pc">
             <div class="d-flex">
                 <div id="text-9" class="circle-9 hoverable-p7 gray item-itinerary-9-p7 d-flex flex-column">
                     <p class="itinerary-text-p7">DEPARTURE FROM VIVACS<br>
@@ -272,17 +338,70 @@ include "nav2.php";
                 </div>
             </div>
         </div>
-        <div class="d-flex align-items-center w-50 mt-5">
+        <div class="timeline-container-2-p7 timeline-mobile">
+            <div class="hour-container-2">
+                <p class="start-hour-2">9:00AM</p>
+            </div>
+            <ul class="timeline-p7">
+                <li id="circle-99" class="text-99 hoverable-p7 b1 circle-gray"></li>
+                <li id="circle-98" class="text-98 hoverable-p7 b2 circle-gray"></li>
+                <li id="circle-97" class="text-97 hoverable-p7 b3 circle-gray"></li>
+            </ul>
+        </div>
+        <div class="text-items-2 timeline-mobile mb-5">
+            <div class="d-flex">
+                <div id="text-99" class="circle-99 hoverable-p7 gray item-itinerary-32-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">DEPARTURE FROM VIVACS<br class="br">
+                        DEL PLATA OR MENDOZA<br class="br">
+                        DOWNTOWN
+                    </p>
+                </div>
+                <div id="text-98" class="circle-98 hoverable-p7 gray item-itinerary-33-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">RUTA 40 SOUTH TO<br class="br">
+                        PAREDITAS
+                    </p>
+                </div>
+                <div id="text-97" class="circle-97 hoverable-p7 gray item-itinerary-34-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">RIGTH DETOUR INTO THE OLD<br class="br">
+                        ROUTE 40 VIA LA JAULA
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-container-2-p7 timeline-mobile">
+            <div class="hour-container-2">
+                <p class="end-hour-2-mobile ms-auto">4:00PM</p>
+            </div>
+            <ul class="timeline-p7">
+                <li id="circle-96" class="text-96 hoverable-p7 b4 circle-gray"></li>
+                <li id="circle-95" class="text-95 hoverable-p7 b5 circle-gray"></li>
+            </ul>
+        </div>
+        <div class="text-items-2 timeline-mobile">
+            <div class="d-flex">
+                <div id="text-96" class="circle-96 hoverable-p7 gray item-itinerary-35-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">COFFEE BREAK AT EL<br class="br">
+                        SOSNEADO
+                    </p>
+                </div>
+                <div id="text-95" class="circle-95 hoverable-p7 gray item-itinerary-36-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">ARRIVE AT HOTEL MALARGUE IN<br class="br">
+                        MALARGUE
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex align-items-center w-75 w-sm-50 mt-5">
             <p class="mt-0 fw-bold distance mb-0">DAY 2</p>
         <div class="divider-vertical"></div>
             <p class="distance mb-0">Distance: 262km</p>
         </div>
-        <div class="timeline-container-2-p7">
+        <div class="timeline-container-2-p7 timeline-pc">
             <div class="hour-container-2">
                 <p class="start-hour-2">9:00AM</p>
                 <p class="end-hour-3">4:00PM</p>
             </div>
-            <ul class="timeline-3">
+            <ul class="timeline-3-p7">
                 <li id="circle-14" class="text-14 hoverable-p7 d1 circle-gray"></li>
                 <li id="circle-15" class="text-15 hoverable-p7 d2 circle-gray"></li>
                 <li id="circle-16" class="text-16 hoverable-p7 d3 circle-gray"></li>
@@ -291,7 +410,7 @@ include "nav2.php";
                 <li id="circle-19" class="text-19 hoverable-p7 d6 circle-gray"></li>
             </ul>
         </div>
-        <div class="text-items-2">
+        <div class="text-items-2 timeline-pc">
             <div class="d-flex">
                 <div id="text-14" class="circle-14 hoverable-p7 gray item-itinerary-14-p7 d-flex flex-column">
                     <p class="itinerary-text-p7">ENJOY BREAKFAST<br>
@@ -327,18 +446,78 @@ include "nav2.php";
                 </div>
             </div>
         </div>
-        <div class="d-flex align-items-center w-50 mt-5">
+        <div class="timeline-container-2-p7 timeline-mobile mt-1">
+            <div class="hour-container-2">
+                <p class="start-hour-2 mb-2">9:00AM</p>
+            </div>
+            <ul class="timeline-6-p7">
+                <li id="circle-37" class="text-37 hoverable-p7 n1 circle-gray"></li>
+                <li id="circle-38" class="text-38 hoverable-p7 n2 circle-gray"></li>
+                <li id="circle-39" class="text-39 hoverable-p7 n3 circle-gray"></li>
+            </ul>
+        </div>
+        <div class="text-items-2 timeline-mobile text-items-mobile m-t-mobile-2">
+            <div class="d-flex">
+                <div id="text-37" class="circle-37 hoverable-p7 gray item-itinerary-37-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">ENJOY BREAKFAST<br class="br">
+                        AT THE HOTEL
+                    </p>
+                </div>
+                <div id="text-38" class="circle-38 hoverable-p7 gray item-itinerary-38-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">DEPART FROM HOTEL<br class="br">
+                        MALARGUE
+                    </p>
+                </div>
+                <div id="text-39" class="circle-39 hoverable-p7 gray item-itinerary-39-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">WAY THROUGH<br class="br">
+                        CASTILLOS DE PINCHEIRA,<br class="br">
+                        PASO EL CARQUEQUE<br class="br">
+                        AND LAS LOICAS<br class="br">
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-container-2-p7 timeline-mobile">
+            <div class="hour-container-2">
+                <p class="end-hour-3-mobile mb-1 ms-auto">4:00PM</p>
+            </div>
+            <ul class="timeline-6-p7">
+                <li id="circle-40" class="text-40 hoverable-p7 n1 circle-gray"></li>
+                <li id="circle-41" class="text-41 hoverable-p7 n2 circle-gray"></li>
+                <li id="circle-42" class="text-42 hoverable-p7 n3 circle-gray"></li>
+            </ul>
+        </div>
+        <div class="text-items-2 timeline-mobile text-items-mobile">
+            <div class="d-flex">
+                <div id="text-40" class="circle-40 hoverable-p7 gray item-itinerary-37-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">HAVE LUNCH AT TERMAS DE<br class="br">
+                        CAJON GRANDE
+                    </p>
+                </div>
+                <div id="text-41" class="circle-41 hoverable-p7 gray item-itinerary-38-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">RETURN VIA<br class="br">
+                        BARDAS BLANCAS
+                    </p>
+                </div>
+                <div id="text-42" class="circle-42 hoverable-p7 gray item-itinerary-39-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">ARRIVE BACK AT HOTEL<br class="br">
+                        MALARGUE
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex align-items-center w-75 w-sm-50 mt-5">
             <p class="mt-0 fw-bold distance mb-0">DAY 3</p>
-        <div class="divider-vertical"></div>
+            <div class="divider-vertical"></div>
             <p class="distance mb-0">Distance: 434km</p>
         </div>
-        <div class="timeline-container-2-p7">
+        <div class="timeline-container-2-p7 timeline-pc">
             <div class="hour-container-2">
                 <p class="start-hour-2">8:00AM</p>
                 <p class="middle-hour">9:00AM</p>
                 <p class="end-hour">4:00PM</p>
             </div>
-            <ul class="timeline-2">
+            <ul class="timeline-2-p7">
                 <li id="circle-20" class="text-20 hoverable-p7 c1 circle-gray"></li>
                 <li id="circle-21" class="text-21 hoverable-p7 c2 circle-gray"></li>
                 <li id="circle-22" class="text-22 hoverable-p7 c3 circle-gray"></li>
@@ -349,7 +528,7 @@ include "nav2.php";
                 <li id="circle-27" class="text-27 hoverable-p7 c8 circle-gray"></li>
             </ul>
         </div>
-        <div class="text-items">
+        <div class="text-items timeline-pc">
             <div class="d-flex">
                 <div id="text-20" class="circle-20 hoverable-p7 gray item-itinerary-20-p7 d-flex flex-column">
                     <p class="itinerary-text-p7">START THE DAY WITH<br>
@@ -394,15 +573,83 @@ include "nav2.php";
                 </div>
             </div>
         </div>
-        <div class="itinerary-end my-4"><span class="">*</span>To ensure that your motorcycle trip is tailored to your preferences and desires we encouraged riders to contact our dedicated staff. Whether you have specific landmarks you want to visit, prefer scenic routes over challenging terrains, or have any other personalization request our guides are ready to work with you on the customization of your trip</div>
+        <div class="timeline-container-p7 timeline-mobile mt-1">
+            <div class="hour-container">
+                <p class="start-hour">8:00AM</p>
+            </div>
+            <ul class="timeline-5-p7">
+                <li id="circle-43" class="text-43 hoverable-p7 m1 circle-gray"></li>
+                <li id="circle-44" class="text-44 hoverable-p7 m2 circle-gray"></li>
+                <li id="circle-45" class="text-45 hoverable-p7 m3 circle-gray"></li>
+                <li id="circle-46" class="text-46 hoverable-p7 m4 circle-gray"></li>
+            </ul>
+        </div>
+        <div class="text-items timeline-mobile text-items-mobile m-t-mobile-2">
+            <div class="d-flex">
+                <div id="text-43" class="circle-43 hoverable-p7 gray item-itinerary-28-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7 ">START THE DAY WITH<br class="br">
+                        BREAKFAST AT THE HOTEL
+                    </p>
+                </div>
+                <div id="text-44" class="circle-44 hoverable-p7 gray item-itinerary-29-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">DEPART FROM HOTEL<br class="br">
+                        MALARGUE</p>
+                </div>
+                <div id="text-45" class="circle-45 hoverable-p7 gray item-itinerary-30-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">HEAD NORTHBOUND<br class="br">
+                        TO EL SOSNEADO</p>
+                </div>
+                <div id="text-46" class="circle-46 hoverable-p7 gray item-itinerary-31-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">TAKE ROUTE 144<br class="br">
+                        TO EL NIHUIL</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-container-p7 timeline-mobile">
+            <div class="hour-container">
+                <p class="end-hour ms-auto">6:00PM</p>
+            </div>
+            <ul class="timeline-5-p7">
+                <li id="circle-47" class="text-47 hoverable-p7 m1 circle-gray"></li>
+                <li id="circle-48" class="text-48 hoverable-p7 m2 circle-gray"></li>
+                <li id="circle-49" class="text-49 hoverable-p7 m3 circle-gray"></li>
+                <li id="circle-50" class="text-50 hoverable-p7 m4 circle-gray"></li>
+            </ul>
+        </div>
+        <div class="text-items timeline-mobile text-items-mobile mb-5">
+            <div class="d-flex">
+                <div id="text-47" class="circle-47 hoverable-p7 gray item-itinerary-28-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">EXPLORE VALLE GRANDE
+                    </p>
+                </div>
+                <div id="text-48" class="circle-48 hoverable-p7 gray item-itinerary-29-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">LUNCH AT SAN RAFAEL
+                    </p>
+                </div>
+                <div id="text-49" class="circle-49 hoverable-p7 gray item-itinerary-30-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">RETURN TO MENDOZA<br class="br">
+                        VIA ROUTE 143<br class="br">
+                        AND THEN ROUTE 40
+                    </p>
+                </div>
+                <div id="text-50" class="circle-50 hoverable-p7 gray item-itinerary-31-p7 d-flex flex-column">
+                    <p class="itinerary-text-p7">PASS THROUGH<br class="br">
+                        PAREDITAS, TUNUYAN,<br class="br">
+                        AND FINALLY REACH<br class="br">
+                        MENDOZA
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="itinerary-end m-top"><span class="">*</span>To ensure that your motorcycle trip is tailored to your preferences and desires we encouraged riders to contact our dedicated staff. Whether you have specific landmarks you want to visit, prefer scenic routes over challenging terrains, or have any other personalization request our guides are ready to work with you on the customization of your trip</div>
     </section>
     <div class="slide-container">
-        <div class="d-flex flex-column text-width mb-auto">
+        <div class="d-flex flex-column text-width mb-3 mb-xl-auto">
             <h2 class="trip-title mb-3 mb-xl-5 text-center text-xl-start">Golf outing</h2>
             <div class="w-100 w-xl-50 mx-auto mx-xl-0">
-                <div class="d-flex align-items-end">
+                <div class="d-flex align-items-end w-75">
                     <h6 class="trip-paragraph fw-bold mb-0">ATAMISQUE</h6>
-                    <span id="dropdownButtonAtamisque" class="dropdown-button-atamisque mb-1 ms-auto plus">+</span>
+                    <span id="dropdownButtonAtamisque" class="dropdown-button-atamisque ms-5 ms-xl-auto plus">+</span>
                 </div>
                 <div id="dropdownAtamisque" class="hidden fade-slide-down">
                     <p class="trip-paragraph mb-1">
@@ -426,9 +673,9 @@ include "nav2.php";
                         </p>
                     </div>
                 </div>
-                <div class="d-flex align-items-end">
+                <div class="d-flex align-items-end w-75">
                     <h6 class="trip-paragraph fw-bold mb-1">CLUB DE CAMPO</h6>
-                    <span id="dropdownButton3" class="dropdown-button-atamisque mb-1 ms-auto">+</span>
+                    <span id="dropdownButton3" class="dropdown-button-atamisque ms-5 ms-xl-auto">+</span>
                 </div>
             </div>
         </div>
@@ -455,8 +702,6 @@ include "nav2.php";
         </div>
     </div>
 </section>
-
-
 
 <?php
 

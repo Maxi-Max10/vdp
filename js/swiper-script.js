@@ -40,8 +40,8 @@
     });
 
     const swiperScroll3 = new Swiper(".swiperScroll3", {
-      slidesPerView:2,
-      spaceBetween: -250,
+      slidesPerView:1,
+      spaceBetween: 0,
       navigation: {
         nextEl: ".arrow-p8",
       },
@@ -50,4 +50,11 @@
         el: ".swiper-scrollbar",
         draggable: true,
       },
+      breakpoints: {
+        // when window width is >= 320px
+        395: {
+          slidesPerView: 2,
+          spaceBetween: -250
+        },
+      }
     });

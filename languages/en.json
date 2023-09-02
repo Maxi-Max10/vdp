@@ -8,7 +8,8 @@
         "allInclusive": "All-Inclusive Experience",
         "tripEnhancements": "Trip Enhancements",
         "cerrar":"CLOSE",
-        "FAC":"FAQ´s"
+        "FAC":"FAQ's",
+        "CONTACTMAY":"CONTACT"
     },
 
     "page1":{
@@ -82,12 +83,12 @@
     },
 
     "page6":{
-        "title1": "All Inclusive Experience",
-        "descrip1": "We strive to make your experience effortless and unforgettable. From horseback riding through rolling hills to hiking along picturesque trails, you can discover enchanting landscapes at your own pace. Engage in exciting farm tours, learn about our traditional practices, or simply relax amidst the serenity of nature.",
-        "title2": "PLAN YOUR STAY",
-        "descrip2":"Whether you seek adventure <br>or relaxation, Vivacs del Plata <br> is the perfect retreat.",
-        "title3":"SAMPLE ITINERARY",
-        "inquire":"INQUIRE",
+        "title1A": "All Inclusive Experience",
+        "descrip1A": "We strive to make your experience effortless and unforgettable. From horseback riding through rolling hills to hiking along picturesque trails, you can discover enchanting landscapes at your own pace. Engage in exciting farm tours, learn about our traditional practices, or simply relax amidst the serenity of nature.",
+        "title2A": "PLAN YOUR STAY",
+        "descrip2A":"Whether you seek adventure <br>or relaxation, Vivacs del Plata <br> is the perfect retreat.",
+        "title3A":"SAMPLE ITINERARY",
+        "inquireA":"INQUIRE",
         "COUNTRY RETREAT DAILY EXPERIENCE":"COUNTRY RETREAT DAILY EXPERIENCE",
         "WELCOME WITH COFFEE <br> AND TEMPTING SNACKS": "WELCOME WITH COFFEE <br> AND TEMPTING SNACKS",
         "MORNING ADVENTURE":"MORNING ADVENTURE",
@@ -99,6 +100,7 @@
         "AFTERNOON OUTING <br> OR RELAX IN THE HOUSE":"AFTERNOON OUTING <br> OR RELAX IN THE HOUSE",
         "EA TIME BY 6PM":"EA TIME BY 6PM",
         "Base 4":"Base 4",
+        "Base +4":"Base +4",
         "per guest":"per guest",
         "COUNTRY RETREAT AND OVERNIGHT EXPERIENCE":"COUNTRY RETREAT AND OVERNIGHT EXPERIENCE",
         "WELCOME WITH COFFE <br> AND TEMPTING SNACKS":"WELCOME WITH COFFE <br> AND TEMPTING SNACKS",
@@ -111,7 +113,7 @@
         "Halfday2":"Our half day experience lasts no more than 4 hours allowing you to seamlessly <br> fit into your morning morning or afternoon schedule.",
         "Activities":"Activities",
         "HORSEBACK RIDING": "HORSEBACK RIDING",
-        "horseback descrip":" Experiencie the thrill of our guest-favorite horseback riding tour! <br> Let us guide you through 400 hectares of Vivacs del Plata, where you'll encounter diverseflora and fauna, surrounded <br> by the natural beauty of the mountains. Choose between a short ride of 45 minutes or opt <br> for the long option, which takes you on a captivating journey lasting 3 hours.",
+        "horseback descrip":"Experiencie the thrill of our guest-favorite horseback riding tour! <br> Let us guide you through 400 hectares of Vivacs del Plata, where you'll encounter diverse flora and fauna, surrounded by the natural beauty of the mountains. Choose between a short ride of 45 minutes or opt <br> for the long option, which takes you on a captivating journey lasting 3 hours.",
         "4X4 GUIDED TOUR":"4X4 GUIDED TOUR",
         "debajode4x4":"Sit back and relax as our <br>experienced drivers take <br>you on a guided 4x4 tour of <br> Vivacs del Plata. Explore the <br>vast landscape, from the <br>ranch itself to the majestic <br>mountains, all from the <br>comfort of your seat.",
         "CYCLING":"CYCLING",

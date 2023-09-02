@@ -36,7 +36,7 @@ include "nav2.php";
                     <div class="card">
                         <div class="card-header" role="tab" id="headingOne">
                             
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>FAQ's</strong></h6>
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong data-section="nav" data-value="FAC">FAQ's</strong></h6>
                                 
                             
                         </div>
@@ -45,7 +45,7 @@ include "nav2.php";
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_1" aria-expanded="false" aria-controls="collapse2">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" data-section="page2" data-value="preg1"><strong>How does the transfer service operate?</strong></h6>
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" ><strong data-section="page2" data-value="preg1">How does the transfer service operate?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-plus"></span>
                             </a>
                         </div>
@@ -59,7 +59,7 @@ include "nav2.php";
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_1" aria-expanded="false" aria-controls="collapse3">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" data-section="page2" data-value="preg2"><strong>What is the capacity for the sailing excursion?</strong></h6>
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong data-section="page2" data-value="preg2">What is the capacity for the sailing excursion?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
@@ -73,7 +73,7 @@ include "nav2.php";
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_1" aria-expanded="false" aria-controls="collapse4">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" data-section="page2" data-value="preg3"><strong>What is the weather like?</strong></h6>
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" ><strong data-section="page2" data-value="preg3">What is the weather like?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
@@ -87,7 +87,7 @@ include "nav2.php";
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_1" aria-expanded="false" aria-controls="collapse5">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" data-section="page2" data-value="preg4"><strong>What does the all-inclusive experience include?</strong></h6>
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" ><strong data-section="page2" data-value="preg4">What does the all-inclusive experience include?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
@@ -101,7 +101,7 @@ include "nav2.php";
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse6_1" aria-expanded="false" aria-controls="collapse6">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" data-section="page2" data-value="preg5"><strong>What is the overnight capacity of the inn?</strong></h6>
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" ><strong data-section="page2" data-value="preg5">What is the overnight capacity of the inn?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>

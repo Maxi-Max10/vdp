@@ -1,10 +1,8 @@
-
 <?php
 $campo = "Contact Us";
 include "nav2.php"
 
 ?>
-    
 
 <section data-bs-version="5.1" class="header4 cid-tLp8n5ZlJ8 mbr-fullscreen mbr-parallax-background" id="header4-1m">
     <div class="mbr-overlay"></div>
@@ -45,12 +43,18 @@ include "nav2.php"
             <form id="form_enviar" method="post" action="mail.php">
             <div class="input-container">
                 <input type="text" id="name" name="name" required="">
-                <label for="input" class="label" data-section="page4" data-value="name">Your Name<span class="mandatory">*</span></label>
+                <div class="d-flex justify-content-end">
+                    <label for="input" class="label" data-section="page4" data-value="name">Your Name</label>
+                    <span class="mandatory">*</span>
+                </div>
                 <div class="underline"></div>
             </div>
             <div class="input-container">
                 <input type="text" id="email" name="email" required="">
-                <label for="input" class="label" data-section="page4" data-value="email">Your Email<span class="mandatory">*</span></label>
+                <div class="d-flex justify-content-end">
+                    <label for="input" class="label" data-section="page4" data-value="email">Your Email</label>
+                    <span class="mandatory">*</span>
+                </div>
                 <div class="underline"></div>
             </div>
             <div class="input-container">
@@ -63,9 +67,9 @@ include "nav2.php"
             <div class="input-container">
                 <div class="underline-about"></div>
                 <div class="select-menu fade-slide-down">
-                    <div id="about" class="select-btn">
-                        <div id="aboutIcon" class="plus dropdown-about">+</div>
+                    <div id="about" class="select-btn d-flex justify-content-between">
                         <span class="sBtn-text" value="about" name="about" data-section="page4" data-value="about">About</span>
+                        <div id="aboutIcon" class="plus dropdown-about">+</div>
                     </div>
                     <ul class="options">
                         <li class="option">
@@ -85,9 +89,12 @@ include "nav2.php"
             </div> 
             
             <div class="input-container">
-                <h6 class="label" data-section="page4" data-value="interests">Other interests<span class="mandatory">*</span></h6>
+                <div class="d-flex justify-content-end">
+                    <h6 class="label" data-section="page4" data-value="interests">Other interests</h6>
+                    <span class="mandatory-2">*</span>
+                </div>
                 <div class="check-container row">
-                    <div class="d-flex flex-column col-3 pe-0">
+                    <div class="d-flex flex-column col-6 col-sm-3 pe-0">
                         <div class="checkbox-container">
                             <input class="check-input custom-checkbox" id="wine" type="checkbox" value="Wine" name='check_list[]'>
                             <label class="check-label checkbox-label" for="wine"></label> 
@@ -104,7 +111,7 @@ include "nav2.php"
                             <span class="label-text" data-section="page4" data-value="check3">Sailing</span>
                         </div> 
                     </div>
-                     <div class="d-flex flex-column col-3 pe-0 ps-0">
+                     <div class="d-flex flex-column col-6 col-sm-3 pe-0 ps-0">
                         <div class="checkbox-container">
                             <input class="check-input custom-checkbox" id="food" type="checkbox" value="Food" name='check_list[]'>
                             <label class="check-label checkbox-label" for="food"></label>
@@ -121,7 +128,7 @@ include "nav2.php"
                             <span class="label-text" data-section="page4" data-value="check6">Golf</span>
                         </div>
                     </div>
-                    <div class="d-flex flex-column col-3 pe-0 ps-0">
+                    <div class="d-flex flex-column col-6 col-sm-3 pe-0 ps-sm-0">
                         <div class="checkbox-container">
                             <input class="check-input custom-checkbox" id="adventure" type="checkbox" value="Ranch" name='check_list[]'>
                             <label class="check-label checkbox-label" for="adventure"></label>
@@ -138,7 +145,7 @@ include "nav2.php"
                             <span class="label-text">4x4</span>
                         </div>
                     </div>
-                    <div class="d-flex flex-column col-3 pe-0 ps-0">
+                    <div class="d-flex flex-column col-6 col-sm-3 pe-0 ps-0">
                         <div class="checkbox-container">
                             <input class="check-input custom-checkbox" id="relaxation" type="checkbox" value="Relaxation" name='check_list[]'>
                             <label class="check-label checkbox-label" for="relaxation"></label>
@@ -149,11 +156,13 @@ include "nav2.php"
             </div>
 
             <div id="dropdown" class="input-container date mt-5">
-                <div id="dropdownIcon" class="plus dropdown">+</div>
-                <h6 class="label" data-section="page4" data-value="estimated">Estimated date for your journey</h6>
+                <div class="d-flex justify-content-end">
+                    <h6 class="label" data-section="page4" data-value="estimated">Estimated date for your journey</h6>
+                    <div id="dropdownIcon" class="plus dropdown">+</div>
+                </div>
                 <div class="underline-text"></div>
             </div>
-            <div id="dateHide" class="hidden d-flex">
+            <div id="dateHide" class="hidden d-flex date-margin">
                 <input maxlength="2" class="day-input" type="text" name="fechainD" id="day" placeholder="DD">
                 <h6 class="slash">/</h6>
                 <input maxlength="2" class="date-input" type="text" name="fechainM" id="month" placeholder="MM">
@@ -169,7 +178,10 @@ include "nav2.php"
 
             <div class="input-container message">
                 <input type="text" id="input" required="" name="message">
-                <label for="input" class="label" data-section="page4" data-value="message">Message<span class="mandatory">*</span></label>
+                <div class="d-flex justify-content-end">
+                    <label for="input" class="label" data-section="page4" data-value="message">Message</label>
+                    <span class="mandatory">*</span>
+                </div>
                 <div class="underline"></div>
             </div>
 
@@ -197,7 +209,6 @@ include "nav2.php"
         </form>
     </div>
 </section>
-
 
 <?php
 

@@ -35,11 +35,21 @@
   pointer-events: none;
 }
 
+.input-container input[type="text"]:focus + .d-flex .label,
+.input-container input[type="text"]:valid + .d-flex .label {
+  top: -20px;
+  font-size: 16px;
+  color: #333;
+}
 .input-container input[type="text"]:focus ~ .label,
 .input-container input[type="text"]:valid ~ .label {
   top: -20px;
   font-size: 16px;
   color: #333;
+}
+
+.date-margin{
+  margin-top: -2rem;
 }
 
 .underline {
@@ -55,10 +65,11 @@
   position: relative;
   bottom: 0;
   left: 0;
-  top: 1.5rem;
+  top: 2rem;
   height: 2.5px;
   width: 100%;
   background-color: #000000;
+  z-index: 1;
 }
 
 .underline-text {
@@ -82,13 +93,28 @@
   margin-inline: auto;
   width: 50%;
 }
+@media (max-width:1000px){
+  .contact-container{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-inline: auto;
+    width: 75%;
+  }
+}
 
 .mandatory{
   position: absolute;
   font-weight: bold;
   font-size: 1.1rem;
-  top: 20%;
-  left: 41.3rem;
+  top: 50%;
+  margin-left: auto;
+}
+.mandatory-2{
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.1rem;
+  top: 10%;
+  margin-left: auto;
 }
 
 .select{
@@ -125,7 +151,6 @@
   position: absolute;
   font-weight: bold;
   top: 0.5rem;
-  left: 41rem;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -133,10 +158,8 @@
 .dropdown-about{
   font-family: 'Jost';
   cursor: pointer;
-  position: absolute;
   font-weight: bold;
   top: -0.5rem;
-  left: 41rem;
   font-size: 1.5rem;
 }
 

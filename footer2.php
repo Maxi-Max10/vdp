@@ -15,7 +15,7 @@
                 <p class="mbr-text mbr-fonts-style mb-4 display-4"></p>
                 
             </div>
-            <div class="col-12 col-md-6 col-lg-3 text-center text-sm-end">
+            <div class="col-12 col-md-6 col-lg-3 text-center text-md-end">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <ul class="list mbr-fonts-style display-5">
                     <a href="page5.php"></a><li class="mbr-text item-wrap" data-section="nav" data-value="gallery">Gallery</li></a>

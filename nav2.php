@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -77,12 +76,12 @@
                         <div class="fade-slide-down row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-5" data-app-modern-menu="true">
                             <div class="col-12 col-sm-7 col-1-padding">
                                 <ul class="no-bullets dropdown-transition ul-1-padding">
-                                    <li id="nav-href-1" class="fs-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
-                                    <li id="nav-href-2" class="fs-1 dropdown-transition"><a href="page6.php" class="text-decoration-none link-light all-inclusive vidaloka-nav">All-Inclusive
+                                    <li id="nav-href-1" class="fs-3 fs-sm-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
+                                    <li id="nav-href-2" class="fs-3 fs-sm-1 dropdown-transition"><a href="page6.php" class="text-decoration-none link-light all-inclusive vidaloka-nav">All-Inclusive
                                             Experience</a></li>
-                                    <li id="nav-href-3" class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a>
+                                    <li id="nav-href-3" class="fs-3 fs-sm-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a>
                                     </li>
-                                    <li id="nav-href-4" class="fs-1 dropdown-transition"><a href="page7.php" class="text-decoration-none link-light vidaloka-nav">Trip
+                                    <li id="nav-href-4" class="fs-3 fs-sm-1 dropdown-transition"><a href="page7.php" class="text-decoration-none link-light vidaloka-nav">Trip
                                             Enhancements</a></li>
                                 </ul>
                             </div>

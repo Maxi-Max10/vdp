@@ -19,7 +19,7 @@
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <ul class="list mbr-fonts-style display-5">
                     <a href="page5.php"></a><li class="mbr-text item-wrap" data-section="nav" data-value="gallery">Gallery</li></a>
-                    <a href="page2.php"><li class="mbr-text item-wrap">FAQ´s</li></a>
+                    <a href="page2.php"><li class="mbr-text item-wrap" data-section="nav" data-value="FAC">FAQ´s</li></a>
                     <a href="page4.php"></a><li class="mbr-text item-wrap" data-section="nav" data-value="contact">Contact</li></a>
                 </ul>
             </div>

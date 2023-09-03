@@ -59,7 +59,7 @@
                     <li id="li1" class="nav-item flags responsive-nav" ><a id="tes-1" data-language="es" class="nav-link px-2 link-light tes text-nav flags__item" >ES</a></li>
                     <li id="separator" class="nav-link px-2 link-light tes text-nav responsive-nav" style="top: -6px;">|</li>
                     <li id="li2" class="nav-item flags responsive-nav"><a id="tes-2" data-language="en"  class="nav-link px-2 link-light tes text-nav flags__item">EN</a></li>
-                    <li id="li3" class="nav-item responsive-nav"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
+                    <li id="li3" class="nav-item responsive-nav"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes text-nav" data-section="nav" data-value="CONTACTMAY">CONTACT</a></li>
                     <li class="ms-2 responsive-nav burger-negative"> <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <div class="hamburger">
                                 <span id="burger-1" class="tes-2"></span>
@@ -89,7 +89,7 @@
                             <div class="col-12 col-sm-5 col-2-padding">
                                 <ul class="list-unstyled dropdown-transition ul-2-padding">
                                     <li id="nav-href-5" class="fs-3 fs-sm-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gallery">Gallery</a></li>
-                                    <li id="nav-href-6" class="fs-3 fs-sm-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ </a></li>
+                                    <li id="nav-href-6" class="fs-3 fs-sm-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="FAC">FAQ´s </a></li>
                                     <li id="nav-href-7" class="fs-3 fs-sm-1 dropdown-transition"><a href="page4.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>
                                 </ul>
                                 <div id="nav-href-8" class="social-row display-5 nav col-md-5 justify-content-start ">

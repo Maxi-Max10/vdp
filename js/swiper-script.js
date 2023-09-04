@@ -51,7 +51,7 @@
         draggable: true,
       },
       breakpoints: {
-        395:{
+        405:{
           slidesPerView: 2,
           spaceBetween: 50
         },

@@ -20,12 +20,12 @@ $fechasalM = $_POST['fechasalM'];
 $fechasalA = $_POST['fechasalA'];
 $message = $_POST['message'];
 
-print_r($_POST);
-/*
+//print_r($_POST);
+
 for ($i=0;$i<count($about);$i++)    
 {     
  $about2 = $about[$i];   
-} 
+}
 
 $interestsSelect = implode(", ", $interests);
 $fechaIngre = "$fechainD/$fechainM/$fechainA";
@@ -60,7 +60,7 @@ $rta = $mailer->send();
 var_dump($rta);
 
 if($rta = true){
-    header("location: page4.html");
+    header("location: page4.php");
 }
-*/
+
 ?>

@@ -113,7 +113,7 @@ var buttonDaily = document.getElementById('itinerary');
 
   const swiperScroll1 = new Swiper(".swiperScroll", {
     slidesPerView:2,
-    spaceBetween: -50,
+    spaceBetween: 100,
     navigation: {
       nextEl: ".arrow-p6",
     },
@@ -122,6 +122,40 @@ var buttonDaily = document.getElementById('itinerary');
       el: ".swiper-scrollbar",
       draggable: true,
     },
+    breakpoints: {
+      450:{
+        slidesPerView: 2,
+        spaceBetween: 100
+      },
+      1200:{
+        slidesPerView: 2,
+        spaceBetween: -20
+      },
+      1250:{
+        slidesPerView: 2,
+        spaceBetween: -50
+      },
+      1350:{
+        slidesPerView: 2,
+        spaceBetween: -100
+      },
+      1400:{
+        slidesPerView: 2,
+        spaceBetween: -150
+      },
+      1500:{
+        slidesPerView: 2,
+        spaceBetween: -200
+      },
+      1600:{
+        slidesPerView: 2,
+        spaceBetween: -250
+      },
+      1700:{
+        slidesPerView: 2,
+        spaceBetween: -300
+      },
+    }
   });
 
   const swiperScroll2 = new Swiper(".swiperScroll2", {

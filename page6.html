@@ -143,12 +143,12 @@
 </section>
 
 <section>
-  <div class="slider margin-slider-top">
-    <div class="plan">
+  <div class="slider margin-slider-top d-flex flex-column flex-xl-row">
+    <div class="plan text-center text-xl-start">
       <p class="plan-title" data-section="page6" data-value="title2A">PLAN YOUR STAY</p>
       <p class="plan-text" data-section="page6" data-value="descrip2A">Whether you seek adventure <br>or relaxation, Vivacs del Plata <br> is the perfect retreat.</p>
     </div>
-    <div class="col-7 ms-auto">
+    <div class="col-11 col-sm-7 ms-auto me-auto me-xl-0">
       <div class="swiperScroll swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -205,15 +205,15 @@
      <section class="itinerary-section">
         <div class="d-flex align-items-center justify-content-between itinerary">
             <h2 class="itinerary-title" data-section="page6" data-value="title3A">SAMPLE ITINERARY</h2>
-            <a class="btn btn-inquire btn-outline-dark me-5" href="page4.php" data-section="page6" data-value="inquireA">INQUIRE</a>
+            <a class="btn btn-inquire btn-outline-dark me-2 me-sm-5" href="page4.php" data-section="page6" data-value="inquireA">INQUIRE</a>
         </div>
         <div class="divider mt-3"></div>
-        <div id="itinerary" class="d-flex align-items-center w-50">
+        <div id="itinerary" class="d-flex align-items-center width-50">
             <h6 class="itinerary-subtitle my-3 fw-bold pointer" data-section="page6" data-value="COUNTRY RETREAT DAILY EXPERIENCE">COUNTRY RETREAT DAILY EXPERIENCE</h6>
             <p id="plusIcon" class="plus mb-0 fw-bold ms-5 fs-4 pointer">+</p>
         </div>
         <section id="prices" class="hidden fade-slide-down">
-          <div class="timeline-container-2-p6">
+          <div class="timeline-container-2-p6 timeline-pc">
             <ul class="timeline ">
               <li id="circle-1" class="text-1 hoverable circle-gray p1 pointer"></li>
               <li id="circle-2" class="text-2 hoverable circle-gray p2 pointer"></li>
@@ -222,40 +222,88 @@
               <li id="circle-5" class="text-5 hoverable circle-gray p5 pointer"></li>
             </ul>
           </div>
-            <div class="d-flex pt-4 pb-5">
-                <div id="text-1" class="circle-1 hoverable gray item-itinerary d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br> AND TEMPTING SNACKS</p>
+          <div class="d-flex pt-4 pb-5 timeline-pc">
+              <div id="text-1" class="circle-1 hoverable gray item-itinerary d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br> AND TEMPTING SNACKS</p>
+              </div>
+              <div id="text-2" class="circle-2 hoverable gray item-itinerary-2 d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
+                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
+                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
+                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
+                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
+              </div>
+              <div id="text-3" class="circle-3 hoverable gray item-itinerary-3 d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
+              </div>
+              <div id="text-4" class="circle-4 hoverable gray item-itinerary-4 d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br> OR RELAX IN THE HOUSE</p>
+              </div>
+              <div id="text-5" class="circle-5 hoverable gray item-itinerary-5 d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+              </div>
+          </div>
+
+          <div class="timeline-container-2-p6 timeline-mobile">
+            <div class="hour-container-2">
+                <p class="start-hour-2">9:00AM</p>
+            </div>
+            <ul class="timeline-p7">
+                <li id="circle-99" class="text-99 hoverable-p7 b1 circle-gray"></li>
+                <li id="circle-98" class="text-98 hoverable-p7 b2 circle-gray"></li>
+                <li id="circle-97" class="text-97 hoverable-p7 b3 circle-gray"></li>
+            </ul>
+        </div>
+        <div class="text-items-2 timeline-mobile mb-5">
+            <div class="d-flex">
+                <div id="text-99" class="circle-99 hoverable-p7 gray item-itinerary-32-p7 d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br> AND TEMPTING SNACKS</p>
                 </div>
-                <div id="text-2" class="circle-2 hoverable gray item-itinerary-2 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
-                    <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
-                    <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
-                    <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
-                    <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
+                <div id="text-98" class="circle-98 hoverable-p7 gray item-itinerary-33-p7 d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
+                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
+                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
+                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
+                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
                 </div>
-                <div id="text-3" class="circle-3 hoverable gray item-itinerary-3 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
-                </div>
-                <div id="text-4" class="circle-4 hoverable gray item-itinerary-4 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br> OR RELAX IN THE HOUSE</p>
-                </div>
-                <div id="text-5" class="circle-5 hoverable gray item-itinerary-5 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+                <div id="text-97" class="circle-97 hoverable-p7 gray item-itinerary-34-p7 d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
                 </div>
             </div>
-            <div class="py-3 d-flex align-items-center w-50">
-                <p class="itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
-                  <div class="divider-light ms-3 p-end"></div>
-                <p class="itinerary-text mb-0"><span class="fw-bold">USD 250 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
+        </div>
+        <div class="timeline-container-2-p6 timeline-mobile">
+            <div class="hour-container-2">
+                <p class="end-hour-2-mobile ms-auto">4:00PM</p>
             </div>
-            <div class="pb-5 d-flex align-items-center w-50">
-                <p class="itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
-                  <div class="divider-light"></div>
-                <p class="itinerary-text mb-0"><span class="fw-bold">USD 210 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
+            <ul class="timeline-p7">
+                <li id="circle-96" class="text-96 hoverable-p7 b4 circle-gray"></li>
+                <li id="circle-95" class="text-95 hoverable-p7 b5 circle-gray"></li>
+            </ul>
+        </div>
+        <div class="text-items-2 timeline-mobile">
+            <div class="d-flex">
+                <div id="text-96" class="circle-96 hoverable-p7 gray item-itinerary-35-p7 d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br> OR RELAX IN THE HOUSE</p>
+                </div>
+                <div id="text-95" class="circle-95 hoverable-p7 gray item-itinerary-36-p7 d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+                </div>
             </div>
+        </div>
+
+          <div class="py-3 d-flex align-items-center w-50">
+              <p class="itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
+                <div class="divider-light ms-3 p-end"></div>
+              <p class="itinerary-text mb-0"><span class="fw-bold">USD 250 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
+          </div>
+          <div class="pb-5 d-flex align-items-center w-50">
+              <p class="itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
+                <div class="divider-light"></div>
+              <p class="itinerary-text mb-0"><span class="fw-bold">USD 210 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
+          </div>
         </section>
         <div class=" divider mt-2"></div>
-        <div id="itinerary2" class="d-flex align-items-center w-50">
+        <div id="itinerary2" class="d-flex align-items-center width-50">
             <h6 class="itinerary-subtitle my-3 fw-bold pointer" data-section="page6" data-value="COUNTRY RETREAT AND OVERNIGHT EXPERIENCE">COUNTRY RETREAT AND OVERNIGHT EXPERIENCE</h6>
             <p id="plusIcon2" class="plus mb-0 fw-bold ms-auto fs-4 pointer">+</p>
         </div>
@@ -316,7 +364,7 @@
             </div>
         </section>
         <div class=" divider mt-2"></div>
-        <div id="itinerary3" class="d-flex align-items-center w-50">
+        <div id="itinerary3" class="d-flex align-items-center width-50">
             <h6 class="pointer itinerary-subtitle my-3 fw-bold" data-section="page6" data-value="HALF DAY">HALF DAY</h6>
             <p id="plusIcon3" class="plus mb-0 fw-bold ms-5 pointer fs-4">+</p>
         </div>

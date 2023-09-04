@@ -369,6 +369,10 @@ svg {
   font-size: 0.8rem;
   font-family: 'Roboto-Regular';
 }
+.itinerary-text-half{
+  font-size: 0.8rem;
+  font-family: 'Roboto-Regular';
+}
 
 .text-item{
   font-size: 0.68rem !important;
@@ -816,6 +820,20 @@ svg {
   border: 1px solid rgb(119, 119, 119);
   border-radius: 50%;
 }
+@media(max-width:1290px){
+  .arrow-activities {
+    display: none;
+    margin: -33px 0 0;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 3;
+    width: 38px;
+    height: 38px;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 50%;
+  }
+}
 
 /* CARRUSEL NUEVO */
 
@@ -873,6 +891,16 @@ svg {
   z-index: 1;
 }
 @media(max-width:1000px){
+.text-items-2{
+  margin-bottom: 7rem !important;
+}
+.br-itinerary{
+  display: none;
+}
+.itinerary-text{
+  font-size: 0.6rem;
+  font-family: 'Roboto-Regular';
+}
 .timeline-p7 {
   position: relative;
   max-width: 100%;
@@ -880,9 +908,266 @@ svg {
   list-style: none;
 }
 .timeline-pc{
-  display: none;
+  display: none !important;
 }
 .timeline-mobile{
   display: block;
 }
+}
+@media (max-width:405px){
+  .itinerary-text{
+    font-size: 0.5rem;
+    font-family: 'Roboto-Regular';
+  }
+}
+
+.q1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 0%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.q2 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.q3 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 100%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.q4 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 0%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.q5 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 100%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.item-itinerary-a{
+  cursor:pointer;
+  width: 18%;
+  position: absolute;
+  left: 0%;
+}
+.item-itinerary-b{
+  position: absolute;
+  left: 42%;
+  cursor:pointer;
+  width: 18%;
+}
+.item-itinerary-c{
+  position: absolute;
+  left: 88%;
+  cursor:pointer;
+  width: 18%;
+}
+@media(max-width:450px){
+  .item-itinerary-c{
+    position: absolute;
+    left: 85%;
+    cursor:pointer;
+    width: 18%;
+  }
+}
+.item-itinerary-d{
+  position: absolute;
+  left: 0%;
+  cursor:pointer;
+  width: 18%;
+}
+.item-itinerary-e{
+  position: absolute;
+  left: 80%;
+  cursor:pointer;
+  width: 18%;
+}
+
+.w1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 0%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.w2 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 33.3%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.w3 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 66.6%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.w4 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 100%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.item-itinerary-f{
+  position: absolute;
+  left: 0%;
+  cursor:pointer;
+  width: 20%;
+}
+.item-itinerary-g{
+  position: absolute;
+  left: 27%;
+  cursor:pointer;
+  width: 20%;
+}
+.item-itinerary-h{
+  position: absolute;
+  left: 55%;
+  cursor:pointer;
+  width: 18%;
+}
+.item-itinerary-i{
+  position: absolute;
+  left: 80%;
+  cursor:pointer;
+  width: 18%;
+}
+@media(max-width:700px){
+  .item-itinerary-i{
+    position: absolute;
+    left: 85%;
+    cursor:pointer;
+    width: 18%;
+  }
+}
+.item-itinerary-z{
+  position: absolute;
+  left: 88%;
+  cursor:pointer;
+  width: 18%;
+}
+@media(max-width:450px){
+  .item-itinerary-z{
+    position: absolute;
+    left: 85%;
+    cursor:pointer;
+    width: 18%;
+  }
+  .item-itinerary-i{
+    position: absolute;
+    left: 82%;
+    cursor:pointer;
+    width: 18%;
+  }
+}
+.m-t-mobile-p6{
+  margin-bottom: 7rem;
+}
+.subseccion-1-p6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+@media(max-width:1200px){
+  .subseccion-1-p6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }

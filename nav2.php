@@ -73,7 +73,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent" aria-labelledby="navbarSupportedContent">
                     <div class="navbar-nav nav-dropdown" data-app-modern-menu="true">
 
-                        <div class="fade-slide-down row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-5" data-app-modern-menu="true">
+                        <div class="fade-slide-down row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-3 mt-sm-5" data-app-modern-menu="true">
                             <div class="col-12 col-sm-7 col-1-padding">
                                 <ul class="no-bullets dropdown-transition ul-1-padding">
                                     <li id="nav-href-1" class="fs-3 fs-sm-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>

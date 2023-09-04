@@ -1192,3 +1192,27 @@ h3 {
     margin-left: -11rem;
   }
 }
+
+@media(max-width:1200px){
+  .parrafo-subseccion-1-1{
+    width: 100% !important;
+    margin-top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .br-carrusel{
+    display: none;;
+  }
+  .elemento-1{
+    padding-top: 10%;
+    margin-right: 0rem;
+  }
+  .h2-subseccion-1-2 {
+    text-transform: none!;
+    color: black;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    font-family: 'Vidaloka-Regular';
+  }
+}

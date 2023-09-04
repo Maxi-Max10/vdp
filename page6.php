@@ -1,130 +1,11 @@
 
-<!DOCTYPE html>
-<html>
+<?php 
+$campo = "All Inclusive Experience";
+include "nav2.php";
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="Mobirise v5.8.14, mobirise.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="shortcut icon" href="assets/images/vdp-isologotipo-final-10-298x298.png" type="image/x-icon">
-    <meta name="description" content="">
-    <title>Vivacs del Plata | <?php print $campo ?></title>
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-    <link rel="stylesheet" href="assets/web/assets/mobirse-icons/mobirise-icons.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="assets/parallax/jarallax.css">
-    <link rel="stylesheet" href="assets/animatecss/animate.css">
-    <link rel="stylesheet" href="assets/dropdown/css/style.css">
-    <link rel="stylesheet" href="assets/socicon/css/styles.css">
-    <link rel="stylesheet" href="assets/theme/css/style.css">
-    <!--<link rel="stylesheet" href="assets/styleju/stylej.css">-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/page7.css">
-    <link rel="stylesheet" href="assets/css/page4.css">
-    <link rel="stylesheet" href="assets/css/page6.css">
-    <link rel="stylesheet" href="assets/css/page8.css">
-    <link rel="stylesheet" href="assets/fonts/Roboto-Medium/style.css">
-    <link rel="stylesheet" href="assets/fonts/Roboto-Bold/style.css">
-    <link href="assets/fonts/style.css" rel="stylesheet">
-    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
-    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/page8.css">
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="index-2.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
-    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/page6.css">
-</head>
 
-<body>
-    <section data-bs-version="5.1" class="menu menu2 cid-tL7nLROMV3" once="menu" id="menu2-1c">
 
-        <nav id="nav" class="navbar navbar-dropdown nav-height navbar-fixed-top collapsed">
-            <div class="container mb-5">
-                <div class="col-auto me-auto mt-5 mb-0">
-                    <span class="navbar-logo">
-                        <a href="index.php">
-                            <img id="img-logo" class="" src="assets/images/vdp-isologotipo-final-10-298x298.png" alt="" style="height: 5rem; z-index: 3;">
-                        </a>
-                    </span>
-                </div>
-                <ul class="nav col-auto mb-2 justify-content-center mb-md-0 col-1-margin"  id="flags">
-                    <li id="closeLi" class="nav-item hidden responsive-nav"><a id="close" class="nav-link px-2 link-light tes text-nav"data-section="nav" data-value="cerrar">CLOSE</a></li>
-                    <li id="li1" class="nav-item flags responsive-nav" ><a id="tes-1" data-language="es" class="nav-link px-2 link-light tes text-nav flags__item" >ES</a></li>
-                    <li id="separator" class="nav-link px-2 link-light tes text-nav responsive-nav" style="top: -6px;">|</li>
-                    <li id="li2" class="nav-item flags responsive-nav"><a id="tes-2" data-language="en"  class="nav-link px-2 link-light tes text-nav flags__item">EN</a></li>
-                    <li id="li3" class="nav-item responsive-nav"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes text-nav">CONTACT</a></li>
-                    <li class="ms-2 responsive-nav burger-negative"> <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <div class="hamburger">
-                                <span id="burger-1" class="tes-2"></span>
-                                <span id="burger-2" class="tes-2"></span>
-                                <span id="burger-3" class="tes-2"></span>
-                                <span id="burger-4" class="tes-2"></span>
-                            </div>
-                        </button>
-                    </li>
-                </ul>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent" aria-labelledby="navbarSupportedContent">
-                    <div class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-
-                        <div class="fade-slide-down row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-5" data-app-modern-menu="true">
-                            <div class="col-12 col-sm-7 col-1-padding">
-                                <ul class="no-bullets dropdown-transition ul-1-padding">
-                                    <li id="nav-href-1" class="fs-1 dropdown-transition vidaloka-nav"><a href="page8.php" class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
-                                    <li id="nav-href-2" class="fs-1 dropdown-transition"><a href="page6.php" class="text-decoration-none link-light all-inclusive vidaloka-nav">All-Inclusive
-                                            Experience</a></li>
-                                    <li id="nav-href-3" class="fs-1 dropdown-transition"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav">Getting Here</a>
-                                    </li>
-                                    <li id="nav-href-4" class="fs-1 dropdown-transition"><a href="page7.php" class="text-decoration-none link-light vidaloka-nav">Trip
-                                            Enhancements</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="col-12 col-sm-5 col-2-padding">
-                                <ul class="list-unstyled dropdown-transition ul-2-padding">
-                                    <li id="nav-href-5" class="fs-3 fs-sm-1 dropdown-transition"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gallery">Gallery</a></li>
-                                    <li id="nav-href-6" class="fs-3 fs-sm-1 dropdown-transition"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav">FAQ </a></li>
-                                    <li id="nav-href-7" class="fs-3 fs-sm-1 dropdown-transition"><a href="page4.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>
-                                </ul>
-                                <div id="nav-href-8" class="social-row display-5 nav col-md-5 justify-content-start ">
-                                    <div class="soc-item ms-2">
-                                        <a href="" target="_blank">
-                                            <span class="mbr-iconfont socicon socicon-whatsapp" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
-                                        </a>
-                                    </div>
-                                    <div class="soc-item ms-2">
-                                        <a href="" target="_blank">
-                                            <span class="mbr-iconfont socicon socicon-tripadvisor" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 16pt"></span>
-                                        </a>
-                                    </div>
-                                    <div class="soc-item ms-2">
-                                        <a href="" target="_blank">
-                                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
-                                        </a>
-                                    </div>
-                                    <div class="soc-item ms-2">
-                                        <a href="" target="_blank">
-                                            <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- EndMenu -->
-            </div>
-        </nav>
-    </section>
-</html>
+?>
      <section data-bs-version="5.1" class="header4 cid-tMz2KIjoKu mbr-fullscreen mbr-parallax-background" id="header4-25">
     <div class="mbr-overlay"></div>
     <div class="container">
@@ -222,37 +103,85 @@
               <li id="circle-5" class="text-5 hoverable circle-gray p5 pointer"></li>
             </ul>
           </div>
-            <div class="d-flex pt-4 pb-5">
-                <div id="text-1" class="circle-1 hoverable gray item-itinerary d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br> AND TEMPTING SNACKS</p>
+          <div class="d-flex pt-4 pb-5 timeline-pc">
+              <div id="text-1" class="circle-1 hoverable gray item-itinerary d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br> AND TEMPTING SNACKS</p>
+              </div>
+              <div id="text-2" class="circle-2 hoverable gray item-itinerary-2 d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
+                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
+                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
+                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
+                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
+              </div>
+              <div id="text-3" class="circle-3 hoverable gray item-itinerary-3 d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
+              </div>
+              <div id="text-4" class="circle-4 hoverable gray item-itinerary-4 d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br> OR RELAX IN THE HOUSE</p>
+              </div>
+              <div id="text-5" class="circle-5 hoverable gray item-itinerary-5 d-flex flex-column">
+                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+              </div>
+          </div>
+
+          <div class="timeline-container-2-p6 timeline-mobile">
+            <div class="hour-container-2">
+                <p class="start-hour-2">9:00AM</p>
+            </div>
+            <ul class="timeline-p7">
+                <li id="circle-a" class="text-a hoverable q1 circle-gray"></li>
+                <li id="circle-b" class="text-b hoverable q2 circle-gray"></li>
+                <li id="circle-c" class="text-c hoverable q3 circle-gray"></li>
+            </ul>
+        </div>
+        <div class="text-items-2 timeline-mobile mb-5">
+            <div class="d-flex">
+                <div id="text-a" class="circle-a hoverable gray item-itinerary-a d-flex flex-column">
+                  <p class="pointer itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br class="br-itinerary"> AND TEMPTING SNACKS</p>
                 </div>
-                <div id="text-2" class="circle-2 hoverable gray item-itinerary-2 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
-                    <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
-                    <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
-                    <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
-                    <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
+                <div id="text-b" class="circle-b hoverable gray item-itinerary-b d-flex flex-column">
+                  <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
+                  <p class="pointer itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
+                  <p class="pointer itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
+                  <p class="pointer itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
+                  <p class="pointer itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
                 </div>
-                <div id="text-3" class="circle-3 hoverable gray item-itinerary-3 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
-                </div>
-                <div id="text-4" class="circle-4 hoverable gray item-itinerary-4 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br> OR RELAX IN THE HOUSE</p>
-                </div>
-                <div id="text-5" class="circle-5 hoverable gray item-itinerary-5 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+                <div id="text-c" class="circle-c hoverable gray item-itinerary-c d-flex flex-column">
+                  <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
                 </div>
             </div>
-            <div class="py-3 d-flex align-items-center w-50">
-                <p class="itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
-                  <div class="divider-light ms-3 p-end"></div>
-                <p class="itinerary-text mb-0"><span class="fw-bold">USD 250 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
+        </div>
+        <div class="timeline-container-2-p6 timeline-mobile">
+            <div class="hour-container-2">
+                <p class="end-hour-2-mobile ms-auto">4:00PM</p>
             </div>
-            <div class="pb-5 d-flex align-items-center w-50">
-                <p class="itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
-                  <div class="divider-light"></div>
-                <p class="itinerary-text mb-0"><span class="fw-bold">USD 210 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
+            <ul class="timeline-p7">
+                <li id="circle-d" class="text-d hoverable q4 circle-gray"></li>
+                <li id="circle-e" class="text-e hoverable q5 circle-gray"></li>
+            </ul>
+        </div>
+        <div class="text-items-2 timeline-mobile">
+            <div class="d-flex">
+                <div id="text-d" class="circle-d hoverable-p7 gray item-itinerary-d d-flex flex-column">
+                  <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br class="br-itinerary"> OR RELAX IN THE HOUSE</p>
+                </div>
+                <div id="text-e" class="circle-e hoverable-p7 gray item-itinerary-e d-flex flex-column">
+                  <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+                </div>
             </div>
+        </div>
+
+          <div class="py-3 d-flex align-items-center width-50">
+              <p class="text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
+                <div class="divider-light ms-3 p-end"></div>
+              <p class="text-item itinerary-text mb-0"><span class="fw-bold">USD 250 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
+          </div>
+          <div class="pb-5 d-flex align-items-center width-50">
+              <p class="text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
+                <div class="divider-light"></div>
+              <p class="text-item itinerary-text mb-0"><span class="fw-bold">USD 210 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
+          </div>
         </section>
         <div class=" divider mt-2"></div>
         <div id="itinerary2" class="d-flex align-items-center w-50">
@@ -260,7 +189,7 @@
             <p id="plusIcon2" class="plus mb-0 fw-bold ms-auto fs-4 pointer">+</p>
         </div>
         <section id="prices2" class="hidden fade-slide-down">
-          <div class="timeline-container-p6">
+          <div class="timeline-container-p6 timeline-pc">
             <ul class="timeline-2">
               <li id="circle-6" class="text-6 circle-gray hoverable c1 pointer"></li>
               <li id="circle-7" class="text-7 circle-gray hoverable c2 pointer"></li>
@@ -272,7 +201,7 @@
               <li id="circle-13" class="text-13 circle-gray hoverable c8 pointer"></li>
             </ul>
           </div>
-            <div class=" d-flex pt-4 pb-3">
+            <div class="timeline-pc d-flex pt-4 pb-3">
                 <div id="text-6" class="circle-6 hoverable gray item-itinerary-6 d-flex flex-column">
                     <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="WELCOME WITH COFFE <br> AND TEMPTING SNACKS">WELCOME WITH COFFE <br> AND TEMPTING SNACKS</p>
                 </div>
@@ -301,18 +230,77 @@
                 <div id="text-13" class="circle-13 hoverable gray item-itinerary-13 d-flex flex-column">
                     <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">FIREPLACE <br>GATHERING</p>
                 </div>
-                
             </div>
 
-            <div class="pt-5 d-flex align-items-center w-50">
-                <p class="itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
+            <div class="timeline-container-p7 timeline-mobile mt-1">
+              <div class="hour-container">
+                  <p class="start-hour">8:00AM</p>
+              </div>
+              <ul class="timeline-2">
+                  <li id="circle-f" class="text-f hoverable w1 circle-gray"></li>
+                  <li id="circle-g" class="text-g hoverable w2 circle-gray"></li>
+                  <li id="circle-h" class="text-h hoverable w3 circle-gray"></li>
+                  <li id="circle-i" class="text-i hoverable w4 circle-gray"></li>
+              </ul>
+          </div>
+          <div class="text-items timeline-mobile text-items-mobile m-t-mobile-p6">
+              <div class="d-flex">
+                  <div id="text-f" class="circle-f hoverable gray item-itinerary-f d-flex flex-column">
+                    <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="WELCOME WITH COFFE AND TEMPTING SNACKS">WELCOME WITH COFFE <br class="br-itinerary"> AND TEMPTING SNACKS</p>
+                  </div>
+                  <div id="text-g" class="circle-g hoverable gray item-itinerary-g d-flex flex-column">
+                    <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="ROOMS ALOCATION">ROOMS ALOCATION</p>
+                  </div>
+                  <div id="text-h" class="circle-h hoverable gray item-itinerary-h d-flex flex-column">
+                      <p class="pointer itinerary-text fw-bold mb-0" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
+                      <p class="pointer itinerary-text fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
+                      <p class="pointer itinerary-text fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
+                      <p class="pointer itinerary-text fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
+                      <p class="pointer itinerary-text fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
+                  </div>
+                  </div>
+                  <div id="text-i" class="circle-i hoverable-p7 gray item-itinerary-z d-flex flex-column">
+                    <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
+                  </div>
+              </div>
+          </div>
+          <div class="timeline-container-p7 timeline-mobile">
+              <div class="hour-container">
+                  <p class="end-hour ms-auto">6:00PM</p>
+              </div>
+              <ul class="timeline-2">
+                  <li id="circle-j" class="text-j hoverable w1 circle-gray"></li>
+                  <li id="circle-k" class="text-k hoverable w2 circle-gray"></li>
+                  <li id="circle-l" class="text-l hoverable w3 circle-gray"></li>
+                  <li id="circle-m" class="text-m hoverable w4 circle-gray"></li>
+              </ul>
+          </div>
+          <div class="text-items timeline-mobile text-items-mobile mb-5">
+              <div class="d-flex">
+                  <div id="text-j" class="circle-j hoverable gray item-itinerary-f d-flex flex-column">
+                    <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br class="br-itinerary"> OR RELAX IN THE HOUSE</p>
+                  </div>
+                  <div id="text-k" class="circle-k hoverable gray item-itinerary-g d-flex flex-column">
+                    <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+                  </div>
+                  <div id="text-l" class="circle-l hoverable gray item-itinerary-h d-flex flex-column">
+                    <p class="pointer itinerary-text fw-bold"data-section="page6" data-value="DINNER PREPARATION WITH OPTIONAL PARTICIPATION">DINNER PREPARATION <br class="br-itinerary">WITH OPTIONAL <br class="br-itinerary">PARTICIPATION</p>
+                  </div>
+                  <div id="text-m" class="circle-m hoverable gray item-itinerary-i d-flex flex-column">
+                    <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">FIREPLACE <br class="br-itinerary">GATHERING</p>
+                  </div>
+              </div>
+          </div>
+
+            <div class="pt-5 d-flex align-items-center width-50">
+                <p class="text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
                 <div class="divider-light ms-3 p-end"></div>
-                <p><span class="itinerary-text mb-0 fw-bold">USD 450</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span></p>
+                <p class="text-item itinerary-text mb-0"><span class="itinerary-text text-item fw-bold">USD 450</span><span class="italic text-item" data-section="page6" data-value="per guest"> per guest</span></p>
             </div>
-            <div class="pb-5 d-flex align-items-center w-50">
-                <p class="itinerary-text mb-0 roboto-medium"  data-section="page6" data-value="Base +4">Base +4</p>
+            <div class="pb-5 d-flex align-items-center width-50">
+                <p class="text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
                 <div class="divider-light"></div>
-                <p class="itinerary-text mb-0"><span class="fw-bold">USD 400</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span></p>
+                <p class="text-item itinerary-text mb-0"><span class="fw-bold">USD 400</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span></p>
             </div>
         </section>
         <div class=" divider mt-2"></div>
@@ -321,33 +309,33 @@
             <p id="plusIcon3" class="plus mb-0 fw-bold ms-5 pointer fs-4">+</p>
         </div>
         <section id="prices3" class="fade-slide-down hidden">
-            <p class="itinerary-text lh-sm w-50" data-section="page6" data-value="Halfday1">
+            <p class="itinerary-text-half lh-sm width-50" data-section="page6" data-value="Halfday1">
                 Short on time? Experience a taste of the Argentinian countryside with our flexible <br> outing package. Choose an activity accompanied by delightful wine in the Heights <br>and delicious bites.
             </p>
-            <p class="itinerary-text w-50" data-section="page6" data-value="Halfday2">
+            <p class="itinerary-text-half width-50" data-section="page6" data-value="Halfday2">
                 Our half day experience lasts no more than 4 hours allowing you to seamlessly <br> fit into your morning morning or afternoon schedule.
             </p>
-            <p class="itinerary-text lh-sm pt-3">
+            <p class="itinerary-text-half lh-sm pt-3">
                 <span class="fw-bold fs-5">USD 150</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span>
             </p>
         </section>
     </section> 
     <div class="segunda-hoja">
       <div class="subseccion-1-1">
-      <h2 class="h2-subseccion-1-2 roboto-regular" data-section="page6" data-value="Activities">Activities</h2>
+      <h2 class="h2-subseccion-1-2 roboto-regular text-center" data-section="page6" data-value="Activities">Activities</h2>
       <div class="swiffy-slider slider-nav-round slider-nav-outside slider-nav-visible slider-item-snapstart">
         <ul class="slider-container slider-subseccion-1">
-          <li>
+          <li class="">
             <div id="slide1">
-              <div class="subseccion-1">
-                <div class="elemento-1">
+              <div class="subseccion-1-p6">
+                <div class="elemento-1 text-center text-xl-start w-75">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="HORSEBACK RIDING">HORSEBACK RIDING</h2>
-                  <div class="divisor-1"></div>
+                  <div class="divisor-1 mx-auto mx-xl-0"></div>
                   <p class="parrafo-subseccion-1-1" data-section="page6" data-value="horseback descrip">
-                    Experiencie the thrill of our guest-favorite horseback riding tour! <br>
+                    Experiencie the thrill of our guest-favorite horseback riding tour! <br class="br-carrusel">
                     Let us guide you through 400 hectares of Vivacs del Plata, where you'll encounter diverse
                     flora and fauna, surrounded by the natural beauty of the mountains.
-                    Choose between a short ride of 45 minutes or opt <br> for the long option, which takes you
+                    Choose between a short ride of 45 minutes or opt <br class="br-carrusel"> for the long option, which takes you
                     on a captivating journey lasting 3 hours.
                   </p>
                 </div>
@@ -391,13 +379,13 @@
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="4X4 GUIDED TOUR">4X4 GUIDED TOUR</h2>
                   <div class="divisor-1"></div>
                   <p class="parrafo-subseccion-1-2" data-section="page6" data-value="debajode4x4">
-                    Sit back and relax as our <br>
-                      experienced drivers take <br>
-                      you on a guided 4x4 tour of <br> 
-                      Vivacs del Plata. Explore the <br>
-                      vast landscape, from the <br>
-                      ranch itself to the majestic <br>
-                      mountains, all from the <br>
+                    Sit back and relax as our <br class="br-carrusel">
+                      experienced drivers take <br class="br-carrusel">
+                      you on a guided 4x4 tour of <br class="br-carrusel"> 
+                      Vivacs del Plata. Explore the <br class="br-carrusel">
+                      vast landscape, from the <br class="br-carrusel">
+                      ranch itself to the majestic <br class="br-carrusel">
+                      mountains, all from the <br class="br-carrusel">
                       comfort of your seat.
                   </p>
                 </div>
@@ -441,17 +429,17 @@
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="CYCLING">CYCLING</h2>
                   <div class="divisor-1"></div>
                   <p class="parrafo-subseccion-1-3" data-section="page6" data-value="debajodecicl">
-                    For an unparalleled cycling <br>
-                    experience in nature at an <br>
-                    altitude of 2,100 meters above <br>
-                    sea level, Vivacs del Plata is <br>
-                    a dream come true. While it <br>
-                    can be challenging at times, <br>
-                    the rewards of cycling in the <br>
-                    Andes are truly worth the effort. <br>
-                    Our knowledgeable guide will <br>
-                    accompany you and select the <br>
-                    trail that best matches your <br>
+                    For an unparalleled cycling <br class="br-carrusel">
+                    experience in nature at an <br class="br-carrusel">
+                    altitude of 2,100 meters above <br class="br-carrusel">
+                    sea level, Vivacs del Plata is <br class="br-carrusel">
+                    a dream come true. While it <br class="br-carrusel">
+                    can be challenging at times, <br class="br-carrusel">
+                    the rewards of cycling in the <br class="br-carrusel">
+                    Andes are truly worth the effort. <br class="br-carrusel">
+                    Our knowledgeable guide will <br class="br-carrusel">
+                    accompany you and select the <br class="br-carrusel">
+                    trail that best matches your <br class="br-carrusel">
                     ability.
                   </p>
                 </div>
@@ -497,14 +485,14 @@
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="TREKKING">TREKKING</h2>
                   <div class="divisor-1"></div>
                   <p class="parrafo-subseccion-1-4" data-section="page6" data-value="debajodetrekk">
-                    Unleash your adventurous spirit <br>
-                    and immerse yourself in nature <br>
-                    by embarking on a trekking <br>
-                    adventure through the prairies <br>
-                    and hills of Vivacs del Plata. <br>
+                    Unleash your adventurous spirit <br class="br-carrusel">
+                    and immerse yourself in nature <br class="br-carrusel">
+                    by embarking on a trekking <br class="br-carrusel">
+                    adventure through the prairies <br class="br-carrusel">
+                    and hills of Vivacs del Plata. <br class="br-carrusel">
                     It's an excellent opportunity 
-                    to<br> find tranquility and engage in <br>
-                    meditation. You can request a <br>
+                    to<br class="br-carrusel"> find tranquility and engage in <br class="br-carrusel">
+                    meditation. You can request a <br class="br-carrusel">
                     guide or, go exploring by yourself.
 
                   </p>
@@ -992,92 +980,8 @@
         </div>
       </div>
 </section>
-    <section data-bs-version="5.1" class="footer4 cid-tMlWvWDpDR mb-0" once="footers" id="footer4-24">
-    
-      <div class="mbr-overlay" style="opacity: 0.9; background-color: rgb(35, 35, 35);"></div>   
-      <div class="container">
-          <div class="row mbr-white mb-3">
-              <div class="col-6 col-lg-3">
-                  <div class="media-wrap col-md-8 col-12">
-                      <a href="">
-                          <img src="assets/images/vdp-isologotipo-final-10-337x337.png" alt="">
-                      </a>
-                  </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-3">
-                  <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
-                  <p class="mbr-text mbr-fonts-style mb-4 display-4"></p>
-                  
-              </div>
-              <div class="col-12 col-md-6 col-lg-3 text-center text-sm-end">
-                  <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
-                  <ul class="list mbr-fonts-style display-5">
-                      <a href="page5.php"></a><li class="mbr-text item-wrap" data-section="nav" data-value="gallery">Gallery</li></a>
-                      <a href="page2.php"><li class="mbr-text item-wrap">FAQ´s</li></a>
-                      <a href="page4.php"></a><li class="mbr-text item-wrap" data-section="nav" data-value="contact">Contact</li></a>
-                  </ul>
-              </div>
-              <div class="col-12 col-md-6 col-lg-3">
-                  <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
-                  <div class="social-row display-7 me-4 me-sm-0">
-                      <div class="soc-item">
-                          <a href="" target="_blank">
-                              <span class="mbr-iconfont socicon socicon-whatsapp" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
-                          </a>
-                      </div>
-                      <div class="soc-item">
-                          <a href="https://www.tripadvisor.com.ar/Attraction_Review-g664097-d25241616-Reviews-Vivacs_Del_Plata-Tupungato_Province_of_Mendoza_Cuyo.html" target="_blank">
-                              <span class="mbr-iconfont socicon socicon-tripadvisor" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
-                          </a>
-                      </div>
-                      <div class="soc-item">
-                          <a href="" target="_blank">
-                              <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"
-                                          style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
-                          </a>
-                      </div>
-                      
-                      <div class="soc-item"><a href="" target="_blank">
-                      <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
-                          </a>
-                          
-                      </div>
-                      
-                  </div>
-  
-                 
-  
-              </div>
-              <div class="mt-5 mb-4" style="height: 1px; background-color: white; text-align: center">
-              <span style="background-color: white; position: relative; top: -0.5em;">
-                  
-              </span>
-              </div>
-              <div class="col-12 col-md-12 copyright text-center">
-              <div class="col-md-12 copyright">
-                  <p class="mbr-text mbr-fonts-style display-4">
-                  &copy;<script>document.write(new Date().getFullYear());</script> Vivacs del Plata - All Rights Reserved&nbsp; &nbsp;Terms &amp; Conditions&nbsp;
-                      &nbsp; Privacy Policy</p>
-              </div>
-          </div>
-      </div>
-  </section>
-  
-  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
-  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script> 
-  <script src="assets/parallax/jarallax.js"></script>  
-  <script src="assets/smoothscroll/smooth-scroll.js"></script>  
-  <script src="assets/ytplayer/index.js"></script>  
-  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  
-  <script src="assets/theme/js/script.js"></script>  
-  <script src="https://kit.fontawesome.com/8f914819e1.js" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="scriptL.js"></script>
-  <script src="js/swiper-script.js"></script>
-  <script src="js/the-ranch-script.js"></script>
-  <script src="js/navbar-script.js"></script>
-  <script src="js/contact-script.js"></script>
-  <script src="js/page6-script.js"></script>
-  <script src="js/page7-script.js"></script>
-  <input name="animation" type="hidden">
-  </body>
+<?php
+
+include "footer2.php"
+
+?>

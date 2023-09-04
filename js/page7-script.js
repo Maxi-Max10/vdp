@@ -1,6 +1,9 @@
 var buttonAtamisque = document.getElementById('dropdownButtonAtamisque');
     var contentAtamisque = document.getElementById("dropdownAtamisque");
     const iconoAtamisque = document.getElementById('plusAtamisque');
+    var buttonCountry = document.getElementById('dropdownButtonCountry');
+    var contentCountry = document.getElementById("dropdownCountry");
+    const iconoCountry = document.getElementById('plusCountry');
     var buttonMotorcycle = document.getElementById('dropdownButtonMotorcycle')
     var itineraryMotorcycle = document.getElementById('itineraryMotorcycle')
 
@@ -10,6 +13,10 @@ var buttonAtamisque = document.getElementById('dropdownButtonAtamisque');
 
     const hideAtamisque = (  ) => {
         contentAtamisque.classList.add('hidden');
+    }
+
+    const hideCountry = (  ) => {
+        contentCountry.classList.add('hidden');
     }
 
     buttonMotorcycle.addEventListener('click', () => {
@@ -45,6 +52,24 @@ var buttonAtamisque = document.getElementById('dropdownButtonAtamisque');
      } else {
         buttonAtamisque.textContent = '+';
         buttonAtamisque.classList.add('plus');
+     }
+    });
+
+    buttonCountry.addEventListener('click', () => {
+        if (contentCountry.classList.contains('hidden')) {
+            contentCountry.classList.remove('fade-slide-up')
+            contentCountry.classList.remove('hidden');
+        } else {
+            contentCountry.classList.add('fade-slide-up');
+            setTimeout(hideCountry, 700)
+        }
+
+     if (buttonCountry.classList.contains('plus')) {
+        buttonCountry.textContent = '-';
+        buttonCountry.classList.remove('plus');
+     } else {
+        buttonCountry.textContent = '+';
+        buttonCountry.classList.add('plus');
      }
     });
 

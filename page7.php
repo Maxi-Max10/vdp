@@ -632,25 +632,25 @@ include "nav2.php";
                     </div>
                 </div>
                 <div class="d-flex align-items-end w-75">
-                    <h6 class="trip-paragraph fw-bold mb-1" data-section="page7" data-value="COUNTRY CLUB">CLUB DE CAMPO</h6>
+                    <h6 class="trip-paragraph fw-bold mb-1" data-section="page7" data-value="CUNTRY CLUB">CLUB DE CAMPO</h6>
                     <span id="dropdownButtonCountry" class="dropdown-button-atamisque ms-5 ms-xl-auto">+</span>
                 </div>
                 <div id="dropdownCountry" class="hidden fade-slide-down">
-                    <p class="trip-paragraph mb-1" data-section="page7" data-value="DESC72">
+                    <p class="trip-paragraph mb-1" data-section="page7" data-value="DESC76">
                     <span class="fw-bold">Location:</span> Guaymallen, Mendoza<span class="font-light"> (1 hr 20 min away from Vivacs del Plata )</span>
                     </p>
-                    <p class="trip-paragraph my-3" data-section="page7" data-value="DESC73">
+                    <p class="trip-paragraph my-3" data-section="page7" data-value="DESC77">
                         Play in the only 18 holes yard of Mendoza guided by skilled caddy scratch players who are esteemed club members. The course is par 72, has 6700 yards, and a stunning view to The Andes Mountain range. 
                     </p>
                     <div id="dropdown-trip">
-                        <p class="trip-paragraph mb-0 lh-sm" data-section="page7" data-value="DESC74">
+                        <p class="trip-paragraph mb-0 lh-sm" data-section="page7" data-value="DESC78">
                             <span class="fw-bold"> Green fee:</span> U$D 100 per player
                         </p>
-                        <p class="trip-paragraph" data-section="page7" data-value="DESC75">
+                        <p class="trip-paragraph" data-section="page7" data-value="DESC79">
                             <span class="fw-bold"> Caddie:</span> USD 75 per bag (double bag) or 
                             USD 100 per bag (simple bag)
                         </p>
-                        <p class="trip-paragraph" data-section="page7" data-value="DESC75">
+                        <p class="trip-paragraph" data-section="page7" data-value="DESC80">
                             <span class="fw-bold"> Round-trip transfer:</span> U$D 120 4 PAX max
                         </p>
                     </div>

@@ -450,10 +450,6 @@
 .next-p8{
   position: relative ;
 }
-@media(max-width:768px){
-  .next-p8{
-  }
-}
 
 .title{
   font-family: 'Roboto-Bold';
@@ -465,21 +461,16 @@
   font-size: 1.5rem;
   font-family: 'Vidaloka-Regular';
   line-height: 1.5;
-  padding-right: 8%;
   margin-bottom: 0%;
 }
-.the-ranch-text-2{
-  font-size: 1.5rem;
-  font-family: 'Vidaloka-Regular';
-  line-height: 1.5;
-  padding-right: 0%;
-  margin-bottom: 0%;
+
+.the-ranch-br{
+  display: block;
 }
-.the-ranch-text-3{
-  font-size: 1.5rem;
-  font-family: 'Vidaloka-Regular';
-  line-height: 1.5;
-  padding-right: 14%;
+@media (max-width:992px){
+  .the-ranch-br{
+    display: none;
+  }
 }
 
 .padding-ranch{
@@ -518,29 +509,6 @@ svg {
   height: 13px;
   fill: rgb(119, 119, 119);
 }
-@media(max-width:1000px){
-  .svg-p8 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 15px;
-    height: 13px;
-    fill: rgb(119, 119, 119);
-  }
-}
-@media(max-width:720px){
-  .svg-p8 {
-    display: none;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 15px;
-    height: 13px;
-    fill: rgb(255, 255, 255);
-  }
-}
 
 .slider-container{
   scrollbar-width: thin !important;
@@ -566,32 +534,23 @@ svg {
     border: 1px solid rgb(119, 119, 119);
     border-radius: 50%;
 }
-@media(max-width:1000px){
+@media (max-width:768px){
   .arrow-p8 {
     margin: -33px 0 0;
     position: absolute;
-    top: 50%;
+    top: 17.5%;
     cursor: pointer;
     z-index: 3;
-    width: 55px;
-    height: 55px;
+    width: 38px;
+    height: 38px;
     border: 1px solid rgb(119, 119, 119);
     border-radius: 50%;
-  }
 }
-@media(max-width:720px){
+}
+@media (max-width:575px){
   .arrow-p8 {
     display: none;
-    margin: -33px 0 0;
-    position: absolute;
-    top: 50%;
-    cursor: pointer;
-    z-index: 3;
-    width: 55px;
-    height: 55px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 50%;
-  }
+}
 }
   
 .arrow__line-p8 {
@@ -601,44 +560,9 @@ svg {
     stroke-miterlimit: 10;
     position: absolute;
 }
-@media(max-width:1000px){
-  .arrow__line-p8 {
-    fill:none;
-    stroke: rgb(119, 119, 119); 
-    position: absolute;
-  }
-}
-@media(max-width:720px){
-  .arrow__line-p8 {
-    display: none;
-    fill:none;
-    stroke: rgb(255, 255, 255); 
-    position: absolute;
-  }
-}
 
 .next-p8 {
   left: 15% !important;
-}
-@media(max-width:1200px){
-  .next-p8 {
-    left: 8% !important;
-  }
-}
-@media(max-width:1100px){
-  .next-p8 {
-    left: 6% !important;
-  }
-}
-@media(max-width:592px){
-  .next-p8 {
-    left: 15% !important;
-  }
-}
-@media(max-width:500px){
-  .next-p8 {
-    left: 8% !important;
-  }
 }
 
 .next-p8 svg {
@@ -702,26 +626,48 @@ svg {
 .swipper-margin{
   padding-top: 0;
 }
-@media (max-width:395px){
+@media (max-width:992px){
   .host-img{
-    margin-left: 1rem;
+    margin-left:2rem;
+  }
+}
+@media (max-width:768px){
+  .host-img{
+    margin-left:1.5rem;
+  }
+}
+.swiper-margin{
+  margin-left: auto;
+}
+@media (max-width:576px){
+  .swiper-margin{
+    margin-left: 3rem;
+  }
+}
+@media (max-width:400px){
+  .swiper-margin{
+    margin-left: auto;
+    margin-right: 0%;
+  }
+}
+@media (max-width:350px){
+  .swiper-margin{
+    margin-left: auto;
+    margin-right: 0%;
+  }
+}
+@media (max-width:400px){
+  .host-img{
+    margin-left: 1.2rem;
   }
   .slider{
     margin-top:2rem;
-  }
-  .swiper-margin{
-    margin-left: 25%;
-  }
-  .the-ranch-text{
-    padding-right: 0%;
-  }
-  .the-ranch-text-3{
-    padding-right: 0%;
   }
   .cards-desplegables{
     margin-top: 2rem;
   }
   .card-image{
-    height: 400px;
+    width: 310px;
+    height: 350px;
   }
 }

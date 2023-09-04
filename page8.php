@@ -22,22 +22,13 @@ include "nav2.php";
 
 <section>
     <div class="container">
-<<<<<<< HEAD
         <h2 class="mt-5 mb-4 text-center text-md-start title" data-section="page8" data-value="YOUR HOST FAMILY">YOUR HOST FAMILY</h2>
-=======
-        <h2 class="mt-5 mb-4 text-center text-lg-start title">YOUR HOST FAMILY</h2>
->>>>>>> 8f3d5150437e813b74b0af4928492f0e55d5cb0f
         <div class="row">
             <div class="col-12 col-lg-8 mb-3 mb-lg-0">
                 <img src="./assets/images/foto familia 2.jpg" alt="image" class="responsive-img host-img" width="100rem" height="400rem"></img>
             </div>
-<<<<<<< HEAD
             <div class="col-12 col-md-3 text-center text-md-start mt-3 mt-md-auto px-3 px-sm-0">
                 <p class="family-text" data-section="page8" data-value="DESO2">
-=======
-            <div class="col-12 col-lg-3 text-center text-md-start mt-3 mt-md-auto px-3 px-sm-0">
-                <p class="family-text">
->>>>>>> 8f3d5150437e813b74b0af4928492f0e55d5cb0f
                     Steeped in history and nestled in the 
                     heart of The Andes, Vivacs del Plata 
                     offers an exclusive escape like no other.
@@ -103,7 +94,6 @@ include "nav2.php";
         </div>
     </div>
     <div class="container">
-<<<<<<< HEAD
         <div class="row d-flex flex-column-reverse flex-md-row">
             <div class="px-3 px-sm-0 col-12 col-md-4 mt-3 mt-md-auto text-center text-md-start">
                 <p class="the-ranch-text" data-section="page8" data-value="DESO5">
@@ -119,20 +109,6 @@ include "nav2.php";
             </div>
             <div class="col-12 col-md-8 justify-content-center">
                 <h2 class="text-center text-md-start mt-5 mb-4 title" data-section="page8" data-value="THE RANCH">THE RANCH</h2>
-=======
-        <div class="row d-flex flex-column-reverse flex-lg-row">
-            <div class="px-3 px-sm-0 col-12 col-lg-4 mt-3 mt-md-auto text-center text-lg-start">
-                <p class="the-ranch-text">
-                    Vivacs del Plata is a family-<br class="the-ranch-br">
-                    owned ranch situated in<br class="the-ranch-br">
-                    “La Carrera”, a hidden gem<br class="the-ranch-br">
-                    in the Andes Mountain range<br class="the-ranch-br">
-                    in Mendoza, Argentina
-                </p>            
-            </div>
-            <div class="col-12 col-lg-8 justify-content-center">
-                <h2 class="text-center text-lg-start mt-5 mb-4 title">THE RANCH</h2>
->>>>>>> 8f3d5150437e813b74b0af4928492f0e55d5cb0f
                 <img src="assets/images/The ranch.jpeg" 
                 alt="image" class="responsive-img ranch-img host-img"></img>
             </div>

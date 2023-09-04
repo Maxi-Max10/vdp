@@ -26,6 +26,17 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <div class="social-row display-7 me-4 me-sm-0">
+                <div class="soc-item"><a href="https://maps.app.goo.gl/YZDKpfVicwxZ4hYp6" target="_blank">
+                    <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                        </a>
+                        
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://instagram.com/vivacsdelplata?igshid= MZRLODBINWFIZA==" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"
+                                        style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
+                        </a>
+                    </div>
                     <div class="soc-item">
                         <a href="https://api.whatsapp.com/send/?phone=2616316497&text&type=phone_number&app_absent=0" target="_blank">
                             <span class="mbr-iconfont socicon socicon-whatsapp" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
@@ -35,18 +46,6 @@
                         <a href="https://www.tripadvisor.com.ar/Attraction_Review-g664097-d25241616-Reviews-Vivacs_Del_Plata-Tupungato_Province_of_Mendoza_Cuyo.html" target="_blank">
                             <span class="mbr-iconfont socicon socicon-tripadvisor" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
                         </a>
-                    </div>
-                    <div class="soc-item">
-                        <a href="https://instagram.com/vivacsdelplata?igshid= MZRLODBINWFIZA==" target="_blank">
-                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"
-                                        style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
-                        </a>
-                    </div>
-                    
-                    <div class="soc-item"><a href="https://maps.app.goo.gl/YZDKpfVicwxZ4hYp6" target="_blank">
-                    <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
-                        </a>
-                        
                     </div>
                     
                 </div>
@@ -61,7 +60,7 @@
             </div>
             <div class="col-12 col-md-12 copyright text-center">
             <div class="col-md-12 copyright">
-                <p class="mbr-text mbr-fonts-style display-4">
+                <p class="mbr-text mbr-fonts-style display-4" data-section="nav" data-value="todos">
                 &copy;<script>document.write(new Date().getFullYear());</script> Vivacs del Plata - All Rights Reserved&nbsp; &nbsp;Terms &amp; Conditions&nbsp;
                     &nbsp; Privacy Policy</p>
             </div>

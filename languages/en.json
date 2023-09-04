@@ -9,7 +9,8 @@
         "tripEnhancements": "Trip Enhancements",
         "cerrar":"CLOSE",
         "FAC":"FAQ's",
-        "CONTACTMAY":"CONTACT"
+        "CONTACTMAY":"CONTACT",
+        "todos":"&copy;<script>document.write(new Date().getFullYear());</script> Vivacs del Plata - All Rights Reserved&nbsp; &nbsp;Terms &amp; Conditions&nbsp; &nbsp; Privacy Policy"
     },
 
     "page1":{
@@ -211,7 +212,13 @@
         "DESC73":"Play 9 Holes of Par 3 Bliss, just 20 Minutes from Vivacs del Plata in a guided visit. Transportation is included if you are staying at Vivacs del Plata. Immerse yourself in the scenic beauty of the Atamisque golf course.",
         "DESC74":"<span class='fw-bold'> Green fee:</span> USD 100 per player",
         "DESC75":"<span class='fw-bold'> Caddie:</span> USD 75 per bag (double bag) or USD 100 per bag (simple bag)",
-        "CUNTRY CLUB":"CUNTRY CLUB"
+        
+        "CUNTRY CLUB":"CUNTRY CLUB",
+        "DESC76":"<span class='fw-bold'>Location:</span> Guaymallen, Mendoza <span class='font-light'>  (1 hr 20 min away from Vivacs del Plata)</span>",
+        "DESC77":"Play in the only 18 holes yard of Mendoza guided by skilled caddy scratch players who are esteemed club members. The course is par 72, has 6700 yards, and a stunning view to The Andes Mountain range.",
+        "DESC78":"<span class='fw-bold'> Green fee:</span> U$D 100 per player",
+        "DESC79":"<span class='fw-bold'> Caddie:</span> USD 75 per bag (double bag) or USD 100 per bag (simple bag)",
+        "DESC80":"<span class='fw-bold'> Round-trip transfer:</span> U$D 120 4 PAX max"
 
     },
 

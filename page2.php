@@ -46,71 +46,76 @@ include "nav2.php";
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_1" aria-expanded="false" aria-controls="collapse2">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" ><strong data-section="page2" data-value="preg1">How does the transfer service operate?</strong></h6>
-                                <span class="sign mbr-iconfont mbri-plus"></span>
+                                <p id="cardIcon2" class="plus2 mb-0 fw-bold ms-auto fs-5 transition pointer">+</p>
                             </a>
-                        </div>
-                        <div id="collapse2_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
+                            <div id="collapse2_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4" data-section="page2" data-value="resp1">
                                     The transfer service covers trips from the airport, downtown Mendoza, or Valle de Uco to Vivacs del Plata, as well as the return journey, all at a flat rate.</p>
                             </div>
+                         </div>
                         </div>
                     </div>
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_1" aria-expanded="false" aria-controls="collapse3">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong data-section="page2" data-value="preg2">What is the capacity for the sailing excursion?</strong></h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                <p id="cardIcon2" class="plus2 mb-0 fw-bold ms-auto fs-5 transition pointer">+</p>
                             </a>
-                        </div>
-                        <div id="collapse3_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
+                            <div id="collapse3_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4" data-section="page2" data-value="resp2">
                                 Our sailing excursions are tailored to accommodate up to eight crew members.</p>
                             </div>
                         </div>
+
+                        </div>
+                        
                     </div>
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_1" aria-expanded="false" aria-controls="collapse4">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" ><strong data-section="page2" data-value="preg3">What is the weather like?</strong></h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                <p id="cardIcon2" class="plus2 mb-0 fw-bold ms-auto fs-5 transition pointer">+</p>
                             </a>
-                        </div>
-                        <div id="collapse4_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
+                            <div id="collapse4_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4" data-section="page2" data-value="resp3">
                                 Vivacs del Plata, located at 2100 meters above sea level, offers diverse temperatures. Expect a wide range of temperatures between day and night. Enjoy pleasant summers with sunblock and light clothing, while winters can be sub-zero.</p>
                             </div>
+                        </div>
                         </div>
                     </div>
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_1" aria-expanded="false" aria-controls="collapse5">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" ><strong data-section="page2" data-value="preg4">What does the all-inclusive experience include?</strong></h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                <!--<span class="sign mbr-iconfont mbri-arrow-down">+</span>-->
+                                <p id="cardIcon2" class="plus2 mb-0 fw-bold ms-auto fs-5 transition pointer">+</p>
                             </a>
-                        </div>
-                        <div id="collapse5_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
+                            <div id="collapse5_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4" data-section="page2" data-value="resp4">
                                 Our all-inclusive experience includes unlimited food and wine for every meal, along with a wide range of activities at your disposal. It allows you to fully enjoy each moment without worrying about additional expenses.</p>
                             </div>
                         </div>
+                        </div>
+                        
                     </div>
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse6_1" aria-expanded="false" aria-controls="collapse6">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" ><strong data-section="page2" data-value="preg5">What is the overnight capacity of the inn?</strong></h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                <p id="cardIcon2" class="plus2 mb-0 fw-bold ms-auto fs-5 transition pointer">+</p>
                             </a>
-                        </div>
-                        <div id="collapse6_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
+                            <div id="collapse6_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4" data-section="page2" data-value="resp5">
                                 We offer 3 cozy suits to suit your preferences.</p>
                             </div>
                         </div>
+                        </div>
+                       
                     </div>
                 </div>
             </div>

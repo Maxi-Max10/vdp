@@ -322,13 +322,13 @@ include "nav2.php";
     </section> 
     <div class="segunda-hoja">
       <div class="subseccion-1-1">
-      <h2 class="h2-subseccion-1-2 roboto-regular text-center" data-section="page6" data-value="Activities">Activities</h2>
+      <h2 class="h2-subseccion-1-2 roboto-regular text-center text-xl-start" data-section="page6" data-value="Activities">Activities</h2>
       <div class="swiffy-slider slider-nav-round slider-nav-outside slider-nav-visible slider-item-snapstart">
         <ul class="slider-container slider-subseccion-1">
           <li class="">
             <div id="slide1">
               <div class="subseccion-1-p6">
-                <div class="elemento-1 text-center text-xl-start w-75">
+                <div class="elemento-1 text-center text-xl-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="HORSEBACK RIDING">HORSEBACK RIDING</h2>
                   <div class="divisor-1 mx-auto mx-xl-0"></div>
                   <p class="parrafo-subseccion-1-1" data-section="page6" data-value="horseback descrip">

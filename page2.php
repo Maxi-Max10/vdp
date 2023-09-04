@@ -46,7 +46,7 @@ include "nav2.php";
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_1" aria-expanded="false" aria-controls="collapse2">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" ><strong data-section="page2" data-value="preg1">How does the transfer service operate?</strong></h6>
-                                <span class="sign mbr-iconfont mbri-plus"></span>
+                                <span class="sign mbr-iconfont mbri-plus">+</span>
                             </a>
                         </div>
                         <div id="collapse2_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
@@ -60,7 +60,7 @@ include "nav2.php";
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_1" aria-expanded="false" aria-controls="collapse3">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong data-section="page2" data-value="preg2">What is the capacity for the sailing excursion?</strong></h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                <span class="sign mbr-iconfont mbri-arrow-down">+</span>
                             </a>
                         </div>
                         <div id="collapse3_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
@@ -74,7 +74,7 @@ include "nav2.php";
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_1" aria-expanded="false" aria-controls="collapse4">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" ><strong data-section="page2" data-value="preg3">What is the weather like?</strong></h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                <span class="sign mbr-iconfont mbri-arrow-down">+</span>
                             </a>
                         </div>
                         <div id="collapse4_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
@@ -88,7 +88,7 @@ include "nav2.php";
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_1" aria-expanded="false" aria-controls="collapse5">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" ><strong data-section="page2" data-value="preg4">What does the all-inclusive experience include?</strong></h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                <span class="sign mbr-iconfont mbri-arrow-down">+</span>
                             </a>
                         </div>
                         <div id="collapse5_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
@@ -102,7 +102,7 @@ include "nav2.php";
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse6_1" aria-expanded="false" aria-controls="collapse6">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7" ><strong data-section="page2" data-value="preg5">What is the overnight capacity of the inn?</strong></h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                                <span class="sign mbr-iconfont mbri-arrow-down">+</span>
                             </a>
                         </div>
                         <div id="collapse6_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">

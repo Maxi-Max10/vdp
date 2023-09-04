@@ -27,7 +27,7 @@
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <div class="social-row display-7 me-4 me-sm-0">
                     <div class="soc-item">
-                        <a href="" target="_blank">
+                        <a href="https://api.whatsapp.com/send/?phone=2616316497&text&type=phone_number&app_absent=0" target="_blank">
                             <span class="mbr-iconfont socicon socicon-whatsapp" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
                         </a>
                     </div>
@@ -37,13 +37,13 @@
                         </a>
                     </div>
                     <div class="soc-item">
-                        <a href="" target="_blank">
+                        <a href="https://instagram.com/vivacsdelplata?igshid= MZRLODBINWFIZA==" target="_blank">
                             <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"
                                         style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
                         </a>
                     </div>
                     
-                    <div class="soc-item"><a href="" target="_blank">
+                    <div class="soc-item"><a href="https://maps.app.goo.gl/YZDKpfVicwxZ4hYp6" target="_blank">
                     <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
                         </a>
                         

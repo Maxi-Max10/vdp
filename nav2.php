@@ -99,17 +99,17 @@
                                         </a>
                                     </div>
                                     <div class="soc-item ms-2">
-                                        <a href="" target="_blank">
+                                        <a href="https://api.whatsapp.com/send/?phone=2616316497&text&type=phone_number&app_absent=0" target="_blank">
                                             <span class="mbr-iconfont socicon socicon-tripadvisor" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 16pt"></span>
                                         </a>
                                     </div>
                                     <div class="soc-item ms-2">
-                                        <a href="" target="_blank">
+                                        <a href="https://instagram.com/vivacsdelplata?igshid= MZRLODBINWFIZA==" target="_blank">
                                             <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
                                         </a>
                                     </div>
                                     <div class="soc-item ms-2">
-                                        <a href="" target="_blank">
+                                        <a href="https://maps.app.goo.gl/YZDKpfVicwxZ4hYp6" target="_blank">
                                             <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
                                         </a>
                                     </div>

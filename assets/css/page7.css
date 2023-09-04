@@ -197,7 +197,7 @@
 .slide-container-2{
   position: relative;
   display: flex;
-  margin-right: 12%;
+  margin-right: 17%;
   margin-top: 8rem;
   margin-bottom: 2rem;
 }
@@ -205,7 +205,7 @@
   .slide-container-2{
     position: relative;
     display: flex;
-    margin-right: 11%;
+    margin-right: 12%;
     margin-top: 8rem;
   }
 }
@@ -229,7 +229,7 @@
   .slide-container-2{
     position: relative;
     display: flex;
-    margin-right: 9%;
+    margin-right: 7%;
     margin-top: 8rem;
   }
 }
@@ -306,7 +306,7 @@
 }
 
 .margin-slide-2{
-  margin-right: 0% !important;
+  margin-right: 5% !important;
   margin-left:0%
 }
 @media(max-width:1600px){

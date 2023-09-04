@@ -633,7 +633,7 @@ include "nav2.php";
                 </div>
                 <div class="d-flex align-items-end w-75">
                     <h6 class="trip-paragraph fw-bold mb-1" data-section="page7" data-value="CUNTRY CLUB">CLUB DE CAMPO</h6>
-                    <span id="dropdownButtonCountry" class="dropdown-button-atamisque ms-5 ms-xl-auto">+</span>
+                    <span id="dropdownButtonCountry" class="dropdown-button-atamisque plus ms-5 ms-xl-auto">+</span>
                 </div>
                 <div id="dropdownCountry" class="hidden fade-slide-down">
                     <p class="trip-paragraph mb-1" data-section="page7" data-value="DESC76">

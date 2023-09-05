@@ -123,9 +123,21 @@ var buttonDaily = document.getElementById('itinerary');
       draggable: true,
     },
     breakpoints: {
-      450:{
+      420:{
         slidesPerView: 2,
-        spaceBetween: 100
+        spaceBetween: 20
+      },
+      560:{
+        slidesPerView: 2,
+        spaceBetween: -100
+      },
+      770:{
+        slidesPerView: 2,
+        spaceBetween: -180
+      },
+      992:{
+        slidesPerView: 2,
+        spaceBetween: -100
       },
       1200:{
         slidesPerView: 2,
@@ -169,4 +181,22 @@ var buttonDaily = document.getElementById('itinerary');
       el: ".swiper-scrollbar",
       draggable: true,
     },
+    breakpoints: {
+      328:{
+        slidesPerView: 2,
+        spaceBetween: 100
+      },
+      500:{
+        slidesPerView: 2,
+        spaceBetween: 150
+      },
+      768:{
+        slidesPerView: 2,
+        spaceBetween: -100
+      },
+      1200:{
+        slidesPerView: 2,
+        spaceBetween: -200
+      },
+    }
   });

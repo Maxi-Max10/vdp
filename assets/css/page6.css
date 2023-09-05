@@ -131,6 +131,20 @@ svg {
     border-radius: 50%;
   }
 }
+@media(max-width:500px){
+  .arrow-2-p6 {
+    display: none;
+    margin: -33px 0 0;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 3;
+    width: 38px;
+    height: 38px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+}
   
 .arrow__line-p6 {
     fill:none;
@@ -164,6 +178,40 @@ svg {
 
 .slide-m{
   margin-left: 15%;
+}
+@media(max-width:1200px){
+  .slide-m{
+    margin-left: 0.5%;
+    --swiffy-slider-item-count: 1 !important;
+  }
+}
+@media(max-width:790px){
+  .slide-m{
+    margin-left: 0%;
+    --swiffy-slider-item-count: 1 !important;
+    --swiffy-slider-item-reveal: -4rem;
+  }
+}
+@media(max-width:650px){
+  .slide-m{
+    margin-left: 0%;
+    --swiffy-slider-item-count: 1 !important;
+    --swiffy-slider-item-reveal: -8rem;
+  }
+}
+@media(max-width:530px){
+  .slide-m{
+    margin-left: 0%;
+    --swiffy-slider-item-count: 1 !important;
+    --swiffy-slider-item-reveal: -10rem;
+  }
+}
+@media(max-width:420px){
+  .slide-m{
+    margin-left: 0%;
+    --swiffy-slider-item-count: 1 !important;
+    --swiffy-slider-item-reveal: -12rem;
+  }
 }
 
 .next-2-p6{
@@ -207,8 +255,7 @@ svg {
 }
 
 
-.next-p6:hover .svg-p6 svg .arrow__line-p6 {
-  opacity: 1;
+.next-p6:hover .svg-p6 svg .arrow__line-p6 {  opacity: 1;
   visibility: visible;
   transform: translateX(0);
 }
@@ -306,7 +353,7 @@ svg {
 }
 @media (max-width:1200px){
   .plan{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -330,6 +377,27 @@ svg {
 .accomodation{
   position: absolute;
   margin-bottom: -1.5%;
+}
+@media(max-width:640px){
+  .accomodation{
+    font-size: 1.2rem;
+    position: absolute;
+    margin-bottom: -10%;
+  }
+}
+@media(max-width:425px){
+  .accomodation{
+    font-size: 1.2rem;
+    position: absolute;
+    margin-bottom: -15%;
+  }
+}
+@media(max-width:380px){
+  .accomodation{
+    font-size: 1.2rem;
+    position: absolute;
+    margin-bottom: -20%;
+  }
 }
 
 .p-borde{
@@ -357,6 +425,13 @@ svg {
     color: black;
     font-family: 'Roboto-Bold';
     font-size: 1.2rem;
+  }
+}
+@media (max-width:368px){
+  .itinerary-title{
+    color: black;
+    font-family: 'Roboto-Bold';
+    font-size: 0.9rem;
   }
 }
 
@@ -833,6 +908,19 @@ svg {
     border: 1px solid rgb(119, 119, 119);
     border-radius: 50%;
   }
+  
+.arrow-culinary {
+  display: none;
+  margin: -33px 0 0;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  z-index: 3;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgb(119, 119, 119);
+  border-radius: 50%;
+}
 }
 
 /* CARRUSEL NUEVO */

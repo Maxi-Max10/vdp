@@ -1,4 +1,3 @@
-
 <?php 
 $campo = "All Inclusive Experience";
 include "nav2.php";
@@ -24,12 +23,12 @@ include "nav2.php";
 </section>
 
 <section>
-  <div class="slider margin-slider-top">
+  <div class="slider-plan margin-slider-top">
     <div class="plan">
       <p class="plan-title" data-section="page6" data-value="title2A">PLAN YOUR STAY</p>
       <p class="plan-text" data-section="page6" data-value="descrip2A">Whether you seek adventure <br>or relaxation, Vivacs del Plata <br> is the perfect retreat.</p>
     </div>
-    <div class="col-7 ms-auto">
+    <div class="col-10 col-xl-7 ms-auto me-auto me-xl-0">
       <div class="swiperScroll swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -89,12 +88,12 @@ include "nav2.php";
             <a class="btn btn-inquire btn-outline-dark me-5" href="page4.php" data-section="page6" data-value="inquireA">INQUIRE</a>
         </div>
         <div class="divider mt-3"></div>
-        <div id="itinerary" class="d-flex align-items-center w-50">
+        <div id="itinerary" class="d-flex align-items-center width-50">
             <h6 class="itinerary-subtitle my-3 fw-bold pointer" data-section="page6" data-value="COUNTRY RETREAT DAILY EXPERIENCE">COUNTRY RETREAT DAILY EXPERIENCE</h6>
             <p id="plusIcon" class="plus mb-0 fw-bold ms-5 fs-4 pointer">+</p>
         </div>
         <section id="prices" class="hidden fade-slide-down">
-          <div class="timeline-container-2-p6">
+          <div class="timeline-container-2-p6 timeline-pc">
             <ul class="timeline ">
               <li id="circle-1" class="text-1 hoverable circle-gray p1 pointer"></li>
               <li id="circle-2" class="text-2 hoverable circle-gray p2 pointer"></li>
@@ -178,13 +177,13 @@ include "nav2.php";
               <p class="text-item itinerary-text mb-0"><span class="fw-bold">USD 250 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
           </div>
           <div class="pb-5 d-flex align-items-center width-50">
-              <p class="text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
+              <p class="me-1 text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
                 <div class="divider-light"></div>
               <p class="text-item itinerary-text mb-0"><span class="fw-bold">USD 210 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
           </div>
         </section>
         <div class=" divider mt-2"></div>
-        <div id="itinerary2" class="d-flex align-items-center w-50">
+        <div id="itinerary2" class="d-flex align-items-center width-50">
             <h6 class="itinerary-subtitle my-3 fw-bold pointer" data-section="page6" data-value="COUNTRY RETREAT AND OVERNIGHT EXPERIENCE">COUNTRY RETREAT AND OVERNIGHT EXPERIENCE</h6>
             <p id="plusIcon2" class="plus mb-0 fw-bold ms-auto fs-4 pointer">+</p>
         </div>
@@ -298,7 +297,7 @@ include "nav2.php";
                 <p class="text-item itinerary-text mb-0"><span class="itinerary-text text-item fw-bold">USD 450</span><span class="italic text-item" data-section="page6" data-value="per guest"> per guest</span></p>
             </div>
             <div class="pb-5 d-flex align-items-center width-50">
-                <p class="text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
+                <p class="me-1 text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
                 <div class="divider-light"></div>
                 <p class="text-item itinerary-text mb-0"><span class="fw-bold">USD 400</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span></p>
             </div>
@@ -323,7 +322,7 @@ include "nav2.php";
     <div class="segunda-hoja">
       <div class="subseccion-1-1">
       <h2 class="h2-subseccion-1-2 roboto-regular text-center text-xl-start" data-section="page6" data-value="Activities">Activities</h2>
-      <div class="swiffy-slider slider-nav-round slider-nav-outside slider-nav-visible slider-item-snapstart">
+      <div class="swiffy-slider slider-nav-round slider-nav-visible slider-item-snapstart">
         <ul class="slider-container slider-subseccion-1">
           <li class="">
             <div id="slide1">
@@ -374,11 +373,11 @@ include "nav2.php";
           </li>
           <li>
             <div id="slide2">
-              <div class="subseccion-1">
-                <div class="elemento-1">
+              <div class="subseccion-1-p6">
+                <div class="elemento-1 text-center text-xl-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="4X4 GUIDED TOUR">4X4 GUIDED TOUR</h2>
-                  <div class="divisor-1"></div>
-                  <p class="parrafo-subseccion-1-2" data-section="page6" data-value="debajode4x4">
+                  <div class="divisor-1 mx-auto mx-xl-0"></div>
+                  <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajode4x4">
                     Sit back and relax as our <br class="br-carrusel">
                       experienced drivers take <br class="br-carrusel">
                       you on a guided 4x4 tour of <br class="br-carrusel"> 
@@ -425,10 +424,10 @@ include "nav2.php";
           <li>
             <div id="slide3">
               <div class="subseccion-1">
-                <div class="elemento-1">
+                <div class="elemento-1 text-center text-xl-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="CYCLING">CYCLING</h2>
-                  <div class="divisor-1"></div>
-                  <p class="parrafo-subseccion-1-3" data-section="page6" data-value="debajodecicl">
+                  <div class="divisor-1 mx-auto mx-xl-0"></div>
+                  <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajodecicl">
                     For an unparalleled cycling <br class="br-carrusel">
                     experience in nature at an <br class="br-carrusel">
                     altitude of 2,100 meters above <br class="br-carrusel">
@@ -479,12 +478,12 @@ include "nav2.php";
           </li>
           <li>
             <div id="slide4">
-              <div class="subseccion-1">
+              <div class="subseccion-1-p6">
 
-                <div class="elemento-1">
+                <div class="elemento-1 text-center text-xl-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="TREKKING">TREKKING</h2>
-                  <div class="divisor-1"></div>
-                  <p class="parrafo-subseccion-1-4" data-section="page6" data-value="debajodetrekk">
+                  <div class="divisor-1 mx-auto mx-xl-0"></div>
+                  <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajodetrekk">
                     Unleash your adventurous spirit <br class="br-carrusel">
                     and immerse yourself in nature <br class="br-carrusel">
                     by embarking on a trekking <br class="br-carrusel">
@@ -544,14 +543,14 @@ include "nav2.php";
 
         
     
-    <div class="subseccion-2">
+     <div class="subseccion-2">
         <h2 class="subtitulo-subseccion-2" data-section="page6" data-value="Culinary Experience">Culinary Experience</h2>
         
         <div class="slide-m swiffy-slider slider-item-show4 slider-nav-visible slider-item-snapstart slider-nav-round">
           <ul class="slider-container ul-slider-subseccion-2">
               <li>
                   <div id="slide1" class="slide">
-                    <div class="flex-column d-flex col-8 slide-item">
+                    <div class="flex-column d-flex col-3 slide-item">
                       <img
                       class="imagen-subseccion-5"
                       src="./assets/images/45AD508E-89ED-4966-A830-D6801DF4F119.JPG"
@@ -944,7 +943,7 @@ include "nav2.php";
           </div>
         </div>
        
-  
+
         <div class="subseccion-5">
           <div class="bloque">
             <p class="parrafo-subseccion-5">
@@ -977,7 +976,7 @@ include "nav2.php";
               authentic Mendocino barbecue...
             </p>
           </div>
-        </div>
+        </div> 
       </div>
 </section>
 <?php

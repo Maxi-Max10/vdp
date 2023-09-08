@@ -773,12 +773,13 @@ a {
 }
 @media (min-width: 992px) {
   .cid-tKt4skVtmt .text-wrapper {
-    padding: 0 2rem;
+    padding: 0 7rem;
   }
 }
 @media (max-width: 768px) {
   .cid-tKt4skVtmt .text-wrapper {
     margin-bottom: 2rem;
+    padding: 1rem;
   }
 }
 .cid-tKtfRzU1Q7 {

@@ -25,10 +25,10 @@ include "nav2.php";
 
 <section data-bs-version="5.1" class="features16 cid-tKt4skVtmt" id="features17-5">
 
-    <div class="container">
+    <div class="">
         <div class="row align-items-center justify-content-center mb-4">
             <div class="col-12 col-md-6 image-wrapper">
-                <img src="assets/images/Mapa-04.jpg" alt="">
+                <img src="assets/images/Getting Here-04.jpg" alt="">
             </div>
             <div class="col-12 col-md mt-4">
                 <div class="text-wrapper">
@@ -111,7 +111,7 @@ include "nav2.php";
             </div>
             <div class="col-12 col-lg-8">
                 <div class="image-wrapper">
-                    <img src="assets/images/croquis-2-1197x1074.png" alt="">
+                    <img src="assets/images/vdp_mapa_web-08.png" alt="">
                 </div>
             </div>
         </div>

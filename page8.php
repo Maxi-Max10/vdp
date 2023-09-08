@@ -217,7 +217,7 @@ include "nav2.php";
                     <p id="cardIcon4" class="plus4 mb-0 fw-bold ms-auto fs-5 transition pointer">+</p>
                 </div>
                 <div class="divider mb-2"></div>
-                <div id="textoDesplegable4" class="hidden fade-slide-down">
+                <div id="textoDesplegable4" class="hidden fade-slide-down" >
                     <p class="text-card my-3" data-section="page8" data-value="AS4">In our family, the love for animals extends beyond our livestock. Meet Lucho, Roco, and Picardía, our three beloved dogs who bring boundless joy and playfulness to the ranch. Their wagging tails add warmth to our guests' experience. <br>And let's not forget El Gordo, our friendly feline companion who roams the estate, captivating everyone with his charm. <br>These furry friends complete our close-knit family and are always ready to offer a warm welcome to our visitors.</p>
                 </div>
             </div>

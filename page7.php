@@ -39,7 +39,7 @@ include "nav2.php";
                     Hop on board our sailboat “Prana” and <br class="description-br">
                     experience the beauty of Potrerillos Dam, a <br class="description-br">
                     stunning water mirror surrounded by desertic <br class="description-br">
-                    mountains. Helmed by Captain Pedro, you’ll <br class="description-br">
+                    mountains. Helmed by Patrón Pedro, you’ll <br class="description-br">
                     sail on a 24.5 ft MASTRACCHIO boat, while <br class="description-br">
                     relishing the picturesque views and indulging <br class="description-br">
                     in wine and snacks.

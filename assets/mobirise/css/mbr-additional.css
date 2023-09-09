@@ -49,6 +49,12 @@ body {
 /* 100vw - current viewport width */
 /* (48 - 20)  48 == 48rem == 768px, 20 == 20rem == 320px(minimal supported viewport) */
 /* 0.65 - min scale variable, may vary */
+
+.icon-wsp, .icon-trip, .icon-ig, .icon-loc {
+  margin-right: 0.9rem;
+}
+
+
 @media (max-width: 992px) {
   .display-1 {
     font-size: 2.5rem;
@@ -1060,6 +1066,7 @@ a {
 }
 .cid-tL7nLROMV3 .navbar.collapsed {
   justify-content: center;
+
 }
 .cid-tL7nLROMV3 .navbar.collapsed .nav-item .nav-link::before {
   display: none;
@@ -1070,6 +1077,21 @@ a {
 @media (min-width: 992px) {
   .cid-tL7nLROMV3 .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
     max-height: calc(98.5vh - 5rem);
+    margin-top: 5rem;
+  }
+}
+@media (min-width: 1920px) {
+  .menu-vidaloka {
+    font-size: 3rem !important;
+  }
+
+  .icon-ig, .icon-loc, .icon-trip, .icon-wsp {
+    font-size: 2rem !important;
+    margin-right: 0.5rem;
+  }
+
+  .nav-dropdown {
+    margin-top: 10rem !important;
   }
 }
 .cid-tL7nLROMV3 .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -1359,7 +1381,7 @@ a {
   justify-content: center;
   border-radius: 50%;
   background-color: white;
-  margin-right: 0.5rem;
+  margin-left: 0.5rem;
   margin-bottom: 1rem;
   padding: 0.5rem;
   height: 2.5rem;
@@ -1789,6 +1811,7 @@ a {
 }
 .cid-tL7nLROMV3 .navbar.opened {
   transition: top 1.3s ease-in;
+  opacity: 0.9;
 }
 .cid-tL7nLROMV3 .navbar .dropdown-item {
   padding: 0.5rem 1.8rem;
@@ -1916,6 +1939,7 @@ a {
 }
 .cid-tL7nLROMV3 .navbar.navbar-short .tes {
   color: #232323 !important;
+
 }
 .cid-tL7nLROMV3 .navbar.navbar-short .tes-2 {
   background: #232323 !important;
@@ -4759,9 +4783,11 @@ a {
 .cid-tMz8FzIHGW .copyright {
   text-align: left;
 }
-.nav-height{
-  height: 22% !important;
+.nav-height {
+  height: 16% !important;
 }
+
+
 @media(max-width:400px){
   .nav-height{
     height: 18% !important;
@@ -4801,6 +4827,12 @@ a {
 }
 .burger-negative{
   margin-top: 0rem;
+}
+.en {
+  margin-right: 1.5rem;
+}
+.cont {
+  margin-right: 2rem;
 }
 @media(max-width:400px){
   .burger-negative{

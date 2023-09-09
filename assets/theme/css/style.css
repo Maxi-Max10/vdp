@@ -557,6 +557,7 @@ nav .mbr-section-btn {
     max-height: 93.5vh;
   }
   .menu .collapsed .navbar-collapse.show {
+    margin-top: 5rem;
   }
 }
 @media (max-width: 767px) {
@@ -977,7 +978,9 @@ blockquote {
   }
 }
 .text-nav{
-  font-family: 'Roboto-Regular' !important;
+  font-family: 'Roboto-Bold' !important;
+  font-size: 15px !important;
+  
 }
 @media(max-width:365px){
   .text-nav{

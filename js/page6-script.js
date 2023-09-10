@@ -7,6 +7,7 @@ const hoverableElements = document.querySelectorAll('.hoverable');
           pairElement.classList.add('circle-black')
           pairElement.classList.remove('circle-gray')
           element.classList.add('black');
+          element.firstElementChild.classList.add("itinerary-text-p7-hover");
           element.classList.remove('gray');
       }
       if(element.classList.contains('circle-gray')){
@@ -24,6 +25,7 @@ const hoverableElements = document.querySelectorAll('.hoverable');
           pairElement.classList.add('circle-gray')
           pairElement.classList.remove('circle-black')
           element.classList.add('gray');
+          element.firstElementChild.classList.remove("itinerary-text-p7-hover");
           element.classList.remove('black');
       }
       if(element.classList.contains('circle-black')){
@@ -112,60 +114,24 @@ var buttonDaily = document.getElementById('itinerary');
   })
 
   const swiperScroll1 = new Swiper(".swiperScroll", {
-    slidesPerView:2,
-    spaceBetween: 100,
+    slidesPerView:1,
+    spaceBetween: 10,
     navigation: {
-      nextEl: ".arrow-p6",
+      nextEl: ".flecha-p6",
     },
     speed: 400,
-    scrollbar: {
-      el: ".swiper-scrollbar",
-      draggable: true,
-    },
     breakpoints: {
       420:{
-        slidesPerView: 2,
-        spaceBetween: 20
+        slidesPerView: 1,
+        spaceBetween: 10
       },
-      560:{
+      952:{
         slidesPerView: 2,
-        spaceBetween: -100
-      },
-      770:{
-        slidesPerView: 2,
-        spaceBetween: -180
-      },
-      992:{
-        slidesPerView: 2,
-        spaceBetween: -100
+        spaceBetween: 10
       },
       1200:{
         slidesPerView: 2,
-        spaceBetween: -20
-      },
-      1250:{
-        slidesPerView: 2,
-        spaceBetween: -50
-      },
-      1350:{
-        slidesPerView: 2,
-        spaceBetween: -100
-      },
-      1400:{
-        slidesPerView: 2,
-        spaceBetween: -150
-      },
-      1500:{
-        slidesPerView: 2,
-        spaceBetween: -200
-      },
-      1600:{
-        slidesPerView: 2,
-        spaceBetween: -250
-      },
-      1700:{
-        slidesPerView: 2,
-        spaceBetween: -300
+        spaceBetween: 10
       },
     }
   });
@@ -200,3 +166,82 @@ var buttonDaily = document.getElementById('itinerary');
       },
     }
   });
+
+var flechap6 = document.querySelector(".flecha-p6");
+var flecha2p6 = document.querySelector(".flecha-p6-prev");
+
+var swiperPlan = document.getElementById("planWrapper");
+
+var planObserver = new MutationObserver(observeSwiper);
+
+var planConfig = { attributes: true, attributeFilter: ["style"] };
+planObserver.observe(swiperPlan, planConfig);
+
+function observeSwiper(mutationsList, planObserver) {
+  for (var mutation of mutationsList) {
+    if (mutation.type === "attributes" && mutation.attributeName === "style") {
+      checkPlanElement();
+    }
+  }
+}
+
+var planImg1 = document.getElementById("planImg1");
+var planImg7 = document.getElementById("planImg7");
+var planImg8 = document.getElementById("planImg8");
+var planImg9 = document.getElementById("planImg9");
+var planImg10 = document.getElementById("planImg10");
+
+function checkPlanElement() {
+  var windowp6 = window.innerWidth;
+
+  switch (true) {
+    case windowp6 >= 2420:
+      if (planImg7.classList.contains("swiper-slide-next")) {
+        flechap6.classList.add("hidden");
+        flecha2p6.classList.remove("hidden");
+      }
+      if (planImg1.classList.contains("swiper-slide-active")) {
+        flechap6.classList.remove("hidden");
+        flecha2p6.classList.add("hidden");
+      }
+      break;
+
+    case windowp6 >= 1919:
+      if (planImg10.classList.contains("swiper-slide-next")) {
+        flechap6.classList.add("hidden");
+        flecha2p6.classList.remove("hidden");
+      }
+      if (planImg1.classList.contains("swiper-slide-active")) {
+        flechap6.classList.remove("hidden");
+        flecha2p6.classList.add("hidden");
+      }
+      break;
+
+    case windowp6 >= 1768:
+      if (planImg10.classList.contains("swiper-slide-next")) {
+        flechap6.classList.add("hidden");
+        flecha2p6.classList.remove("hidden");
+      }
+      if (planImg1.classList.contains("swiper-slide-active")) {
+        flechap6.classList.remove("hidden");
+        flecha2p6.classList.add("hidden");
+      }
+      break;
+
+    case windowp6 >= 469:
+      if (planImg10.classList.contains("swiper-slide-next")) {
+        flechap6.classList.add("hidden");
+        flecha2p6.classList.remove("hidden");
+        console.log("ALSKDJFLAJSDf")
+      }
+      if (planImg1.classList.contains("swiper-slide-active")) {
+        flechap6.classList.remove("hidden");
+        flecha2p6.classList.add("hidden");
+        console.log("999999999999")
+      }
+      break;
+
+    default:
+      break;
+  }
+}

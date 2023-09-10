@@ -24,7 +24,7 @@ include "nav2.php";
 
 <section>
     <div class="slide-container">
-        <div class="d-flex flex-column text-width mt-auto">
+        <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-auto trip-info">
             <h2 class="trip-title mb-5 mb-xl-5 text-center text-xl-start" data-section="page7" data-value="Sailing">Sailing</h2>
             <div class="w-0 w-xl-50 mx-auto mx-xl-0">
                 <p class="trip-paragraph mb-1 pe-0" data-section="page7" data-value="Location">
@@ -54,83 +54,77 @@ include "nav2.php";
                 </div>
             </div>
         </div>
-        <div id="swiperP7" class="swiper slide-width margin-slide">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide ss">
-                    <img class="trip-img" src="assets/images/Imágenes Sailing/23715C91-E1BE-4C5C-959F-32DA2CF5E23E.JPG" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss">
+        <div class="col-8 col-xxl-7 swiper-margin-1-p7">
+            <div id="swiperP7" class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ss">
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/23715C91-E1BE-4C5C-959F-32DA2CF5E23E.JPG" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss">
                     <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize.jpg" alt="Sailing_2"></img>
-                </div>
-                <div class="swiper-slide ss">
-                    <img class="trip-img"  src="assets/images/Imágenes Sailing/2A8895C9-0575-4035-B993-8646C43D40D5.JPG" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss">
-                    <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize_2.jpg" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss">
-                    <img class="trip-img" src="assets/images/Imágenes Sailing/AB3E3451-FC8E-4AF2-A612-479FFB6F1821.JPG" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss">
-                    <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize_3.jpg" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss">
-                    <img class="trip-img" src="assets/images/Imágenes Sailing/56D24E53-5B1F-4AF3-8641-0ECE202A6728.JPG" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss">
-                    <img class="trip-img" src="assets/images/Imágenes Sailing/sailing_women.jpg" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss">
-                    <img class="trip-img" src="assets/images/Imágenes Sailing/ship.jpg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss">
+                        <img class="trip-img"  src="assets/images/Imágenes Sailing/2A8895C9-0575-4035-B993-8646C43D40D5.JPG" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss">
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize_2.jpg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss">
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/AB3E3451-FC8E-4AF2-A612-479FFB6F1821.JPG" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss">
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize_3.jpg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss">
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/56D24E53-5B1F-4AF3-8641-0ECE202A6728.JPG" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss">
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/sailing_women.jpg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss">
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship.jpg" alt="Sailing_1"></img>
+                    </div>
                 </div>
             </div>
-        
-            <div id="swiper-button-next-p7" class="swiper-button-next arrow-p7 next-p7" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-                <span class="svg-p7 svg-arrow-right">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p7" d="M0 12.9h28.5"/></svg>
-                </span>
-            </div>
+            <img id="swiper-button-next-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7" alt="flecha2_svg">
         </div>
     </div>
     <div class="slide-container-2">
-        <div id="swiper2P7" class="swiper slide-width margin-slide-2">
-            <div class="swiper-wrapper mb-0">
-                <div class="swiper-slide ss-2">
-                    <img class="trip-img" src="assets/images/Imágenes Moto/mens_resize.jpg" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss-2">
-                    <img class="trip-img" src="assets/images/Imágenes Moto/Motorcycle trip.jpeg" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss-2">
-                    <img class="trip-img" src="assets/images/Imágenes Moto/mountain_resize.jpg" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss-2">
-                    <img class="trip-img" src="assets/images/Imágenes Moto/moto_men_resize.jpg" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss-2">
-                    <img class="trip-img" src="assets/images/Imágenes Moto/resize_moto2.jpg" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss-2">
-                    <img class="trip-img" src="assets/images/Imágenes Moto/moto_resize.jpg" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss-2">
-                    <img class="trip-img"  src="assets/images/Imágenes Moto/IMG_6815 2.jpeg" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss-2">
-                    <img class="trip-img" src="assets/images/Imágenes Moto/mirror_moto.jpg" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss-2">
-                    <img class="trip-img" src="assets/images/Imágenes Moto/resize_moto.jpg" alt="Sailing_2"></img>
+        <div class="col-8 col-xxl-7 swiper-margin-2-p7">
+            <div id="swiper2P7" class="swiper">
+                <div class="swiper-wrapper mb-0">
+                    <div class="swiper-slide ss-2">
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mens_resize.jpg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss-2">
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/Motorcycle trip.jpeg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss-2">
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mountain_resize.jpg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss-2">
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/moto_men_resize.jpg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss-2">
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/resize_moto2.jpg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss-2">
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/moto_resize.jpg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss-2">
+                        <img class="trip-img-2"  src="assets/images/Imágenes Moto/IMG_6815 2.jpeg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss-2">
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mirror_moto.jpg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss-2">
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/resize_moto.jpg" alt="Sailing_2"></img>
+                    </div>
                 </div>
             </div>
-        
-            <div id="swiper-button-prev2-p7" class="swiper-button-prev arrow-p7 prev-p7" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-                <span class="svg-2-p7 svg-arrow-left">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M13 26c-.3 0-.5-.1-.7-.3l-12-12c-.4-.4-.4-1 0-1.4l12-12c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-11.3 11.3 11.3 11.3c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3z"/><path class="arrow__line-p7" d="M29.9 13.1h-28.4"/></svg>
-                </span>
-            </div>
+            <img id="swiper-button-next-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7" alt="flecha2_svg">
         </div>
-        <div class="d-flex flex-column text-width mt-auto">
+        <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-auto trip-info-2">
             <h2 class="trip-title2 mb-5 mt-5 mt-xl-0 mb-xl-5 text-center text-xl-start" data-section="page7" data-value="Motorcycle road trip">Motorcycle road trip</h2>
             <div class="w-0 w-xl-50 mx-auto mx-xl-0">
                 <p class="trip-paragraph mb-1" data-section="page7" data-value="Mendoza province and surroundings">
@@ -603,12 +597,16 @@ include "nav2.php";
         <div class="itinerary-end m-top" data-section="page7" data-value="DESC71"><span class="">*</span>To ensure that your motorcycle trip is tailored to your preferences and desires we encouraged riders to contact our dedicated staff. Whether you have specific landmarks you want to visit, prefer scenic routes over challenging terrains, or have any other personalization request our guides are ready to work with you on the customization of your trip</div>
     </section>
     <div class="slide-container">
-        <div class="d-flex flex-column text-width mb-3 mb-xl-auto">
+        <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-auto trip-info mb-3 mb-xl-auto">
             <h2 class="trip-title mb-3 mb-xl-5 text-center text-xl-start" data-section="page7" data-value="Golf outing">Golf outing</h2>
             <div class="w-100 w-xl-50 mx-auto mx-xl-0">
-                <div class="d-flex align-items-end w-75">
-                    <h6 class="trip-paragraph fw-bold mb-0" data-section="page7" data-value="ATAMISQUE">ATAMISQUE</h6>
-                    <span id="dropdownButtonAtamisque" class="dropdown-button-atamisque ms-5 ms-xl-auto plus">+</span>
+                <div class="d-flex align-items-end">
+                    <div class="col-11">
+                        <h6 class="trip-paragraph fw-bold mb-0" data-section="page7" data-value="ATAMISQUE">ATAMISQUE</h6>
+                    </div>
+                    <div class="col-1">
+                        <span id="dropdownButtonAtamisque" class="dropdown-button-atamisque ms-5 ms-xl-auto plus">+</span>
+                    </div>
                 </div>
                 <div id="dropdownAtamisque" class="hidden fade-slide-down">
                     <p class="trip-paragraph mb-1" data-section="page7" data-value="DESC72">
@@ -631,9 +629,13 @@ include "nav2.php";
                         </p>
                     </div>
                 </div>
-                <div class="d-flex align-items-end w-75">
-                    <h6 class="trip-paragraph fw-bold mb-1" data-section="page7" data-value="CUNTRY CLUB">CLUB DE CAMPO</h6>
-                    <span id="dropdownButtonCountry" class="dropdown-button-atamisque plus ms-5 ms-xl-auto">+</span>
+                <div class="d-flex align-items-end justify-content-xl-start">
+                    <div class="col-11">
+                        <h6 class="trip-paragraph fw-bold mb-1" data-section="page7" data-value="CUNTRY CLUB">CLUB DE CAMPO</h6>
+                    </div>
+                    <div class="col-1">
+                        <span id="dropdownButtonCountry" class="dropdown-button-atamisque plus ms-5 ms-xl-auto">+</span>
+                    </div>
                 </div>
                 <div id="dropdownCountry" class="hidden fade-slide-down">
                     <p class="trip-paragraph mb-1" data-section="page7" data-value="DESC76">
@@ -657,26 +659,24 @@ include "nav2.php";
                 </div>
             </div>
         </div>
-        <div id="swiper3P7" class="swiper slide-width margin-slide">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide ss">
-                    <img class="trip-img" src="assets/images/Imágenes Golf/golf_resize.jpg" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss">
-                    <img class="trip-img" src="assets/images/Imágenes Golf/IMG_20200224_145226381.jpeg" alt="Sailing_2"></img>
-                </div>
-                <div class="swiper-slide ss">
-                    <img class="trip-img"  src="assets/images/Imágenes Golf/golfing_resize.jpg" alt="Sailing_1"></img>
-                </div>
-                <div class="swiper-slide ss">
-                    <img class="trip-img" src="assets/images/Imágenes Golf/2018-10-13.jpeg" alt="Sailing_1"></img>
+        <div class="col-8 col-xxl-7 swiper-margin-1-p7">
+            <div id="swiper3P7" class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ss">
+                        <img class="trip-img" src="assets/images/Imágenes Golf/golf_resize.jpg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss">
+                        <img class="trip-img" src="assets/images/Imágenes Golf/IMG_20200224_145226381.jpeg" alt="Sailing_2"></img>
+                    </div>
+                    <div class="swiper-slide ss">
+                        <img class="trip-img"  src="assets/images/Imágenes Golf/golfing_resize.jpg" alt="Sailing_1"></img>
+                    </div>
+                    <div class="swiper-slide ss">
+                        <img class="trip-img" src="assets/images/Imágenes Golf/2018-10-13.jpeg" alt="Sailing_1"></img>
+                    </div>
                 </div>
             </div>
-            <div id="swiper-button-next3-p7" class="swiper-button-next3 arrow-p7 next-p7" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-                <span class="svg-3-p7 svg-arrow-right">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p7" d="M0 12.9h28.5"/></svg>
-                </span>
-            </div>
+            <img id="swiper-button-next3-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7" alt="flecha2_svg">
         </div>
     </div>
 </section>

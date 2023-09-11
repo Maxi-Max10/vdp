@@ -379,6 +379,7 @@ svg {
   top: -25rem;
   left: -12rem;
   transition: all 0.3s;
+  transform: rotate(180deg) !important;
 }
 
 .plan {
@@ -516,6 +517,14 @@ svg {
   margin-bottom: -1.5%;
 }
 
+@media(max-width:992px) {
+  .accomodation {
+    font-size: 1.3rem;
+    position: absolute;
+    margin-bottom: -5%;
+  }
+}
+
 @media(max-width:640px) {
   .accomodation {
     font-size: 1.2rem;
@@ -543,7 +552,7 @@ svg {
 .p-borde {}
 
 .itinerary-section {
-  margin-top: 15%;
+  margin-top: 5%;
   margin-left: 5%;
 }
 

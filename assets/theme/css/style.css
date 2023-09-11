@@ -982,10 +982,22 @@ blockquote {
   font-size: 15px !important;
   
 }
-@media(max-width:365px){
+@media(max-width:415px){
   .text-nav{
     font-family: 'Roboto-Regular' !important;
-    font-size: 0.7rem !important;
+    font-size: 0.6rem !important;
+  }
+}
+@media(max-width:382px){
+  .text-nav{
+    font-family: 'Roboto-Regular' !important;
+    font-size: 0.5rem !important;
+  }
+}
+@media(max-width:336px){
+  .text-nav{
+    font-family: 'Roboto-Regular' !important;
+    font-size: 0.45rem !important;
   }
 }
 .vidaloka-nav{

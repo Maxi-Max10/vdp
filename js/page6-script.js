@@ -118,6 +118,7 @@ var buttonDaily = document.getElementById('itinerary');
     spaceBetween: 10,
     navigation: {
       nextEl: ".flecha-p6",
+      prevEl: ".flecha-p6-prev",
     },
     speed: 400,
     breakpoints: {
@@ -136,9 +137,24 @@ var buttonDaily = document.getElementById('itinerary');
     }
   });
 
-  const swiperScroll2 = new Swiper(".swiperScroll2", {
-    slidesPerView:2,
+  const swiperAccomodation = new Swiper(".swiperAccomodation", {
+    slidesPerView:1,
     spaceBetween: -200,
+    navigation: {
+      nextEl: ".next-accomodation",
+    },
+    speed: 400,
+    scrollbar: {
+      el: ".swiper-scrollbar",
+      draggable: true,
+    },
+    breakpoints: {
+    }
+  });
+
+  const swiperScroll2 = new Swiper(".swiperScroll2", {
+    slidesPerView:1,
+    spaceBetween: 20,
     navigation: {
       nextEl: ".arrow-p6",
     },
@@ -148,21 +164,9 @@ var buttonDaily = document.getElementById('itinerary');
       draggable: true,
     },
     breakpoints: {
-      328:{
-        slidesPerView: 2,
-        spaceBetween: 100
-      },
-      500:{
-        slidesPerView: 2,
-        spaceBetween: 150
-      },
-      768:{
-        slidesPerView: 2,
-        spaceBetween: -100
-      },
       1200:{
         slidesPerView: 2,
-        spaceBetween: -200
+        spaceBetween: 3
       },
     }
   });
@@ -232,12 +236,10 @@ function checkPlanElement() {
       if (planImg10.classList.contains("swiper-slide-next")) {
         flechap6.classList.add("hidden");
         flecha2p6.classList.remove("hidden");
-        console.log("ALSKDJFLAJSDf")
       }
       if (planImg1.classList.contains("swiper-slide-active")) {
         flechap6.classList.remove("hidden");
         flecha2p6.classList.add("hidden");
-        console.log("999999999999")
       }
       break;
 

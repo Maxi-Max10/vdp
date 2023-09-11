@@ -1945,6 +1945,13 @@ a {
   background: #232323 !important;
 }
 
+@media(max-width:415px){
+  .tes-2{
+    width: 1.5rem !important;
+    margin-top: -0.3rem;
+  }
+}
+
 .cid-tL7nLROMV3 .navbar.navbar-short span {
   background: #232323 ;
 }
@@ -4850,5 +4857,23 @@ a {
 @media(max-width:315px){
   .col-1-margin{
     margin-top: -1rem;
+  }
+}
+
+.padding-x{
+  padding-inline: 0.5rem;
+}
+@media(width <= 415px){
+  .padding-x{
+    padding-inline: 0.2rem;
+  }
+}
+
+.separator-top{
+  top: -6px !important;
+}
+@media(width <= 415px){
+  .separator-top{
+    top: -3px !important;
   }
 }

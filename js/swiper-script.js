@@ -146,6 +146,7 @@ var swiperImg1 = document.getElementById("swiperImg1");
 var swiperImg7 = document.getElementById("swiperImg7");
 var swiperImg8 = document.getElementById("swiperImg8");
 var swiperImg9 = document.getElementById("swiperImg9");
+var swiperImg10 = document.getElementById("swiperImg10");
 
 function checkSwiperElement() {
   var windowWidth = window.innerWidth;
@@ -184,7 +185,18 @@ function checkSwiperElement() {
       }
       break;
 
-    case windowWidth >= 469:
+    case windowWidth >= 768:
+      if (swiperImg10.classList.contains("swiper-slide-next")) {
+        flecha1.classList.add("hidden");
+        flecha2.classList.remove("hide-flecha");
+      }
+      if (swiperImg1.classList.contains("swiper-slide-active")) {
+        flecha1.classList.remove("hidden");
+        flecha2.classList.add("hide-flecha");
+      }
+      break;
+
+    case windowWidth < 768:
       if (swiperImg9.classList.contains("swiper-slide-next")) {
         flecha1.classList.add("hidden");
         flecha2.classList.remove("hide-flecha");

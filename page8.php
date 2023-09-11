@@ -88,7 +88,7 @@ include "nav2.php";
                 <div class="swiper-scrollbar"></div>
             </div>
             <img src="/assets/img/icons/flecha.svg" class="flecha-1" alt="flecha_svg">
-            <img src="/assets/img/icons/flecha.svg" class="flecha-1-prev hidden" alt="flecha_izquierda_svg">
+            <img src="/assets/img/icons/flecha.svg" class="flecha-1-prev hide-flecha" alt="flecha_izquierda_svg">
         </div>
     </div>
     <div class="container">

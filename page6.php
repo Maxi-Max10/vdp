@@ -1,10 +1,10 @@
-<!-- <?php 
+ <?php 
 $campo = "All Inclusive Experience";
 include "nav2.php";
 
 
 
-?> -->
+?> 
 
 
 
@@ -968,6 +968,9 @@ include "nav2.php";
             <p class="parrafo-subseccion-5">
               <i class="bi bi-quote icono-subseccion-5"></i>
             </p>
+            <a href="https://www.tripadvisor.com.ar/Attraction_Review-g664097-d25241616-Reviews-Vivacs_Del_Plata-Tupungato_Province_of_Mendoza_Cuyo.html" target="_blank">
+                            
+                        
             <h3 class="h3-subseccion-5-name">FERNANDA M</h3>
             <h3 class="h3-subseccion-5" data-section="page6" data-value="Fun Tupungato Adventure!">
               Fun Tupungato Adventure!
@@ -978,6 +981,7 @@ include "nav2.php";
               Andes mountains and experience an  <br>
               authentic Mendocino barbecue...
             </p>
+            </a>
           </div>
         </div> 
       </div>

@@ -605,7 +605,7 @@ include "nav2.php";
                         <h6 class="trip-paragraph fw-bold mb-0" data-section="page7" data-value="ATAMISQUE">ATAMISQUE</h6>
                     </div>
                     <div class="col-1">
-                        <span id="dropdownButtonAtamisque" class="dropdown-button-atamisque ms-5 ms-xl-auto plus">+</span>
+                        <span id="dropdownButtonAtamisque" class="dropdown-button-atamisque ms-5 ms-xl-auto plusx">+</span>
                     </div>
                 </div>
                 <div id="dropdownAtamisque" class="hidden fade-slide-down">
@@ -634,7 +634,7 @@ include "nav2.php";
                         <h6 class="trip-paragraph fw-bold mb-1" data-section="page7" data-value="CUNTRY CLUB">CLUB DE CAMPO</h6>
                     </div>
                     <div class="col-1">
-                        <span id="dropdownButtonCountry" class="dropdown-button-atamisque plus ms-5 ms-xl-auto">+</span>
+                        <span id="dropdownButtonCountry" class="dropdown-button-atamisque plusx ms-5 ms-xl-auto">+</span>
                     </div>
                 </div>
                 <div id="dropdownCountry" class="hidden fade-slide-down">

@@ -9,8 +9,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 $nombre = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
-//about = $_POST['about'];
-//$tres = $_POST['tres'];
+$lista = $_POST['list'];
+
 $interests = $_POST['check_list'];
 $fechainD = $_POST['fechainD'];
 $fechainM = $_POST['fechainM'];
@@ -20,7 +20,7 @@ $fechasalM = $_POST['fechasalM'];
 $fechasalA = $_POST['fechasalA'];
 $message = $_POST['message'];
 
-//print_r($_POST);
+print_r($_POST);
 /*
 for ($i=0;$i<count($about);$i++)    
 {     
@@ -31,11 +31,15 @@ $interestsSelect = implode(", ", $interests);
 $fechaIngre = "$fechainD/$fechainM/$fechainA";
 $fechaSalid = "$fechasalD/$fechasalM/$fechasalA";
 
-//echo $about2;
-echo $interestsSelect;
-echo "fecha ingreso: $fechaIngre";
-echo "fecha salida: $fechaSalid";
+$sellist = implode(" ",$lista);
 
+echo $sellist;
+
+//echo $about2;
+//echo $interestsSelect;
+//echo "fecha ingreso: $fechaIngre";
+//echo "fecha salida: $fechaSalid";
+/*
 $body = <<<HTML
     <h2>Datos de contacto</h2>
     <p>Nombre: $nombre <br>
@@ -62,5 +66,5 @@ var_dump($rta);
 if($rta = true){
     header("location: page4.php");
 }
-
+*/
 ?>

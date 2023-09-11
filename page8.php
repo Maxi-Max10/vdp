@@ -137,7 +137,7 @@ include "nav2.php";
                 </div>
                 <div class="divider mb-2"></div>
                 <div id="textoDesplegable" class="hidden fade-slide-down">
-                    <p class="text-card my-3" data-section="page8" data-value="AS1">We are proud to raise high-quality Aberdeen Angus and Hereford cattle, ensuring the finest breeds on our land at Vivacs del Plata. While previously focused solely on our cattle operations, we have recently opened our doors to guests, offering them a unique opportunity to witness our passion for animal husbandry firsthand.</p>
+                    <p class="text-card my-3" data-section="page8" data-value="AS1"  style="text-align:justify">We are proud to raise high-quality Aberdeen Angus and Hereford cattle, ensuring the finest breeds on our land at Vivacs del Plata. While previously focused solely on our cattle operations, we have recently opened our doors to guests, offering them a unique opportunity to witness our passion for animal husbandry firsthand.</p>
                 </div>
                 <div class="swiper" id="swiper2P8">
                     <div class="swiper-wrapper">
@@ -161,7 +161,7 @@ include "nav2.php";
                 </div>
                 <div class="divider mb-2"></div>
                 <div id="textoDesplegable2" class="hidden fade-slide-down">
-                    <p class="text-card my-3" data-section="page8" data-value="AS2">
+                    <p class="text-card my-3" data-section="page8" data-value="AS2" style="text-align:justify">
                         At Vivacs del Plata, we are not only stewards 
                         of animals but also cultivators of the land. Our fields flourish with an array of crops including 
                         potatoes, peas, and rye.
@@ -195,7 +195,7 @@ include "nav2.php";
                 </div>
                 <div class="divider mb-2"></div>
                 <div id="textoDesplegable3" class="hidden fade-slide-down">
-                    <p class="text-card my-3" data-section="page8" data-value="AS3">Within our picturesque estate, we maintain a cherished herd of  12 tame horses. These majestic creatures hold a special place in our hearts, and we take great pride in their well-being. With gentle care and a deep bond, we ensure our horses thrive in their natural environment, offering guests the opportunity to engage in memorable horseback riding experiences amidst the stunning mountain landscape.</p>
+                    <p class="text-card my-3" data-section="page8" data-value="AS3"  style="text-align:justify">Within our picturesque estate, we maintain a cherished herd of  12 tame horses. These majestic creatures hold a special place in our hearts, and we take great pride in their well-being. With gentle care and a deep bond, we ensure our horses thrive in their natural environment, offering guests the opportunity to engage in memorable horseback riding experiences amidst the stunning mountain landscape.</p>
                 </div>
                     <div class="swiper" id="swiper4P8">
                         <div class="swiper-wrapper">
@@ -219,7 +219,7 @@ include "nav2.php";
                 </div>
                 <div class="divider mb-2"></div>
                 <div id="textoDesplegable4" class="hidden fade-slide-down" >
-                    <p class="text-card my-3" data-section="page8" data-value="AS4">In our family, the love for animals extends beyond our livestock. Meet Lucho, Roco, and Picardía, our three beloved dogs who bring boundless joy and playfulness to the ranch. Their wagging tails add warmth to our guests' experience. <br>And let's not forget El Gordo, our friendly feline companion who roams the estate, captivating everyone with his charm. <br>These furry friends complete our close-knit family and are always ready to offer a warm welcome to our visitors.</p>
+                    <p class="text-card my-3" data-section="page8" data-value="AS4"  style="text-align:justify">In our family, the love for animals extends beyond our livestock. Meet Lucho, Roco, and Picardía, our three beloved dogs who bring boundless joy and playfulness to the ranch. Their wagging tails add warmth to our guests' experience. <br>And let's not forget El Gordo, our friendly feline companion who roams the estate, captivating everyone with his charm. <br>These furry friends complete our close-knit family and are always ready to offer a warm welcome to our visitors.</p>
                 </div>
             </div>
         </div>

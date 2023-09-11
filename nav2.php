@@ -55,11 +55,11 @@
                     </span>
                 </div>
                 <ul class="nav col-auto mb-2 justify-content-center mb-md-0 col-1-margin"  id="flags">
-                    <li id="closeLi" class="nav-item hidden responsive-nav"><a id="close" class="nav-link px-2 link-light tes text-nav"data-section="nav" data-value="cerrar">CLOSE</a></li>
-                    <li id="li1" class="nav-item flags responsive-nav es" ><a id="tes-1" data-language="es" class="nav-link px-2 link-light tes text-nav flags__item" >ES</a></li>
-                    <li id="separator" class="nav-link px-2 link-light tes text-nav responsive-nav" style="top: -6px;">|</li>
-                    <li id="li2" class="nav-item flags responsive-nav en"><a id="tes-2" data-language="en"  class="nav-link px-2 link-light tes text-nav flags__item">EN</a></li>
-                    <li id="li3" class="nav-item responsive-nav cont"><a id="tes-3" href="page4.php" class="nav-link px-2 link-light tes text-nav" data-section="nav" data-value="CONTACTMAY">CONTACT</a></li>
+                    <li id="closeLi" class="nav-item hidden responsive-nav"><a id="close" class="nav-link padding-x link-light tes text-nav"data-section="nav" data-value="cerrar">CLOSE</a></li>
+                    <li id="li1" class="nav-item flags responsive-nav es" ><a id="tes-1" data-language="es" class="nav-link padding-x link-light tes text-nav flags__item" >ES</a></li>
+                    <li id="separator" class="nav-link padding-x link-light tes text-nav responsive-nav separator-top" style="top: -6px;">|</li>
+                    <li id="li2" class="nav-item flags responsive-nav en"><a id="tes-2" data-language="en"  class="nav-link padding-x link-light tes text-nav flags__item">EN</a></li>
+                    <li id="li3" class="nav-item responsive-nav cont"><a id="tes-3" href="page4.php" class="nav-link padding-x link-light tes text-nav" data-section="nav" data-value="CONTACTMAY">CONTACT</a></li>
                     <li class="ms-2 responsive-nav burger-negative"> <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <div class="hamburger">
                                 <span id="burger-1" class="tes-2"></span>

@@ -86,7 +86,7 @@ include "nav2.php";
                     </div>
                 </div>
             </div>
-            <img id="swiper-button-next-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7" alt="flecha2_svg">
+            <img id="swiper-button-prev-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7-prev" alt="flecha2_svg">
         </div>
     </div>
     <div class="slide-container-2">

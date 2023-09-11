@@ -1876,3 +1876,7 @@ svg {
     margin-right: auto;
   }
 }
+
+.dropdown-button-atamisque{
+  margin-left: 0rem !important;
+}

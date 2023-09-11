@@ -1,10 +1,13 @@
-<?php 
+<!-- <?php 
 $campo = "All Inclusive Experience";
 include "nav2.php";
 
 
 
-?>
+?> -->
+
+
+
      <section data-bs-version="5.1" class="header4 cid-tMz2KIjoKu mbr-fullscreen mbr-parallax-background" id="header4-25">
     <div class="mbr-overlay"></div>
     <div class="container">
@@ -28,52 +31,56 @@ include "nav2.php";
       <p class="plan-title" data-section="page6" data-value="title2A">PLAN YOUR STAY</p>
       <p class="plan-text" data-section="page6" data-value="descrip2A">Whether you seek adventure <br>or relaxation, Vivacs del Plata <br> is the perfect retreat.</p>
     </div>
-    <div class="col-10 col-xl-8 col-xxl-7 ms-auto me-auto me-xl-0">
+    <div class="col-10 col-xl-7 ms-auto me-auto me-xl-0">
       <div class="swiperScroll swiper">
-        <div class="swiper-wrapper" id="planWrapper">
-          <div id="planImg1" class="swiper-slide">
-            <img src="assets/images/IMG_7133.JPG" class="trip-img" />
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/images/IMG_7133.JPG" class="slider-img" />
           </div>
-          <div id="planImg2" class="swiper-slide">
-            <img src="assets/images/IMG_5017.JPG" class="trip-img" />
+          <div class="swiper-slide">
+            <img src="assets/images/IMG_5017.JPG" class="slider-img" />
           </div>
-          <div id="planImg3" class="swiper-slide">
-            <img src="assets/images/IMG_5019.JPG" class="trip-img" />
+          <div class="swiper-slide">
+            <img src="assets/images/IMG_5019.JPG" class="slider-img" />
           </div>
-          <div id="planImg4" class="swiper-slide">
-            <img src="assets/images/horseman-resize.jpg" class="trip-img" />
+          <div class="swiper-slide">
+            <img src="assets/images/horseman-resize.jpg" class="slider-img" />
           </div>
-          <div id="planImg5" class="swiper-slide">
-            <img src="assets/images/mate.jpg" class="trip-img" />
+          <div class="swiper-slide">
+            <img src="assets/images/mate.jpg" class="slider-img" />
           </div>
-          <div id="planImg6" class="swiper-slide">
-            <img src="assets/images/guitar-round.jpg" class="trip-img" />
+          <div class="swiper-slide">
+            <img src="assets/images/guitar-round.jpg" class="slider-img" />
           </div>
-          <div id="planImg7" class="swiper-slide">
+          <div class="swiper-slide">
             <img
               src="assets/images/AEC242DE-9F25-4D60-9862-528A8992E37D.JPG"
-              class="trip-img"
+              class="slider-img"
             />
           </div>
-          <div id="planImg8" class="swiper-slide">
+          <div class="swiper-slide">
             <img
               src="assets/images/F9B9E600-148F-4DAB-ACF4-FEE9AC23E404.JPG"
-              class="trip-img"
+              class="slider-img"
             />
           </div>
-          <div id="planImg9" class="swiper-slide">
+          <div class="swiper-slide">
             <img
               src="assets/images/805D1E98-3ADE-4795-BDCA-73EBF09CC005.JPG"
-              class="trip-img"
+              class="slider-img"
             />
           </div>
-          <div id="planImg10" class="swiper-slide">
-            <img src="assets/images/IMG_3025.jpeg" class="trip-img" />
+          <div class="swiper-slide">
+            <img src="assets/images/IMG_3025.jpeg" class="slider-img" />
           </div>
         </div>
+        <div class="swiper-scrollbar"></div>
       </div>
-      <img src="/assets/img/icons/flecha.svg" class="flecha-p6" alt="flecha_derecha">
-      <img src="/assets/img/icons/flecha.svg" class="flecha-p6-prev hidden" alt="flecha_izquierda">
+      <div class="arrow-p6 next-p6" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+          <span class="svg-p6 svg-arrow-right svg-next-p6">
+              <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p6" d="M0 12.9h28.5"/></svg>
+          </span>
+      </div>
     </div>
   </div>
 
@@ -89,8 +96,8 @@ include "nav2.php";
             <p id="plusIcon" class="plus mb-0 fw-bold ms-5 fs-4 pointer">+</p>
         </div>
         <section id="prices" class="hidden fade-slide-down">
-          <div class="timeline-container-2-p6 timeline-pc fade-slide-down">
-            <ul class="timeline fade-slide-down">
+          <div class="timeline-container-2-p6 timeline-pc">
+            <ul class="timeline ">
               <li id="circle-1" class="text-1 hoverable circle-gray p1 pointer"></li>
               <li id="circle-2" class="text-2 hoverable circle-gray p2 pointer"></li>
               <li id="circle-3" class="text-3 hoverable circle-gray p3 pointer"></li>
@@ -98,7 +105,7 @@ include "nav2.php";
               <li id="circle-5" class="text-5 hoverable circle-gray p5 pointer"></li>
             </ul>
           </div>
-          <div class="d-flex pt-4 pb-5 timeline-pc fade-slide-down">
+          <div class="d-flex pt-4 pb-5 timeline-pc">
               <div id="text-1" class="circle-1 hoverable gray item-itinerary d-flex flex-column">
                   <p class="pointer text-item itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br> AND TEMPTING SNACKS</p>
               </div>
@@ -120,7 +127,7 @@ include "nav2.php";
               </div>
           </div>
 
-          <div class="timeline-container-2-p6 timeline-mobile fade-slide-down">
+          <div class="timeline-container-2-p6 timeline-mobile">
             <div class="hour-container-2">
                 <p class="start-hour-2">9:00AM</p>
             </div>
@@ -130,7 +137,7 @@ include "nav2.php";
                 <li id="circle-c" class="text-c hoverable q3 circle-gray"></li>
             </ul>
         </div>
-        <div class="text-items-2 timeline-mobile mb-5 fade-slide-down">
+        <div class="text-items-2 timeline-mobile mb-5">
             <div class="d-flex">
                 <div id="text-a" class="circle-a hoverable gray item-itinerary-a d-flex flex-column">
                   <p class="pointer itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br class="br-itinerary"> AND TEMPTING SNACKS</p>
@@ -147,7 +154,7 @@ include "nav2.php";
                 </div>
             </div>
         </div>
-        <div class="timeline-container-2-p6 timeline-mobile fade-slide-down">
+        <div class="timeline-container-2-p6 timeline-mobile">
             <div class="hour-container-2">
                 <p class="end-hour-2-mobile ms-auto">4:00PM</p>
             </div>
@@ -156,7 +163,7 @@ include "nav2.php";
                 <li id="circle-e" class="text-e hoverable q5 circle-gray"></li>
             </ul>
         </div>
-        <div class="text-items-2 timeline-mobile fade-slide-down">
+        <div class="text-items-2 timeline-mobile">
             <div class="d-flex">
                 <div id="text-d" class="circle-d hoverable-p7 gray item-itinerary-d d-flex flex-column">
                   <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br class="br-itinerary"> OR RELAX IN THE HOUSE</p>
@@ -167,12 +174,12 @@ include "nav2.php";
             </div>
         </div>
 
-          <div class="py-3 d-flex align-items-center width-50 fade-slide-down">
+          <div class="py-3 d-flex align-items-center width-50">
               <p class="text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
                 <div class="divider-light ms-3 p-end"></div>
               <p class="text-item itinerary-text mb-0"><span class="fw-bold">USD 250 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
           </div>
-          <div class="pb-5 d-flex align-items-center width-50 fade-slide-down">
+          <div class="pb-5 d-flex align-items-center width-50">
               <p class="me-1 text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
                 <div class="divider-light"></div>
               <p class="text-item itinerary-text mb-0"><span class="fw-bold">USD 210 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
@@ -184,7 +191,7 @@ include "nav2.php";
             <p id="plusIcon2" class="plus mb-0 fw-bold ms-auto fs-4 pointer">+</p>
         </div>
         <section id="prices2" class="hidden fade-slide-down">
-          <div class="timeline-container-p6 timeline-pc fade-slide-down">
+          <div class="timeline-container-p6 timeline-pc">
             <ul class="timeline-2">
               <li id="circle-6" class="text-6 circle-gray hoverable c1 pointer"></li>
               <li id="circle-7" class="text-7 circle-gray hoverable c2 pointer"></li>
@@ -196,7 +203,7 @@ include "nav2.php";
               <li id="circle-13" class="text-13 circle-gray hoverable c8 pointer"></li>
             </ul>
           </div>
-            <div class="timeline-pc d-flex pt-4 pb-3 fade-slide-down">
+            <div class="timeline-pc d-flex pt-4 pb-3">
                 <div id="text-6" class="circle-6 hoverable gray item-itinerary-6 d-flex flex-column">
                     <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="WELCOME WITH COFFE <br> AND TEMPTING SNACKS">WELCOME WITH COFFE <br> AND TEMPTING SNACKS</p>
                 </div>
@@ -227,7 +234,7 @@ include "nav2.php";
                 </div>
             </div>
 
-            <div class="timeline-container-p7 timeline-mobile mt-1 fade-slide-down">
+            <div class="timeline-container-p7 timeline-mobile mt-1">
               <div class="hour-container">
                   <p class="start-hour">8:00AM</p>
               </div>
@@ -238,7 +245,7 @@ include "nav2.php";
                   <li id="circle-i" class="text-i hoverable w4 circle-gray"></li>
               </ul>
           </div>
-          <div class="text-items timeline-mobile text-items-mobile m-t-mobile-p6 fade-slide-down">
+          <div class="text-items timeline-mobile text-items-mobile m-t-mobile-p6">
               <div class="d-flex">
                   <div id="text-f" class="circle-f hoverable gray item-itinerary-f d-flex flex-column">
                     <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="WELCOME WITH COFFE AND TEMPTING SNACKS">WELCOME WITH COFFE <br class="br-itinerary"> AND TEMPTING SNACKS</p>
@@ -259,7 +266,7 @@ include "nav2.php";
                   </div>
               </div>
           </div>
-          <div class="timeline-container-p7 timeline-mobile fade-slide-down">
+          <div class="timeline-container-p7 timeline-mobile">
               <div class="hour-container">
                   <p class="end-hour ms-auto">6:00PM</p>
               </div>
@@ -270,7 +277,7 @@ include "nav2.php";
                   <li id="circle-m" class="text-m hoverable w4 circle-gray"></li>
               </ul>
           </div>
-          <div class="text-items timeline-mobile text-items-mobile mb-5 fade-slide-down">
+          <div class="text-items timeline-mobile text-items-mobile mb-5">
               <div class="d-flex">
                   <div id="text-j" class="circle-j hoverable gray item-itinerary-f d-flex flex-column">
                     <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br class="br-itinerary"> OR RELAX IN THE HOUSE</p>
@@ -287,12 +294,12 @@ include "nav2.php";
               </div>
           </div>
 
-            <div class="pt-5 pb-1 d-flex align-items-center width-50 fade-slide-down">
+            <div class="pt-5 d-flex align-items-center width-50">
                 <p class="text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
-                <div class="divider-light ms-3"></div>
+                <div class="divider-light ms-3 p-end"></div>
                 <p class="text-item itinerary-text mb-0"><span class="itinerary-text text-item fw-bold">USD 450</span><span class="italic text-item" data-section="page6" data-value="per guest"> per guest</span></p>
             </div>
-            <div class="pb-5 d-flex align-items-center width-50 fade-slide-down">
+            <div class="pb-5 d-flex align-items-center width-50">
                 <p class="me-1 text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
                 <div class="divider-light"></div>
                 <p class="text-item itinerary-text mb-0"><span class="fw-bold">USD 400</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span></p>
@@ -975,8 +982,11 @@ include "nav2.php";
         </div> 
       </div>
 </section>
+
+<!-- 
+
 <?php
 
 include "footer2.php"
 
-?>
+?> -->

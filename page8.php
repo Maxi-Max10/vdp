@@ -88,7 +88,7 @@ include "nav2.php";
                 <div class="swiper-scrollbar"></div>
             </div>
             <img src="/assets/img/icons/flecha.svg" class="flecha-1" alt="flecha_svg">
-            <img src="/assets/img/icons/flecha.svg" class="flecha-1-prev hidden" alt="flecha_izquierda_svg">
+            <img src="/assets/img/icons/flecha.svg" class="flecha-1-prev hide-flecha" alt="flecha_izquierda_svg">
         </div>
     </div>
     <div class="container">
@@ -128,7 +128,7 @@ include "nav2.php";
                       </div>
                     </div>
                 </div>
-                <div id="cardTitle" class="fade-slide-down d-flex align-items-text-card center justify-content-center">
+                <div id="cardTitle" class="d-flex align-items-center justify-content-center">
                     <h5 class="my-3 title-card pointer" data-section="page8" data-value="ANIMAL BREEDING">ANIMAL BREEDING</h5>
                     <p id="cardIcon" class="plus mb-0 fw-bold ms-auto fs-5 transition pt-3 pointer">+</p>
                 </div>

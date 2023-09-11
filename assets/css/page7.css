@@ -1013,7 +1013,7 @@ svg {
 }
 
 .itinerary-text-p7-hover{
-  font-size: 0.69rem !important;
+  font-size: 0.71rem !important;
   transition: all 0.3s;
 }
 
@@ -1875,4 +1875,8 @@ svg {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.dropdown-button-atamisque{
+  margin-left: 0rem !important;
 }

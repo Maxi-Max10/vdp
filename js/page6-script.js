@@ -202,44 +202,44 @@ function checkPlanElement() {
     case windowp6 >= 2420:
       if (planImg7.classList.contains("swiper-slide-next")) {
         flechap6.classList.add("hidden");
-        flecha2p6.classList.remove("hidden");
+        flecha2p6.classList.remove("hide-flecha");
       }
       if (planImg1.classList.contains("swiper-slide-active")) {
         flechap6.classList.remove("hidden");
-        flecha2p6.classList.add("hidden");
+        flecha2p6.classList.add("hide-flecha");
       }
       break;
 
     case windowp6 >= 1919:
       if (planImg10.classList.contains("swiper-slide-next")) {
         flechap6.classList.add("hidden");
-        flecha2p6.classList.remove("hidden");
+        flecha2p6.classList.remove("hide-flecha");
       }
       if (planImg1.classList.contains("swiper-slide-active")) {
         flechap6.classList.remove("hidden");
-        flecha2p6.classList.add("hidden");
+        flecha2p6.classList.add("hide-flecha");
       }
       break;
 
     case windowp6 >= 1768:
       if (planImg10.classList.contains("swiper-slide-next")) {
         flechap6.classList.add("hidden");
-        flecha2p6.classList.remove("hidden");
+        flecha2p6.classList.remove("hide-flecha");
       }
       if (planImg1.classList.contains("swiper-slide-active")) {
         flechap6.classList.remove("hidden");
-        flecha2p6.classList.add("hidden");
+        flecha2p6.classList.add("hide-flecha");
       }
       break;
 
     case windowp6 >= 469:
       if (planImg10.classList.contains("swiper-slide-next")) {
         flechap6.classList.add("hidden");
-        flecha2p6.classList.remove("hidden");
+        flecha2p6.classList.remove("hide-flecha");
       }
       if (planImg1.classList.contains("swiper-slide-active")) {
         flechap6.classList.remove("hidden");
-        flecha2p6.classList.add("hidden");
+        flecha2p6.classList.add("hide-flecha");
       }
       break;
 

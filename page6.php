@@ -76,7 +76,7 @@ include "nav2.php";
         </div>
       </div>
       <img src="/assets/img/icons/flecha.svg" class="flecha-p6" alt="flecha_derecha">
-      <img src="/assets/img/icons/flecha.svg" class="flecha-p6-prev hidden" alt="flecha_izquierda">
+      <img src="/assets/img/icons/flecha.svg" class="flecha-p6-prev hide-flecha" alt="flecha_izquierda">
     </div>
   </div>
 

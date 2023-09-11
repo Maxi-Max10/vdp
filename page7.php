@@ -609,22 +609,22 @@ include "nav2.php";
                     </div>
                 </div>
                 <div id="dropdownAtamisque" class="hidden fade-slide-down">
-                    <p class="trip-paragraph mb-1" data-section="page7" data-value="DESC72">
-                    <span class="fw-bold">Location:</span> Atamisque, San José, Tupungato<span class="font-light"> (20 minutes away 
+                    <p class="trip-paragraph mb-1 fade-slide-down" data-section="page7" data-value="DESC72">
+                    <span class="fw-bold fade-slide-down">Location:</span> Atamisque, San José, Tupungato<span class="font-light"> (20 minutes away 
                         from Vivacs del Plata)</span>
                     </p>
-                    <p class="trip-paragraph my-3" data-section="page7" data-value="DESC73">
+                    <p class="trip-paragraph my-3 fade-slide-down" data-section="page7" data-value="DESC73">
                         Play 9 Holes of Par 3 Bliss, just 20 Minutes 
                         from Vivacs del Plata in a guided visit. 
                         Transportation is included if you are staying 
                         at Vivacs del Plata. Immerse yourself in the 
                         scenic beauty of the Atamisque golf course.
                     </p>
-                    <div id="dropdown-trip">
-                        <p class="trip-paragraph mb-0 lh-sm" data-section="page7" data-value="DESC74">
+                    <div id="dropdown-trip fade-slide-down">
+                        <p class="trip-paragraph fade-slide-down mb-0 lh-sm" data-section="page7" data-value="DESC74">
                             <span class="fw-bold"> Green fee:</span> USD 100 per player
                         </p>
-                        <p class="trip-paragraph" data-section="page7" data-value="DESC75">
+                        <p class="trip-paragraph fade-slide-down" data-section="page7" data-value="DESC75">
                             <span class="fw-bold"> Caddie:</span> USD 75 per bag (double bag)
                         </p>
                     </div>

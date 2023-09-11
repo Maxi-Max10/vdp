@@ -86,16 +86,16 @@ include "nav2.php"
                         </li>
                         <li class="option">
                             <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
-                            <span class="option-text"   data-section="page4" data-value="select3"><input type="hidden" type="checkbox" id="Sailing" value="Sailing" name='list[]'>Sailing</span>
+                            <span class="option-text"   data-section="page4" data-value="select4"><input type="hidden" type="checkbox" id="Sailing" value="Sailing" name='list[]'>Sailing</span>
                         </li>
                         <li class="option">
                             <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
-                            <span class="option-text"   data-section="page4" data-value="select3"><input type="hidden" type="checkbox" id="Motorcycle Road Trip" value="Motorcycle Road Trip" name='list[]'>Motorcycle Road Trip</span>
+                            <span class="option-text"   data-section="page4" data-value="select5"><input type="hidden" type="checkbox" id="Motorcycle Road Trip" value="Motorcycle Road Trip" name='list[]'>Motorcycle Road Trip</span>
                         </li>
                         <li class="option">
                             
                             <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
-                            <span class="option-text"   data-section="page4" data-value="select3">Golf Outing</span>
+                            <span class="option-text"   data-section="page4" data-value="select6">Golf Outing</span>
                         </li>
                     </ul>
                 </div> <!--- INPUT TYPE HIDDEN -->

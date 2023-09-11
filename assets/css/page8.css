@@ -686,7 +686,7 @@ svg {
   position: relative;
   top: -22rem;
   left: -13rem;
-  transform: rotate(180deg);
+  transform: rotate(180deg) !important;
   transition: all 0.3s;
 }
 @media (max-width:2420px){

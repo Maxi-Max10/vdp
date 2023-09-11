@@ -120,7 +120,6 @@ const swiperP7 = new Swiper("#swiperP7", {
   // Navigation arrows
   navigation: {
     nextEl: "#swiper-button-next-p7",
-    prevEl: "#swiper-button-prev-p7",
   },
   breakpoints: {
     1200: {

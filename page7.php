@@ -122,7 +122,7 @@ include "nav2.php";
                     </div>
                 </div>
             </div>
-            <img id="swiper-button-prev-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7-prev" alt="flecha2_svg">
+            <img id="swiper-button-prev2-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7-prev" alt="flecha2_svg">
         </div>
         <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-auto trip-info-2">
             <h2 class="trip-title2 mb-5 mt-5 mt-xl-0 mb-xl-5 text-center text-xl-start" data-section="page7" data-value="Motorcycle road trip">Motorcycle road trip</h2>

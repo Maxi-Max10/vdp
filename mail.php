@@ -33,18 +33,18 @@ $fechaSalid = "$fechasalD/$fechasalM/$fechasalA";
 
 $sellist = implode(" ",$lista);
 
-echo $sellist;
+//echo $sellist;
 
 //echo $about2;
 //echo $interestsSelect;
 //echo "fecha ingreso: $fechaIngre";
 //echo "fecha salida: $fechaSalid";
-/*
+
 $body = <<<HTML
     <h2>Datos de contacto</h2>
     <p>Nombre: $nombre <br>
     Email: $email<br>Teléfono: $phone<br>
-    About: <br>
+    About: $sellist<br>
     Intereses: $interestsSelect <br>
     Fecha ingreso: $fechaIngre <br>
     Fecha salida: $fechaSalid <br></p>
@@ -54,7 +54,7 @@ HTML;
 
 $mailer = new PHPMailer();
 $mailer->setFrom($email, "$nombre");
-$mailer-> addAddress('contacto@vivacsdelplata.com','Sitio');
+$mailer-> addAddress('contact@vivacsdelplata.com','Sitio');
 $mailer->Subject = "Mensaje de: $nombre";
 $mailer->msgHTML($body);
 $mailer->AltBody = strip_tags($body);
@@ -66,5 +66,5 @@ var_dump($rta);
 if($rta = true){
     header("location: page4.php");
 }
-*/
+
 ?>

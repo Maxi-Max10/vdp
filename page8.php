@@ -47,51 +47,48 @@ include "nav2.php";
     <div class="slider">
         <div class="col-9 swiper-margin">
             <div class="swiperScroll3 swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                <div id="swiperWrapper" class="swiper-wrapper">
+                    <div id="swiperImg1" class="swiper-slide">
                         <img src="assets/images/6178F5F3-63AD-4C29-8EEF-818B6EA94CBE.JPG" class="slider-img">
                     </div>
                     <div class="swiper-slide">
                         <img src="assets/images/5DA48B92-1F22-44EF-8D8A-9CEE90EDC608.JPG" class="slider-img">
                     </div>
-                    <div class="swiper-slide">
+                    <div id="swiperImg2" class="swiper-slide">
                         <img src="assets/images/IMG_3639.jpeg" class="slider-img">
                     </div>
-                    <div class="swiper-slide">
+                    <div id="swiperImg3" class="swiper-slide">
                         <img src="assets/images/IMG_0444.jpeg" class="slider-img">
                     </div>
                     <div class="swiper-slide">
                         <img src="assets/images/3da8edbb-7dce-4e06-9786-17106bd337cc-1536x2049.jpg" class="slider-img">
                     </div>
-                    <div class="swiper-slide">
+                    <div id="swiperImg4" class="swiper-slide">
                         <img src="assets/images/IMG_2103.jpeg" class="slider-img">
                     </div>
-                    <div class="swiper-slide">
+                    <div id="swiperImg5" class="swiper-slide">
                         <img src="assets/images/Webp.net-resizeimage.jpg" class="slider-img">
                     </div>
-                    <div class="swiper-slide">
+                    <div id="swiperImg6" class="swiper-slide">
                         <img src="assets/images/IMG_8734.jpeg" class="slider-img">
                     </div>
-                    <div class="swiper-slide">
+                    <div id="swiperImg7" class="swiper-slide">
                         <img src="assets/images/55760A36-ED06-4322-AB4F-D46A2F68E327.JPG" class="slider-img">
                     </div>
-                    <div class="swiper-slide">
+                    <div id="swiperImg8" class="swiper-slide">
                         <img src="assets/images/IMG_9044.jpg" class="slider-img">
                     </div>
-                    <div class="swiper-slide">
+                    <div id="swiperImg9" class="swiper-slide">
                         <img src="assets/images/IMG_6440.jpeg" class="slider-img">
                     </div>
-                    <div class="swiper-slide">
+                    <div id="swiperImg10" class="swiper-slide">
                         <img src="assets/images/IMG_5014.JPG" class="slider-img">
                     </div>
                 </div>
                 <div class="swiper-scrollbar"></div>
             </div>
-            <div class="arrow-p8 next-p8" style="opacity: 1; transform: translate3d(0px, 25px, 0px);">
-                <span class="svg-p8 svg-arrow-right svg-next-p8">
-                    <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 16" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p8" d="M0 12.9h28.5"/></svg>
-                </span>
-            </div>
+            <img src="/assets/img/icons/flecha.svg" class="flecha-1" alt="flecha_svg">
+            <img src="/assets/img/icons/flecha.svg" class="flecha-1-prev hidden" alt="flecha_izquierda_svg">
         </div>
     </div>
     <div class="container">
@@ -106,7 +103,7 @@ include "nav2.php";
                 </p>            
             </div>
             <div class="col-12 col-lg-8 justify-content-center">
-                <h2 class="text-center text-lg-start mt-5 mb-4 title" data-section="page8" data-value="THE RANCH">THE RANCH</h2>
+                <h2 class="text-center text-lg-start mt-0 mt-xl-5 mb-4 title" data-section="page8" data-value="THE RANCH">THE RANCH</h2>
                 <img src="assets/images/The ranch.jpeg" 
                 alt="image" class="responsive-img ranch-img host-img"></img>
             </div>
@@ -137,7 +134,11 @@ include "nav2.php";
                 </div>
                 <div class="divider mb-2"></div>
                 <div id="textoDesplegable" class="hidden fade-slide-down">
-                    <p class="text-card my-3" data-section="page8" data-value="AS1"  style="text-align:justify">We are proud to raise high-quality Aberdeen Angus and Hereford cattle, ensuring the finest breeds on our land at Vivacs del Plata. While previously focused solely on our cattle operations, we have recently opened our doors to guests, offering them a unique opportunity to witness our passion for animal husbandry firsthand.</p>
+<<<<<<< HEAD
+                    <p class="text-card my-3 fade-slide-down" data-section="page8" data-value="AS1"  style="text-align:justify">We are proud to raise high-quality Aberdeen Angus and Hereford cattle, ensuring the finest breeds on our land at Vivacs del Plata. While previously focused solely on our cattle operations, we have recently opened our doors to guests, offering them a unique opportunity to witness our passion for animal husbandry firsthand.</p>
+=======
+                    <p class="text-card my-3 fade-slide-down" data-section="page8" data-value="AS1">We are proud to raise high-quality Aberdeen Angus and Hereford cattle, ensuring the finest breeds on our land at Vivacs del Plata. While previously focused solely on our cattle operations, we have recently opened our doors to guests, offering them a unique opportunity to witness our passion for animal husbandry firsthand.</p>
+>>>>>>> b4bb3fd10d0f4a727d68811e58a51783efadffc6
                 </div>
                 <div class="swiper" id="swiper2P8">
                     <div class="swiper-wrapper">
@@ -161,7 +162,11 @@ include "nav2.php";
                 </div>
                 <div class="divider mb-2"></div>
                 <div id="textoDesplegable2" class="hidden fade-slide-down">
-                    <p class="text-card my-3" data-section="page8" data-value="AS2" style="text-align:justify">
+<<<<<<< HEAD
+                    <p class="text-card my-3 fade-slide-down" data-section="page8" data-value="AS2" style="text-align:justify">
+=======
+                    <p class="text-card my-3 fade-slide-down" data-section="page8" data-value="AS2">
+>>>>>>> b4bb3fd10d0f4a727d68811e58a51783efadffc6
                         At Vivacs del Plata, we are not only stewards 
                         of animals but also cultivators of the land. Our fields flourish with an array of crops including 
                         potatoes, peas, and rye.
@@ -195,7 +200,11 @@ include "nav2.php";
                 </div>
                 <div class="divider mb-2"></div>
                 <div id="textoDesplegable3" class="hidden fade-slide-down">
+<<<<<<< HEAD
                     <p class="text-card my-3" data-section="page8" data-value="AS3"  style="text-align:justify">Within our picturesque estate, we maintain a cherished herd of  12 tame horses. These majestic creatures hold a special place in our hearts, and we take great pride in their well-being. With gentle care and a deep bond, we ensure our horses thrive in their natural environment, offering guests the opportunity to engage in memorable horseback riding experiences amidst the stunning mountain landscape.</p>
+=======
+                    <p class="text-card my-3 fade-slide-down " data-section="page8" data-value="AS3">Within our picturesque estate, we maintain a cherished herd of  12 tame horses. These majestic creatures hold a special place in our hearts, and we take great pride in their well-being. With gentle care and a deep bond, we ensure our horses thrive in their natural environment, offering guests the opportunity to engage in memorable horseback riding experiences amidst the stunning mountain landscape.</p>
+>>>>>>> b4bb3fd10d0f4a727d68811e58a51783efadffc6
                 </div>
                     <div class="swiper" id="swiper4P8">
                         <div class="swiper-wrapper">
@@ -219,7 +228,11 @@ include "nav2.php";
                 </div>
                 <div class="divider mb-2"></div>
                 <div id="textoDesplegable4" class="hidden fade-slide-down" >
-                    <p class="text-card my-3" data-section="page8" data-value="AS4"  style="text-align:justify">In our family, the love for animals extends beyond our livestock. Meet Lucho, Roco, and Picardía, our three beloved dogs who bring boundless joy and playfulness to the ranch. Their wagging tails add warmth to our guests' experience. <br>And let's not forget El Gordo, our friendly feline companion who roams the estate, captivating everyone with his charm. <br>These furry friends complete our close-knit family and are always ready to offer a warm welcome to our visitors.</p>
+<<<<<<< HEAD
+                    <p class="text-card my-3 fade-slide-down" data-section="page8" data-value="AS4"  style="text-align:justify">In our family, the love for animals extends beyond our livestock. Meet Lucho, Roco, and Picardía, our three beloved dogs who bring boundless joy and playfulness to the ranch. Their wagging tails add warmth to our guests' experience. <br>And let's not forget El Gordo, our friendly feline companion who roams the estate, captivating everyone with his charm. <br>These furry friends complete our close-knit family and are always ready to offer a warm welcome to our visitors.</p>
+=======
+                    <p class="text-card my-3 fade-slide-down" data-section="page8" data-value="AS4">In our family, the love for animals extends beyond our livestock. Meet Lucho, Roco, and Picardía, our three beloved dogs who bring boundless joy and playfulness to the ranch. Their wagging tails add warmth to our guests' experience. <br>And let's not forget El Gordo, our friendly feline companion who roams the estate, captivating everyone with his charm. <br>These furry friends complete our close-knit family and are always ready to offer a warm welcome to our visitors.</p>
+>>>>>>> b4bb3fd10d0f4a727d68811e58a51783efadffc6
                 </div>
             </div>
         </div>

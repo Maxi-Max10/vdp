@@ -68,7 +68,7 @@ include "nav2.php"
                 <div class="underline-about"></div>
                 <div class="select-menu fade-slide-down">
                     <div id="about" class="select-btn d-flex justify-content-between">
-                        <span class="sBtn-text" value="about" name="page4" value="page4" data-section="page4" data-value="about">About</span>
+                        <span class="sBtn-text" value="about" name="list[]" data-section="page4" data-value="about">About</span>
                         <div id="aboutIcon" class="plus dropdown-about">+</div>
                     </div>
                     <ul class="options">
@@ -93,7 +93,7 @@ include "nav2.php"
                             <span class="option-text"   data-section="page4" data-value="select3"><input type="hidden" type="checkbox" id="Motorcycle Road Trip" value="Motorcycle Road Trip" name='list[]'>Motorcycle Road Trip</span>
                         </li>
                         <li class="option">
-                        <input type="hidden" type="checkbox" id="Golf Outing" value="Golf Outing" name='list[]'>
+                            
                             <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
                             <span class="option-text"   data-section="page4" data-value="select3">Golf Outing</span>
                         </li>

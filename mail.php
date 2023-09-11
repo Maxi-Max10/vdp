@@ -33,13 +33,13 @@ $fechaSalid = "$fechasalD/$fechasalM/$fechasalA";
 
 $sellist = implode(" ",$lista);
 
-//echo $sellist;
+echo $sellist;
 
 //echo $about2;
 //echo $interestsSelect;
 //echo "fecha ingreso: $fechaIngre";
 //echo "fecha salida: $fechaSalid";
-
+/*
 $body = <<<HTML
     <h2>Datos de contacto</h2>
     <p>Nombre: $nombre <br>
@@ -66,5 +66,5 @@ var_dump($rta);
 if($rta = true){
     header("location: page4.php");
 }
-
+*/
 ?>

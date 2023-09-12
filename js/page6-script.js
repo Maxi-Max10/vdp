@@ -137,18 +137,27 @@ var buttonDaily = document.getElementById('itinerary');
     }
   });
 
-  const swiperAccomodation = new Swiper(".swiperAccomodation", {
+  const swiperAccomodation = new Swiper(".swiper-accomodation", {
     slidesPerView:1,
     spaceBetween: -200,
     navigation: {
       nextEl: ".next-accomodation",
+      prevEl: ".prev-accomodation"
     },
-    speed: 400,
-    scrollbar: {
-      el: ".swiper-scrollbar",
-      draggable: true,
-    },
+    speed: 700,
     breakpoints: {
+      100:{
+        spaceBetween: -50
+      },
+      630:{
+        spaceBetween: -100
+      },
+      870:{
+        spaceBetween: -150
+      },
+      1000:{
+        spaceBetween: -200
+      }
     }
   });
 
@@ -245,5 +254,36 @@ function checkPlanElement() {
 
     default:
       break;
+  }
+}
+
+var nextAccomodation = document.querySelector(".next-accomodation");
+var prevAccomodation = document.querySelector(".prev-accomodation");
+
+var accomodationSwiper = document.getElementById("accomodation-wrapper");
+
+var accomodationObserver = new MutationObserver(observeAccomodation);
+
+var accomodationConfig = { attributes: true, attributeFilter: ["style"] };
+accomodationObserver.observe(accomodationSwiper, accomodationConfig);
+
+function observeAccomodation(mutationsList, accomodationObserver) {
+  for (var mutation of mutationsList) {
+    if (mutation.type === "attributes" && mutation.attributeName === "style") {
+      checkAccomodation();
+    }
+  }
+}
+
+var accomodationImg = document.getElementById("accomodationImg");
+var accomodationImg2 = document.getElementById("accomodationImg2");
+
+function checkAccomodation() {
+  if (accomodationImg.classList.contains('swiper-slide-active')){
+    nextAccomodation.classList.remove('hide-flecha');
+    prevAccomodation.classList.add('hide-flecha');
+  }else{
+    prevAccomodation.classList.remove('hide-flecha');
+    nextAccomodation.classList.add('hide-flecha');
   }
 }

@@ -512,42 +512,6 @@ svg {
   padding-bottom: 2.5rem;
 }
 
-.accomodation {
-  position: absolute;
-  margin-bottom: -1.5%;
-}
-
-@media(max-width:992px) {
-  .accomodation {
-    font-size: 1.3rem;
-    position: absolute;
-    margin-bottom: -5%;
-  }
-}
-
-@media(max-width:640px) {
-  .accomodation {
-    font-size: 1.2rem;
-    position: absolute;
-    margin-bottom: -10%;
-  }
-}
-
-@media(max-width:425px) {
-  .accomodation {
-    font-size: 1.2rem;
-    position: absolute;
-    margin-bottom: -15%;
-  }
-}
-
-@media(max-width:380px) {
-  .accomodation {
-    font-size: 1.2rem;
-    position: absolute;
-    margin-bottom: -20%;
-  }
-}
 
 .p-borde {}
 
@@ -1808,3 +1772,109 @@ svg {
     flex-direction: column;
   }
 }
+
+.swiper-accomodation{
+  margin-bottom: -1%;
+}
+
+.next-accomodation{
+  width: 12rem;
+  position: relative;
+  top: -20rem;
+  left: 88%;
+  transition: all 0.3s;
+  z-index: 1;
+}
+@media(max-width:1200px){
+  .next-accomodation{
+    top: -15rem;
+    left: 80%;
+  }
+}
+@media(max-width:992px){
+  .next-accomodation{
+    display: none;
+  }
+}
+
+.prev-accomodation{
+  width: 12rem;
+  position: relative;
+  top: -20rem;
+  left: 0rem;
+  transition: all 0.3s;
+  z-index: 1;
+  transform: rotate(180deg) !important;
+}
+@media(width <= 1200px){
+  .prev-accomodation{
+    width: 12rem;
+    position: relative;
+    top: -15rem;
+    left: 0rem;
+    transition: all 0.3s;
+    z-index: 1;
+    transform: rotate(180deg) !important;
+  }
+}
+@media(max-width:992px){
+  .prev-accomodation{
+    display: none;
+  }
+}
+
+.accomodation {
+  position: absolute;
+  margin-bottom: 10%;
+}
+
+@media(max-width:992px) {
+  .accomodation {
+    font-size: 1.3rem;
+    position: absolute;
+    margin-bottom: -5%;
+  }
+}
+
+@media(max-width:640px) {
+  .accomodation {
+    font-size: 1.2rem;
+    position: absolute;
+    margin-bottom: -10%;
+  }
+}
+
+@media(max-width:460px) {
+  .accomodation {
+    font-size: 1.2rem;
+    position: absolute;
+    margin-bottom: -15%;
+    margin-left: -5%;
+  }
+}
+
+@media(max-width:380px) {
+  .accomodation {
+    font-size: 1.2rem;
+    position: absolute;
+    margin-bottom: -20%;
+  }
+}
+
+/* 
+.flecha-p6 {
+  width: 12rem;
+  position: relative;
+  top: -25rem;
+  left: -12rem;
+  transition: all 0.3s;
+}
+
+.flecha-p6-prev {
+  width: 12rem;
+  position: relative;
+  top: -25rem;
+  left: -12rem;
+  transition: all 0.3s;
+  transform: rotate(180deg) !important;
+} */

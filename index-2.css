@@ -177,7 +177,6 @@
 .thumbnail {
   width: 16.46rem;
   height: 8rem;
-  object-fit: cover;
   margin: 0rem 0.4rem;
   cursor: pointer;
 }
@@ -185,7 +184,6 @@
 .imagen-principal {
   width: 51rem;
   height: 24rem;
-  object-fit: cover;
 }
 
 .imagen-subseccion-2 {

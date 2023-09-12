@@ -1855,6 +1855,15 @@ svg {
   z-index: 1;
 }
 
+.flecha-1-p7-prev{
+  position: absolute;
+  width: 12rem;
+  left: -2%;
+  top: 35%;
+  z-index: 1;
+  transform: rotate(180deg) !important;
+}
+
 .swiper-margin-1-p7{
   margin-left: auto;
 }

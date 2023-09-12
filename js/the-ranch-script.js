@@ -33,12 +33,12 @@ var boton = document.getElementById("cardTitle");
         setTimeout(hideTexto, 700);
      }
 
-     if (toggleText.classList.contains('plus')) {
+     if (toggleText.classList.contains('plus1')) {
        toggleText.textContent = '-';
-       toggleText.classList.remove('plus');
+       toggleText.classList.remove('plus1');
      } else {
        toggleText.textContent = '+';
-       toggleText.classList.add('plus');
+       toggleText.classList.add('plus1');
      }
     });
     boton2.addEventListener('click', () => {

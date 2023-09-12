@@ -130,7 +130,7 @@ include "nav2.php";
                 </div>
                 <div id="cardTitle" class="d-flex align-items-center justify-content-center">
                     <h5 class="my-3 title-card pointer" data-section="page8" data-value="ANIMAL BREEDING">ANIMAL BREEDING</h5>
-                    <p id="cardIcon" class="plus mb-0 fw-bold ms-auto fs-5 transition pt-3 pointer">+</p>
+                    <p id="cardIcon" class="plus1 mb-0 fw-bold ms-auto fs-5 transition pt-3 pointer">+</p>
                 </div>
                 <div class="divider mb-2"></div>
                 <div id="textoDesplegable" class="hidden fade-slide-down">

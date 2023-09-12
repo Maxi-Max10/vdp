@@ -46,12 +46,12 @@ buttonAtamisque.addEventListener("click", () => {
     setTimeout(hideAtamisque, 700);
   }
 
-  if (buttonAtamisque.classList.contains("plus")) {
+  if (buttonAtamisque.classList.contains("plusx")) {
     buttonAtamisque.textContent = "-";
-    buttonAtamisque.classList.remove("plus");
+    buttonAtamisque.classList.remove("plusx");
   } else {
     buttonAtamisque.textContent = "+";
-    buttonAtamisque.classList.add("plus");
+    buttonAtamisque.classList.add("plusx");
   }
 });
 
@@ -64,12 +64,12 @@ buttonCountry.addEventListener("click", () => {
     setTimeout(hideCountry, 700);
   }
 
-  if (buttonCountry.classList.contains("plus")) {
+  if (buttonCountry.classList.contains("plusx")) {
     buttonCountry.textContent = "-";
-    buttonCountry.classList.remove("plus");
+    buttonCountry.classList.remove("plusx");
   } else {
     buttonCountry.textContent = "+";
-    buttonCountry.classList.add("plus");
+    buttonCountry.classList.add("plusx");
   }
 });
 
@@ -120,7 +120,6 @@ const swiperP7 = new Swiper("#swiperP7", {
   // Navigation arrows
   navigation: {
     nextEl: "#swiper-button-next-p7",
-    prevEl: "#swiper-button-prev-p7",
   },
   breakpoints: {
     1200: {

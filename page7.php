@@ -122,7 +122,7 @@ include "nav2.php";
                     </div>
                 </div>
             </div>
-            <img id="swiper-button-next-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7" alt="flecha2_svg">
+            <img id="swiper-button-prev2-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7-prev" alt="flecha2_svg">
         </div>
         <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-auto trip-info-2">
             <h2 class="trip-title2 mb-5 mt-5 mt-xl-0 mb-xl-5 text-center text-xl-start" data-section="page7" data-value="Motorcycle road trip">Motorcycle road trip</h2>
@@ -605,26 +605,26 @@ include "nav2.php";
                         <h6 class="trip-paragraph fw-bold mb-0" data-section="page7" data-value="ATAMISQUE">ATAMISQUE</h6>
                     </div>
                     <div class="col-1">
-                        <span id="dropdownButtonAtamisque" class="dropdown-button-atamisque ms-5 ms-xl-auto plus">+</span>
+                        <span id="dropdownButtonAtamisque" class="dropdown-button-atamisque ms-5 ms-xl-auto plusx">+</span>
                     </div>
                 </div>
                 <div id="dropdownAtamisque" class="hidden fade-slide-down">
-                    <p class="trip-paragraph mb-1" data-section="page7" data-value="DESC72">
-                    <span class="fw-bold">Location:</span> Atamisque, San José, Tupungato<span class="font-light"> (20 minutes away 
+                    <p class="trip-paragraph mb-1 fade-slide-down" data-section="page7" data-value="DESC72">
+                    <span class="fw-bold fade-slide-down">Location:</span> Atamisque, San José, Tupungato<span class="font-light"> (20 minutes away 
                         from Vivacs del Plata)</span>
                     </p>
-                    <p class="trip-paragraph my-3" data-section="page7" data-value="DESC73">
+                    <p class="trip-paragraph my-3 fade-slide-down" data-section="page7" data-value="DESC73">
                         Play 9 Holes of Par 3 Bliss, just 20 Minutes 
                         from Vivacs del Plata in a guided visit. 
                         Transportation is included if you are staying 
                         at Vivacs del Plata. Immerse yourself in the 
                         scenic beauty of the Atamisque golf course.
                     </p>
-                    <div id="dropdown-trip">
-                        <p class="trip-paragraph mb-0 lh-sm" data-section="page7" data-value="DESC74">
+                    <div id="dropdown-trip fade-slide-down">
+                        <p class="trip-paragraph fade-slide-down mb-0 lh-sm" data-section="page7" data-value="DESC74">
                             <span class="fw-bold"> Green fee:</span> USD 100 per player
                         </p>
-                        <p class="trip-paragraph" data-section="page7" data-value="DESC75">
+                        <p class="trip-paragraph fade-slide-down" data-section="page7" data-value="DESC75">
                             <span class="fw-bold"> Caddie:</span> USD 75 per bag (double bag)
                         </p>
                     </div>
@@ -634,25 +634,25 @@ include "nav2.php";
                         <h6 class="trip-paragraph fw-bold mb-1" data-section="page7" data-value="CUNTRY CLUB">CLUB DE CAMPO</h6>
                     </div>
                     <div class="col-1">
-                        <span id="dropdownButtonCountry" class="dropdown-button-atamisque plus ms-5 ms-xl-auto">+</span>
+                        <span id="dropdownButtonCountry" class="dropdown-button-atamisque plusx ms-5 ms-xl-auto">+</span>
                     </div>
                 </div>
                 <div id="dropdownCountry" class="hidden fade-slide-down">
-                    <p class="trip-paragraph mb-1" data-section="page7" data-value="DESC76">
-                    <span class="fw-bold">Location:</span> Guaymallen, Mendoza<span class="font-light"> (1 hr 20 min away from Vivacs del Plata )</span>
+                    <p class="trip-paragraph mb-1 fade-slide-down" data-section="page7" data-value="DESC76">
+                    <span class="fw-bold fade-slide-down">Location:</span> Guaymallen, Mendoza<span class="font-light"> (1 hr 20 min away from Vivacs del Plata )</span>
                     </p>
-                    <p class="trip-paragraph my-3" data-section="page7" data-value="DESC77">
+                    <p class="trip-paragraph my-3 fade-slide-down" data-section="page7" data-value="DESC77">
                         Play in the only 18 holes yard of Mendoza guided by skilled caddy scratch players who are esteemed club members. The course is par 72, has 6700 yards, and a stunning view to The Andes Mountain range. 
                     </p>
-                    <div id="dropdown-trip">
-                        <p class="trip-paragraph mb-0 lh-sm" data-section="page7" data-value="DESC78">
+                    <div id="dropdown-trip fade-slide-down">
+                        <p class="trip-paragraph fade-slide-down mb-0 lh-sm" data-section="page7" data-value="DESC78">
                             <span class="fw-bold"> Green fee:</span> U$D 100 per player
                         </p>
-                        <p class="trip-paragraph" data-section="page7" data-value="DESC79">
+                        <p class="trip-paragraph fade-slide-down" data-section="page7" data-value="DESC79">
                             <span class="fw-bold"> Caddie:</span> USD 75 per bag (double bag) or 
                             USD 100 per bag (simple bag)
                         </p>
-                        <p class="trip-paragraph" data-section="page7" data-value="DESC80">
+                        <p class="trip-paragraph fade-slide-down" data-section="page7" data-value="DESC80">
                             <span class="fw-bold"> Round-trip transfer:</span> U$D 120 4 PAX max
                         </p>
                     </div>

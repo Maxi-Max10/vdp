@@ -161,6 +161,54 @@ var buttonDaily = document.getElementById('itinerary');
     }
   });
 
+  const swiperActivities = new Swiper("#swiperActivities", {
+    slidesPerView:1,
+    spaceBetween: 100,
+    loop:true,
+    navigation: {
+      nextEl: ".flecha-p6-activities",
+      prevEl: ".flecha-p6-activities-prev"
+    },
+    speed: 700,
+    breakpoints: {
+      100:{
+        spaceBetween: 10
+      },
+      1200:{
+        spaceBetween: 10
+      }
+    }
+  });
+
+  const swiperCulinary = new Swiper("#swiperCulinary", {
+    slidesPerView:1,
+    spaceBetween: 100,
+    loop:true,
+    navigation: {
+      nextEl: ".flecha-p6-culinary",
+      prevEl: ".flecha-p6-culinary-prev"
+    },
+    speed: 700,
+    breakpoints: {
+      320:{
+        slidesPerView: 1,
+        spaceBetween: 10
+      },
+      555:{
+        slidesPerView: 2,
+        spaceBetween: 10
+      },
+      860:{
+        slidesPerView: 3,
+        spaceBetween: 10
+      },
+      1200:{
+        slidesPerView:4,
+        spaceBetween: 3
+      }
+    }
+  });
+
   const swiperScroll2 = new Swiper(".swiperScroll2", {
     slidesPerView:1,
     spaceBetween: 20,

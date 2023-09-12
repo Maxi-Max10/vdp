@@ -189,45 +189,43 @@ svg {
 }
 
 .slide-m {
-  margin-left: 15%;
+  margin-left: 30%;
 }
 
+@media(max-width:1860px) {
+  .slide-m {
+    margin-left: 28%;
+  }
+}
+@media(max-width:1800px) {
+  .slide-m {
+    margin-left: 25%;
+  }
+}
+@media(max-width:1566px) {
+  .slide-m {
+    margin-left: 20%;
+  }
+}
+@media(max-width:1466px) {
+  .slide-m {
+    margin-left: 15%;
+  }
+}
+@media(max-width:1390px) {
+  .slide-m {
+    margin-left: 20%;
+  }
+}
+@media(max-width:1310px) {
+  .slide-m {
+    margin-left: 15%;
+  }
+}
 @media(max-width:1200px) {
   .slide-m {
-    margin-left: 0.5%;
-    --swiffy-slider-item-count: 1 !important;
-  }
-}
-
-@media(max-width:790px) {
-  .slide-m {
-    margin-left: 0%;
-    --swiffy-slider-item-count: 1 !important;
-    --swiffy-slider-item-reveal: -4rem;
-  }
-}
-
-@media(max-width:650px) {
-  .slide-m {
-    margin-left: 0%;
-    --swiffy-slider-item-count: 1 !important;
-    --swiffy-slider-item-reveal: -8rem;
-  }
-}
-
-@media(max-width:530px) {
-  .slide-m {
-    margin-left: 0%;
-    --swiffy-slider-item-count: 1 !important;
-    --swiffy-slider-item-reveal: -10rem;
-  }
-}
-
-@media(max-width:420px) {
-  .slide-m {
-    margin-left: 0%;
-    --swiffy-slider-item-count: 1 !important;
-    --swiffy-slider-item-reveal: -12rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -371,6 +369,88 @@ svg {
   top: -25rem;
   left: -12rem;
   transition: all 0.3s;
+}
+
+.flecha-p6-activities {
+  width: 12rem;
+  position: relative;
+  top: -25rem;
+  left: 85%;
+  transition: all 0.3s;
+}
+@media(width <= 1450px){
+  .flecha-p6-activities {
+    width: 12rem;
+    position: relative;
+    top: -25rem;
+    left: 89%;
+    transition: all 0.3s;
+  }
+}
+@media(width <= 1200px){
+  @media(width <= 1450px){
+    .flecha-p6-activities {
+      display: none;
+    }
+  }
+}
+
+.flecha-p6-culinary {
+  width: 12rem;
+  position: relative;
+  top: -29rem;
+  left: 15%;
+  transition: all 0.3s;
+}
+@media (width <= 1800px){
+  .flecha-p6-culinary {
+    width: 12rem;
+    position: relative;
+    top: -29rem;
+    left: 10%;
+    transition: all 0.3s;
+  }
+}
+@media (width <= 1566px){
+  .flecha-p6-culinary {
+    width: 12rem;
+    position: relative;
+    top: -29rem;
+    left: 5%;
+    transition: all 0.3s;
+  }
+}
+@media (width <= 1466px){
+  .flecha-p6-culinary {
+    width: 12rem;
+    position: relative;
+    top: -29rem;
+    left: 0%;
+    transition: all 0.3s;
+  }
+}
+@media (width <= 1390px){
+  .flecha-p6-culinary {
+    width: 12rem;
+    position: relative;
+    top: -29rem;
+    left: 5%;
+    transition: all 0.3s;
+  }
+}
+@media (width <= 1310px){
+  .flecha-p6-culinary {
+    width: 12rem;
+    position: relative;
+    top: -29rem;
+    left: 0%;
+    transition: all 0.3s;
+  }
+}
+@media (width <= 1200px){
+  .flecha-p6-culinary {
+    display: none;
+  }
 }
 
 .flecha-p6-prev {

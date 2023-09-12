@@ -95,7 +95,7 @@ include "nav2.php"
                         <li class="option">
                             
                             <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
-                            <span class="option-text"   data-section="page4" data-value="select6">Golf Outing</span>
+                            <span class="option-text"   data-section="page4" data-value="select6"><input type="hidden" type="checkbox" id="Golf Outing" value="Golf Outing" name='list[]'>Golf Outing</span>
                         </li>
                     </ul>
                 </div> <!--- INPUT TYPE HIDDEN -->

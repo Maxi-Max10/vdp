@@ -49,7 +49,7 @@
             <div class="container ">
                 <div class="col-auto me-auto mt-5 mb-0">
                     <span class="navbar-logo">
-                        <a href="index.php">
+                        <a href="mountain-resort-farmstay">
                             <img id="img-logo" class="" src="assets/images/vdp-isologotipo-final-10-298x298.png" alt="" style="height: 5rem; z-index: 3;">
                         </a>
                     </span>
@@ -59,7 +59,7 @@
                     <li id="li1" class="nav-item flags responsive-nav es" ><a id="tes-1" data-language="es" class="nav-link padding-x link-light tes text-nav flags__item" >ES</a></li>
                     <li id="separator" class="nav-link padding-x link-light tes text-nav responsive-nav separator-top" style="top: -6px;">|</li>
                     <li id="li2" class="nav-item flags responsive-nav en"><a id="tes-2" data-language="en"  class="nav-link padding-x link-light tes text-nav flags__item">EN</a></li>
-                    <li id="li3" class="nav-item responsive-nav cont"><a id="tes-3" href="page4.php" class="nav-link padding-x link-light tes text-nav" data-section="nav" data-value="CONTACTMAY">CONTACT</a></li>
+                    <li id="li3" class="nav-item responsive-nav cont"><a id="tes-3" href="contact-us" class="nav-link padding-x link-light tes text-nav" data-section="nav" data-value="CONTACTMAY">CONTACT</a></li>
                     <li class="ms-2 responsive-nav burger-negative"> <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <div class="hamburger">
                                 <span id="burger-1" class="tes-2"></span>
@@ -76,21 +76,21 @@
                         <div class="fade-slide-down row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-3 mt-sm-5" data-app-modern-menu="true">
                             <div class="col-12 col-sm-7 col-1-padding">
                                 <ul class="no-bullets dropdown-transition ul-1-padding">
-                                    <li id="nav-href-1" class="fs-3 fs-sm-1 dropdown-transition vidaloka-nav  menu-vidaloka"><a href="page8.php" class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
-                                    <li id="nav-href-2" class="fs-3 fs-sm-1 dropdown-transition  menu-vidaloka"><a href="page6.php" class="text-decoration-none link-light all-inclusive vidaloka-nav"data-section="nav" data-value="allInclusive">All-Inclusive
+                                    <li id="nav-href-1" class="fs-3 fs-sm-1 dropdown-transition vidaloka-nav  menu-vidaloka"><a href="our-story" class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
+                                    <li id="nav-href-2" class="fs-3 fs-sm-1 dropdown-transition  menu-vidaloka"><a href="all-inclusive-experience" class="text-decoration-none link-light all-inclusive vidaloka-nav"data-section="nav" data-value="allInclusive">All-Inclusive
                                             Experience</a></li>
-                                    <li id="nav-href-3" class="fs-3 fs-sm-1 dropdown-transition  menu-vidaloka"><a href="page1.php" class="text-decoration-none link-light vidaloka-nav"data-section="nav" data-value="gettinghere">Getting Here</a>
+                                    <li id="nav-href-3" class="fs-3 fs-sm-1 dropdown-transition  menu-vidaloka"><a href="getting-here" class="text-decoration-none link-light vidaloka-nav"data-section="nav" data-value="gettinghere">Getting Here</a>
                                     </li>
-                                    <li id="nav-href-4" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="page7.php" class="text-decoration-none link-light vidaloka-nav"data-section="nav" data-value="tripEnhancements">Trip
+                                    <li id="nav-href-4" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="trip-enhancements" class="text-decoration-none link-light vidaloka-nav"data-section="nav" data-value="tripEnhancements">Trip
                                             Enhancements</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-12 col-sm-5 col-2-padding">
                                 <ul class="list-unstyled dropdown-transition ul-2-padding">
-                                    <li id="nav-href-5" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="page5.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gallery">Gallery</a></li>
-                                    <li id="nav-href-6" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="page2.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="FAC">FAQ´s </a></li>
-                                    <li id="nav-href-7" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="page4.php" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>
+                                    <li id="nav-href-5" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="gallery" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gallery">Gallery</a></li>
+                                    <li id="nav-href-6" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="fac" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="FAC">FAQ´s </a></li>
+                                    <li id="nav-href-7" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="contact-us" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>
                                 </ul>
                                 <div id="nav-href-8" class="social-row display-5 nav col-md-5 justify-content-start ">
                                     <div class="soc-item ms-2">

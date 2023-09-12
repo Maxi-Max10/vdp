@@ -7,7 +7,7 @@ include "nav2.php"
 
 <section data-bs-version="5.1" class="slider1 cid-tLdPgbAvY8 mb-0" id="slider1-1i">
     <div class="mbr-overlay" style="z-index: 2;"></div>
-    <div class="carousel slide fadeInLeft" id="tLdXy8znRP" data-ride="carousel" data-bs-ride="carousel" data-interval="2000" data-bs-interval="2000">
+    <div class="carousel slide fadeInLeft" id="tLdXy8znRP" data-ride="carousel" data-bs-ride="carousel" data-interval="2500" data-bs-interval="2500">
 
         <div class="carousel-inner">
             <div class="carousel-item slider-image item active">

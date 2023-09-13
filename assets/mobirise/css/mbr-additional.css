@@ -1771,8 +1771,9 @@ a {
 }
 .cid-tL7nLROMV3 .dropdown-menu,
 .cid-tL7nLROMV3 .navbar.opened {
-  background-image: url("/assets/images/nav_background.jpg") !important;
-  background-size: contain;
+  background-image: linear-gradient(rgb(32 32 32 / 90%), rgb(32 32 32/ 90%)), url(/assets/images/nav_background.jpg) !important;
+  background-size: cover;
+  background-position: center;
 }
 .cid-tL7nLROMV3 .nav-item:focus,
 .cid-tL7nLROMV3 .nav-link:focus {

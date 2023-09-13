@@ -33,7 +33,7 @@ include "nav2.php"
               </span>
             </div>
           </div> -->
-        <h5 data-section="page4" data-value="descrip2" class="roboto-regular">
+        <h5 data-section="page4" data-value="descrip2" class="roboto-regular" style="line-height: 1.2;">
             If you have any questions or need any general <br> 
             information, please complete this form to <br> 
             request the information you need. We will be <br> 
@@ -100,6 +100,12 @@ include "nav2.php"
                     </ul>
                 </div> <!--- INPUT TYPE HIDDEN -->
             </div> 
+
+            <!--- SELEC EDICION -->
+
+
+
+
             
             <div class="input-container">
                 <div class="d-flex justify-content-end">
@@ -208,15 +214,15 @@ include "nav2.php"
                 <div class="d-flex flex-column col-6">
                     <h5 class="contact-footer-title roboto-bold" data-section="page4" data-value="general">GENERAL INQUIRES</h5>
                     <h6 class="fw-bold mt-2 roboto-bold">Email</h6>
-                    <p class="mb-2 roboto-regular">vivacsdelplata@gmail.com</p>
+                    <p class="mb-2 roboto-regular">contact@vivacsdelplata.com</p>
                     <h6 class="fw-bold roboto-bold" data-section="page4" data-value="phone">Phone</h6>
                     <p class="phone-number roboto-regular">+54 9 (261) 631 6497</p>
                 </div>
                 <div class="d-flex flex-column col-6">
                     <h5 class="contact-footer-title roboto-bold" data-section="page4" data-value="social">SOCIAL MEDIA</h5>
-                    <a class="fw-bold mt-2 roboto-regular" href="">Instagram</a>
+                    <a class="fw-bold mt-2 roboto-regular" href="https://instagram.com/vivacsdelplata?igshid= MZRLODBINWFIZA==" target="_blank">Instagram</a>
                     <a class="fw-bold mt-2 roboto-regular" href="">Facebook</a>
-                    <a class="fw-bold mt-2 roboto-regular" href="">Tripadvisor</a>
+                    <a class="fw-bold mt-2 roboto-regular" href="https://api.whatsapp.com/send/?phone=2616316497&text&type=phone_number&app_absent=0" target="_blank">Tripadvisor</a>
                 </div>
             </div>
         </form>

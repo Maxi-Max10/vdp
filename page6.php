@@ -641,7 +641,7 @@ include "nav2.php";
                       </div>
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/IMG_4052 2.jpeg"
+                        src="./assets/images/WhatsApp Image 2023-09-12 at 22.26.54.jpeg"
                         alt=""
                       />
                       

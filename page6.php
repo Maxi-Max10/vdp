@@ -1,12 +1,10 @@
- <?php 
+<?php 
 $campo = "All Inclusive Experience";
 include "nav2.php";
 
 
 
-?> 
-
-
+?>
 
      <section data-bs-version="5.1" class="header4 cid-tMz2KIjoKu mbr-fullscreen mbr-parallax-background" id="header4-25">
     <div class="mbr-overlay"></div>
@@ -93,33 +91,33 @@ include "nav2.php";
         </div>
         <section id="prices" class="hidden fade-slide-down">
           <div class="timeline-container-2-p6 timeline-pc">
-            <ul class="timeline ">
-              <li id="circle-1" class="text-1 hoverable circle-gray p1 pointer"></li>
-              <li id="circle-2" class="text-2 hoverable circle-gray p2 pointer"></li>
-              <li id="circle-3" class="text-3 hoverable circle-gray p3 pointer"></li>
-              <li id="circle-4" class="text-4 hoverable circle-gray p4 pointer"></li>
-              <li id="circle-5" class="text-5 hoverable circle-gray p5 pointer"></li>
+            <ul class="timeline fade-slide-down">
+              <li id="circle-1" class="text-1 fade-slide-down hoverable circle-gray p1 pointer"></li>
+              <li id="circle-2" class="text-2 fade-slide-down hoverable circle-gray p2 pointer"></li>
+              <li id="circle-3" class="text-3 fade-slide-down hoverable circle-gray p3 pointer"></li>
+              <li id="circle-4" class="text-4 fade-slide-down hoverable circle-gray p4 pointer"></li>
+              <li id="circle-5" class="text-5 fade-slide-down hoverable circle-gray p5 pointer"></li>
             </ul>
           </div>
-          <div class="d-flex pt-4 pb-5 timeline-pc">
+          <div class="d-flex pt-4 pb-5 timeline-pc fade-slide-down">
               <div id="text-1" class="circle-1 hoverable gray item-itinerary d-flex flex-column">
-                  <p class="pointer text-item itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br> AND TEMPTING SNACKS</p>
+                  <p class="pointer fade-slide-down text-item itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br> AND TEMPTING SNACKS</p>
               </div>
               <div id="text-2" class="circle-2 hoverable gray item-itinerary-2 d-flex flex-column">
-                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
-                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
-                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
-                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
-                  <p class="pointer text-item itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
+                  <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
+                  <p class="pointer text-item fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
+                  <p class="pointer text-item fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
+                  <p class="pointer text-item fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
+                  <p class="pointer text-item fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
               </div>
               <div id="text-3" class="circle-3 hoverable gray item-itinerary-3 d-flex flex-column">
-                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
+                  <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
               </div>
               <div id="text-4" class="circle-4 hoverable gray item-itinerary-4 d-flex flex-column">
-                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br> OR RELAX IN THE HOUSE</p>
+                  <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br> OR RELAX IN THE HOUSE</p>
               </div>
               <div id="text-5" class="circle-5 hoverable gray item-itinerary-5 d-flex flex-column">
-                  <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+                  <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
               </div>
           </div>
 
@@ -128,22 +126,22 @@ include "nav2.php";
                 <p class="start-hour-2">9:00AM</p>
             </div>
             <ul class="timeline-p7">
-                <li id="circle-a" class="text-a hoverable q1 circle-gray"></li>
-                <li id="circle-b" class="text-b hoverable q2 circle-gray"></li>
-                <li id="circle-c" class="text-c hoverable q3 circle-gray"></li>
+                <li id="circle-a" class="text-a fade-slide-down hoverable q1 circle-gray"></li>
+                <li id="circle-b" class="text-b fade-slide-down hoverable q2 circle-gray"></li>
+                <li id="circle-c" class="text-c fade-slide-down hoverable q3 circle-gray"></li>
             </ul>
         </div>
         <div class="text-items-2 timeline-mobile mb-5">
             <div class="d-flex">
                 <div id="text-a" class="circle-a hoverable gray item-itinerary-a d-flex flex-column">
-                  <p class="pointer itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br class="br-itinerary"> AND TEMPTING SNACKS</p>
+                  <p class="pointer fade-slide-down itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br class="br-itinerary"> AND TEMPTING SNACKS</p>
                 </div>
                 <div id="text-b" class="circle-b hoverable gray item-itinerary-b d-flex flex-column">
-                  <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
-                  <p class="pointer itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
-                  <p class="pointer itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
-                  <p class="pointer itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
-                  <p class="pointer itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
+                  <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
+                  <p class="pointer fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
+                  <p class="pointer fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
+                  <p class="pointer fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
+                  <p class="pointer fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
                 </div>
                 <div id="text-c" class="circle-c hoverable gray item-itinerary-c d-flex flex-column">
                   <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
@@ -155,30 +153,30 @@ include "nav2.php";
                 <p class="end-hour-2-mobile ms-auto">4:00PM</p>
             </div>
             <ul class="timeline-p7">
-                <li id="circle-d" class="text-d hoverable q4 circle-gray"></li>
-                <li id="circle-e" class="text-e hoverable q5 circle-gray"></li>
+                <li id="circle-d" class="text-d fade-slide-down hoverable q4 circle-gray"></li>
+                <li id="circle-e" class="text-e fade-slide-down hoverable q5 circle-gray"></li>
             </ul>
         </div>
         <div class="text-items-2 timeline-mobile">
             <div class="d-flex">
                 <div id="text-d" class="circle-d hoverable-p7 gray item-itinerary-d d-flex flex-column">
-                  <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br class="br-itinerary"> OR RELAX IN THE HOUSE</p>
+                  <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br class="br-itinerary"> OR RELAX IN THE HOUSE</p>
                 </div>
                 <div id="text-e" class="circle-e hoverable-p7 gray item-itinerary-e d-flex flex-column">
-                  <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+                  <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
                 </div>
             </div>
         </div>
 
-          <div class="py-3 d-flex align-items-center width-50">
-              <p class="text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
-                <div class="divider-light ms-3 p-end"></div>
-              <p class="text-item itinerary-text mb-0"><span class="fw-bold">USD 250 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
+          <div class="py-3 fade-slide-down d-flex align-items-center width-50">
+              <p class="text-item itinerary-text fade-slide-down mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
+                <div class="divider-light fade-slide-down ms-3 p-end"></div>
+              <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold">USD 250 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
           </div>
-          <div class="pb-5 d-flex align-items-center width-50">
-              <p class="me-1 text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
-                <div class="divider-light"></div>
-              <p class="text-item itinerary-text mb-0"><span class="fw-bold">USD 210 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
+          <div class="pb-5 fade-slide-down d-flex align-items-center width-50">
+              <p class="me-1 text-item fade-slide-down itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
+                <div class="divider-light fade-slide-down"></div>
+              <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold">USD 210 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
           </div>
         </section>
         <div class=" divider mt-2"></div>
@@ -189,44 +187,44 @@ include "nav2.php";
         <section id="prices2" class="hidden fade-slide-down">
           <div class="timeline-container-p6 timeline-pc">
             <ul class="timeline-2">
-              <li id="circle-6" class="text-6 circle-gray hoverable c1 pointer"></li>
-              <li id="circle-7" class="text-7 circle-gray hoverable c2 pointer"></li>
-              <li id="circle-8" class="text-8 circle-gray hoverable c3 pointer"></li>
-              <li id="circle-9" class="text-9 circle-gray hoverable c4 pointer"></li>
-              <li id="circle-10" class="text-10 circle-gray hoverable c5 pointer"></li>
-              <li id="circle-11" class="text-11 circle-gray hoverable c6 pointer"></li>
-              <li id="circle-12" class="text-12 circle-gray hoverable c7 pointer"></li>
-              <li id="circle-13" class="text-13 circle-gray hoverable c8 pointer"></li>
+              <li id="circle-6" class="text-6 fade-slide-down circle-gray hoverable c1 pointer"></li>
+              <li id="circle-7" class="text-7 fade-slide-down circle-gray hoverable c2 pointer"></li>
+              <li id="circle-8" class="text-8 fade-slide-down circle-gray hoverable c3 pointer"></li>
+              <li id="circle-9" class="text-9 fade-slide-down circle-gray hoverable c4 pointer"></li>
+              <li id="circle-10" class="text-10 fade-slide-down circle-gray hoverable c5 pointer"></li>
+              <li id="circle-11" class="text-11 fade-slide-down circle-gray hoverable c6 pointer"></li>
+              <li id="circle-12" class="text-12 fade-slide-down circle-gray hoverable c7 pointer"></li>
+              <li id="circle-13" class="text-13 fade-slide-down circle-gray hoverable c8 pointer"></li>
             </ul>
           </div>
             <div class="timeline-pc d-flex pt-4 pb-3">
                 <div id="text-6" class="circle-6 hoverable gray item-itinerary-6 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="WELCOME WITH COFFE <br> AND TEMPTING SNACKS">WELCOME WITH COFFE <br> AND TEMPTING SNACKS</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="WELCOME WITH COFFE <br> AND TEMPTING SNACKS">WELCOME WITH COFFE <br> AND TEMPTING SNACKS</p>
                 </div>
                 <div id="text-7" class="circle-7 hoverable gray item-itinerary-7 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="ROOMS ALOCATION">ROOMS ALOCATION</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="ROOMS ALOCATION">ROOMS ALOCATION</p>
                 </div>
                 <div id="text-8" class="circle-8 hoverable gray item-itinerary-8 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
-                    <p class="pointer text-item itinerary-text fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
-                    <p class="pointer text-item itinerary-text fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
-                    <p class="pointer text-item itinerary-text fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
-                    <p class="pointer text-item itinerary-text fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
                 </div>
                 <div id="text-9" class="circle-9 hoverable gray item-itinerary-9 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
                 </div>
                 <div id="text-10" class="circle-10 hoverable gray item-itinerary-10 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br> OR RELAX IN THE HOUSE</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br> OR RELAX IN THE HOUSE</p>
                 </div>
                 <div id="text-11" class="circle-11 hoverable gray item-itinerary-11 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
                 </div>
                 <div id="text-12" class="circle-12 hoverable gray item-itinerary-12 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold"data-section="page6" data-value="DINNER PREPARATION WITH OPTIONAL PARTICIPATION">DINNER PREPARATION <br>WITH OPTIONAL <br>PARTICIPATION</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text fw-bold"data-section="page6" data-value="DINNER PREPARATION WITH OPTIONAL PARTICIPATION">DINNER PREPARATION <br>WITH OPTIONAL <br>PARTICIPATION</p>
                 </div>
                 <div id="text-13" class="circle-13 hoverable gray item-itinerary-13 d-flex flex-column">
-                    <p class="pointer text-item itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">FIREPLACE <br>GATHERING</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">FIREPLACE <br>GATHERING</p>
                 </div>
             </div>
 
@@ -235,30 +233,30 @@ include "nav2.php";
                   <p class="start-hour">8:00AM</p>
               </div>
               <ul class="timeline-2">
-                  <li id="circle-f" class="text-f hoverable w1 circle-gray"></li>
-                  <li id="circle-g" class="text-g hoverable w2 circle-gray"></li>
-                  <li id="circle-h" class="text-h hoverable w3 circle-gray"></li>
-                  <li id="circle-i" class="text-i hoverable w4 circle-gray"></li>
+                  <li id="circle-f" class="text-f fade-slide-down hoverable w1 circle-gray"></li>
+                  <li id="circle-g" class="text-g fade-slide-down hoverable w2 circle-gray"></li>
+                  <li id="circle-h" class="text-h fade-slide-down hoverable w3 circle-gray"></li>
+                  <li id="circle-i" class="text-i fade-slide-down hoverable w4 circle-gray"></li>
               </ul>
           </div>
           <div class="text-items timeline-mobile text-items-mobile m-t-mobile-p6">
               <div class="d-flex">
                   <div id="text-f" class="circle-f hoverable gray item-itinerary-f d-flex flex-column">
-                    <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="WELCOME WITH COFFE AND TEMPTING SNACKS">WELCOME WITH COFFE <br class="br-itinerary"> AND TEMPTING SNACKS</p>
+                    <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="WELCOME WITH COFFE AND TEMPTING SNACKS">WELCOME WITH COFFE <br class="br-itinerary"> AND TEMPTING SNACKS</p>
                   </div>
                   <div id="text-g" class="circle-g hoverable gray item-itinerary-g d-flex flex-column">
-                    <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="ROOMS ALOCATION">ROOMS ALOCATION</p>
+                    <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="ROOMS ALOCATION">ROOMS ALOCATION</p>
                   </div>
                   <div id="text-h" class="circle-h hoverable gray item-itinerary-h d-flex flex-column">
-                      <p class="pointer itinerary-text fw-bold mb-0" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
-                      <p class="pointer itinerary-text fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
-                      <p class="pointer itinerary-text fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
-                      <p class="pointer itinerary-text fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
-                      <p class="pointer itinerary-text fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
+                      <p class="pointer fade-slide-down itinerary-text fw-bold mb-0" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
+                      <p class="pointer fade-slide-down itinerary-text fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
+                      <p class="pointer fade-slide-down itinerary-text fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
+                      <p class="pointer fade-slide-down itinerary-text fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
+                      <p class="pointer fade-slide-down itinerary-text fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
                   </div>
                   </div>
                   <div id="text-i" class="circle-i hoverable-p7 gray item-itinerary-z d-flex flex-column">
-                    <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
+                    <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
                   </div>
               </div>
           </div>
@@ -267,38 +265,38 @@ include "nav2.php";
                   <p class="end-hour ms-auto">6:00PM</p>
               </div>
               <ul class="timeline-2">
-                  <li id="circle-j" class="text-j hoverable w1 circle-gray"></li>
-                  <li id="circle-k" class="text-k hoverable w2 circle-gray"></li>
-                  <li id="circle-l" class="text-l hoverable w3 circle-gray"></li>
-                  <li id="circle-m" class="text-m hoverable w4 circle-gray"></li>
+                  <li id="circle-j" class="text-j fade-slide-down hoverable w1 circle-gray"></li>
+                  <li id="circle-k" class="text-k fade-slide-down hoverable w2 circle-gray"></li>
+                  <li id="circle-l" class="text-l fade-slide-down hoverable w3 circle-gray"></li>
+                  <li id="circle-m" class="text-m fade-slide-down hoverable w4 circle-gray"></li>
               </ul>
           </div>
           <div class="text-items timeline-mobile text-items-mobile mb-5">
               <div class="d-flex">
                   <div id="text-j" class="circle-j hoverable gray item-itinerary-f d-flex flex-column">
-                    <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br class="br-itinerary"> OR RELAX IN THE HOUSE</p>
+                    <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br class="br-itinerary"> OR RELAX IN THE HOUSE</p>
                   </div>
                   <div id="text-k" class="circle-k hoverable gray item-itinerary-g d-flex flex-column">
-                    <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+                    <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
                   </div>
                   <div id="text-l" class="circle-l hoverable gray item-itinerary-h d-flex flex-column">
-                    <p class="pointer itinerary-text fw-bold"data-section="page6" data-value="DINNER PREPARATION WITH OPTIONAL PARTICIPATION">DINNER PREPARATION <br class="br-itinerary">WITH OPTIONAL <br class="br-itinerary">PARTICIPATION</p>
+                    <p class="pointer fade-slide-down itinerary-text fw-bold"data-section="page6" data-value="DINNER PREPARATION WITH OPTIONAL PARTICIPATION">DINNER PREPARATION <br class="br-itinerary">WITH OPTIONAL <br class="br-itinerary">PARTICIPATION</p>
                   </div>
                   <div id="text-m" class="circle-m hoverable gray item-itinerary-i d-flex flex-column">
-                    <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">FIREPLACE <br class="br-itinerary">GATHERING</p>
+                    <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">FIREPLACE <br class="br-itinerary">GATHERING</p>
                   </div>
               </div>
           </div>
 
             <div class="pt-5 d-flex align-items-center width-50">
-                <p class="text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
-                <div class="divider-light ms-3 p-end"></div>
-                <p class="text-item itinerary-text mb-0"><span class="itinerary-text text-item fw-bold">USD 450</span><span class="italic text-item" data-section="page6" data-value="per guest"> per guest</span></p>
+                <p class="text-item fade-slide-down itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
+                <div class="divider-light fade-slide-down ms-3 p-end"></div>
+                <p class="text-item fade-slide-down itinerary-text mb-0"><span class="itinerary-text text-item fw-bold">USD 450</span><span class="italic text-item" data-section="page6" data-value="per guest"> per guest</span></p>
             </div>
             <div class="pb-5 d-flex align-items-center width-50">
-                <p class="me-1 text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
-                <div class="divider-light"></div>
-                <p class="text-item itinerary-text mb-0"><span class="fw-bold">USD 400</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span></p>
+                <p class="me-1 fade-slide-down text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
+                <div class="divider-light fade-slide-down"></div>
+                <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold">USD 400</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span></p>
             </div>
         </section>
         <div class=" divider mt-2"></div>
@@ -307,24 +305,23 @@ include "nav2.php";
             <p id="plusIcon3" class="plus mb-0 fw-bold ms-5 pointer fs-4">+</p>
         </div>
         <section id="prices3" class="fade-slide-down hidden">
-            <p class="itinerary-text-half lh-sm width-50" data-section="page6" data-value="Halfday1">
+            <p class="itinerary-text-half lh-sm width-50 fade-slide-down" data-section="page6" data-value="Halfday1">
                 Short on time? Experience a taste of the Argentinian countryside with our flexible <br> outing package. Choose an activity accompanied by delightful wine in the Heights <br>and delicious bites.
             </p>
-            <p class="itinerary-text-half width-50" data-section="page6" data-value="Halfday2">
+            <p class="itinerary-text-half width-50 fade-slide-down" data-section="page6" data-value="Halfday2">
                 Our half day experience lasts no more than 4 hours allowing you to seamlessly <br> fit into your morning morning or afternoon schedule.
             </p>
-            <p class="itinerary-text-half lh-sm pt-3">
+            <p class="itinerary-text-half lh-sm pt-3 fade-slide-down">
                 <span class="fw-bold fs-5">USD 150</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span>
             </p>
         </section>
     </section> 
     <div class="segunda-hoja">
       <div class="subseccion-1-1">
-      <h2 class="h2-subseccion-1-2 roboto-regular text-center text-xl-start" data-section="page6" data-value="Activities">Activities</h2>
-      <div class="swiffy-slider slider-nav-round slider-nav-visible slider-item-snapstart">
-        <ul class="slider-container slider-subseccion-1">
-          <li class="">
-            <div id="slide1">
+        <div id="swiperActivities" class="swiper">
+          
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" id="slide1">
               <div class="subseccion-1-p6">
                 <div class="elemento-1 text-center text-xl-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="HORSEBACK RIDING">HORSEBACK RIDING</h2>
@@ -338,11 +335,12 @@ include "nav2.php";
                   </p>
                 </div>
                 <div class="elemento-2">
+                  <h2 class="h2-subseccion-1-2 roboto-regular text-center text-xl-start" data-section="page6" data-value="Activities">Activities</h2>
                   <div class="carrusel-container-p6">
                     <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
-                        src="./assets/images/5C101611-152C-4641-87D7-19080C6455F2.JPG"
+                        src="./assets/images/Field_and_horses_resize.jpg"
                         alt="Imagen grande"
                       />
                     </div>
@@ -351,27 +349,25 @@ include "nav2.php";
                     <div class="thumbnails">
                       <img
                         class="thumbnail"
-                        src="./assets/images/48C13FF2-6951-474D-9A1A-5728A8C7C692.JPG"
+                        src="./assets/images/Sunset_and_horses_resize.jpg"
                         alt="imagen 1"
                       />
                       <img
                         class="thumbnail"
-                        src="./assets/images/2C7C7318-CFBB-46E6-8759-A2A1517607C2.poster.JPG"
+                        src="./assets/images/Horses_resize.jpg"
                         alt="imagen 2"
                         />
                         <img
                         class="thumbnail"
-                        src="./assets/images/IMG_6433.jpg"
+                        src="./assets/images/IMG_6433_resize.jpg"
                         alt="imagen 3"
                         />
                     </div>
                   </div>
+                </div>
               </div>
-          </div>
             </div>
-          </li>
-          <li>
-            <div id="slide2">
+            <div class="swiper-slide" id="slide2">
               <div class="subseccion-1-p6">
                 <div class="elemento-1 text-center text-xl-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="4X4 GUIDED TOUR">4X4 GUIDED TOUR</h2>
@@ -388,11 +384,12 @@ include "nav2.php";
                   </p>
                 </div>
                 <div class="elemento-2">
+                  <h2 class="h2-subseccion-1-2 roboto-regular text-center text-xl-start" data-section="page6" data-value="Activities">Activities</h2>
                   <div class="carrusel-container-p6">
                     <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
-                        src="./assets/images/A9D5D6D7-00D1-441C-A18A-5265142BA601.JPG"
+                        src="./assets/images/Ride.jpg"
                         alt="Imagen grande"
                       />
                     </div>
@@ -401,28 +398,26 @@ include "nav2.php";
                     <div class="thumbnails">
                       <img
                         class="thumbnail"
-                        src="./assets/images/IMG_7111.jpeg"
+                        src="./assets/images/Guided_tour.jpg"
                         alt="imagen 1"
                       />
                       <img
                         class="thumbnail"
-                        src="./assets/images/IMG_3933.jpeg"
+                        src="./assets/images/Tour_rest.jpg"
                         alt="imagen 2"
                         />
                         <img
                         class="thumbnail"
-                        src="./assets/images/IMG_7104.jpeg"
+                        src="./assets/images/Sun_guided_tour.jpg"
                         alt="imagen 3"
                         />
                     </div>
                   </div>
+                </div>
               </div>
-          </div>
             </div>
-          </li>
-          <li>
-            <div id="slide3">
-              <div class="subseccion-1">
+            <div class="swiper-slide" id="slide3">
+              <div class="subseccion-1-p6">
                 <div class="elemento-1 text-center text-xl-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="CYCLING">CYCLING</h2>
                   <div class="divisor-1 mx-auto mx-xl-0"></div>
@@ -443,12 +438,12 @@ include "nav2.php";
                 </div>
         
                 <div class="elemento-2">
-      
+                  <h2 class="h2-subseccion-1-2 roboto-regular text-center text-xl-start" data-section="page6" data-value="Activities">Activities</h2>
                   <div class="carrusel-container-p6">
                     <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
-                        src="./assets/images/IMG_3675 2.jpeg"
+                        src="./assets/images/Cycling.jpg"
                         alt="Imagen grande"
                       />
                     </div>
@@ -456,29 +451,26 @@ include "nav2.php";
                     <div class="thumbnails">
                       <img
                         class="thumbnail"
-                        src="./assets/images/5455F036-AC05-427C-BD2E-A1621B4B46F1.JPG"
+                        src="./assets/images/Horses_and_bike.jpg"
                         alt="imagen 1"
                       />
                       <img
                         class="thumbnail"
-                        src="./assets/images/IMG_3689.jpeg"
+                        src="./assets/images/Sunset_cycling.jpg"
                         alt="imagen 2"
                         />
                         <img
                         class="thumbnail"
-                        src="./assets/images/DED476FD-2A07-4344-BDDA-A49E292D66DC.JPG"
+                        src="./assets/images/Mountain_cycling.jpg"
                         alt="imagen 3"
                         />
                     </div>
                   </div>
+                </div>
               </div>
-             </div>
             </div>
-          </li>
-          <li>
-            <div id="slide4">
+            <div class="swiper-slide" id="slide4">
               <div class="subseccion-1-p6">
-
                 <div class="elemento-1 text-center text-xl-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="TREKKING">TREKKING</h2>
                   <div class="divisor-1 mx-auto mx-xl-0"></div>
@@ -497,12 +489,12 @@ include "nav2.php";
                 </div>
         
                 <div class="elemento-2">
-      
+                  <h2 class="h2-subseccion-1-2 roboto-regular text-center text-xl-start" data-section="page6" data-value="Activities">Activities</h2>
                   <div class="carrusel-container-p6">
                     <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
-                        src="./assets/images/cerro-recortada.jpg"
+                        src="./assets/images/Trekking.jpg"
                         alt="Imagen grande"
                       />
                     </div>
@@ -511,45 +503,38 @@ include "nav2.php";
                     <div class="thumbnails">
                       <img
                         class="thumbnail"
-                        src="./assets/images/D67B7173-F341-4B23-A0B2-6AADD3058082.JPG"
+                        src="./assets/images/Field_trekking.jpg"
                         alt="imagen 1"
                       />
                       <img
                         class="thumbnail"
-                        src="./assets/images/DB4AB722-E813-41C0-9164-8EDA0D1F9D08.JPG"
+                        src="./assets/images/Fields_and_clouds.jpg"
                         alt="imagen 2"
                         />
                         <img
                         class="thumbnail"
-                        src="./assets/images/FB6400CF-D73E-4E55-88D4-3B64ABBB89DD.JPG"
+                        src="./assets/images/Trekking_two.jpg"
                         alt="imagen 3"
                         />
                     </div>
                   </div>
+                </div>
               </div>
-          </div>
             </div>
-          </li>
-        </ul>
-        <div class="arrow-activities next-2-p6" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-          <span class="svg-activities svg-arrow-right svg-next-p6">
-              <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p6" d="M0 12.9h28.5"/></svg>
-          </span>
+          </div>
+          <img src="/assets/img/icons/flecha.svg" class="flecha-p6-activities" alt="flecha_derecha_activities">
         </div>
       </div>
-    </div>
 
 
         
     
-     <div class="subseccion-2">
+      <div class="subseccion-2">
         <h2 class="subtitulo-subseccion-2" data-section="page6" data-value="Culinary Experience">Culinary Experience</h2>
-        
-        <div class="slide-m swiffy-slider slider-item-show4 slider-nav-visible slider-item-snapstart slider-nav-round">
-          <ul class="slider-container ul-slider-subseccion-2">
-              <li>
-                  <div id="slide1" class="slide">
-                    <div class="flex-column d-flex col-3 slide-item">
+        <div id="swiperCulinary" class="swiper slide-m">
+          <div class="swiper-wrapper ul-slider-subseccion-2">
+                  <div id="slide1" class="swiper-slide">
+                    <div class="flex-column d-flex slide-item">
                       <img
                       class="imagen-subseccion-5"
                       src="./assets/images/45AD508E-89ED-4966-A830-D6801DF4F119.JPG"
@@ -564,11 +549,9 @@ include "nav2.php";
                       </div>
                   </div>
                   </div>
-              </li>
-              <li>
-                  <div id="slide2" class="slide">
+                  <div id="slide2" class="swiper-slide">
 
-                    <div class="flex-column d-flex col-3 slide-item slide-item">
+                    <div class="flex-column d-flex slide-item slide-item">
                       <img
                         class="imagen-subseccion-5"
                         src="./assets/images/4EECB30B-A1C1-4529-8747-5C74BF6E539F.JPG"
@@ -582,10 +565,8 @@ include "nav2.php";
                   </div>
 
                   </div>
-              </li>
-              <li>
-                  <div id="slide3" class="slide">
-                    <div class="flex-column d-flex col-3 slide-item">
+                  <div id="slide3" class="swiper-slide">
+                    <div class="flex-column d-flex slide-item">
                       <div class="parrafo-slider">
                           <p class="parrafo" data-section="page6" data-value="2">The culinary journey is led by our 
                             talented chef who is not only an 
@@ -600,11 +581,9 @@ include "nav2.php";
                     
                   </div>
                   </div>
-              </li>
-              <li>
-                  <div id="slide4" class="slide">
+                  <div id="slide4" class="swiper-slide">
 
-                    <div class="flex-column d-flex col-3 slide-item">
+                    <div class="flex-column d-flex slide-item">
                       <img
                         class="imagen-subseccion-5"
                         src="./assets/images/6B2C3EB7-DCE7-4AAD-B635-66FC63FA8E00.JPG"
@@ -619,10 +598,8 @@ include "nav2.php";
                   </div>
 
                   </div>
-              </li>
-              <li>
-                  <div id="slide5" class="slide">
-                    <div class="flex-column d-flex col-3 slide-item">
+                  <div id="slide5" class="swiper-slide">
+                    <div class="flex-column d-flex slide-item">
                       <img
                         class="imagen-subseccion-5"
                         src="./assets/images/IMG_0464.JPG"
@@ -637,10 +614,8 @@ include "nav2.php";
                     
                   </div>
                   </div>
-              </li>
-              <li>
-                  <div id="slide6" class="slide">
-                    <div class="flex-column d-flex col-3 slide-item">
+                  <div id="slide6" class="swiper-slide">
+                    <div class="flex-column d-flex slide-item">
                       <img
                         class="imagen-subseccion-5"
                         src="./assets/images/IMG_8537.jpeg"
@@ -654,10 +629,8 @@ include "nav2.php";
                     
                   </div>
                   </div>
-              </li>
-              <li>
-                  <div id="slide7" class="slide">
-                    <div class="flex-column d-flex col-3 slide-item">
+                  <div id="slide7" class="swiper-slide">
+                    <div class="flex-column d-flex slide-item">
                       <div class="parrafo-slider">
                           <p class="parrafo" data-section="page6" data-value="4">While beef is the quintessential <br>
                             choice at Vivacs del Plata, we are <br>
@@ -673,125 +646,106 @@ include "nav2.php";
                       />
                       
                     
-                  </div>
-                  </div>
-              </li>
-              <li>
-                  <div id="slide8" class="slide">
-                    <div class="flex-column d-flex col-3 slide-item">
+                    </div>
+                    </div>
+                    <div id="slide8" class="swiper-slide">
+                      <div class="flex-column d-flex slide-item">
+                        <img
+                        class="imagen-subseccion-5"
+                        src="./assets/images/IMG_4052 2.jpeg"
+                        alt=""
+                        />
+                        <img
+                          class="imagen-subseccion-5"
+                          src="./assets/images/59962E16-AAD7-4543-AFE8-09074DBE0BDD.JPG"
+                          alt=""
+                        />
+                      
+                    </div>
+                    </div>
+                    <div id="slide9" class="swiper-slide">
+                      <div class="flex-column d-flex slide-item">
+                        <img
+                          class="imagen-subseccion-5"
+                          src="./assets/images/IMG_6330.jpeg"
+                          alt=""
+                        />
+                        <div class="parrafo-slider">
+                          <p class="parrafo p-borde" data-section="page6" data-value="5">We understand the importance <br>
+                            of catering to individual dietary <br>
+                            needs, and we are pleased to <br>
+                            offer vegetarian options for <br>
+                            guests who prefer plant-based <br>
+                            delights. Simply let us know <br>
+                            about any special dietary <br>
+                            requirements, and we will ensure <br>
+                            that your culinary experience is <br>
+                            tailored to your preferences.</p>
+                      </div>
+                      
+                    </div>
+                    </div>
+                  <div id="slide10" class="swiper-slide">
+                    <div class="flex-column d-flex slide-item">
                       <img
-                      class="imagen-subseccion-5"
-                      src="./assets/images/IMG_4052 2.jpeg"
-                      alt=""
+                        class="imagen-subseccion-5"
+                        src="./assets/images/8DC52086-1132-42F7-89F4-9EBC02279E85.JPG"
+                        alt=""
                       />
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/59962E16-AAD7-4543-AFE8-09074DBE0BDD.JPG"
+                        src="./assets/images/4EE2BC0E-F7C3-4D48-BED7-59D0B9125B87.JPG"
                         alt=""
                       />
                     
                   </div>
                   </div>
-              </li>
-              <li>
-                  <div id="slide9" class="slide">
-                    <div class="flex-column d-flex col-3 slide-item">
-                      <img
-                        class="imagen-subseccion-5"
-                        src="./assets/images/IMG_6330.jpeg"
-                        alt=""
-                      />
+                  <div id="slide11" class="swiper-slide">
+                    <div class="flex-column d-flex slide-item">
                       <div class="parrafo-slider">
-                        <p class="parrafo p-borde" data-section="page6" data-value="5">We understand the importance <br>
-                          of catering to individual dietary <br>
-                          needs, and we are pleased to <br>
-                          offer vegetarian options for <br>
-                          guests who prefer plant-based <br>
-                          delights. Simply let us know <br>
-                          about any special dietary <br>
-                          requirements, and we will ensure <br>
-                          that your culinary experience is <br>
-                          tailored to your preferences.</p>
+                        <p class="parrafo" data-section="page6" data-value="6">Rest assured, all of these <br>
+                          delectable dining experiences <br>
+                          are included under the daily <br>
+                          rate, allowing you to indulge <br>
+                          in a range of culinary delights <br>
+                          without any additional cost.
+                          </p>
+                        </div>
+                        <img
+                        class="imagen-subseccion-5"
+                        src="./assets/images/IMG_8537.jpeg"
+                        alt=""
+                        />
                     </div>
-                    
                   </div>
-                  </div>
-              </li>
-              <li>
-                <div id="slide10" class="slide">
-                  <div class="flex-column d-flex col-3 slide-item">
-                    <img
-                      class="imagen-subseccion-5"
-                      src="./assets/images/8DC52086-1132-42F7-89F4-9EBC02279E85.JPG"
-                      alt=""
-                    />
-                    <img
-                      class="imagen-subseccion-5"
-                      src="./assets/images/4EE2BC0E-F7C3-4D48-BED7-59D0B9125B87.JPG"
-                      alt=""
-                    />
-                  
-                </div>
-                </div>
-            </li>
-            <li>
-              <div id="slide11" class="slide">
-                <div class="flex-column d-flex col-3 slide-item">
-                  <div class="parrafo-slider">
-                    <p class="parrafo" data-section="page6" data-value="6">Rest assured, all of these <br>
-                      delectable dining experiences <br>
-                      are included under the daily <br>
-                      rate, allowing you to indulge <br>
-                      in a range of culinary delights <br>
-                      without any additional cost.
-                      </p>
-                    </div>
-                    <img
-                    class="imagen-subseccion-5"
-                    src="./assets/images/IMG_8537.jpeg"
-                    alt=""
-                    />
-                    
               </div>
-              </div>
-          </li>
-          </ul>
-          <div class="arrow-culinary next-3-p6" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-            <span class="svg-culinary svg-arrow-right svg-next-p6">
-                <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-p6" d="M0 12.9h28.5"/></svg>
-            </span>
           </div>
+          <img src="/assets/img/icons/flecha.svg" class="flecha-p6-culinary" alt="flecha_derecha_culinary">
         </div>
-
-        
       </div>
   
         <div class="subseccion-3">
           <h3 class="accomodation" data-section="page6" data-value="Accomodation">Accomodation</h3>
-          <div class="swiperAccomodation swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
+          <div class="swiper-accomodation swiper">
+            <div id="accomodation-wrapper" class="swiper-wrapper">
+              <div id="accomodationImg" class="swiper-slide">
                 <img
                   class="imagen-subseccion-3-a"
                   src="./assets/images/accomodation_resize.png"
                   alt=""
                 />
               </div>
-              <div class="swiper-slide">
+              <div id="accomodationImg2" class="swiper-slide">
                 <img
                   class="imagen-subseccion-3-a"
                   src="./assets/images/accomodation2.jpg"
                   alt=""
                 />
               </div>
-              <img src="/assets/img/icons/flecha.svg" class="flecha-p6" alt="flecha_derecha">
-              <div class="arrow-2-p6 next-4-p6 next-accomodation" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-                <span class="svg-white-p6 svg-arrow-right svg-next-p6">
-                    <svg class="slider-nav slider-nav-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 26" enable-background="new 0 0 30 26"><path d="M16.9 0c.3 0 .5.1.7.3l12 12c.4.4.4 1 0 1.4l-12 12c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l11.3-11.3-11.3-11.3c-.4-.4-.4-1 0-1.4.2-.2.5-.3.7-.3z"/><path class="arrow__line-2-p6" d="M0 12.9h28.5"/></svg>
-                </span>
-              </div>
             </div>
           </div>
+          <img src="/assets/img/icons/flecha2.svg" class="next-accomodation" alt="flecha_derecha2">
+          <img src="/assets/img/icons/flecha2.svg" class="prev-accomodation hide-flecha" alt="flecha_izquierda2">
         </div>
   
         <div class="subseccion-4">
@@ -979,5 +933,7 @@ include "nav2.php";
       </div>
 </section>
 <?php
+
 include "footer2.php"
+
 ?>

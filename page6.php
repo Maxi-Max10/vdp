@@ -762,7 +762,7 @@ include "nav2.php";
               Whether you're traveling <br>
                with family or friends, our  <br> 
                accomodations are designed  <br>
-               o cater to your every need.
+               to cater to your every need.
             </p>
             <img
               class="imagen-grande-subseccion-4"

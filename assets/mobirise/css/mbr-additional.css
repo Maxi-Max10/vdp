@@ -1014,7 +1014,6 @@ a {
 .cid-tL7nLROMV3 .dropdown-menu,
 .cid-tL7nLROMV3 .navbar.opened {
   overflow: hidden;
-  background: #363636 !important;
 }
 .cid-tL7nLROMV3 .nav-item:focus,
 .cid-tL7nLROMV3 .nav-link:focus {
@@ -1772,7 +1771,7 @@ a {
 }
 .cid-tL7nLROMV3 .dropdown-menu,
 .cid-tL7nLROMV3 .navbar.opened {
-  background: #232323 !important;
+  background: url("./assets/images/Horses_and_bike.jpg") !important;
 }
 .cid-tL7nLROMV3 .nav-item:focus,
 .cid-tL7nLROMV3 .nav-link:focus {

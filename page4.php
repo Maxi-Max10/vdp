@@ -92,8 +92,7 @@ include "nav2.php"
                             <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
                             <span class="option-text"   data-section="page4" data-value="select5"><input type="hidden" type="checkbox" id="Motorcycle Road Trip" value="Motorcycle Road Trip" name='list[]'>Motorcycle Road Trip</span>
                         </li>
-                        <li class="option">
-                            
+                        <li class="option"> 
                             <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
                             <span class="option-text"   data-section="page4" data-value="select6"><input type="hidden" type="checkbox" id="Golf Outing" value="Golf Outing" name='list[]'>Golf Outing</span>
                         </li>
@@ -176,17 +175,17 @@ include "nav2.php"
                 <div class="underline-text"></div>
             </div>
             <div id="dateHide" class="hidden d-flex date-margin">
-                <input maxlength="2" class="day-input" type="text" name="fechainD" id="day" placeholder="DD">
+                <input maxlength="2" class="day-input" type="text" name="fechainD" id="day" onkeyup="saltarAlSiguiente(this, 'month')" placeholder="DD">
                 <h6 class="slash">/</h6>
-                <input maxlength="2" class="date-input" type="text" name="fechainM" id="month" placeholder="MM">
+                <input maxlength="2" class="date-input" type="text" name="fechainM" id="month" onkeyup="saltarAlSiguiente(this, 'year')" placeholder="MM">
                 <h6 class="slash">/</h6>
-                <input maxlength="2" class="year-input" type="text" name="fechainA" id="year" placeholder="YY">
+                <input maxlength="2" class="year-input" type="text" name="fechainA" id="year" onkeyup="saltarAlSiguiente(this, 'day2')" placeholder="YY">
                 <h6 class="to">to</h6>
-                <input maxlength="2" class="day-input" type="text" name="fechasalD" id="day" placeholder="DD">
+                <input maxlength="2" class="day-input" type="text" name="fechasalD" id="day2" onkeyup="saltarAlSiguiente(this, 'month2')" placeholder="DD">
                 <h6 class="slash">/</h6>
-                <input maxlength="2" class="date-input" type="text" name="fechasalM" id="month" placeholder="MM">
+                <input maxlength="2" class="date-input" type="text" name="fechasalM" id="month2" onkeyup="saltarAlSiguiente(this, 'year2')" placeholder="MM">
                 <h6 class="slash">/</h6>
-                <input maxlength="2" class="year-input" type="text" name="fechasalA" id="year" placeholder="YY">
+                <input maxlength="2" class="year-input" type="text" name="fechasalA" id="year2" placeholder="YY">
             </div>
 
             <div class="input-container message">
@@ -222,7 +221,6 @@ include "nav2.php"
         </form>
     </div>
 </section>
-
 <?php
 
 include "footer2.php"

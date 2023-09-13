@@ -91,6 +91,7 @@
   margin-left: 1%;
   margin-bottom: 1rem;
   font-family: 'Vidaloka-Regular';
+  letter-spacing: 0;
 }
 
 .divisor-1 {
@@ -382,13 +383,13 @@
   text-transform: none !important;
   color: black;
   position: relative;
-  left: 30.5%;
+  left: 32%;
   font-size: 1.6rem;
   margin-bottom: 1rem;
   letter-spacing: 0;
   font-family: 'Vidaloka-Regular';
 }
-@media(max-width:1860px) {
+@media(max-width:1880px) {
   .subtitulo-subseccion-2 {
     left: 28.5%;
   }
@@ -423,7 +424,7 @@
     left: 16%;
   }
 }
-@media(max-width:1200px) {
+@media(max-width:1215px) {
   .subtitulo-subseccion-2 {
     left: 1%;
     text-align: center;
@@ -459,7 +460,7 @@
   width: 20rem;
   height: 20rem;
 }
-@media(width <= 1726px){
+@media(width <= 1746px){
   .slide-item img {
     width: 18rem;
     height: 18rem;
@@ -734,7 +735,7 @@ h3 {
   font-size: 1.4rem;
   width: 48rem;
   text-align: start;
-  margin-top: 4rem;
+  margin-top: -8rem;
 }
 
 @media(max-width:1200px) {
@@ -840,11 +841,11 @@ h3 {
   content: "";
   display: block;
   width: 1px;
-  height: 60%;
+  height: 40%;
   background-color: #000;
   position: absolute;
   transform: translateX(-50%);
-  transform: translateY(-75%);
+  transform: translateY(-60%);
 }
 
 .parrafo-subseccion-5 {
@@ -1046,7 +1047,7 @@ h3 {
   padding-bottom: 2.5rem !important;
 }
 
-@media(max-width:1200px) {
+@media(max-width:1215px) {
   .ul-slider-subseccion-2 {
     width: 100%;
     padding-bottom: 2.5rem !important;
@@ -1344,6 +1345,7 @@ h3 {
 @media (max-width: 748px) {
   .subseccion-5 {
     margin-top: 0rem;
+    margin-bottom: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1379,7 +1381,7 @@ h3 {
   .subseccion-1-1 {}
 
   .subseccion-5 {
-    margin-bottom: 0rem;
+    margin-bottom: 4rem;
   }
 
   .bloque {

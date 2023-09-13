@@ -45,8 +45,8 @@
 <body>
     <section data-bs-version="5.1" class="menu menu2 cid-tL7nLROMV3" once="menu" id="menu2-1c">
 
-        <nav id="nav" class="navbar navbar-dropdown nav-height navbar-fixed-top collapsed">
-            <div class="container ">
+        <nav id="nav" class="navbar navbar-dropdown nav-height navbar-fixed-top collapsed" style="">
+            <div class="container" >
                 <div class="col-auto me-auto mt-5 mb-0">
                     <span class="navbar-logo">
                         <a href="mountain-resort-farmstay">
@@ -70,27 +70,27 @@
                         </button>
                     </li>
                 </ul>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent" aria-labelledby="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" aria-labelledby="navbarSupportedContent" >
                     <div class="navbar-nav nav-dropdown" data-app-modern-menu="true">
 
                         <div class="fade-slide-down row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-3 mt-sm-5" data-app-modern-menu="true">
                             <div class="col-12 col-sm-7 col-1-padding">
                                 <ul class="no-bullets dropdown-transition ul-1-padding">
-                                    <li id="nav-href-1" class="fs-3 fs-sm-1 dropdown-transition vidaloka-nav  menu-vidaloka"><a href="our-story" class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
-                                    <li id="nav-href-2" class="fs-3 fs-sm-1 dropdown-transition  menu-vidaloka"><a href="all-inclusive-experience" class="text-decoration-none link-light all-inclusive vidaloka-nav"data-section="nav" data-value="allInclusive">All-Inclusive
+                                    <li id="nav-href-1" class="fs-3 fs-sm-1 dropdown-transition vidaloka-nav  menu-vidaloka"><a href="our-story" style="line-height: 2"  class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
+                                    <li id="nav-href-2" class="fs-3 fs-sm-1 dropdown-transition  menu-vidaloka"><a href="all-inclusive-experience" style="line-height: 2" class="text-decoration-none link-light all-inclusive vidaloka-nav"data-section="nav" data-value="allInclusive">All-Inclusive
                                             Experience</a></li>
-                                    <li id="nav-href-3" class="fs-3 fs-sm-1 dropdown-transition  menu-vidaloka"><a href="getting-here" class="text-decoration-none link-light vidaloka-nav"data-section="nav" data-value="gettinghere">Getting Here</a>
+                                    <li id="nav-href-3" class="fs-3 fs-sm-1 dropdown-transition  menu-vidaloka"><a href="getting-here" style="line-height: 2" class="text-decoration-none link-light vidaloka-nav"data-section="nav" data-value="gettinghere">Getting Here</a>
                                     </li>
-                                    <li id="nav-href-4" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="trip-enhancements" class="text-decoration-none link-light vidaloka-nav"data-section="nav" data-value="tripEnhancements">Trip
+                                    <li id="nav-href-4" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="trip-enhancements" style="line-height: 2"  class="text-decoration-none link-light vidaloka-nav "data-section="nav" data-value="tripEnhancements">Trip
                                             Enhancements</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-12 col-sm-5 col-2-padding">
                                 <ul class="list-unstyled dropdown-transition ul-2-padding">
-                                    <li id="nav-href-5" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="gallery" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gallery">Gallery</a></li>
-                                    <li id="nav-href-6" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="fac" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="FAC">FAQ´s </a></li>
-                                    <li id="nav-href-7" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="contact-us" class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>
+                                    <li id="nav-href-5" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="gallery" style="line-height: 2"  class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gallery">Gallery</a></li>
+                                    <li id="nav-href-6" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="fac" style="line-height: 2"  class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="FAC">FAQ´s </a></li>
+                                    <li id="nav-href-7" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="contact-us" style=""  class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>
                                 </ul>
                                 <div id="nav-href-8" class="social-row display-5 nav col-md-5 justify-content-start ">
                                     <div class="soc-item ms-2">

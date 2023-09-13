@@ -5,7 +5,6 @@ include "nav2.php";
 
 
 ?>
-
      <section data-bs-version="5.1" class="header4 cid-tMz2KIjoKu mbr-fullscreen mbr-parallax-background" id="header4-25">
     <div class="mbr-overlay"></div>
     <div class="container">
@@ -195,6 +194,7 @@ include "nav2.php";
               <li id="circle-11" class="text-11 fade-slide-down circle-gray hoverable c6 pointer"></li>
               <li id="circle-12" class="text-12 fade-slide-down circle-gray hoverable c7 pointer"></li>
               <li id="circle-13" class="text-13 fade-slide-down circle-gray hoverable c8 pointer"></li>
+              <li id="circle-13-2" class="text-13-2 fade-slide-down circle-gray hoverable c8-2 pointer"></li>
             </ul>
           </div>
             <div class="timeline-pc d-flex pt-4 pb-3">
@@ -225,6 +225,9 @@ include "nav2.php";
                 </div>
                 <div id="text-13" class="circle-13 hoverable gray item-itinerary-13 d-flex flex-column">
                     <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">FIREPLACE <br>GATHERING</p>
+                </div>
+                <div id="text-13-2" class="circle-13-2 hoverable gray item-itinerary-13 d-flex flex-column">
+                  <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">SLEEP & FOLLOWING<br> DAY BREAKFAST</p>
                 </div>
             </div>
 
@@ -265,26 +268,30 @@ include "nav2.php";
                   <p class="end-hour ms-auto">6:00PM</p>
               </div>
               <ul class="timeline-2">
-                  <li id="circle-j" class="text-j fade-slide-down hoverable w1 circle-gray"></li>
-                  <li id="circle-k" class="text-k fade-slide-down hoverable w2 circle-gray"></li>
-                  <li id="circle-l" class="text-l fade-slide-down hoverable w3 circle-gray"></li>
-                  <li id="circle-m" class="text-m fade-slide-down hoverable w4 circle-gray"></li>
+                  <li id="circle-j" class="text-j fade-slide-down hoverable p1 circle-gray"></li>
+                  <li id="circle-k" class="text-k fade-slide-down hoverable p2 circle-gray"></li>
+                  <li id="circle-l" class="text-l fade-slide-down hoverable p3 circle-gray"></li>
+                  <li id="circle-m" class="text-m fade-slide-down hoverable p4 circle-gray"></li>
+                  <li id="circle-m-2" class="text-m-2 fade-slide-down hoverable p5 circle-gray"></li>
               </ul>
           </div>
           <div class="text-items timeline-mobile text-items-mobile mb-5">
               <div class="d-flex">
-                  <div id="text-j" class="circle-j hoverable gray item-itinerary-f d-flex flex-column">
+                  <div id="text-j" class="circle-j hoverable gray item-itinerary-f-2 d-flex flex-column">
                     <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br class="br-itinerary"> OR RELAX IN THE HOUSE</p>
                   </div>
-                  <div id="text-k" class="circle-k hoverable gray item-itinerary-g d-flex flex-column">
+                  <div id="text-k" class="circle-k hoverable gray item-itinerary-g-2 d-flex flex-column">
                     <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
                   </div>
-                  <div id="text-l" class="circle-l hoverable gray item-itinerary-h d-flex flex-column">
+                  <div id="text-l" class="circle-l hoverable gray item-itinerary-h-2 d-flex flex-column">
                     <p class="pointer fade-slide-down itinerary-text fw-bold"data-section="page6" data-value="DINNER PREPARATION WITH OPTIONAL PARTICIPATION">DINNER PREPARATION <br class="br-itinerary">WITH OPTIONAL <br class="br-itinerary">PARTICIPATION</p>
                   </div>
-                  <div id="text-m" class="circle-m hoverable gray item-itinerary-i d-flex flex-column">
+                  <div id="text-m" class="circle-m hoverable gray item-itinerary-i-2 d-flex flex-column">
                     <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">FIREPLACE <br class="br-itinerary">GATHERING</p>
                   </div>
+                  <div id="text-m-2" class="circle-m-2 hoverable gray item-itinerary-i-2-2 d-flex flex-column">
+                    <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">SLEEP & FOLLOWING<br class="br-itinerary"> DAY BREAKFAST</p>
+                </div>
               </div>
           </div>
 
@@ -293,7 +300,7 @@ include "nav2.php";
                 <div class="divider-light fade-slide-down ms-3 p-end"></div>
                 <p class="text-item fade-slide-down itinerary-text mb-0"><span class="itinerary-text text-item fw-bold">USD 450</span><span class="italic text-item" data-section="page6" data-value="per guest"> per guest</span></p>
             </div>
-            <div class="pb-5 d-flex align-items-center width-50">
+            <div class="pb-5 pt-3 d-flex align-items-center width-50">
                 <p class="me-1 fade-slide-down text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
                 <div class="divider-light fade-slide-down"></div>
                 <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold">USD 400</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span></p>
@@ -312,7 +319,7 @@ include "nav2.php";
                 Our half day experience lasts no more than 4 hours allowing you to seamlessly <br> fit into your morning morning or afternoon schedule.
             </p>
             <p class="itinerary-text-half lh-sm pt-3 fade-slide-down">
-                <span class="fw-bold fs-5">USD 150</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span>
+                <span class="fw-bold half-day-price">USD 150</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span>
             </p>
         </section>
     </section> 
@@ -537,7 +544,7 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item">
                       <img
                       class="imagen-subseccion-5"
-                      src="./assets/images/45AD508E-89ED-4966-A830-D6801DF4F119.JPG"
+                      src="./assets/images/wine_outside.jpg"
                       alt=""
                       />
                       <div class="parrafo-slider" >
@@ -554,12 +561,12 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item slide-item">
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/4EECB30B-A1C1-4529-8747-5C74BF6E539F.JPG"
+                        src="./assets/images/bbq.jpg"
                         alt=""
                       />
                       <img
                       class="imagen-subseccion-5"
-                      src="./assets/images/IMG_4040.jpeg"
+                      src="./assets/images/lunch_and_window.jpg"
                       alt=""
                     />
                   </div>
@@ -575,7 +582,7 @@ include "nav2.php";
                       </div>
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/D1B7BEAD-63FB-452D-BE39-7B99ABD8CC7D.JPG"
+                        src="./assets/images/picada.jpg"
                         alt=""
                       />
                     
@@ -586,12 +593,12 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item">
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/6B2C3EB7-DCE7-4AAD-B635-66FC63FA8E00.JPG"
+                        src="./assets/images/meat_on_the_grill.jpg"
                         alt=""
                       />
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/IMG_4707.jpg"
+                        src="./assets/images/cooking_bbq_outside.jpg"
                         alt=""
                       />
                     
@@ -602,7 +609,7 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item">
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/IMG_0464.JPG"
+                        src="./assets/images/picada_inside.jpg"
                         alt=""
                       />
                       <div class="parrafo-slider">
@@ -618,12 +625,12 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item">
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/IMG_8537.jpeg"
+                        src="./assets/images/breakfast.jpg"
                         alt=""
                       />
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/85120B5E-FDC8-457A-AC8B-8A9B80487128.JPG"
+                        src="./assets/images/bbq_foreground.jpg"
                         alt=""
                       />
                     
@@ -652,12 +659,12 @@ include "nav2.php";
                       <div class="flex-column d-flex slide-item">
                         <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/IMG_4052 2.jpeg"
+                        src="./assets/images/lunching_meat.jpg"
                         alt=""
                         />
                         <img
                           class="imagen-subseccion-5"
-                          src="./assets/images/59962E16-AAD7-4543-AFE8-09074DBE0BDD.JPG"
+                          src="./assets/images/cooking_pork.jpg"
                           alt=""
                         />
                       
@@ -689,12 +696,12 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item">
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/8DC52086-1132-42F7-89F4-9EBC02279E85.JPG"
+                        src="./assets/images/wine_outside.jpg"
                         alt=""
                       />
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/4EE2BC0E-F7C3-4D48-BED7-59D0B9125B87.JPG"
+                        src="./assets/images/cooking_bbq_outside.jpg"
                         alt=""
                       />
                     
@@ -755,7 +762,7 @@ include "nav2.php";
               Whether you're traveling <br>
                with family or friends, our  <br> 
                accomodations are designed  <br>
-               to cater to your every need.
+               o cater to your every need.
             </p>
             <img
               class="imagen-grande-subseccion-4"
@@ -765,8 +772,8 @@ include "nav2.php";
           </div>
           <div class="elemento-2-subseccion-4">
             <div class="swiperScroll2 swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
+              <div class="swiper-wrapper" id="croquisWrapper">
+                <div id="croquisImg1" class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
                     src="./assets/images/IMG_4616.jpeg"
@@ -853,35 +860,35 @@ include "nav2.php";
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div id="croquisImg14" class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
                     src="./assets/images/IMG_4050 2.jpeg"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div id="croquisImg15" class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
                     src="./assets/images/IMG_5690.jpg"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div id="croquisImg16" class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
                     src="./assets/images/IMG_4493 2.jpeg"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div id="croquisImg17" class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
                     src="./assets/images/IMG_4518 2.jpeg"
                     alt=""
                   />
                 </div>
-                <div class="swiper-slide">
+                <div id="croquisImg18" class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
                     src="./assets/images/IMG_8030.jpeg"
@@ -891,7 +898,8 @@ include "nav2.php";
               </div>
               <div class="swiper-scrollbar bar-align"></div>
             </div>
-  
+            <img src="/assets/img/icons/flecha.svg" class="flecha-p6-croquis" alt="flecha_derecha_3">
+            <img src="/assets/img/icons/flecha.svg" class="flecha-p6-prev-croquis hide-flecha" alt="flecha_izquierda_3">
             <p class="parrafo-subseccion-4-2" data-section="page6" data-value="des2">
               Each space is meticulously designed to provide a haven of tranquility,  <br class="croquis-br">
               offering panoramic views that will take your breath away.
@@ -903,7 +911,7 @@ include "nav2.php";
         <div class="subseccion-5">
           <div class="bloque">
             <p class="parrafo-subseccion-5">
-              <i class="bi bi-quote icono-subseccion-5"></i>
+              <img src="./assets/img/icons/comillas.svg" class="comillas"></img>
             </p>
             <a href="https://www.tripadvisor.com.ar/Attraction_Review-g664097-d25241616-Reviews-Vivacs_Del_Plata-Tupungato_Province_of_Mendoza_Cuyo.html" target="_blank">
             <h3 class="h3-subseccion-5-name">BOB B</h3>
@@ -921,7 +929,7 @@ include "nav2.php";
           <div class="divisor-4"></div>
           <div class="bloque">
             <p class="parrafo-subseccion-5">
-              <i class="bi bi-quote icono-subseccion-5"></i>
+              <img src="./assets/img/icons/comillas.svg" class="comillas"></img>
             </p>
             <a href="https://www.tripadvisor.com.ar/Attraction_Review-g664097-d25241616-Reviews-Vivacs_Del_Plata-Tupungato_Province_of_Mendoza_Cuyo.html" target="_blank">
                             

@@ -213,7 +213,7 @@ var buttonDaily = document.getElementById('itinerary');
     slidesPerView:1,
     spaceBetween: 20,
     navigation: {
-      nextEl: ".arrow-p6",
+      nextEl: ".flecha-p6-croquis",
     },
     speed: 400,
     scrollbar: {
@@ -228,6 +228,24 @@ var buttonDaily = document.getElementById('itinerary');
     }
   });
 
+  var flechap6Croquis = document.querySelector(".flecha-p6-croquis");
+  var flecha2p6Croquis = document.querySelector(".flecha-p6-prev-croquis");
+  
+  var swiperPlanCroquis = document.getElementById("croquisWrapper");
+  
+  var planObserverCroquis = new MutationObserver(observeSwiper);
+  
+  var planConfigCroquis = { attributes: true, attributeFilter: ["style"] };
+  planObserverCroquis.observe(swiperPlanCroquis, planConfigCroquis);
+  
+  function observeSwiperCroquis(mutationsList, planObserverCroquis) {
+    for (var mutation of mutationsList) {
+      if (mutation.type === "attributes" && mutation.attributeName === "style") {
+        checkPlanElement();
+      }
+    }
+  }
+
 var flechap6 = document.querySelector(".flecha-p6");
 var flecha2p6 = document.querySelector(".flecha-p6-prev");
 
@@ -241,8 +259,68 @@ planObserver.observe(swiperPlan, planConfig);
 function observeSwiper(mutationsList, planObserver) {
   for (var mutation of mutationsList) {
     if (mutation.type === "attributes" && mutation.attributeName === "style") {
-      checkPlanElement();
+      checkPlanElementCroquis();
     }
+  }
+}
+
+var croquisImg1 = document.getElementById("croquisImg1");
+var croquisImg14 = document.getElementById("croquisImg14");
+var croquisImg15 = document.getElementById("croquisImg15");
+var croquisImg16 = document.getElementById("croquisImg16");
+var croquisImg17 = document.getElementById("croquisImg17");
+var croquisImg18 = document.getElementById("croquisImg18");
+
+function checkPlanElementCroquis() {
+  var croquis = window.innerWidth;
+
+  switch (true) {
+    case croquis >= 2420:
+      if (planImg7.classList.contains("swiper-slide-next")) {
+        flechap6Croquis.classList.add("hidden");
+        flecha2p6Croquis.classList.remove("hide-flecha");
+      }
+      if (planImg1.classList.contains("swiper-slide-active")) {
+        flechap6Croquis.classList.remove("hidden");
+        flecha2p6Croquis.classList.add("hide-flecha");
+      }
+      break;
+
+    case croquis >= 501:
+      if (croquisImg18.classList.contains("swiper-slide-next")) {
+        flechap6Croquis.classList.add("hidden");
+        flecha2p6Croquis.classList.remove("hide-flecha");
+      }
+      if (croquisImg1.classList.contains("swiper-slide-active")) {
+        flechap6Croquis.classList.remove("hidden");
+        flecha2p6Croquis.classList.add("hide-flecha");
+      }
+      break;
+
+    case croquis >= 500:
+      if (planImg10.classList.contains("swiper-slide-next")) {
+        flechap6.classList.add("hidden");
+        flecha2p6.classList.remove("hide-flecha");
+      }
+      if (planImg1.classList.contains("swiper-slide-active")) {
+        flechap6.classList.remove("hidden");
+        flecha2p6.classList.add("hide-flecha");
+      }
+      break;
+
+    case croquis >= 469:
+      if (planImg10.classList.contains("swiper-slide-next")) {
+        flechap6.classList.add("hidden");
+        flecha2p6.classList.remove("hide-flecha");
+      }
+      if (planImg1.classList.contains("swiper-slide-active")) {
+        flechap6.classList.remove("hidden");
+        flecha2p6.classList.add("hide-flecha");
+      }
+      break;
+
+    default:
+      break;
   }
 }
 

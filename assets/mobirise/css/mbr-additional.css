@@ -1014,7 +1014,6 @@ a {
 .cid-tL7nLROMV3 .dropdown-menu,
 .cid-tL7nLROMV3 .navbar.opened {
   overflow: hidden;
-  background: #363636 !important;
 }
 .cid-tL7nLROMV3 .nav-item:focus,
 .cid-tL7nLROMV3 .nav-link:focus {
@@ -1772,7 +1771,9 @@ a {
 }
 .cid-tL7nLROMV3 .dropdown-menu,
 .cid-tL7nLROMV3 .navbar.opened {
-  background: #232323 !important;
+  background-image: linear-gradient(rgb(32 32 32 / 90%), rgb(32 32 32/ 90%)), url(/assets/images/nav_background.jpg) !important;
+  background-size: cover;
+  background-position: center;
 }
 .cid-tL7nLROMV3 .nav-item:focus,
 .cid-tL7nLROMV3 .nav-link:focus {
@@ -1811,7 +1812,6 @@ a {
 }
 .cid-tL7nLROMV3 .navbar.opened {
   transition: top 1.3s ease-in;
-  opacity: 0.9;
 }
 .cid-tL7nLROMV3 .navbar .dropdown-item {
   padding: 0.5rem 1.8rem;

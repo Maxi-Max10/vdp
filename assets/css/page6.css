@@ -189,10 +189,10 @@ svg {
 }
 
 .slide-m {
-  margin-left: 30%;
+  margin-left: 31.5%;
 }
 
-@media(max-width:1860px) {
+@media(max-width:1880px) {
   .slide-m {
     margin-left: 28%;
   }
@@ -222,7 +222,7 @@ svg {
     margin-left: 15%;
   }
 }
-@media(max-width:1200px) {
+@media(max-width:1215px) {
   .slide-m {
     margin-left: auto;
     margin-right: auto;
@@ -377,13 +377,14 @@ svg {
   top: -25rem;
   left: 85%;
   transition: all 0.3s;
+  z-index: 1;
 }
 @media(width <= 1450px){
   .flecha-p6-activities {
     width: 12rem;
     position: relative;
     top: -25rem;
-    left: 89%;
+    left: 88%;
     transition: all 0.3s;
   }
 }
@@ -406,7 +407,7 @@ svg {
   .flecha-p6-culinary {
     width: 12rem;
     position: relative;
-    top: -29rem;
+    top: -27rem;
     left: 10%;
     transition: all 0.3s;
   }
@@ -415,7 +416,7 @@ svg {
   .flecha-p6-culinary {
     width: 12rem;
     position: relative;
-    top: -29rem;
+    top: -27rem;
     left: 5%;
     transition: all 0.3s;
   }
@@ -424,7 +425,7 @@ svg {
   .flecha-p6-culinary {
     width: 12rem;
     position: relative;
-    top: -29rem;
+    top: -27rem;
     left: 0%;
     transition: all 0.3s;
   }
@@ -433,7 +434,7 @@ svg {
   .flecha-p6-culinary {
     width: 12rem;
     position: relative;
-    top: -29rem;
+    top: -25rem;
     left: 5%;
     transition: all 0.3s;
   }
@@ -442,7 +443,7 @@ svg {
   .flecha-p6-culinary {
     width: 12rem;
     position: relative;
-    top: -29rem;
+    top: -25rem;
     left: 0%;
     transition: all 0.3s;
   }
@@ -886,7 +887,7 @@ svg {
   content: "";
   position: absolute;
   top: -0.2rem;
-  left: 14.2%;
+  left: 12.5%;
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
@@ -903,7 +904,7 @@ svg {
   content: "";
   position: absolute;
   top: -0.2rem;
-  left: 28.5%;
+  left: 25%;
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
@@ -920,7 +921,7 @@ svg {
   content: "";
   position: absolute;
   top: -0.2rem;
-  left: 42.8%;
+  left: 37.5%;
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
@@ -937,7 +938,7 @@ svg {
   content: "";
   position: absolute;
   top: -0.2rem;
-  left: 57.1%;
+  left: 50%;
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
@@ -955,7 +956,7 @@ svg {
   content: "";
   position: absolute;
   top: -0.2rem;
-  left: 71.4%;
+  left: 62.5%;
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
@@ -972,7 +973,7 @@ svg {
   content: "";
   position: absolute;
   top: -0.2rem;
-  left: 85.7%;
+  left: 75%;
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
@@ -982,6 +983,23 @@ svg {
 }
 
 .c8 {
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  content: "";
+  position: absolute;
+  top: -0.2rem;
+  left: 87.5%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.c8-2 {
   cursor: pointer;
   position: relative;
   padding: 0;
@@ -1019,23 +1037,23 @@ svg {
 }
 
 .item-itinerary-6 {
-  width: 16%;
+  width: 14%;
 }
 
 .item-itinerary-7 {
-  width: 16%;
+  width: 13%;
 }
 
 .item-itinerary-8 {
-  width: 17%;
+  width: 18%;
 }
 
 .item-itinerary-9 {
-  width: 15%;
+  width: 14%;
 }
 
 .item-itinerary-10 {
-  width: 17%;
+  width: 15%;
 }
 
 .item-itinerary-11 {
@@ -1704,9 +1722,9 @@ svg {
 
 .item-itinerary-e {
   position: absolute;
-  left: 80%;
+  left: 82%;
   cursor: pointer;
-  width: 18%;
+  width: 16%;
 }
 
 .w1 {
@@ -1772,7 +1790,6 @@ svg {
   transform: translateX(-50%);
   z-index: 2;
 }
-
 .item-itinerary-f {
   position: absolute;
   left: 0%;
@@ -1799,6 +1816,46 @@ svg {
   left: 80%;
   cursor: pointer;
   width: 18%;
+}
+.item-itinerary-i-2 {
+  position: absolute;
+  left: 80%;
+  cursor: pointer;
+  width: 18%;
+}
+
+.item-itinerary-f-2 {
+  position: absolute;
+  left: 0%;
+  cursor: pointer;
+  width: 15%;
+}
+
+.item-itinerary-g-2 {
+  position: absolute;
+  left: 22%;
+  cursor: pointer;
+  width: 15%;
+}
+
+.item-itinerary-h-2 {
+  position: absolute;
+  left: 43%;
+  cursor: pointer;
+  width: 16%;
+}
+
+.item-itinerary-i-2 {
+  position: absolute;
+  left: 64%;
+  cursor: pointer;
+  width: 18%;
+}
+.item-itinerary-i-2-2 {
+  position: absolute;
+  left: 85%;
+  cursor: pointer;
+  width: 14%;
 }
 
 @media(max-width:700px) {
@@ -1941,20 +1998,133 @@ svg {
   }
 }
 
-/* 
-.flecha-p6 {
-  width: 12rem;
-  position: relative;
-  top: -25rem;
-  left: -12rem;
-  transition: all 0.3s;
+.half-day-price{
+  font-size: 1rem;
 }
 
-.flecha-p6-prev {
+.flecha-p6-croquis {
   width: 12rem;
   position: relative;
-  top: -25rem;
+  top: -26rem;
   left: -12rem;
   transition: all 0.3s;
+  z-index: 1;
+}
+
+.flecha-p6-prev-croquis {
+  width: 12rem;
+  position: relative;
+  top: -26rem;
+  left: -12rem;
+  transition: all 0.3s;
+  z-index: 1;
   transform: rotate(180deg) !important;
-} */
+}
+
+@media(width <= 1540px){
+  .flecha-p6-croquis {
+    width: 12rem;
+    position: relative;
+    top: -24rem;
+    left: -9rem;
+    transition: all 0.3s;
+    z-index: 1;
+  }
+  
+  .flecha-p6-prev-croquis {
+    width: 12rem;
+    position: relative;
+    top: -24rem;
+    left: -9rem;
+    transition: all 0.3s;
+    z-index: 1;
+    transform: rotate(180deg) !important;
+  }
+}
+@media(width <= 1430px){
+  .flecha-p6-croquis {
+    width: 11rem;
+    position: relative;
+    top: -22rem;
+    left: -8rem;
+    transition: all 0.3s;
+    z-index: 1;
+  }
+  
+  .flecha-p6-prev-croquis {
+    width: 11rem;
+    position: relative;
+    top: -22rem;
+    left: -8rem;
+    transition: all 0.3s;
+    z-index: 1;
+    transform: rotate(180deg) !important;
+  }
+}
+@media(width <= 1300px){
+  .flecha-p6-croquis {
+    width: 11rem;
+    position: relative;
+    top: -21rem;
+    left: -8rem;
+    transition: all 0.3s;
+    z-index: 1;
+  }
+  
+  .flecha-p6-prev-croquis {
+    width: 11rem;
+    position: relative;
+    top: -21rem;
+    left: -8rem;
+    transition: all 0.3s;
+    z-index: 1;
+    transform: rotate(180deg) !important;
+  }
+}
+@media(width <= 1220px){
+  .flecha-p6-croquis {
+    width: 11rem;
+    position: relative;
+    top: -19rem;
+    left: -8rem;
+    transition: all 0.3s;
+    z-index: 1;
+  }
+  
+  .flecha-p6-prev-croquis {
+    width: 11rem;
+    position: relative;
+    top: -19rem;
+    left: -8rem;
+    transition: all 0.3s;
+    z-index: 1;
+    transform: rotate(180deg) !important;
+  }
+}
+@media(width <= 1200px){
+  .flecha-p6-croquis {
+    width: 11rem;
+    position: relative;
+    top: -19rem;
+    left: -8rem;
+    transition: all 0.3s;
+    z-index: 1;
+    display: none;
+  }
+  
+  .flecha-p6-prev-croquis {
+    width: 11rem;
+    position: relative;
+    top: -19rem;
+    left: -8rem;
+    transition: all 0.3s;
+    z-index: 1;
+    display: none;
+    transform: rotate(180deg) !important;
+  }
+}
+.comillas{
+  position: relative;
+  top: 4rem;
+  left: 0.8rem;
+}

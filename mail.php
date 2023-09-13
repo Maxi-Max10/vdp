@@ -20,7 +20,7 @@ $fechasalM = $_POST['fechasalM'];
 $fechasalA = $_POST['fechasalA'];
 $message = $_POST['message'];
 
-print_r($_POST);
+//print_r($_POST);
 /*
 for ($i=0;$i<count($about);$i++)    
 {     

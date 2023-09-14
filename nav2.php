@@ -98,19 +98,19 @@
                                             <span class="mbr-iconfont socicon socicon-whatsapp icon-wsp" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
                                         </a>
                                     </div>
-                                    <div class="soc-item ms-2 icon-svg icon-index">
+                                    <div class="soc-item ms-2 icon-index">
                                         <a href="https://api.whatsapp.com/send/?phone=2616316497&text&type=phone_number&app_absent=0" target="_blank">
-                                            <img src="assets/img/icons/icon1.svg" alt="trip_icon">
+                                            <img src="assets/img/icons/icon1.svg" class="icon-svg" alt="trip_icon">
                                         </a>
                                     </div>
-                                    <div class="soc-item ms-2 icon-ig icon-index2">
+                                    <div class="soc-item ms-2 icon-index2">
                                         <a href="https://instagram.com/vivacsdelplata?igshid= MZRLODBINWFIZA==" target="_blank">
                                             <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon icon-ig" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
                                         </a>
                                     </div>
-                                    <div class="soc-item ms-2 icon-svg2 icon-index">
+                                    <div class="soc-item ms-2 icon-index">
                                         <a href="https://maps.app.goo.gl/YZDKpfVicwxZ4hYp6" target="_blank">
-                                            <img src="assets/img/icons/icon2.svg" alt="location">
+                                            <img src="assets/img/icons/icon2.svg" class="icon-svg2" alt="location">
                                         </a>
                                     </div>
                                 </div>

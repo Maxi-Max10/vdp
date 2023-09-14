@@ -9,7 +9,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 $nombre = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
-$lista = $_POST['list'];
+$lista = $_POST['list_in'];
 
 $interests = $_POST['check_list'];
 $fechainD = $_POST['fechainD'];
@@ -22,20 +22,20 @@ $message = $_POST['message'];
 
 //print_r($_POST);
 /*
-for ($i=0;$i<count($about);$i++)    
+for ($i=0;$i<count($lista);$i++)    
 {     
- $about2 = $about[$i];   
+ echo $lista[$i];   
 }
 */
 $interestsSelect = implode(", ", $interests);
 $fechaIngre = "$fechainD/$fechainM/$fechainA";
 $fechaSalid = "$fechasalD/$fechasalM/$fechasalA";
 
-$sellist = implode(" ",$lista);
+$sellist = implode(", ",$lista);
 
+
+//echo $interestsSelect;
 //echo $sellist;
-
-//echo $about2;
 //echo $interestsSelect;
 //echo "fecha ingreso: $fechaIngre";
 //echo "fecha salida: $fechaSalid";

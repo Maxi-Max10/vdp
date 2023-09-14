@@ -68,36 +68,37 @@ include "nav2.php"
                 <div class="underline-about"></div>
                 <div class="select-menu fade-slide-down">
                     <div id="about" class="select-btn d-flex justify-content-between">
-                        <span class="sBtn-text" value="about" name="list[]" data-section="page4" data-value="about">About</span>
+                        <span class="sBtn-text" value="about"  data-section="page4" data-value="about">About</span>
                         <div id="aboutIcon" class="plus dropdown-about">+</div>
                     </div>
-                    <ul class="options">
+                    <ul class="options" >
                         <li class="option">
-                            <i class="bx bxl-github" style="color: #171515;"></i>
-                            <span class="option-text" name="uno" data-section="page4" data-value="select1"><input  type="checkbox" id="Country Day" value="Country Day" name='list[]'>Country Day</span>
+                            <i class="bx bxl-github" style="color: #171515;"><input style="all: unset;" id="Country Day" type="checkbox" value="Country Day" name='list_in[]'></i>
+                            <span class="option-text" name="uno" data-section="page4" data-value="select1"><label for="Country Day">Country Day</label></span>
+                        </li>
+                        <li class="option" >
+                            <i class="bx bxl-instagram-alt" style="color: #E1306C;"><input style="all: unset;" id="Country Day + Overnight" type="checkbox" value="Country Day + Overnight" name='list_in[]'></i>
+                            <span class="option-text" name="dos"  data-section="page4" data-value="select2"><label for="Country Day + Overnight">Country Day + Overnight</label></span>
+                        </li>
+                        <li class="option" >
+                            <i class="bx bxl-linkedin-square" style="color: #0E76A8;"><input style="all: unset;" id="Half Day"  type="checkbox" value="Half Day" name='list_in[]'></i>
+                            <span class="option-text" data-section="page4" data-value="select3"><label for="Half Day">Half Day</label></span>
+                        </li>
+                        
+                        <li class="option">
+                            <i class="bx bxl-linkedin-square" style="color: #0E76A8;"><input style="all: unset;" type="checkbox" id="Sailing" value="Sailing" name='list_in[]'></i>
+                            <span class="option-text"   data-section="page4" data-value="select4"><label for="Sailing">Sailing</label></span>
                         </li>
                         <li class="option">
-                            <i class="bx bxl-instagram-alt" style="color: #E1306C;"></i>
-                            <span class="option-text" name="dos"  data-section="page4" data-value="select2"><input type="hidden" type="checkbox" id="Country Day + Overnight" value="Country Day + Overnight" name='list[]'>Country Day + Overnight</span>
-                        </li>
-                        <li class="option">
-                            <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
-                            <span class="option-text"   data-section="page4" data-value="select3"><input type="hidden" type="checkbox" id="Half Day" value="Half Day" name='list[]'>Half Day</span>
-                        </li>
-                        <li class="option">
-                            <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
-                            <span class="option-text"   data-section="page4" data-value="select4"><input type="hidden" type="checkbox" id="Sailing" value="Sailing" name='list[]'>Sailing</span>
-                        </li>
-                        <li class="option">
-                            <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
-                            <span class="option-text"   data-section="page4" data-value="select5"><input type="hidden" type="checkbox" id="Motorcycle Road Trip" value="Motorcycle Road Trip" name='list[]'>Motorcycle Road Trip</span>
+                            <i class="bx bxl-linkedin-square" style="color: #0E76A8;"><input style="all: unset;" type="checkbox" id="Motorcycle Road Trip" value="Motorcycle Road Trip" name='list_in[]'></i>
+                            <span class="option-text"   data-section="page4" data-value="select5"><label for="Motorcycle Road Trip">Motorcycle Road Trip</label></span>
                         </li>
                         <li class="option"> 
-                            <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
-                            <span class="option-text"   data-section="page4" data-value="select6"><input type="hidden" type="checkbox" id="Golf Outing" value="Golf Outing" name='list[]'>Golf Outing</span>
+                            <i class="bx bxl-linkedin-square" style="color: #0E76A8;"><input style="all: unset;" type="checkbox" id="Golf Outing" value="Golf Outing" name='list_in[]'></i>
+                            <span class="option-text"   data-section="page4" data-value="select6"><label for="Golf Outing">Golf Outing</label></span>
                         </li>
                     </ul>
-                </div> <!--- INPUT TYPE HIDDEN -->
+                </div> 
             </div> 
 
             <!--- SELEC EDICION -->

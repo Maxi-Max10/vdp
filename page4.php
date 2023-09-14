@@ -220,7 +220,7 @@ include "nav2.php"
                 <div class="d-flex flex-column col-6">
                     <h5 class="contact-footer-title roboto-bold" data-section="page4" data-value="social">SOCIAL MEDIA</h5>
                     <a class="fw-bold mt-2 roboto-regular" href="https://instagram.com/vivacsdelplata?igshid= MZRLODBINWFIZA==" target="_blank">Instagram</a>
-                    <a class="fw-bold mt-2 roboto-regular" href="">Facebook</a>
+                    <a class="fw-bold mt-2 roboto-regular" href="https://www.facebook.com/profile.php?id=100070294090599&mibextid=eBUYbo" target="_blank">Facebook</a>
                     <a class="fw-bold mt-2 roboto-regular" href="https://api.whatsapp.com/send/?phone=2616316497&text&type=phone_number&app_absent=0" target="_blank">Tripadvisor</a>
                 </div>
             </div>

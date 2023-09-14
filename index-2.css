@@ -383,11 +383,26 @@
   text-transform: none !important;
   color: black;
   position: relative;
-  left: 32%;
+  left: 40%;
   font-size: 1.6rem;
   margin-bottom: 1rem;
   letter-spacing: 0;
   font-family: 'Vidaloka-Regular';
+}
+@media(max-width:2166px) {
+  .subtitulo-subseccion-2 {
+    left: 36%;
+  }
+}
+@media(max-width:2040px) {
+  .subtitulo-subseccion-2 {
+    left: 33%;
+  }
+}
+@media(max-width:1920px) {
+  .subtitulo-subseccion-2 {
+    left: 32%;
+  }
 }
 @media(max-width:1880px) {
   .subtitulo-subseccion-2 {
@@ -903,7 +918,11 @@ h3 {
 .imagen-subseccion-4-a{
   width: 450px;
   height: 650px;
-  margin-left: auto;
+}
+@media(max-width:1920px){
+  .imagen-subseccion-4-a{
+    margin-left: auto;
+  }
 }
 @media(max-width:1799px){
   .imagen-subseccion-4-a{

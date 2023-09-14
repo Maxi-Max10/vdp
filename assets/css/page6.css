@@ -189,7 +189,22 @@ svg {
 }
 
 .slide-m {
-  margin-left: 31.5%;
+  margin-left: 40%;
+}
+@media(max-width:2166px){
+  .slide-m {
+    margin-left: 35%;
+  }
+}
+@media(max-width:2040px){
+  .slide-m {
+    margin-left: 32%;
+  }
+}
+@media(max-width:1920px){
+  .slide-m {
+    margin-left: 31.5%;
+  }
 }
 
 @media(max-width:1880px) {

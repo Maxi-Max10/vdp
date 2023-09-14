@@ -175,6 +175,17 @@ function checkSwiperElement() {
       break;
 
     case windowWidth >= 1768:
+      if (swiperImg10.classList.contains("swiper-slide-next")) {
+        flecha1.classList.add("hidden");
+        flecha2.classList.remove("hide-flecha");
+      }
+      if (swiperImg1.classList.contains("swiper-slide-active")) {
+        flecha1.classList.remove("hidden");
+        flecha2.classList.add("hide-flecha");
+      }
+      break;
+
+      case windowWidth >= 1368:
       if (swiperImg9.classList.contains("swiper-slide-next")) {
         flecha1.classList.add("hidden");
         flecha2.classList.remove("hide-flecha");

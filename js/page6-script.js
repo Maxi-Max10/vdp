@@ -233,7 +233,7 @@ var buttonDaily = document.getElementById('itinerary');
   
   var swiperPlanCroquis = document.getElementById("croquisWrapper");
   
-  var planObserverCroquis = new MutationObserver(observeSwiper);
+  var planObserverCroquis = new MutationObserver(observeSwiperCroquis);
   
   var planConfigCroquis = { attributes: true, attributeFilter: ["style"] };
   planObserverCroquis.observe(swiperPlanCroquis, planConfigCroquis);
@@ -241,7 +241,7 @@ var buttonDaily = document.getElementById('itinerary');
   function observeSwiperCroquis(mutationsList, planObserverCroquis) {
     for (var mutation of mutationsList) {
       if (mutation.type === "attributes" && mutation.attributeName === "style") {
-        checkPlanElement();
+        checkPlanElementCroquis();
       }
     }
   }
@@ -259,7 +259,7 @@ planObserver.observe(swiperPlan, planConfig);
 function observeSwiper(mutationsList, planObserver) {
   for (var mutation of mutationsList) {
     if (mutation.type === "attributes" && mutation.attributeName === "style") {
-      checkPlanElementCroquis();
+      checkPlanElement();
     }
   }
 }
@@ -358,6 +358,7 @@ function checkPlanElement() {
 
     case windowp6 >= 1768:
       if (planImg10.classList.contains("swiper-slide-next")) {
+        console.log("ASDFA")
         flechap6.classList.add("hidden");
         flecha2p6.classList.remove("hide-flecha");
       }

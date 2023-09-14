@@ -1051,10 +1051,14 @@ blockquote {
 .ul-2-padding{
   padding-right: 0;
 }
+@media(width <= 768px){
+  .ul-2-padding{
+    padding-right: 0;
+    margin-bottom: 1.5rem !important;
+  }
+}
 @media(max-width:400px){
   .ul-1-padding{
     margin-bottom: 0rem;
-  }
-  .ul-2-padding{
   }
 }

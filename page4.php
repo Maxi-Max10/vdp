@@ -213,9 +213,9 @@ include "nav2.php"
                 <div class="d-flex flex-column col-6">
                     <h5 class="contact-footer-title roboto-bold" data-section="page4" data-value="general">GENERAL INQUIRES</h5>
                     <h6 class="fw-bold mt-2 roboto-bold">Email</h6>
-                    <p class="mb-2 roboto-regular">contact@vivacsdelplata.com</p>
+                    <a href="MAILTO:contact@vivacsdelplata.com" target="_blank"><p class="mb-2 roboto-regular">contact@vivacsdelplata.com</p></a>
                     <h6 class="fw-bold roboto-bold" data-section="page4" data-value="phone">Phone</h6>
-                    <p class="phone-number roboto-regular">+54 9 (261) 631 6497</p>
+                    <a href="tel:5492616316497" target="_blank"><p class="phone-number roboto-regular">+54 9 (261) 631 6497</p></a>
                 </div>
                 <div class="d-flex flex-column col-6">
                     <h5 class="contact-footer-title roboto-bold" data-section="page4" data-value="social">SOCIAL MEDIA</h5>

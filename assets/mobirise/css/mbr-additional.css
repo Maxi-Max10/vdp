@@ -51,7 +51,7 @@ body {
 /* 0.65 - min scale variable, may vary */
 
 .icon-wsp, .icon-trip, .icon-ig, .icon-loc {
-  margin-right: 0.9rem;
+  margin-right: 0rem;
 }
 
 
@@ -1086,7 +1086,7 @@ a {
 
   .icon-ig, .icon-loc, .icon-trip, .icon-wsp {
     font-size: 2rem !important;
-    margin-right: 0.5rem;
+    margin-right: 0rem;
   }
 
   .nav-dropdown {

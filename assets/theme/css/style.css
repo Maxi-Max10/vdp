@@ -1062,3 +1062,159 @@ blockquote {
     margin-bottom: 0rem;
   }
 }
+
+
+
+.icon-svg2{
+  position: absolute;
+  width: 23%;
+  right: 8%;
+  top: 57%;
+}
+.icon-svg{
+  margin-left: -3rem;
+}
+.icon-ig{
+  position: relative;
+  margin-left: -11rem;
+}
+@media(max-width:1919px){
+.icon-svg{
+  margin-left: -2rem;
+  width: 62%;
+}
+.icon-ig{
+  margin-left: -13rem;
+}
+.icon-svg2{
+  position: absolute;
+  width: 12%;
+  right: 20%;
+  top: 55%;
+}
+}
+@media(max-width:1400px){
+  .icon-svg2{
+    position: absolute;
+    width: 12%;
+    right: 18%;
+    top: 55%;
+  }
+}
+
+@media(width <= 1200px){
+  .icon-ig{
+    position: absolute;
+    top: 55%;
+    right: 25%;
+  }
+  .icon-svg2{
+    position: absolute;
+    width: 18%;
+    right: 9%;
+    top: 54%;
+  }
+}
+@media(width <= 1000px){
+  .icon-svg{
+    position: absolute;
+    width: 20%;
+    top: 75%;
+    right: 20%;
+  }
+  .icon-ig{
+    position: absolute;
+    top: 75%;
+    right: 25%;
+  }
+  .icon-svg2{
+    position: absolute;
+    width: 18%;
+    right: 9%;
+    top: 75%;
+  }
+}
+@media(width <= 768px){
+  .icon-svg{
+    position: absolute;
+    width: 22%;
+    top: 58%;
+    right: 18%;
+  }
+  .icon-ig{
+    position: absolute;
+    top: 58%;
+    right: 24%;
+  }
+  .icon-svg2{
+    position: absolute;
+    width: 24%;
+    right: 5%;
+    top: 58%;
+  }
+}
+@media(width <= 575px){
+  .icon-svg{
+    position: absolute;
+    width: 22%;
+    top: 95%;
+    right: 67%;
+  }
+  .icon-ig{
+    position: absolute;
+    top: 95%;
+    right: 70%;
+  }
+  .icon-svg2{
+    position: absolute;
+    width: 24%;
+    right: 48%;
+    top: 95%;
+  }
+}
+@media(width <= 500px){
+  .icon-svg{
+    position: absolute;
+    width: 30%;
+    top: 95%;
+    right: 60%;
+  }
+  .icon-ig{
+    position: absolute;
+    top: 95%;
+    right: 68%;
+  }
+  .icon-svg2{
+    position: absolute;
+    width: 30%;
+    top: 95%;
+    right: 42%;
+  }
+}
+@media(width <= 455px){
+  .icon-svg{
+    position: absolute;
+    width: 30%;
+    top: 95%;
+    right: 55%;
+  }
+  .icon-ig{
+    position: absolute;
+    top: 95%;
+    right: 60%;
+  }
+  .icon-svg2{
+    position: absolute;
+    width: 30%;
+    top: 95%;
+    right: 32%;
+  }
+}
+
+.icon-index{
+  z-index: 1;
+}
+
+.icon-index2{
+  z-index: 2;
+}

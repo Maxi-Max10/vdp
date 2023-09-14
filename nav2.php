@@ -93,24 +93,24 @@
                                     <li id="nav-href-7" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="contact-us" style=""  class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>
                                 </ul>
                                 <div id="nav-href-8" class="social-row display-5 nav col-md-5 justify-content-start ">
-                                    <div class="soc-item ms-2">
+                                    <div class="soc-item ms-2 icon-index2">
                                         <a href="" target="_blank">
                                             <span class="mbr-iconfont socicon socicon-whatsapp icon-wsp" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
                                         </a>
                                     </div>
-                                    <div class="soc-item ms-2">
+                                    <div class="soc-item ms-2 icon-svg icon-index">
                                         <a href="https://api.whatsapp.com/send/?phone=2616316497&text&type=phone_number&app_absent=0" target="_blank">
-                                            <span class="mbr-iconfont socicon socicon-tripadvisor icon-trip" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 16pt"></span>
+                                            <img src="assets/img/icons/icon1.svg" alt="trip_icon">
                                         </a>
                                     </div>
-                                    <div class="soc-item ms-2">
+                                    <div class="soc-item ms-2 icon-ig icon-index2">
                                         <a href="https://instagram.com/vivacsdelplata?igshid= MZRLODBINWFIZA==" target="_blank">
                                             <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon icon-ig" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);font-size: 12pt"></span>
                                         </a>
                                     </div>
-                                    <div class="soc-item ms-2">
+                                    <div class="soc-item ms-2 icon-svg2 icon-index">
                                         <a href="https://maps.app.goo.gl/YZDKpfVicwxZ4hYp6" target="_blank">
-                                            <i class="fa-solid fa-location-dot icon-loc" style="color: #ffffff;"></i>
+                                            <img src="assets/img/icons/icon2.svg" alt="location">
                                         </a>
                                     </div>
                                 </div>

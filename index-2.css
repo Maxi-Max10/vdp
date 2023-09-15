@@ -434,6 +434,11 @@
     left: 21%;
   }
 }
+@media (min-width:1359px) and (max-width:1366px){
+  .subtitulo-subseccion-2 {
+    left: 22.5%;
+  }
+}
 @media(width<= 1310px){
   .subtitulo-subseccion-2 {
     left: 16%;

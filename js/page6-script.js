@@ -214,7 +214,7 @@ var buttonDaily = document.getElementById('itinerary');
     spaceBetween: 20,
     navigation: {
       nextEl: ".flecha-p6-croquis",
-      prevEl:"flecha-p6-prev-croquis",
+      prevEl: ".flecha-p6-prev-croquis",
     },
     speed: 400,
     scrollbar: {

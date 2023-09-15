@@ -1068,15 +1068,15 @@ blockquote {
 .icon-svg2{
   position: absolute;
   width: 23%;
-  right: 8%;
-  top: 57%;
+  right: 5%;
+  top: 72%;
 }
 .icon-svg{
   margin-left: -3rem;
   position: absolute;
   width: 23%;
-  right: 5%;
-  top: 72%;
+  right: 17%;
+  top: 71%;
 }
 .icon-ig{
   position: absolute;
@@ -1092,7 +1092,9 @@ blockquote {
   top: 73%;
 }
 .icon-ig{
-  margin-left: -13rem;
+  position: absolute;
+  right: 29%;
+  top: 74.5%;
 }
 .icon-svg2{
   position: absolute;

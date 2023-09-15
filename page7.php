@@ -166,14 +166,14 @@ include "nav2.php";
                 <p class="end-hour">6:00PM</p>
             </div>
             <ul class="timeline-2-p7">
-                <li id="circle-1" class="text-1 hoverable-p7 c1 circle-gray"></li>
-                <li id="circle-2" class="text-2 hoverable-p7 c2 circle-gray"></li>
-                <li id="circle-3" class="text-3 hoverable-p7 c3 circle-gray"></li>
-                <li id="circle-4" class="text-4 hoverable-p7 c4 circle-gray"></li>
-                <li id="circle-5" class="text-5 hoverable-p7 c5 circle-gray"></li>
-                <li id="circle-6" class="text-6 hoverable-p7 c6 circle-gray"></li>
-                <li id="circle-7" class="text-7 hoverable-p7 c7 circle-gray"></li>
-                <li id="circle-8" class="text-8 hoverable-p7 c8 circle-gray"></li>
+                <li id="circle-1" class="text-1 hoverable-p7 c1-p7 circle-gray"></li>
+                <li id="circle-2" class="text-2 hoverable-p7 c2-p7 circle-gray"></li>
+                <li id="circle-3" class="text-3 hoverable-p7 c3-p7 circle-gray"></li>
+                <li id="circle-4" class="text-4 hoverable-p7 c4-p7 circle-gray"></li>
+                <li id="circle-5" class="text-5 hoverable-p7 c5-p7 circle-gray"></li>
+                <li id="circle-6" class="text-6 hoverable-p7 c6-p7 circle-gray"></li>
+                <li id="circle-7" class="text-7 hoverable-p7 c7-p7 circle-gray"></li>
+                <li id="circle-8" class="text-8 hoverable-p7 c8-p7 circle-gray"></li>
             </ul>
         </div>
         <div class="text-items timeline-pc">
@@ -487,14 +487,14 @@ include "nav2.php";
                 <p class="end-hour">4:00PM</p>
             </div>
             <ul class="timeline-2-p7">
-                <li id="circle-20" class="text-20 hoverable-p7 c1 circle-gray"></li>
-                <li id="circle-21" class="text-21 hoverable-p7 c2 circle-gray"></li>
-                <li id="circle-22" class="text-22 hoverable-p7 c3 circle-gray"></li>
-                <li id="circle-23" class="text-23 hoverable-p7 c4 circle-gray"></li>
-                <li id="circle-24" class="text-24 hoverable-p7 c5 circle-gray"></li>
-                <li id="circle-25" class="text-25 hoverable-p7 c6 circle-gray"></li>
-                <li id="circle-26" class="text-26 hoverable-p7 c7 circle-gray"></li>
-                <li id="circle-27" class="text-27 hoverable-p7 c8 circle-gray"></li>
+                <li id="circle-20" class="text-20 hoverable-p7 c1-p7 circle-gray"></li>
+                <li id="circle-21" class="text-21 hoverable-p7 c2-p7 circle-gray"></li>
+                <li id="circle-22" class="text-22 hoverable-p7 c3-p7 circle-gray"></li>
+                <li id="circle-23" class="text-23 hoverable-p7 c4-p7 circle-gray"></li>
+                <li id="circle-24" class="text-24 hoverable-p7 c5-p7 circle-gray"></li>
+                <li id="circle-25" class="text-25 hoverable-p7 c6-p7 circle-gray"></li>
+                <li id="circle-26" class="text-26 hoverable-p7 c7-p7 circle-gray"></li>
+                <li id="circle-27" class="text-27 hoverable-p7 c8-p7 circle-gray"></li>
             </ul>
         </div>
         <div class="text-items timeline-pc">

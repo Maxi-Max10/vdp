@@ -232,6 +232,11 @@ svg {
     margin-left: 20%;
   }
 }
+@media (min-width:1359px) and (max-width:1366px) {
+  .slide-m {
+    margin-left: 22%;
+  }
+}
 @media(max-width:1310px) {
   .slide-m {
     margin-left: 15%;

@@ -26,9 +26,9 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <div class="social-row display-7 me-4 me-sm-0">
-                <div class="soc-item"><a href="https://maps.app.goo.gl/YZDKpfVicwxZ4hYp6" target="_blank">
-                    <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
-                        </a>
+                    <div class="soc-item"><a href="https://maps.app.goo.gl/YZDKpfVicwxZ4hYp6" target="_blank">
+                                            <img src="assets/img/icons/icon2.svg" class="icon-svg2" alt="location">
+                                        </a>
                         
                     </div>
                     <div class="soc-item">

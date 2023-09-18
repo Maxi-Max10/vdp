@@ -544,7 +544,7 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item">
                       <img
                       class="imagen-subseccion-5"
-                      src="./assets/images/wine_outside.jpg"
+                      src="./assets/images/Wine_and_snow.jpg"
                       alt=""
                       />
                       <div class="parrafo-slider" >

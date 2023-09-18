@@ -131,7 +131,7 @@ include "nav2.php";
                 
                 <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-1" data-section="page2" data-value="preg6">Still need help?</h4>
                 <p class="mbr-text mbr-fonts-style display-7" data-section="page2" data-value="resp6">
-                    For any other questions, please contact us here <br> or write us at <a href="MAILTO:contact@vivacsdelplata.com"><strong> contact@vivacsdelplata.com</strong></a></p>
+                    For any other questions, please contact us <a href="contact-us"><strong>here</strong></a><br> or write us at <a href="MAILTO:contact@vivacsdelplata.com"><strong> contact@vivacsdelplata.com</strong></a></p>
             </div>
         </div>
     </div>

@@ -227,7 +227,7 @@ include "nav2.php";
                     <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">FIREPLACE <br>GATHERING</p>
                 </div>
                 <div id="text-13-2" class="circle-13-2 hoverable gray item-itinerary-13 d-flex flex-column">
-                  <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">SLEEP & FOLLOWING<br> DAY BREAKFAST</p>
+                  <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="SLEEP & FOLLOWING">SLEEP & FOLLOWING<br> DAY BREAKFAST</p>
                 </div>
             </div>
 
@@ -290,7 +290,7 @@ include "nav2.php";
                     <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">FIREPLACE <br class="br-itinerary">GATHERING</p>
                   </div>
                   <div id="text-m-2" class="circle-m-2 hoverable gray item-itinerary-i-2-2 d-flex flex-column">
-                    <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">SLEEP & FOLLOWING<br class="br-itinerary"> DAY BREAKFAST</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="SLEEP & FOLLOWING">SLEEP & FOLLOWING<br class="br-itinerary"> DAY BREAKFAST</p>
                 </div>
               </div>
           </div>

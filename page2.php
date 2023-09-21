@@ -4,12 +4,9 @@
 $campo = "Frequently Asked Questions";
 include "nav2.php";
 
-
-
 ?>
   
   <section data-bs-version="5.1" class="header4 cid-tL7jvAGA4r mbr-fullscreen mbr-parallax-background" id="header4-18">
-
     <div class="container">
         <div class="row">
             <div class="content-wrap">

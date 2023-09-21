@@ -7,8 +7,6 @@ include "nav2.php";
 
 <section data-bs-version="5.1" class="header4 cid-tMz88lY0XA mbr-fullscreen mbr-parallax-background" id="header4-2c">
 
-
-    <div class="mbr-overlay"></div>
     <div class="container">
         <div class="row">
             <div class="content-wrap">

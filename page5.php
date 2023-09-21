@@ -7,7 +7,7 @@ include "nav2.php";
 
 <link rel="stylesheet" href="assets/css/gallery.css">
 <section data-bs-version="5.1" class="header4 cid-tMlWvSr75K mbr-fullscreen mbr-parallax-background" id="header4-1x">
-    <div class="mbr-overlay"></div>
+    
     <div class="container">
         <div class="row">
             <div class="content-wrap">
@@ -21,8 +21,8 @@ include "nav2.php";
     </div>
 </section>
 <!-- Gallery -->
-<div class="container gallery-container">
 
+<div class=" gallery-container">
     <div class="tz-gallery">
         <div class="grid-container">
             <div class="grid-item wide tall" style="background-image: url('assets/img/Gallery_Folder/IMG_5014.JPG');"><a class="ligthbox" href="assets/img/Gallery_Folder/IMG_5014.JPG" style="width: 100%;height:100%"> </a></div>

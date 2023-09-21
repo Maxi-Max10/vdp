@@ -747,6 +747,9 @@ a {
   .cid-tKsV9edeq5 .content-wrap {
     width: 100%;
   }
+  .mbr-fullscreen {
+    min-height: 47vh!important;
+  }
 }
 .cid-tKt4skVtmt {
   padding-top: 0rem;

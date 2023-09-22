@@ -115,14 +115,19 @@ hoverableElementsP7.forEach((element) => {
 
 const swiperP7 = new Swiper("#swiperP7", {
   loop: true,
-  spaceBetween: 40,
+  spaceBetween: -50,
   slidesPerView: 1,
+  speed: 400,
   // Navigation arrows
   navigation: {
     nextEl: "#swiper-button-next-p7",
   },
   breakpoints: {
-    1200: {
+    378: {
+      slidesPerView: 1,
+      spaceBetween: -70,
+    },
+    511: {
       slidesPerView: 2,
       spaceBetween: 10,
     },
@@ -137,7 +142,7 @@ const swiperP7 = new Swiper("#swiperP7", {
   },
 });
 const swiper2P7 = new Swiper("#swiper2P7", {
-  spaceBetween: 40,
+  spaceBetween: -50,
   loop: true,
   initialSlide: 8,
   slidesPerView: 1,
@@ -147,7 +152,11 @@ const swiper2P7 = new Swiper("#swiper2P7", {
     prevEl: "#swiper-button-prev2-p7",
   },
   breakpoints: {
-    1200: {
+    378: {
+      slidesPerView: 1,
+      spaceBetween: -70,
+    },
+    511: {
       slidesPerView: 2,
       spaceBetween: 10,
     },
@@ -162,7 +171,7 @@ const swiper2P7 = new Swiper("#swiper2P7", {
   },
 });
 const swiper3P7 = new Swiper("#swiper3P7", {
-  spaceBetween: 40,
+  spaceBetween: -50,
   loop: true,
   slidesPerView: 1,
   // Navigation arrows
@@ -171,8 +180,11 @@ const swiper3P7 = new Swiper("#swiper3P7", {
     prevEl: "#swiper-button-prev3-p7",
   },
   breakpoints: {
-
-    1200: {
+    378: {
+      slidesPerView: 1,
+      spaceBetween: -70,
+    },
+    511: {
       slidesPerView: 2,
       spaceBetween: 10,
     },

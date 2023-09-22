@@ -4,7 +4,6 @@ $campo = "Trip Enhacements";
 include "nav2.php";
 
 ?>
-
 <section data-bs-version="5.1" class="header4 cid-tMz88lY0XA mbr-fullscreen mbr-parallax-background" id="header4-2c">
 
     <div class="container">
@@ -52,7 +51,7 @@ include "nav2.php";
                 </div>
             </div>
         </div>
-        <div class="col-8 col-xxl-7 swiper-margin-1-p7">
+        <div class="col-10 col-xl-8 col-xxl-7 swiper-margin-1-p7">
             <div id="swiperP7" class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide ss">
@@ -85,10 +84,11 @@ include "nav2.php";
                 </div>
             </div>
             <img id="swiper-button-next-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7" alt="flecha2_svg">
+            <img id="swiper-button-next-p7" src="/assets/img/icons/flecha.svg" class="flecha-2-p7" alt="flecha_svg">
         </div>
     </div>
     <div class="slide-container-2">
-        <div class="col-8 col-xxl-7 swiper-margin-2-p7">
+        <div class="col-10 col-xl-8 col-xxl-7 swiper-margin-2-p7">
             <div id="swiper2P7" class="swiper">
                 <div class="swiper-wrapper mb-0">
                     <div class="swiper-slide ss-2">
@@ -121,6 +121,7 @@ include "nav2.php";
                 </div>
             </div>
             <img id="swiper-button-prev2-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7-prev" alt="flecha2_svg">
+            <img id="swiper-button-prev2-p7" src="/assets/img/icons/flecha.svg" class="flecha-2-p7-prev" alt="flecha_svg">
         </div>
         <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-auto trip-info-2">
             <h2 class="trip-title2 mb-5 mt-5 mt-xl-0 mb-xl-5 text-center text-xl-start" data-section="page7" data-value="Motorcycle road trip">Motorcycle road trip</h2>
@@ -657,7 +658,7 @@ include "nav2.php";
                 </div>
             </div>
         </div>
-        <div class="col-8 col-xxl-7 swiper-margin-1-p7">
+        <div class="col-10 col-xl-8 col-xxl-7 swiper-margin-1-p7">
             <div id="swiper3P7" class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide ss">
@@ -675,6 +676,7 @@ include "nav2.php";
                 </div>
             </div>
             <img id="swiper-button-next3-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7" alt="flecha2_svg">
+            <img id="swiper-button-next3-p7" src="/assets/img/icons/flecha.svg" class="flecha-2-p7-golf" alt="flecha_svg">
         </div>
     </div>
 </section>

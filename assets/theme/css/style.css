@@ -1083,6 +1083,133 @@ blockquote {
   right: 24%;
   top: 72%;
 }
+.icon-svg2-footer{
+  width: 8rem;
+  position: absolute;
+  top: 33.5%;
+  left: 77%;
+}
+@media(width <= 992px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 59%;
+    left: 53%;
+  }
+}
+@media(width <= 768px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 68%;
+    left: 30%;
+  }
+}
+@media(width <= 565px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 67%;
+    left: 29%;
+  }
+}
+@media(width <= 522px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 64.5%;
+    left: 28%;
+  }
+}
+@media(width <= 518px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 64%;
+    left: 26%;
+  }
+}
+@media(width <= 496px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 63.5%;
+    left: 26%;
+  }
+}
+@media(width <= 470px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 63%;
+    left: 24%;
+  }
+}
+@media(width <= 452px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 62.5%;
+    left: 23%;
+  }
+}
+@media(width <= 430px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 62%;
+    left: 22%;
+  }
+}
+@media(width <= 410px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 61.5%;
+    left: 21%;
+  }
+}
+@media(width <= 400px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 61%;
+    left: 14%;
+  }
+}
+@media(width <= 365px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 60%;
+    left: 14%;
+  }
+}
+@media(width <= 330px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 59%;
+    left: 14%;
+  }
+}
+@media(width <= 323px){
+  .icon-svg2-footer{
+    width: 8rem;
+    position: absolute;
+    top: 56.5%;
+    left: 14%;
+  }
+}
+.footer-edit{
+
+}
+@media(width <=992px){
+  .footer-edit{
+
+  }
+}
+
 @media(max-width:1919px){
 .icon-svg{
   margin-left: 0rem;

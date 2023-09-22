@@ -15,7 +15,7 @@
                 <p class="mbr-text mbr-fonts-style mb-4 display-4"></p>
                 
             </div>
-            <div class="col-12 col-md-6 col-lg-3 text-center text-md-end">
+            <div class="col-12 col-md-6 col-lg-3 text-center text-md-end footer-edit">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <ul class="list mbr-fonts-style display-5">
                 <a href="gallery"><li class="mbr-text item-wrap" data-section="nav" data-value="gallery">Gallery</li></a>
@@ -26,11 +26,12 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <div class="social-row display-7 me-4 me-sm-0">
-                <div class="soc-item"><a href="https://maps.app.goo.gl/YZDKpfVicwxZ4hYp6" target="_blank">
-                    <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
-                        </a>
-                        
-                    </div>
+                  <div class="soc-item">
+                    <a href="https://maps.app.goo.gl/YZDKpfVicwxZ4hYp6" target="_blank">
+                      <img src="assets/img/icons/icon2.svg" class="icon-svg2-footer" alt="location">
+                    </a>
+                    
+                  </div>
                     <div class="soc-item">
                         <a href="https://instagram.com/vivacsdelplata?igshid= MZRLODBINWFIZA==" target="_blank">
                             <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"

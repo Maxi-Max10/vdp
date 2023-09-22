@@ -28,7 +28,7 @@ include "nav2.php";
       <p class="plan-title" data-section="page6" data-value="title2A">PLAN YOUR STAY</p>
       <p class="plan-text" data-section="page6" data-value="descrip2A">Whether you seek adventure <br>or relaxation, Vivacs del Plata <br> is the perfect retreat.</p>
     </div>
-    <div class="col-10 col-xl-8 col-xxl-7 ms-auto me-auto me-xl-0">
+    <div class="col-10 col-xl-8 col-xxl-7 ms-auto me-xl-0">
       <div class="swiperScroll swiper">
         <div class="swiper-wrapper" id="planWrapper">
           <div id="planImg1" class="swiper-slide">
@@ -324,15 +324,15 @@ include "nav2.php";
         </section>
     </section> 
     <div class="segunda-hoja">
-      <div class="subseccion-1-1">
+      <div class="subseccion-1-1 col-9 col-sm-10 col-md-9 col-lg-10 col-xl-12 ms-auto ms-xl-0 me-2 me-sm-0 me-lg-5 me-xl-0">
         <div id="swiperActivities" class="swiper">
           
           <div class="swiper-wrapper">
             <div class="swiper-slide" id="slide1">
               <div class="subseccion-1-p6">
-                <div class="elemento-1 text-center text-xl-start">
+                <div class="elemento-1 text-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="HORSEBACK RIDING">HORSEBACK RIDING</h2>
-                  <div class="divisor-1 mx-auto mx-xl-0"></div>
+                  <div class="divisor-1 mx-xl-0"></div>
                   <p class="parrafo-subseccion-1-1" data-section="page6" data-value="horseback descrip">
                     Experiencie the thrill of our guest-favorite horseback riding tour! <br class="br-carrusel">
                     Let us guide you through 400 hectares of Vivacs del Plata, where you'll encounter diverse
@@ -342,7 +342,7 @@ include "nav2.php";
                   </p>
                 </div>
                 <div class="elemento-2">
-                  <h2 class="h2-subseccion-1-2 roboto-regular text-center text-xl-start" data-section="page6" data-value="Activities">Activities</h2>
+                  <h2 class="h2-subseccion-1-2 roboto-regular text-start" data-section="page6" data-value="Activities">Activities</h2>
                   <div class="carrusel-container-p6">
                     <div class="carrusel-p6">
                       <img
@@ -376,9 +376,9 @@ include "nav2.php";
             </div>
             <div class="swiper-slide" id="slide2">
               <div class="subseccion-1-p6">
-                <div class="elemento-1 text-center text-xl-start">
+                <div class="elemento-1 text-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="4X4 GUIDED TOUR">4X4 GUIDED TOUR</h2>
-                  <div class="divisor-1 mx-auto mx-xl-0"></div>
+                  <div class="divisor-1 mx-xl-0"></div>
                   <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajode4x4">
                     Sit back and relax as our <br class="br-carrusel">
                       experienced drivers take <br class="br-carrusel">
@@ -391,7 +391,7 @@ include "nav2.php";
                   </p>
                 </div>
                 <div class="elemento-2">
-                  <h2 class="h2-subseccion-1-2 roboto-regular text-center text-xl-start" data-section="page6" data-value="Activities">Activities</h2>
+                  <h2 class="h2-subseccion-1-2 roboto-regular text-start" data-section="page6" data-value="Activities">Activities</h2>
                   <div class="carrusel-container-p6">
                     <div class="carrusel-p6">
                       <img
@@ -425,9 +425,9 @@ include "nav2.php";
             </div>
             <div class="swiper-slide" id="slide3">
               <div class="subseccion-1-p6">
-                <div class="elemento-1 text-center text-xl-start">
+                <div class="elemento-1 text-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="CYCLING">CYCLING</h2>
-                  <div class="divisor-1 mx-auto mx-xl-0"></div>
+                  <div class="divisor-1 mx-xl-0"></div>
                   <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajodecicl">
                     For an unparalleled cycling <br class="br-carrusel">
                     experience in nature at an <br class="br-carrusel">
@@ -445,7 +445,7 @@ include "nav2.php";
                 </div>
         
                 <div class="elemento-2">
-                  <h2 class="h2-subseccion-1-2 roboto-regular text-center text-xl-start" data-section="page6" data-value="Activities">Activities</h2>
+                  <h2 class="h2-subseccion-1-2 roboto-regular text-start" data-section="page6" data-value="Activities">Activities</h2>
                   <div class="carrusel-container-p6">
                     <div class="carrusel-p6">
                       <img
@@ -478,9 +478,9 @@ include "nav2.php";
             </div>
             <div class="swiper-slide" id="slide4">
               <div class="subseccion-1-p6">
-                <div class="elemento-1 text-center text-xl-start">
+                <div class="elemento-1 text-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="TREKKING">TREKKING</h2>
-                  <div class="divisor-1 mx-auto mx-xl-0"></div>
+                  <div class="divisor-1 mx-xl-0"></div>
                   <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajodetrekk">
                     Unleash your adventurous spirit <br class="br-carrusel">
                     and immerse yourself in nature <br class="br-carrusel">
@@ -496,7 +496,7 @@ include "nav2.php";
                 </div>
         
                 <div class="elemento-2">
-                  <h2 class="h2-subseccion-1-2 roboto-regular text-center text-xl-start" data-section="page6" data-value="Activities">Activities</h2>
+                  <h2 class="h2-subseccion-1-2 roboto-regular text-start" data-section="page6" data-value="Activities">Activities</h2>
                   <div class="carrusel-container-p6">
                     <div class="carrusel-p6">
                       <img
@@ -531,6 +531,7 @@ include "nav2.php";
           </div>
           <img src="/assets/img/icons/flecha.svg" class="flecha-p6-activities" alt="flecha_derecha_activities">
         </div>
+        <img src="/assets/img/icons/flecha.svg" class="flecha-p6-activities-2" alt="flecha_derecha_activities">
       </div>
 
 

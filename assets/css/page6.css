@@ -191,17 +191,20 @@ svg {
 .slide-m {
   margin-left: 40%;
 }
-@media(max-width:2166px){
+
+@media(max-width:2166px) {
   .slide-m {
     margin-left: 35%;
   }
 }
-@media(max-width:2040px){
+
+@media(max-width:2040px) {
   .slide-m {
     margin-left: 32%;
   }
 }
-@media(max-width:1920px){
+
+@media(max-width:1920px) {
   .slide-m {
     margin-left: 31.5%;
   }
@@ -212,36 +215,43 @@ svg {
     margin-left: 28%;
   }
 }
+
 @media(max-width:1800px) {
   .slide-m {
     margin-left: 25%;
   }
 }
+
 @media(max-width:1566px) {
   .slide-m {
     margin-left: 20%;
   }
 }
+
 @media(max-width:1466px) {
   .slide-m {
     margin-left: 15%;
   }
 }
+
 @media(max-width:1390px) {
   .slide-m {
     margin-left: 20%;
   }
 }
+
 @media (min-width:1359px) and (max-width:1366px) {
   .slide-m {
     margin-left: 22%;
   }
 }
+
 @media(max-width:1310px) {
   .slide-m {
     margin-left: 15%;
   }
 }
+
 @media(max-width:1215px) {
   .slide-m {
     margin-left: auto;
@@ -389,6 +399,7 @@ svg {
   top: -25rem;
   left: -12rem;
   transition: all 0.3s;
+  z-index: 1;
 }
 
 .flecha-p6-activities {
@@ -399,20 +410,143 @@ svg {
   transition: all 0.3s;
   z-index: 1;
 }
-@media(width <= 1450px){
+
+.flecha-p6-activities-2 {
+  width: 12rem;
+  position: relative;
+  top: -25rem;
+  left: 85%;
+  transition: all 0.3s;
+  z-index: 1;
+  display: none;
+}
+
+@media(width <=1450px) {
   .flecha-p6-activities {
     width: 12rem;
     position: relative;
     top: -25rem;
-    left: 88%;
+    left: 89%;
     transition: all 0.3s;
   }
 }
-@media(width <= 1200px){
-  @media(width <= 1450px){
-    .flecha-p6-activities {
-      display: none;
-    }
+
+@media(width <=1200px) {
+  .flecha-p6-activities {
+    width: 12rem;
+    position: relative;
+    top: -25rem;
+    left: -15%;
+    transition: all 0.3s;
+    z-index: 1;
+    display: none;
+  }
+
+  .flecha-p6-activities-2 {
+    width: 12rem;
+    position: relative;
+    top: -40rem;
+    left: -15%;
+    transition: all 0.3s;
+    z-index: 1;
+    display: block;
+  }
+}
+
+@media(width <=1026px) {
+  .flecha-p6-activities-2 {
+    width: 12rem;
+    top: -40rem;
+    left: -18%;
+  }
+}
+
+@media(width <=992px) {
+  .flecha-p6-activities-2 {
+    width: 12rem;
+    top: -36rem;
+    left: -25%;
+  }
+}
+
+@media(width <=658px) {
+  .flecha-p6-activities-2 {
+    width: 11rem;
+    top: -38rem;
+    left: -28%;
+  }
+}
+
+@media(width <=575px) {
+  .flecha-p6-activities-2 {
+    width: 10rem;
+    top: -34rem;
+    left: -32%;
+  }
+}
+
+@media(width <=545px) {
+  .flecha-p6-activities-2 {
+    width: 10rem;
+    top: -33rem;
+    left: -32%;
+  }
+}
+
+@media(width=481px) {
+  .flecha-p6-activities-2 {
+    width: 10rem;
+    top: -35rem;
+    left: -32%;
+  }
+}
+
+@media(width <=480px) {
+  .flecha-p6-activities-2 {
+    width: 9rem;
+    top: -29rem;
+    left: -32%;
+  }
+}
+
+@media(width <=455px) {
+  .flecha-p6-activities-2 {
+    width: 9rem;
+    top: -28rem;
+    left: -30%;
+  }
+}
+
+@media(width <=436px) {
+  .flecha-p6-activities-2 {
+    width: 9rem;
+    top: -29rem;
+    left: -30%;
+  }
+}
+
+@media(width <=375px) {
+  .flecha-p6-activities-2 {
+    width: 6rem;
+    top: -28rem;
+    left: -17%;
+  }
+}
+
+@media(width <=331px) {
+  .flecha-p6-activities-2 {
+    width: 6rem;
+    top: -30rem;
+    left: -16%;
+  }
+}
+
+@media(width <=327px) {
+  .flecha-p6-activities-2 {
+    width: 6rem;
+    top: -30rem;
+    left: -16%;
+    display: none;
   }
 }
 
@@ -423,7 +557,8 @@ svg {
   left: 15%;
   transition: all 0.3s;
 }
-@media (width <= 1800px){
+
+@media (width <=1800px) {
   .flecha-p6-culinary {
     width: 12rem;
     position: relative;
@@ -432,7 +567,8 @@ svg {
     transition: all 0.3s;
   }
 }
-@media (width <= 1566px){
+
+@media (width <=1566px) {
   .flecha-p6-culinary {
     width: 12rem;
     position: relative;
@@ -441,7 +577,8 @@ svg {
     transition: all 0.3s;
   }
 }
-@media (width <= 1466px){
+
+@media (width <=1466px) {
   .flecha-p6-culinary {
     width: 12rem;
     position: relative;
@@ -450,7 +587,8 @@ svg {
     transition: all 0.3s;
   }
 }
-@media (width <= 1390px){
+
+@media (width <=1390px) {
   .flecha-p6-culinary {
     width: 12rem;
     position: relative;
@@ -459,7 +597,8 @@ svg {
     transition: all 0.3s;
   }
 }
-@media (width <= 1310px){
+
+@media (width <=1310px) {
   .flecha-p6-culinary {
     width: 12rem;
     position: relative;
@@ -468,9 +607,22 @@ svg {
     transition: all 0.3s;
   }
 }
-@media (width <= 1200px){
+
+@media (width <=1200px) {
   .flecha-p6-culinary {
-    display: none;
+    width: 9rem;
+    top: -17rem;
+    left: -3%;
+    z-index: 1;
+  }
+}
+
+@media (width <=390px) {
+  .flecha-p6-culinary {
+    width: 7rem;
+    top: -16rem;
+    left: -3%;
+    z-index: 1;
   }
 }
 
@@ -532,13 +684,13 @@ svg {
     line-height: 1.3;
   }
 }
+
 @media (max-width:1199px) {
   .flecha-p6 {
-    display: none;
     width: 12rem;
     position: relative;
     top: -23rem;
-    left: -15rem;
+    left: -10rem;
     transition: all 0.3s;
   }
 
@@ -566,6 +718,97 @@ svg {
     font-family: 'Vidaloka-Regular';
     font-size: 1.6rem;
     line-height: 1.3;
+  }
+}
+
+@media(width <=955px) {
+  .flecha-p6 {
+    width: 12rem;
+    position: relative;
+    top: -19rem;
+    left: -9rem;
+    transition: all 0.3s;
+  }
+
+  .flecha-p6-prev {
+    width: 12rem;
+    position: relative;
+    top: -19rem;
+    left: -9rem;
+    transition: all 0.3s;
+  }
+}
+
+
+@media(width <=705px) {
+  .flecha-p6 {
+    width: 12rem;
+    position: relative;
+    top: -17rem;
+    left: -8.5rem;
+    transition: all 0.3s;
+  }
+
+  .flecha-p6-prev {
+    width: 12rem;
+    position: relative;
+    top: -17rem;
+    left: -8.5rem;
+    transition: all 0.3s;
+  }
+}
+
+@media(width <=610px) {
+  .flecha-p6 {
+    width: 11rem;
+    position: relative;
+    top: -15rem;
+    left: -8rem;
+    transition: all 0.3s;
+  }
+
+  .flecha-p6-prev {
+    width: 11rem;
+    position: relative;
+    top: -15rem;
+    left: -8rem;
+    transition: all 0.3s;
+  }
+}
+
+@media(width <=510px) {
+  .flecha-p6 {
+    width: 9rem;
+    position: relative;
+    top: -17rem;
+    left: -7rem;
+    transition: all 0.3s;
+  }
+
+  .flecha-p6-prev {
+    width: 9rem;
+    position: relative;
+    top: -17rem;
+    left: -7rem;
+    transition: all 0.3s;
+  }
+}
+
+@media(width <=475px) {
+  .flecha-p6 {
+    width: 9rem;
+    position: relative;
+    top: -15rem;
+    left: -6rem;
+    transition: all 0.3s;
+  }
+
+  .flecha-p6-prev {
+    width: 9rem;
+    position: relative;
+    top: -15rem;
+    left: -6rem;
+    transition: all 0.3s;
   }
 }
 
@@ -1810,6 +2053,7 @@ svg {
   transform: translateX(-50%);
   z-index: 2;
 }
+
 .item-itinerary-f {
   position: absolute;
   left: 0%;
@@ -1837,6 +2081,7 @@ svg {
   cursor: pointer;
   width: 18%;
 }
+
 .item-itinerary-i-2 {
   position: absolute;
   left: 80%;
@@ -1871,6 +2116,7 @@ svg {
   cursor: pointer;
   width: 18%;
 }
+
 .item-itinerary-i-2-2 {
   position: absolute;
   left: 85%;
@@ -1925,16 +2171,15 @@ svg {
   .subseccion-1-p6 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 
-.swiper-accomodation{
+.swiper-accomodation {
   margin-bottom: -1%;
 }
 
-.next-accomodation{
+.next-accomodation {
   width: 12rem;
   position: relative;
   top: -20rem;
@@ -1942,19 +2187,44 @@ svg {
   transition: all 0.3s;
   z-index: 1;
 }
-@media(max-width:1200px){
-  .next-accomodation{
+
+@media(max-width:1200px) {
+  .next-accomodation {
     top: -15rem;
     left: 80%;
   }
 }
-@media(max-width:992px){
-  .next-accomodation{
+
+@media(max-width:992px) {
+  .next-accomodation {
     display: none;
   }
 }
 
-.prev-accomodation{
+@media(max-width:449px) {
+  .next-accomodation {
+    display: block;
+    width: 8rem;
+    top: -9rem;
+    left: 75%;
+  }
+}
+@media(max-width:410px) {
+  .next-accomodation {
+    width: 8rem;
+    top: -7rem;
+    left: 72%;
+  }
+}
+@media(max-width:305px) {
+  .next-accomodation {
+    width: 8rem;
+    top: -7rem;
+    left: 68%;
+  }
+}
+
+.prev-accomodation {
   width: 12rem;
   position: relative;
   top: -20rem;
@@ -1963,8 +2233,9 @@ svg {
   z-index: 1;
   transform: rotate(180deg) !important;
 }
-@media(width <= 1200px){
-  .prev-accomodation{
+
+@media(width <=1200px) {
+  .prev-accomodation {
     width: 12rem;
     position: relative;
     top: -15rem;
@@ -1974,8 +2245,9 @@ svg {
     transform: rotate(180deg) !important;
   }
 }
-@media(max-width:992px){
-  .prev-accomodation{
+
+@media(max-width:992px) {
+  .prev-accomodation {
     display: none;
   }
 }
@@ -2001,24 +2273,24 @@ svg {
   }
 }
 
-@media(max-width:460px) {
+@media(max-width:449px) {
   .accomodation {
     font-size: 1.2rem;
     position: absolute;
-    margin-bottom: -15%;
+    margin-bottom: 10%;
     margin-left: -5%;
   }
 }
-
-@media(max-width:380px) {
+@media(max-width:375px) {
   .accomodation {
     font-size: 1.2rem;
     position: absolute;
-    margin-bottom: -20%;
+    margin-bottom: 12%;
+    margin-left: -10%;
   }
 }
 
-.half-day-price{
+.half-day-price {
   font-size: 1rem;
 }
 
@@ -2041,7 +2313,7 @@ svg {
   transform: rotate(180deg) !important;
 }
 
-@media(width <= 1540px){
+@media(width <=1540px) {
   .flecha-p6-croquis {
     width: 12rem;
     position: relative;
@@ -2050,7 +2322,7 @@ svg {
     transition: all 0.3s;
     z-index: 1;
   }
-  
+
   .flecha-p6-prev-croquis {
     width: 12rem;
     position: relative;
@@ -2061,7 +2333,8 @@ svg {
     transform: rotate(180deg) !important;
   }
 }
-@media(width <= 1430px){
+
+@media(width <=1430px) {
   .flecha-p6-croquis {
     width: 11rem;
     position: relative;
@@ -2070,7 +2343,7 @@ svg {
     transition: all 0.3s;
     z-index: 1;
   }
-  
+
   .flecha-p6-prev-croquis {
     width: 11rem;
     position: relative;
@@ -2081,7 +2354,8 @@ svg {
     transform: rotate(180deg) !important;
   }
 }
-@media(width <= 1300px){
+
+@media(width <=1300px) {
   .flecha-p6-croquis {
     width: 11rem;
     position: relative;
@@ -2090,7 +2364,7 @@ svg {
     transition: all 0.3s;
     z-index: 1;
   }
-  
+
   .flecha-p6-prev-croquis {
     width: 11rem;
     position: relative;
@@ -2101,7 +2375,8 @@ svg {
     transform: rotate(180deg) !important;
   }
 }
-@media(width <= 1220px){
+
+@media(width <=1220px) {
   .flecha-p6-croquis {
     width: 11rem;
     position: relative;
@@ -2110,7 +2385,7 @@ svg {
     transition: all 0.3s;
     z-index: 1;
   }
-  
+
   .flecha-p6-prev-croquis {
     width: 11rem;
     position: relative;
@@ -2121,29 +2396,126 @@ svg {
     transform: rotate(180deg) !important;
   }
 }
-@media(width <= 1200px){
+
+@media(width <=1200px) {
   .flecha-p6-croquis {
     width: 11rem;
     position: relative;
     top: -19rem;
-    left: -8rem;
+    left: -10rem;
     transition: all 0.3s;
     z-index: 1;
-    display: none;
   }
-  
+
   .flecha-p6-prev-croquis {
     width: 11rem;
     position: relative;
     top: -19rem;
-    left: -8rem;
+    left: -10rem;
     transition: all 0.3s;
     z-index: 1;
-    display: none;
     transform: rotate(180deg) !important;
   }
 }
-.comillas{
+
+@media(width <=1050px) {
+  .flecha-p6-croquis {
+    width: 11rem;
+    position: relative;
+    top: -17rem;
+    left: -10rem;
+    transition: all 0.3s;
+    z-index: 1;
+  }
+
+  .flecha-p6-prev-croquis {
+    width: 11rem;
+    position: relative;
+    top: -17rem;
+    left: -10rem;
+    transition: all 0.3s;
+    z-index: 1;
+    transform: rotate(180deg) !important;
+  }
+}
+
+@media(width <=750px) {
+  .flecha-p6-croquis {
+    width: 10rem;
+    position: relative;
+    top: -17rem;
+    left: -7rem;
+    transition: all 0.3s;
+    z-index: 1;
+  }
+
+  .flecha-p6-prev-croquis {
+    width: 10rem;
+    position: relative;
+    top: -17rem;
+    left: -7rem;
+    transition: all 0.3s;
+    z-index: 1;
+    transform: rotate(180deg) !important;
+  }
+}
+
+@media(width <=600px) {
+  .flecha-p6-croquis {
+    width: 8rem;
+    top: -13rem;
+    left: -5.5rem;
+  }
+
+  .flecha-p6-prev-croquis {
+    width: 8rem;
+    top: -13rem;
+    left: -5.5rem;
+  }
+}
+
+@media(width <=500px) {
+  .flecha-p6-croquis {
+    width: 8rem;
+    top: -15rem;
+    left: -7rem;
+  }
+
+  .flecha-p6-prev-croquis {
+    width: 8rem;
+    top: -15rem;
+    left: -7rem;
+  }
+}
+
+@media(width <=410px) {
+  .flecha-p6-croquis {
+    width: 8rem;
+    top: -13rem;
+    left: -6.5rem;
+  }
+
+  .flecha-p6-prev-croquis {
+    width: 8rem;
+    top: -13rem;
+    left: -6.5rem;
+  }
+}
+
+@media(width <=500px) {
+  .plan {
+    margin-left: 8%;
+  }
+}
+
+@media (width <=450px) {
+  .slide-m {
+    margin-right: 0rem;
+    width: 76%;
+  }
+}
+
+.comillas {
   position: relative;
   top: 4rem;
   left: 0.8rem;

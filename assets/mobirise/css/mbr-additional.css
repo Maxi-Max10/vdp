@@ -3213,6 +3213,8 @@ a {
 @media (max-width: 991px) {
   .cid-tMlWvWDpDR .list {
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 @media (min-width: 992px) {

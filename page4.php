@@ -182,17 +182,17 @@ include "nav2.php"
                 <div class="underline-text"></div>
             </div>
             <div id="dateHide" class="hidden d-flex date-margin">
-                <input maxlength="2" class="day-input" type="text" name="fechainD" id="day" onkeyup="saltarAlSiguiente(this, 'month')" placeholder="DD">
+                <input maxlength="2" class="day-input" type="number" min="1" max="31" name="fechainD" id="day" onkeyup="saltarAlSiguiente(this, 'month')" placeholder="DD">
                 <h6 class="slash">/</h6>
-                <input maxlength="2" class="date-input" type="text" name="fechainM" id="month" onkeyup="saltarAlSiguiente(this, 'year')" placeholder="MM">
+                <input maxlength="2" class="date-input" type="number" min="1" max="12" name="fechainM" id="month" onkeyup="saltarAlSiguiente(this, 'year')" placeholder="MM">
                 <h6 class="slash">/</h6>
-                <input maxlength="2" class="year-input" type="text" name="fechainA" id="year" onkeyup="saltarAlSiguiente(this, 'day2')" placeholder="YY">
+                <input maxlength="2" class="year-input" type="number" name="fechainA" id="year" onkeyup="saltarAlSiguiente(this, 'day2')" placeholder="YY">
                 <h6 class="to">to</h6>
-                <input maxlength="2" class="day-input" type="text" name="fechasalD" id="day2" onkeyup="saltarAlSiguiente(this, 'month2')" placeholder="DD">
+                <input maxlength="2" class="day-input" type="number" min="1" max="31" name="fechasalD" id="day2" onkeyup="saltarAlSiguiente(this, 'month2')" placeholder="DD">
                 <h6 class="slash">/</h6>
-                <input maxlength="2" class="date-input" type="text" name="fechasalM" id="month2" onkeyup="saltarAlSiguiente(this, 'year2')" placeholder="MM">
+                <input maxlength="2" class="date-input" type="number" min="1" max="12" name="fechasalM" id="month2" onkeyup="saltarAlSiguiente(this, 'year2')" placeholder="MM">
                 <h6 class="slash">/</h6>
-                <input maxlength="2" class="year-input" type="text" name="fechasalA" id="year2" placeholder="YY">
+                <input maxlength="2" class="year-input" type="number" name="fechasalA" id="year2" placeholder="YY">
             </div>
 
             <div class="input-container message">

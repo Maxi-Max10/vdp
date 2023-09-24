@@ -1093,8 +1093,8 @@ blockquote {
   .icon-svg2-footer{
     width: 8rem;
     position: absolute;
-    top: 56%;
-    left: 50%
+    top: 58%;
+    left: 52%
   }
 }
 @media(width <= 768px){

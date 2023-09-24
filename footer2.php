@@ -33,13 +33,13 @@
                     
                   </div>
                     <div class="soc-item">
-                        <a href="https://instagram.com/vivacsdelplata?igshid= MZRLODBINWFIZA==" target="_blank">
+                        <a class="icon-index2" href="https://instagram.com/vivacsdelplata?igshid= MZRLODBINWFIZA==" target="_blank">
                             <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"
                                         style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
                         </a>
                     </div>
                     <div class="soc-item">
-                        <a href="https://api.whatsapp.com/send/?phone=2616316497&text&type=phone_number&app_absent=0" target="_blank">
+                        <a class="icon-index2" href="https://api.whatsapp.com/send/?phone=2616316497&text&type=phone_number&app_absent=0" target="_blank">
                             <span class="mbr-iconfont socicon socicon-whatsapp" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
                         </a>
                     </div>

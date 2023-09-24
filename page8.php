@@ -221,6 +221,7 @@ include "nav2.php";
         </div>
     </div>
 </section>
+
 <?php
 
 include "footer2.php";

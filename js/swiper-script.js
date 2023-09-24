@@ -41,6 +41,11 @@ const swiperScroll3 = new Swiper(".swiperScroll3", {
     draggable: true,
   },
   breakpoints: {
+    100: {
+      loop: false,
+      slidesPerView: 2,
+      spaceBetween: 3,
+    },
     470: {
       loop: false,
       slidesPerView: 2,

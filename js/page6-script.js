@@ -173,7 +173,7 @@ const swiperActivities = new Swiper("#swiperActivities", {
   spaceBetween: 100,
   loop: true,
   navigation: {
-    nextEl: ".flecha-p6-activities",
+    nextEl: ".activities-flecha",
     prevEl: ".flecha-p6-activities-prev",
   },
   speed: 700,

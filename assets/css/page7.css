@@ -2124,6 +2124,16 @@ svg {
   z-index: 1;
   transform: rotate(180deg) !important;
 }
+@media(width <= 1200px){
+  .flecha-1-p7-prev {
+    position: absolute;
+    width: 12rem;
+    left: -2%;
+    top: 35%;
+    z-index: 1;
+    display: none;
+  }
+}
 
 .flecha-2-p7 {
   position: absolute;

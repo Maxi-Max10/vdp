@@ -832,14 +832,14 @@ include "nav2.php";
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.09.19 (1).webp"
+                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.09.19 (1).jpeg"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.09.19.webp"
+                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.09.19.jpeg"
                     alt=""
                   />
                 </div>
@@ -856,7 +856,7 @@ include "nav2.php";
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.29.34.webp"
+                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.29.34.jpeg"
                     alt=""
                   />
                 </div>

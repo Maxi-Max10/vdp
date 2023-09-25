@@ -21,7 +21,7 @@ include "nav2.php";
 
 <section>
     <div class="slide-container">
-        <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-auto trip-info">
+        <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-5 trip-info">
             <h2 class="trip-title mb-5 mb-xl-5 text-center text-xl-start" data-section="page7" data-value="Sailing">Sailing</h2>
             <div class="w-0 w-xl-50 mx-auto mx-xl-0">
                 <p class="trip-paragraph mb-1 pe-0" data-section="page7" data-value="Location">

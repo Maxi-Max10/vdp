@@ -782,7 +782,16 @@ svg {
 }
 @media (width <= 469px){
   .flecha-1-prev{
-    display: none;
+    width: 10rem;
+    top: -11rem;
+    left: -9rem;
+  }
+}
+@media (width <= 410px){
+  .flecha-1-prev{
+    width: 8rem;
+    top: -9rem;
+    left: -7rem;
   }
 }
 

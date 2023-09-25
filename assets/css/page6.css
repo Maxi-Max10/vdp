@@ -447,18 +447,18 @@ svg {
     width: 12rem;
     position: relative;
     top: -40rem;
-    left: -15%;
+    left: 75%;
     transition: all 0.3s;
     z-index: 1;
     display: block;
   }
 }
 
-@media(width <=1026px) {
+@media(width <=1047px) {
   .flecha-p6-activities-2 {
-    width: 12rem;
+    width: 11rem;
     top: -40rem;
-    left: -18%;
+    left: 80%;
   }
 }
 
@@ -466,88 +466,102 @@ svg {
   .flecha-p6-activities-2 {
     width: 12rem;
     top: -36rem;
-    left: -25%;
+    left: 70%;
   }
 }
 
-@media(width <=658px) {
+@media(width <=768px) {
   .flecha-p6-activities-2 {
     width: 11rem;
-    top: -38rem;
-    left: -28%;
+    top: -36rem;
+    left: 78%;
+  }
+}
+
+@media(width <=643px) {
+  .flecha-p6-activities-2 {
+    width: 9rem;
+    top: -35rem;
+    left: 80%;
+  }
+}
+
+@media(width <=598px) {
+  .flecha-p6-activities-2 {
+    width: 7rem;
+    top: -35rem;
+    left: 85%;
   }
 }
 
 @media(width <=575px) {
   .flecha-p6-activities-2 {
-    width: 10rem;
-    top: -34rem;
-    left: -32%;
+    width: 7rem;
+    top: -30rem;
+    left: 82%;
   }
 }
 
-@media(width <=545px) {
+@media(width <=569px) {
   .flecha-p6-activities-2 {
-    width: 10rem;
-    top: -33rem;
-    left: -32%;
+    width: 7rem;
+    top: -31rem;
+    left: 80%;
   }
 }
 
-@media(width=481px) {
+@media(width <=548px) {
   .flecha-p6-activities-2 {
-    width: 10rem;
-    top: -35rem;
-    left: -32%;
+    width: 7rem;
+    top: -29rem;
+    left: 70%;
+  }
+}
+
+@media(width <=513px) {
+  .flecha-p6-activities-2 {
+    width: 7rem;
+    top: -30rem;
+    left: 70%;
   }
 }
 
 @media(width <=480px) {
   .flecha-p6-activities-2 {
-    width: 9rem;
-    top: -29rem;
-    left: -32%;
-  }
-}
-
-@media(width <=455px) {
-  .flecha-p6-activities-2 {
-    width: 9rem;
-    top: -28rem;
-    left: -30%;
+    width: 6rem;
+    top: -26rem;
+    left: 80%;
   }
 }
 
 @media(width <=436px) {
   .flecha-p6-activities-2 {
-    width: 9rem;
-    top: -29rem;
-    left: -30%;
+    width: 6rem;
+    top: -27rem;
+    left: 75%;
   }
 }
 
-@media(width <=375px) {
+@media(width <=369px) {
   .flecha-p6-activities-2 {
     width: 6rem;
     top: -28rem;
-    left: -17%;
+    left: 80%;
   }
 }
 
-@media(width <=331px) {
+@media(width <=350px) {
   .flecha-p6-activities-2 {
-    width: 6rem;
-    top: -30rem;
-    left: -16%;
+    width: 5rem;
+    top: -28rem;
+    left: 80%;
   }
 }
-
-@media(width <=327px) {
+@media(width <=336px) {
   .flecha-p6-activities-2 {
-    width: 6rem;
-    top: -30rem;
-    left: -16%;
-    display: none;
+    width: 4rem;
+    top: -27rem;
+    left: 84%;
   }
 }
 

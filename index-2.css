@@ -1667,7 +1667,7 @@ h3 {
   }
 
   .subseccion-1-1 {
-    width: 80%;
+    width: 95%;
   }
 
   .h2-subseccion-1-2 {
@@ -1677,7 +1677,12 @@ h3 {
 
 @media(width <=375px) {
   .subseccion-1-1 {
-    width: 88%;
+    width: 95%;
+  }
+}
+@media(width <=350px) {
+  .subseccion-1-1 {
+    width: 100%;
   }
 }
 

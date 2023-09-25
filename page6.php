@@ -324,9 +324,8 @@ include "nav2.php";
         </section>
     </section> 
     <div class="segunda-hoja">
-      <div class="subseccion-1-1 col-9 col-sm-10 col-md-9 col-lg-10 col-xl-12 ms-auto ms-xl-0 me-2 me-sm-0 me-lg-5 me-xl-0">
+      <div class="subseccion-1-1 col-11 col-sm-11 col-md-10 col-lg-12 col-xl-12 ms-2 ms-sm-5 ms-md-auto ms-lg-5 ms-xl-0 me-2 me-sm-0 me-lg-5 me-xl-0">
         <div id="swiperActivities" class="swiper">
-          
           <div class="swiper-wrapper">
             <div class="swiper-slide" id="slide1">
               <div class="subseccion-1-p6">
@@ -529,9 +528,9 @@ include "nav2.php";
               </div>
             </div>
           </div>
-          <img src="/assets/img/icons/flecha.svg" class="flecha-p6-activities" alt="flecha_derecha_activities">
+          <img src="/assets/img/icons/flecha.svg" class="flecha-p6-activities activities-flecha" alt="flecha_derecha_activities">
+          <img src="/assets/img/icons/flecha.svg" class="flecha-p6-activities-2 activities-flecha" alt="flecha_derecha_activities">
         </div>
-        <img src="/assets/img/icons/flecha.svg" class="flecha-p6-activities-2" alt="flecha_derecha_activities">
       </div>
 
 

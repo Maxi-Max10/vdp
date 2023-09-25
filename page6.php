@@ -32,43 +32,43 @@ include "nav2.php";
       <div class="swiperScroll swiper">
         <div class="swiper-wrapper" id="planWrapper">
           <div id="planImg1" class="swiper-slide">
-            <img src="assets/images/IMG_7133.JPG" class="trip-img" />
+            <img src="assets/images/IMG_7133.webp" class="trip-img" />
           </div>
           <div id="planImg2" class="swiper-slide">
-            <img src="assets/images/IMG_5017.JPG" class="trip-img" />
+            <img src="assets/images/IMG_5017.webp" class="trip-img" />
           </div>
           <div id="planImg3" class="swiper-slide">
-            <img src="assets/images/IMG_5019.JPG" class="trip-img" />
+            <img src="assets/images/IMG_5019.webp" class="trip-img" />
           </div>
           <div id="planImg4" class="swiper-slide">
-            <img src="assets/images/horseman-resize.jpg" class="trip-img" />
+            <img src="assets/images/horseman-resize.webp" class="trip-img" />
           </div>
           <div id="planImg5" class="swiper-slide">
-            <img src="assets/images/mate.jpg" class="trip-img" />
+            <img src="assets/images/mate.webp" class="trip-img" />
           </div>
           <div id="planImg6" class="swiper-slide">
-            <img src="assets/images/guitar-round.jpg" class="trip-img" />
+            <img src="assets/images/guitar-round.webp" class="trip-img" />
           </div>
           <div id="planImg7" class="swiper-slide">
             <img
-              src="assets/images/AEC242DE-9F25-4D60-9862-528A8992E37D.JPG"
+              src="assets/images/AEC242DE-9F25-4D60-9862-528A8992E37D.webp"
               class="trip-img"
             />
           </div>
           <div id="planImg8" class="swiper-slide">
             <img
-              src="assets/images/F9B9E600-148F-4DAB-ACF4-FEE9AC23E404.JPG"
+              src="assets/images/F9B9E600-148F-4DAB-ACF4-FEE9AC23E404.webp"
               class="trip-img"
             />
           </div>
           <div id="planImg9" class="swiper-slide">
             <img
-              src="assets/images/805D1E98-3ADE-4795-BDCA-73EBF09CC005.JPG"
+              src="assets/images/805D1E98-3ADE-4795-BDCA-73EBF09CC005.webp"
               class="trip-img"
             />
           </div>
           <div id="planImg10" class="swiper-slide">
-            <img src="assets/images/IMG_3025.jpeg" class="trip-img" />
+            <img src="assets/images/IMG_3025.webp" class="trip-img" />
           </div>
         </div>
       </div>
@@ -346,7 +346,7 @@ include "nav2.php";
                     <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
-                        src="./assets/images/Field_and_horses_resize.jpg"
+                        src="./assets/images/Field_and_horses_resize.webp"
                         alt="Imagen grande"
                       />
                     </div>
@@ -355,17 +355,17 @@ include "nav2.php";
                     <div class="thumbnails">
                       <img
                         class="thumbnail"
-                        src="./assets/images/Sunset_and_horses_resize.jpg"
+                        src="./assets/images/Sunset_and_horses_resize.webp"
                         alt="imagen 1"
                       />
                       <img
                         class="thumbnail"
-                        src="./assets/images/Horses_resize.jpg"
+                        src="./assets/images/Horses_resize.webp"
                         alt="imagen 2"
                         />
                         <img
                         class="thumbnail"
-                        src="./assets/images/IMG_6433_resize.jpg"
+                        src="./assets/images/IMG_6433_resize.webp"
                         alt="imagen 3"
                         />
                     </div>
@@ -395,7 +395,7 @@ include "nav2.php";
                     <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
-                        src="./assets/images/Ride.jpg"
+                        src="./assets/images/Ride.webp"
                         alt="Imagen grande"
                       />
                     </div>
@@ -404,17 +404,17 @@ include "nav2.php";
                     <div class="thumbnails">
                       <img
                         class="thumbnail"
-                        src="./assets/images/Guided_tour.jpg"
+                        src="./assets/images/Guided_tour.webp"
                         alt="imagen 1"
                       />
                       <img
                         class="thumbnail"
-                        src="./assets/images/Tour_rest.jpg"
+                        src="./assets/images/Tour_rest.webp"
                         alt="imagen 2"
                         />
                         <img
                         class="thumbnail"
-                        src="./assets/images/Sun_guided_tour.jpg"
+                        src="./assets/images/Sun_guided_tour.webp"
                         alt="imagen 3"
                         />
                     </div>
@@ -449,7 +449,7 @@ include "nav2.php";
                     <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
-                        src="./assets/images/Cycling.jpg"
+                        src="./assets/images/Cycling.webp"
                         alt="Imagen grande"
                       />
                     </div>
@@ -457,17 +457,17 @@ include "nav2.php";
                     <div class="thumbnails">
                       <img
                         class="thumbnail"
-                        src="./assets/images/Horses_and_bike.jpg"
+                        src="./assets/images/Horses_and_bike.webp"
                         alt="imagen 1"
                       />
                       <img
                         class="thumbnail"
-                        src="./assets/images/Sunset_cycling.jpg"
+                        src="./assets/images/Sunset_cycling.webp"
                         alt="imagen 2"
                         />
                         <img
                         class="thumbnail"
-                        src="./assets/images/Mountain_cycling.jpg"
+                        src="./assets/images/Mountain_cycling.webp"
                         alt="imagen 3"
                         />
                     </div>
@@ -500,7 +500,7 @@ include "nav2.php";
                     <div class="carrusel-p6">
                       <img
                         class="imagen-principal"
-                        src="./assets/images/Trekking.jpg"
+                        src="./assets/images/Trekking.webp"
                         alt="Imagen grande"
                       />
                     </div>
@@ -509,17 +509,17 @@ include "nav2.php";
                     <div class="thumbnails">
                       <img
                         class="thumbnail"
-                        src="./assets/images/Field_trekking.jpg"
+                        src="./assets/images/Field_trekking.webp"
                         alt="imagen 1"
                       />
                       <img
                         class="thumbnail"
-                        src="./assets/images/Fields_and_clouds.jpg"
+                        src="./assets/images/Fields_and_clouds.webp"
                         alt="imagen 2"
                         />
                         <img
                         class="thumbnail"
-                        src="./assets/images/Trekking_two.jpg"
+                        src="./assets/images/Trekking_two.webp"
                         alt="imagen 3"
                         />
                     </div>
@@ -544,7 +544,7 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item">
                       <img
                       class="imagen-subseccion-5"
-                      src="./assets/images/Wine_and_snow.jpg"
+                      src="./assets/images/Wine_and_snow.webp"
                       alt=""
                       />
                       <div class="parrafo-slider" >
@@ -561,12 +561,12 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item slide-item">
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/bbq.jpg"
+                        src="./assets/images/bbq.webp"
                         alt=""
                       />
                       <img
                       class="imagen-subseccion-5"
-                      src="./assets/images/lunch_and_window.jpg"
+                      src="./assets/images/lunch_and_window.webp"
                       alt=""
                     />
                   </div>
@@ -582,7 +582,7 @@ include "nav2.php";
                       </div>
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/picada.jpg"
+                        src="./assets/images/picada.webp"
                         alt=""
                       />
                     
@@ -593,12 +593,12 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item">
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/meat_on_the_grill.jpg"
+                        src="./assets/images/meat_on_the_grill.webp"
                         alt=""
                       />
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/cooking_bbq_outside.jpg"
+                        src="./assets/images/cooking_bbq_outside.webp"
                         alt=""
                       />
                     
@@ -609,7 +609,7 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item">
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/picada_inside.jpg"
+                        src="./assets/images/picada_inside.webp"
                         alt=""
                       />
                       <div class="parrafo-slider">
@@ -625,12 +625,12 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item">
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/breakfast.jpg"
+                        src="./assets/images/breakfast.webp"
                         alt=""
                       />
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/bbq_foreground.jpg"
+                        src="./assets/images/bbq_foreground.webp"
                         alt=""
                       />
                     
@@ -648,7 +648,7 @@ include "nav2.php";
                       </div>
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/WhatsApp Image 2023-09-12 at 22.26.54.jpeg"
+                        src="./assets/images/WhatsApp Image 2023-09-12 at 22.26.54.webp"
                         alt=""
                       />
                       
@@ -659,12 +659,12 @@ include "nav2.php";
                       <div class="flex-column d-flex slide-item">
                         <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/lunching_meat.jpg"
+                        src="./assets/images/lunching_meat.webp"
                         alt=""
                         />
                         <img
                           class="imagen-subseccion-5"
-                          src="./assets/images/cooking_pork.jpg"
+                          src="./assets/images/cooking_pork.webp"
                           alt=""
                         />
                       
@@ -674,7 +674,7 @@ include "nav2.php";
                       <div class="flex-column d-flex slide-item">
                         <img
                           class="imagen-subseccion-5"
-                          src="./assets/images/IMG_6330.jpeg"
+                          src="./assets/images/IMG_6330.webp"
                           alt=""
                         />
                         <div class="parrafo-slider">
@@ -696,12 +696,12 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item">
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/wine_outside.jpg"
+                        src="./assets/images/wine_outside.webp"
                         alt=""
                       />
                       <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/cooking_bbq_outside.jpg"
+                        src="./assets/images/cooking_bbq_outside.webp"
                         alt=""
                       />
                     
@@ -720,7 +720,7 @@ include "nav2.php";
                         </div>
                         <img
                         class="imagen-subseccion-5"
-                        src="./assets/images/IMG_8537.jpeg"
+                        src="./assets/images/IMG_8537.webp"
                         alt=""
                         />
                     </div>
@@ -738,14 +738,14 @@ include "nav2.php";
               <div id="accomodationImg" class="swiper-slide">
                 <img
                   class="imagen-subseccion-3-a"
-                  src="./assets/images/accomodation_resize.png"
+                  src="./assets/images/accomodation_resize.webp"
                   alt=""
                 />
               </div>
               <div id="accomodationImg2" class="swiper-slide">
                 <img
                   class="imagen-subseccion-3-a"
-                  src="./assets/images/accomodation2.jpg"
+                  src="./assets/images/accomodation2.webp"
                   alt=""
                 />
               </div>
@@ -766,7 +766,7 @@ include "nav2.php";
             </p>
             <img
               class="imagen-grande-subseccion-4"
-              src="./assets/images/croquis.jpg"
+              src="./assets/images/croquis.webp"
               alt=""
             />
           </div>
@@ -776,70 +776,70 @@ include "nav2.php";
                 <div id="croquisImg1" class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/IMG_4616.jpeg"
+                    src="./assets/images/IMG_4616.webp"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.09.48.jpeg"
+                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.09.48.webp"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/IMG_4755.JPG"
+                    src="./assets/images/IMG_4755.webp"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/IMG_6710.jpeg"
+                    src="./assets/images/IMG_6710.webp"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/IMG_6709.jpeg"
+                    src="./assets/images/IMG_6709.webp"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/IMG_6705.jpeg"
+                    src="./assets/images/IMG_6705.webp"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/IMG_6712.jpeg"
+                    src="./assets/images/IMG_6712.webp"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.09.19 (2).jpeg"
+                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.09.19 (2).webp"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.09.19 (1).jpeg"
+                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.09.19 (1).webp"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.09.19.jpeg"
+                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.09.19.webp"
                     alt=""
                   />
                 </div>
@@ -849,21 +849,21 @@ include "nav2.php";
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/IMG_4040.jpeg"
+                    src="./assets/images/IMG_4040.webp"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.29.34.jpeg"
+                    src="./assets/images/WhatsApp Image 2023-09-08 at 10.29.34.webp"
                     alt=""
                   />
                 </div>
                 <div id="croquisImg14" class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/IMG_4050 2.jpeg"
+                    src="./assets/images/IMG_4050 2.webp"
                     alt=""
                   />
                 </div>
@@ -877,21 +877,21 @@ include "nav2.php";
                 <div id="croquisImg16" class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/IMG_4493 2.jpeg"
+                    src="./assets/images/IMG_4493 2.webp"
                     alt=""
                   />
                 </div>
                 <div id="croquisImg17" class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/IMG_4518 2.jpeg"
+                    src="./assets/images/IMG_4518 2.webp"
                     alt=""
                   />
                 </div>
                 <div id="croquisImg18" class="swiper-slide">
                   <img
                     class="imagen-subseccion-4-a"
-                    src="./assets/images/IMG_8030.jpeg"
+                    src="./assets/images/IMG_8030.webp"
                     alt=""
                   />
                 </div>

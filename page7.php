@@ -55,31 +55,31 @@ include "nav2.php";
             <div id="swiperP7" class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Sailing/23715C91-E1BE-4C5C-959F-32DA2CF5E23E.JPG" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/23715C91-E1BE-4C5C-959F-32DA2CF5E23E.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                    <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize.jpg" alt="Sailing_2"></img>
+                    <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize.webp" alt="Sailing_2"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img"  src="assets/images/Imágenes Sailing/2A8895C9-0575-4035-B993-8646C43D40D5.JPG" alt="Sailing_1"></img>
+                        <img class="trip-img"  src="assets/images/Imágenes Sailing/2A8895C9-0575-4035-B993-8646C43D40D5.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize_2.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize_2.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
                         <img class="trip-img" src="assets/images/Imágenes Sailing/AB3E3451-FC8E-4AF2-A612-479FFB6F1821.JPG" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize_3.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize_3.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Sailing/56D24E53-5B1F-4AF3-8641-0ECE202A6728.JPG" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/56D24E53-5B1F-4AF3-8641-0ECE202A6728.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Sailing/sailing_women.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/sailing_women.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship.webp" alt="Sailing_1"></img>
                     </div>
                 </div>
             </div>
@@ -91,31 +91,31 @@ include "nav2.php";
             <div id="swiper2P7" class="swiper">
                 <div class="swiper-wrapper mb-0">
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mens_resize.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mens_resize.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/Motorcycle trip.jpeg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/Motorcycle trip.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mountain_resize.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mountain_resize.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/moto_men_resize.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/moto_men_resize.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/resize_moto2.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/resize_moto2.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/moto_resize.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/moto_resize.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2"  src="assets/images/Imágenes Moto/IMG_6815 2.jpeg" alt="Sailing_1"></img>
+                        <img class="trip-img-2"  src="assets/images/Imágenes Moto/IMG_6815 2.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mirror_moto.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mirror_moto.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/resize_moto.jpg" alt="Sailing_2"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/resize_moto.webp" alt="Sailing_2"></img>
                     </div>
                 </div>
             </div>
@@ -661,16 +661,16 @@ include "nav2.php";
             <div id="swiper3P7" class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Golf/golf_resize.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Golf/golf_resize.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Golf/IMG_20200224_145226381.jpeg" alt="Sailing_2"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Golf/IMG_20200224_145226381.webp" alt="Sailing_2"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img"  src="assets/images/Imágenes Golf/golfing_resize.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img"  src="assets/images/Imágenes Golf/golfing_resize.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Golf/2018-10-13.jpeg" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Golf/2018-10-13.webp" alt="Sailing_1"></img>
                     </div>
                 </div>
             </div>

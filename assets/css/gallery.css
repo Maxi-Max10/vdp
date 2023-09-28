@@ -71,7 +71,41 @@
     background-color: transparent !important;
 }
 
-  @media (min-width :768px) and (orientation: landscape){
+@media(width <=450px){
+  .grid-container{
+    display: grid;
+    max-width: 1096px;
+    grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+  }
+}
+@media(width <=399px){
+  .grid-container{
+    display: grid;
+    max-width: 1096px;
+    grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 10px;
+    padding: 10px;
+    grid-auto-flow: dense;
+  }
+}
+@media(width <=359px){
+  .grid-container{
+    display: grid;
+    max-width: 1096px;
+    grid-template-columns:repeat(auto-fill, minmax(80px, 1fr));
+    grid-auto-rows: minmax(80px, auto);
+    gap: 10px;
+    padding: 10px;
+    grid-auto-flow: dense;
+  }
+}
+
+  @media (min-width :108px){
     .wide {
         grid-column: span 2;
     }

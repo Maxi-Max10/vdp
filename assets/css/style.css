@@ -243,6 +243,16 @@ justify-content: space-between;
 .tz-gallery {
     padding: 40px;
 }
+@media(width <=450px){
+    .tz-gallery {
+        padding: 20px;
+    }
+}
+@media(width <=420px){
+    .tz-gallery {
+        padding: 10px;
+    }
+}
 
 /* Override bootstrap column paddings */
 .tz-gallery .row > div {

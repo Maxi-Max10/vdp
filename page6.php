@@ -89,7 +89,11 @@ include "nav2.php";
             <p id="plusIcon" class="plus mb-0 fw-bold ms-5 fs-4 pointer">+</p>
         </div>
         <section id="prices" class="hidden fade-slide-down">
-          <div class="timeline-container-2-p6 timeline-pc">
+          <div class="timeline-container-2-p6">
+            <div class="hour-container-2">
+                <p class="start-hour-2-p6">9:00AM</p>
+                <p class="end-hour-2-p6 ms-auto">4:00PM</p>
+            </div>
             <ul class="timeline fade-slide-down">
               <li id="circle-1" class="text-1 fade-slide-down hoverable circle-gray p1 pointer"></li>
               <li id="circle-2" class="text-2 fade-slide-down hoverable circle-gray p2 pointer"></li>
@@ -98,7 +102,7 @@ include "nav2.php";
               <li id="circle-5" class="text-5 fade-slide-down hoverable circle-gray p5 pointer"></li>
             </ul>
           </div>
-          <div class="d-flex pt-4 pb-5 timeline-pc fade-slide-down">
+          <div class="d-flex pt-4 pb-5 fade-slide-down">
               <div id="text-1" class="circle-1 hoverable gray item-itinerary d-flex flex-column">
                   <p class="pointer fade-slide-down text-item itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br> AND TEMPTING SNACKS</p>
               </div>
@@ -120,17 +124,12 @@ include "nav2.php";
               </div>
           </div>
 
-          <div class="timeline-container-2-p6 timeline-mobile">
-            <div class="hour-container-2">
-                <p class="start-hour-2">9:00AM</p>
-            </div>
-            <ul class="timeline-p7">
+            <!-- <ul class="timeline-p7">
                 <li id="circle-a" class="text-a fade-slide-down hoverable q1 circle-gray"></li>
                 <li id="circle-b" class="text-b fade-slide-down hoverable q2 circle-gray"></li>
                 <li id="circle-c" class="text-c fade-slide-down hoverable q3 circle-gray"></li>
-            </ul>
-        </div>
-        <div class="text-items-2 timeline-mobile mb-5">
+            </ul> -->
+        <!-- <div class="text-items-2 timeline-mobile mb-5">
             <div class="d-flex">
                 <div id="text-a" class="circle-a hoverable gray item-itinerary-a d-flex flex-column">
                   <p class="pointer fade-slide-down itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br class="br-itinerary"> AND TEMPTING SNACKS</p>
@@ -146,17 +145,12 @@ include "nav2.php";
                   <p class="pointer itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
                 </div>
             </div>
-        </div>
-        <div class="timeline-container-2-p6 timeline-mobile">
-            <div class="hour-container-2">
-                <p class="end-hour-2-mobile ms-auto">4:00PM</p>
-            </div>
-            <ul class="timeline-p7">
+        </div> -->
+            <!-- <ul class="timeline-p7">
                 <li id="circle-d" class="text-d fade-slide-down hoverable q4 circle-gray"></li>
                 <li id="circle-e" class="text-e fade-slide-down hoverable q5 circle-gray"></li>
-            </ul>
-        </div>
-        <div class="text-items-2 timeline-mobile">
+            </ul> -->
+        <!-- <div class="text-items-2 timeline-mobile">
             <div class="d-flex">
                 <div id="text-d" class="circle-d hoverable-p7 gray item-itinerary-d d-flex flex-column">
                   <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br class="br-itinerary"> OR RELAX IN THE HOUSE</p>
@@ -165,7 +159,7 @@ include "nav2.php";
                   <p class="pointer fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
           <div class="py-3 fade-slide-down d-flex align-items-center width-50">
               <p class="text-item itinerary-text fade-slide-down mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>

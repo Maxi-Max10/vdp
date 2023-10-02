@@ -557,6 +557,7 @@ svg {
     left: 80%;
   }
 }
+
 @media(width <=336px) {
   .flecha-p6-activities-2 {
     width: 4rem;
@@ -629,16 +630,17 @@ svg {
     top: -17rem;
     left: -3%;
     z-index: 1;
-    display:none
+    display: none
   }
 }
+
 @media (width <=449px) {
   .flecha-p6-culinary {
     width: 9rem;
     top: -17rem;
     left: -3%;
     z-index: 1;
-    display:block
+    display: block
   }
 }
 
@@ -1012,6 +1014,15 @@ svg {
   max-width: 57%;
   margin-top: 1rem;
   list-style: none;
+}
+
+@media(width <=1100px) {
+  .timeline {
+    position: relative;
+    max-width: 85%;
+    margin-top: 1rem;
+    list-style: none;
+  }
 }
 
 .timeline::before {
@@ -2234,6 +2245,7 @@ svg {
     left: 75%;
   }
 }
+
 @media(max-width:410px) {
   .next-accomodation {
     width: 8rem;
@@ -2241,6 +2253,7 @@ svg {
     left: 72%;
   }
 }
+
 @media(max-width:305px) {
   .next-accomodation {
     width: 8rem;
@@ -2306,6 +2319,7 @@ svg {
     margin-left: -5%;
   }
 }
+
 @media(max-width:375px) {
   .accomodation {
     font-size: 1.2rem;
@@ -2544,4 +2558,52 @@ svg {
   position: relative;
   top: 4rem;
   left: 0.8rem;
+}
+
+@media(width <=1100px) {
+  .item-itinerary {
+    width: 18.5%;
+  }
+
+  .item-itinerary-2 {
+    width: 18.5%;
+  }
+
+  .item-itinerary-3 {
+    width: 18%;
+  }
+
+  .item-itinerary-4 {
+    width: 18%;
+  }
+
+  .item-itinerary-5 {
+    width: 17%;
+  }
+}
+
+.end-hour-2-p6 {
+  font-family: 'Roboto-Bold';
+  margin-bottom: 0%;
+  margin-right: 40%;
+}
+
+.start-hour-2-p6 {
+  font-family: 'Roboto-Bold';
+  margin-bottom: 0%;
+  margin-left: -1%;
+}
+@media(width <= 1100px){
+  .end-hour-2-p6 {
+    font-family: 'Roboto-Bold';
+    margin-bottom: 0%;
+    margin-right: 10%;
+  }
+}
+@media(width <= 410px){
+  .end-hour-2-p6 {
+    font-family: 'Roboto-Bold';
+    margin-bottom: 0%;
+    margin-right: 5%;
+  }
 }

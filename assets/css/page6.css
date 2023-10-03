@@ -931,6 +931,40 @@ svg {
   font-family: 'Roboto-Regular';
 }
 
+.itinerary-text-x {
+  font-size: 0.65rem !important;
+  font-family: 'Roboto-Regular';
+  padding-right: 5px;
+}
+
+@media(width <=1000px) {
+  .itinerary-text-x {
+    font-size: 0.6rem !important;
+    font-family: 'Roboto-Regular';
+  }
+}
+
+@media(width <=700px) {
+  .itinerary-text-x {
+    font-size: 0.55rem !important;
+    font-family: 'Roboto-Regular';
+  }
+}
+
+@media(width <=600px) {
+  .itinerary-text-x {
+    font-size: 0.50rem !important;
+    font-family: 'Roboto-Regular';
+  }
+}
+
+@media(width <=500px) {
+  .itinerary-text-x {
+    font-size: 0.45rem !important;
+    font-family: 'Roboto-Regular';
+  }
+}
+
 .itinerary-text-half {
   font-size: 0.8rem;
   font-family: 'Roboto-Regular';
@@ -1340,7 +1374,7 @@ svg {
 }
 
 .item-itinerary-7 {
-  width: 13%;
+  width: 14%;
 }
 
 .item-itinerary-8 {
@@ -2289,6 +2323,21 @@ svg {
     display: none;
   }
 }
+@media(max-width:450px) {
+  .prev-accomodation {
+    display: block;
+    width: 8rem;
+    top: -9rem;
+    left: -8%;
+  }
+}
+@media(width <= 410px){
+  .prev-accomodation {
+    width: 8rem;
+    top: -7rem;
+    left: -10%;
+  }
+}
 
 .accomodation {
   position: absolute;
@@ -2593,17 +2642,58 @@ svg {
   margin-bottom: 0%;
   margin-left: -1%;
 }
-@media(width <= 1100px){
+
+@media(width <=450px) {
+  .start-hour-2-p6 {
+    font-family: 'Roboto-Bold';
+    margin-bottom: 0%;
+    margin-left: -1%;
+    font-size: 0.7rem;
+  }
+}
+
+@media(width <=1100px) {
   .end-hour-2-p6 {
     font-family: 'Roboto-Bold';
     margin-bottom: 0%;
     margin-right: 10%;
   }
 }
-@media(width <= 410px){
+
+@media(width <=450px) {
   .end-hour-2-p6 {
     font-family: 'Roboto-Bold';
     margin-bottom: 0%;
-    margin-right: 5%;
+    margin-right: 7%;
+    font-size: 0.7rem;
+  }
+}
+
+.end-hour-x {
+  font-family: 'Roboto-Bold';
+  margin-bottom: 0%;
+  margin-right: -4%;
+}
+
+@media(width <=730px) {
+  .end-hour-x {
+    font-family: 'Roboto-Bold';
+    margin-bottom: 0%;
+    margin-right: -8%;
+  }
+}
+
+@media(width <=450px) {
+  .end-hour-x {
+    font-family: 'Roboto-Bold';
+    margin-bottom: 0%;
+    margin-right: -8%;
+    font-size: 0.7rem;
+  }
+}
+
+@media(width <= 450px){
+  .br-culinary{
+    display: none;
   }
 }

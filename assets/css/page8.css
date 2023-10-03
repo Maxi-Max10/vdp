@@ -900,5 +900,5 @@ svg {
 }
 
 .hide-flecha{
-  display: none;
+  display: none !important;
 }

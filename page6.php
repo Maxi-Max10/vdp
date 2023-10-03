@@ -178,7 +178,11 @@ include "nav2.php";
             <p id="plusIcon2" class="plus mb-0 fw-bold ms-5 fs-4 pointer">+</p>
         </div>
         <section id="prices2" class="hidden fade-slide-down">
-          <div class="timeline-container-p6 timeline-pc">
+          <div class="timeline-container-p6">
+            <div class="hour-container">
+              <p class="start-hour">8:00AM</p>
+              <p class="end-hour-x ms-auto">6:00PM</p>
+            </div>
             <ul class="timeline-2">
               <li id="circle-6" class="text-6 fade-slide-down circle-gray hoverable c1 pointer"></li>
               <li id="circle-7" class="text-7 fade-slide-down circle-gray hoverable c2 pointer"></li>
@@ -191,44 +195,42 @@ include "nav2.php";
               <li id="circle-13-2" class="text-13-2 fade-slide-down circle-gray hoverable c8-2 pointer"></li>
             </ul>
           </div>
-            <div class="timeline-pc d-flex pt-4 pb-3">
+            <div class="d-flex pb-3">
                 <div id="text-6" class="circle-6 hoverable gray item-itinerary-6 d-flex flex-column">
-                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="WELCOME WITH COFFE <br> AND TEMPTING SNACKS">WELCOME WITH COFFE <br> AND TEMPTING SNACKS</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold" data-section="page6" data-value="WELCOME WITH COFFE <br> AND TEMPTING SNACKS">WELCOME WITH COFFE <br> AND TEMPTING SNACKS</p>
                 </div>
                 <div id="text-7" class="circle-7 hoverable gray item-itinerary-7 d-flex flex-column">
-                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="ROOMS ALOCATION">ROOMS ALOCATION</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold" data-section="page6" data-value="ROOMS ALOCATION">ROOMS ALOCATION</p>
                 </div>
                 <div id="text-8" class="circle-8 hoverable gray item-itinerary-8 d-flex flex-column">
-                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
-                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
-                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
-                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
-                    <p class="pointer fade-slide-down text-item itinerary-text fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
                 </div>
                 <div id="text-9" class="circle-9 hoverable gray item-itinerary-9 d-flex flex-column">
-                    <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
                 </div>
                 <div id="text-10" class="circle-10 hoverable gray item-itinerary-10 d-flex flex-column">
-                    <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br> OR RELAX IN THE HOUSE</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br> OR RELAX IN THE HOUSE</p>
                 </div>
                 <div id="text-11" class="circle-11 hoverable gray item-itinerary-11 d-flex flex-column">
-                    <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
                 </div>
                 <div id="text-12" class="circle-12 hoverable gray item-itinerary-12 d-flex flex-column">
-                    <p class="pointer text-item fade-slide-down itinerary-text fw-bold"data-section="page6" data-value="DINNER PREPARATION WITH OPTIONAL PARTICIPATION">DINNER PREPARATION <br>WITH OPTIONAL <br>PARTICIPATION</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold"data-section="page6" data-value="DINNER PREPARATION WITH OPTIONAL PARTICIPATION">DINNER PREPARATION <br>WITH OPTIONAL <br>PARTICIPATION</p>
                 </div>
                 <div id="text-13" class="circle-13 hoverable gray item-itinerary-13 d-flex flex-column">
-                    <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">FIREPLACE <br>GATHERING</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">FIREPLACE <br>GATHERING</p>
                 </div>
                 <div id="text-13-2" class="circle-13-2 hoverable gray item-itinerary-13 d-flex flex-column">
-                  <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="SLEEP & FOLLOWING">SLEEP & FOLLOWING<br> DAY BREAKFAST</p>
+                  <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="SLEEP & FOLLOWING">SLEEP & FOLLOWING<br> DAY BREAKFAST</p>
                 </div>
             </div>
 
-            <div class="timeline-container-p7 timeline-mobile mt-1">
-              <div class="hour-container">
-                  <p class="start-hour">8:00AM</p>
-              </div>
+            <!-- <div class="timeline-container-p7 timeline-mobile mt-1">
+              
               <ul class="timeline-2">
                   <li id="circle-f" class="text-f fade-slide-down hoverable w1 circle-gray"></li>
                   <li id="circle-g" class="text-g fade-slide-down hoverable w2 circle-gray"></li>
@@ -259,7 +261,7 @@ include "nav2.php";
           </div>
           <div class="timeline-container-p7 timeline-mobile">
               <div class="hour-container">
-                  <p class="end-hour ms-auto">6:00PM</p>
+                  
               </div>
               <ul class="timeline-2">
                   <li id="circle-j" class="text-j fade-slide-down hoverable p1 circle-gray"></li>
@@ -287,7 +289,7 @@ include "nav2.php";
                     <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="SLEEP & FOLLOWING">SLEEP & FOLLOWING<br class="br-itinerary"> DAY BREAKFAST</p>
                 </div>
               </div>
-          </div>
+          </div> -->
 
             <div class="pt-5 d-flex align-items-center width-50">
                 <p class="text-item fade-slide-down itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
@@ -531,7 +533,7 @@ include "nav2.php";
         
     
       <div class="subseccion-2">
-        <h2 class="subtitulo-subseccion-2" data-section="page6" data-value="Culinary Experience">Culinary Experience</h2>
+        <h2 class="subtitulo-subseccion-2 slide-m" data-section="page6" data-value="Culinary Experience">Culinary Experience</h2>
         <div id="swiperCulinary" class="swiper slide-m">
           <div class="swiper-wrapper ul-slider-subseccion-2">
                   <div id="slide1" class="swiper-slide">
@@ -571,7 +573,7 @@ include "nav2.php";
                       <div class="parrafo-slider">
                           <p class="parrafo" data-section="page6" data-value="2">The culinary journey is led by our 
                             talented chef who is not only an 
-                            experienced “asador” but also <br>
+                            experienced “asador” but also <br class="br-culinary">
                             a true mountain man.</p>
                       </div>
                       <img
@@ -608,8 +610,8 @@ include "nav2.php";
                       />
                       <div class="parrafo-slider">
                         <p class="parrafo" data-section="page6" data-value="3">With a deep understanding of <br> 
-                          the art of grilling our chef brings <br>
-                          a unique blend of expertise and <br>
+                          the art of grilling our chef brings <br class="br-culinary">
+                          a unique blend of expertise and <br class="br-culinary">
                           passion to each culinary creation.</p>
                     </div>
                     
@@ -634,10 +636,10 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item">
                       <div class="parrafo-slider">
                           <p class="parrafo" data-section="page6" data-value="4">While beef is the quintessential <br>
-                            choice at Vivacs del Plata, we are <br>
-                            delighted to accommodate your <br>
-                            preferences with options such as <br>
-                            lamb, pork, fish or goat, provided <br>
+                            choice at Vivacs del Plata, we are <br class="br-culinary">
+                            delighted to accommodate your <br class="br-culinary">
+                            preferences with options such as <br class="br-culinary">
+                            lamb, pork, fish or goat, provided <br class="br-culinary">
                             you inform us in advance.</p>
                       </div>
                       <img
@@ -672,15 +674,15 @@ include "nav2.php";
                           alt=""
                         />
                         <div class="parrafo-slider">
-                          <p class="parrafo p-borde" data-section="page6" data-value="5">We understand the importance <br>
-                            of catering to individual dietary <br>
-                            needs, and we are pleased to <br>
-                            offer vegetarian options for <br>
-                            guests who prefer plant-based <br>
-                            delights. Simply let us know <br>
-                            about any special dietary <br>
-                            requirements, and we will ensure <br>
-                            that your culinary experience is <br>
+                          <p class="parrafo" data-section="page6" data-value="5">We understand the importance <br>
+                            of catering to individual dietary <br class="br-culinary">
+                            needs, and we are pleased to <br class="br-culinary">
+                            offer vegetarian options for <br class="br-culinary">
+                            guests who prefer plant-based <br class="br-culinary">
+                            delights. Simply let us know <br class="br-culinary">
+                            about any special dietary <br class="br-culinary">
+                            requirements, and we will ensure <br class="br-culinary">
+                            that your culinary experience is <br class="br-culinary">
                             tailored to your preferences.</p>
                       </div>
                       
@@ -705,10 +707,10 @@ include "nav2.php";
                     <div class="flex-column d-flex slide-item">
                       <div class="parrafo-slider">
                         <p class="parrafo" data-section="page6" data-value="6">Rest assured, all of these <br>
-                          delectable dining experiences <br>
-                          are included under the daily <br>
-                          rate, allowing you to indulge <br>
-                          in a range of culinary delights <br>
+                          delectable dining experiences <br class="br-culinary">
+                          are included under the daily <br class="br-culinary">
+                          rate, allowing you to indulge <br class="br-culinary">
+                          in a range of culinary delights <br class="br-culinary">
                           without any additional cost.
                           </p>
                         </div>
@@ -753,9 +755,9 @@ include "nav2.php";
           <div class="elemento-1-subseccion-4">
             <h4 class="subtitulo-subseccion-4" data-section="page6" data-value="DISCOVER OUR NEW COUNTRY HOUSE">DISCOVER OUR NEW COUNTRY HOUSE</h4>
             <p class="parrafo-subseccion-4-1 mb-0" data-section="page6" data-value="des1">
-              Whether you're traveling <br>
-               with family or friends, our  <br> 
-               accomodations are designed  <br>
+              Whether you're traveling <br class="br-culinary">
+               with family or friends, our  <br class="br-culinary"> 
+               accomodations are designed  <br class="br-culinary">
                to cater to your every need.
             </p>
             <img

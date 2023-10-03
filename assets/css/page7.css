@@ -892,6 +892,14 @@ svg {
   margin-bottom: 0%;
   margin-left: -1%;
 }
+@media(width <= 450px){
+  .start-hour {
+    font-family: 'Roboto-Bold';
+    margin-bottom: 0%;
+    margin-left: -1%;
+    font-size: 0.7rem;
+  }
+}
 
 .end-hour {
   font-family: 'Roboto-Bold';
@@ -911,7 +919,8 @@ svg {
   .end-hour {
     font-family: 'Roboto-Bold';
     margin-bottom: 0%;
-    margin-right: 40%;
+    margin-right: 42%;
+    font-size: 0.7rem;
   }
 }
 
@@ -936,6 +945,15 @@ svg {
   margin-bottom: 0%;
   margin-left: -1%;
 }
+@media(width <= 450px){
+  .start-hour-2 {
+    font-family: 'Roboto-Bold';
+    margin-bottom: 0%;
+    margin-left: -1%;
+    font-size: 0.7rem;
+  }
+  
+}
 
 .end-hour-2 {
   font-family: 'Roboto-Bold';
@@ -955,7 +973,8 @@ svg {
   .end-hour-2 {
     font-family: 'Roboto-Bold';
     margin-bottom: 0%;
-    margin-right: -10%;
+    margin-right: -8%;
+    font-size: 0.7rem;
   }
 }
 
@@ -977,7 +996,8 @@ svg {
   .end-hour-3 {
     font-family: 'Roboto-Bold';
     margin-bottom: 0%;
-    margin-right: -10%;
+    margin-right: -8%;
+    font-size: 0.7rem;
   }
 }
 
@@ -1009,7 +1029,8 @@ svg {
   .middle-hour {
     font-family: 'Roboto-Bold';
     margin-bottom: 1.5%;
-    margin-right: 59%;
+    margin-right: 68%;
+    font-size: 0.7rem;
   }
 }
 

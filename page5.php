@@ -22,7 +22,7 @@ include "nav2.php";
 </section>
 <!-- Gallery -->
 
-<div class=" gallery-container">
+<div class="container gallery-container">
     <div class="tz-gallery">
         <div class="grid-container">
             <div class="grid-item wide tall" style="background-image: url('assets/img/Gallery_Folder/IMG_5014.JPG');"><a class="ligthbox" href="assets/img/Gallery_Folder/IMG_5014.JPG" style="width: 100%;height:100%"> </a></div>

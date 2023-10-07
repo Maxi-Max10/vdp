@@ -12,7 +12,7 @@ include "nav2.php";
       <div class="content-wrap">
         <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1" data-section="page8" data-value="Our Story">Our Story</h1>
         <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7 animate__animated animate__delay-1s animate__fadeInUp" data-section="page8" data-value="DESO1">
-          As a family-run retreat, we take immense pride <br> in our rich heritage spanning over 200 years.<br> Now, we invite you to be a part of our story <br>as we open our doors to share our culture,<br> traditions, and an array of unforgettable <br>experiences with guests from around the <br> globe.
+          As a family-run retreat, we take <br>immense pride in our rich heritage <br>spanning over 200 years. Now, we <br>invite you to be a part of our story as <br>we open our doors to share our <br>culture, traditions, and an array of<br> unforgettable experiences with guests <br>from around the globe.
         </p>
       </div>
     </div>

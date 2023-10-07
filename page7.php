@@ -1,5 +1,5 @@
 <?php 
-$campo = "All Inclusive Experience";
+$campo = "Trip Enhacements";
 include "nav2.php";
 ?>
 <section data-bs-version="5.1" class="header4 cid-tMz88lY0XA mbr-fullscreen mbr-parallax-background" id="header4-2c">
@@ -10,7 +10,7 @@ include "nav2.php";
                 <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1" data-section="page7" data-value="title1T">Trip Enhacements</h1>
 
                 <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7" data-section="page7" data-value="descrip1T">
-                    Besides the experiences at the farmstead in the heart of the Andes, Vivacs del Plata has curated a selection of extraordinary activities in other breathtaking locations throughout Mendoza. Whether you're staying with us or elsewhere, you can still participate in these captivating adventures.</p>
+                Besides the experiences at the farmstead<br> in the heart of the Andes, Vivacs del Plata<br> has curated a selection of extraordinary <br>activities in other breathtaking locations <br>throughout Mendoza. Whether you're <br>staying with us or elsewhere, you can still <br>participate in these captivating adventures.</p>
             </div>
         </div>
     </div>

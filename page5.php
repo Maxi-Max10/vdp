@@ -4,7 +4,6 @@ $campo = "Explore Our Gallery";
 include "nav2.php";
 
 ?>
-
 <link rel="stylesheet" href="assets/css/gallery.css">
 <section data-bs-version="5.1" class="header4 cid-tMlWvSr75K mbr-fullscreen mbr-parallax-background" id="header4-1x">
     

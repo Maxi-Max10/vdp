@@ -1193,12 +1193,12 @@ blockquote {
     width: 8rem;
     top: 59%;
     left: 14%;
-    transform: translate(0%, -1%);
+    transform: translate(0%, -2%);
   }
 }
 @media(width <= 323px){
   .icon-svg2-footer{
-    transform: translate(0%, -1%);
+    transform: translate(0%, -2%);
     width: 8rem;
     top: 56.5%;
     left: 14%;

@@ -212,8 +212,19 @@ function checkSwiperElement() {
       }
       break;
 
-    case windowWidth < 768:
+      case windowWidth >= 716:
       if (swiperImg9.classList.contains("swiper-slide-next")) {
+        flecha1.classList.add("hidden");
+        flecha2.classList.remove("hide-flecha");
+      }
+      if (swiperImg1.classList.contains("swiper-slide-active")) {
+        flecha1.classList.remove("hidden");
+        flecha2.classList.add("hide-flecha");
+      }
+      break;
+
+    case windowWidth <= 715:
+      if (swiperImg10.classList.contains("swiper-slide-next")) {
         flecha1.classList.add("hidden");
         flecha2.classList.remove("hide-flecha");
       }

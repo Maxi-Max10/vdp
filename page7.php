@@ -1,8 +1,6 @@
-<?php
-
-$campo = "Trip Enhacements";
+<?php 
+$campo = "All Inclusive Experience";
 include "nav2.php";
-
 ?>
 <section data-bs-version="5.1" class="header4 cid-tMz88lY0XA mbr-fullscreen mbr-parallax-background" id="header4-2c">
 
@@ -21,7 +19,7 @@ include "nav2.php";
 
 <section>
     <div class="slide-container">
-        <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-auto trip-info">
+        <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-5 trip-info">
             <h2 class="trip-title mb-5 mb-xl-5 text-center text-xl-start" data-section="page7" data-value="Sailing">Sailing</h2>
             <div class="w-0 w-xl-50 mx-auto mx-xl-0">
                 <p class="trip-paragraph mb-1 pe-0" data-section="page7" data-value="Location">
@@ -55,31 +53,31 @@ include "nav2.php";
             <div id="swiperP7" class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Sailing/23715C91-E1BE-4C5C-959F-32DA2CF5E23E.JPG" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/23715C91-E1BE-4C5C-959F-32DA2CF5E23E.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                    <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize.jpg" alt="Sailing_2"></img>
+                    <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize.webp" alt="Sailing_2"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img"  src="assets/images/Imágenes Sailing/2A8895C9-0575-4035-B993-8646C43D40D5.JPG" alt="Sailing_1"></img>
+                        <img class="trip-img"  src="assets/images/Imágenes Sailing/2A8895C9-0575-4035-B993-8646C43D40D5.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize_2.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize_2.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
                         <img class="trip-img" src="assets/images/Imágenes Sailing/AB3E3451-FC8E-4AF2-A612-479FFB6F1821.JPG" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize_3.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship_resize_3.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Sailing/56D24E53-5B1F-4AF3-8641-0ECE202A6728.JPG" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/56D24E53-5B1F-4AF3-8641-0ECE202A6728.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Sailing/sailing_women.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/sailing_women.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Sailing/ship.webp" alt="Sailing_1"></img>
                     </div>
                 </div>
             </div>
@@ -91,31 +89,31 @@ include "nav2.php";
             <div id="swiper2P7" class="swiper">
                 <div class="swiper-wrapper mb-0">
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mens_resize.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mens_resize.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/Motorcycle trip.jpeg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/Motorcycle trip.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mountain_resize.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mountain_resize.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/moto_men_resize.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/moto_men_resize.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/resize_moto2.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/resize_moto2.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/moto_resize.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/moto_resize.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2"  src="assets/images/Imágenes Moto/IMG_6815 2.jpeg" alt="Sailing_1"></img>
+                        <img class="trip-img-2"  src="assets/images/Imágenes Moto/IMG_6815 2.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mirror_moto.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/mirror_moto.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss-2">
-                        <img class="trip-img-2" src="assets/images/Imágenes Moto/resize_moto.jpg" alt="Sailing_2"></img>
+                        <img class="trip-img-2" src="assets/images/Imágenes Moto/resize_moto.webp" alt="Sailing_2"></img>
                     </div>
                 </div>
             </div>
@@ -217,28 +215,34 @@ include "nav2.php";
             <div class="hour-container">
                 <p class="start-hour">8:00AM</p>
             </div>
-            <ul class="timeline-5-p7">
-                <li id="circle-28" class="text-28 hoverable-p7 m1 circle-gray"></li>
-                <li id="circle-29" class="text-29 hoverable-p7 m2 circle-gray"></li>
-                <li id="circle-30" class="text-30 hoverable-p7 m3 circle-gray"></li>
-                <li id="circle-31" class="text-31 hoverable-p7 m4 circle-gray"></li>
+            <ul class="timeline-full-day-trip">
+                <li id="circle-28" class="text-28 hoverable-p7 p1 circle-gray"></li>
+                <li id="circle-29" class="text-29 hoverable-p7 p2 circle-gray"></li>
+                <li id="circle-30" class="text-30 hoverable-p7 p3 circle-gray"></li>
+                <li id="circle-31" class="text-31 hoverable-p7 p4 circle-gray"></li>
+                <li id="circle-32" class="text-32 hoverable-p7 p5 circle-gray"></li>
             </ul>
         </div>
         <div class="text-items timeline-mobile text-items-mobile m-t-mobile">
             <div class="d-flex">
-                <div id="text-28" class="circle-28 hoverable-p7 gray item-itinerary-28-p7 d-flex flex-column">
+                <div id="text-28" class="circle-28 hoverable-p7 gray item-itinerary-p7 d-flex flex-column">
                     <p class="itinerary-text-p7 " data-section="page7" data-value="DEPARTURE FROM<br>VIVACS DEL PLATA">DEPARTURE FROM<br class='br'>
                         VIVACS DEL PLATA
                     </p>
                 </div>
-                <div id="text-29" class="circle-29 hoverable-p7 gray item-itinerary-29-p7 d-flex flex-column">
+                <div id="text-29" class="circle-29 hoverable-p7 gray item-itinerary-p7-2 d-flex flex-column">
                     <p class="itinerary-text-p7" data-section="page7" data-value="NORTHBOUND JOURNE">NORTHBOUND JOURNEY<br class="br">TO POTRERILLOS</p>
                 </div>
-                <div id="text-30" class="circle-30 hoverable-p7 gray item-itinerary-30-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7"  data-section="page7" data-value="ROUND POTRERILLOS DAM<br>AND HEAD TO CACHEUTA">ROUND POTRERILLOS DAM<br class="br">AND HEAD TO CACHEUTA</p>
+                <div id="text-30" class="circle-30 hoverable-p7 gray item-itinerary-p7-3 d-flex flex-column">
+                    <p class="itinerary-text-p7"  data-section="page7" data-value="ROUND POTRERILLOS DAM<br>AND HEAD TO CACHEUTA">ROUND POTRERILLOS DAM<br class="br"> AND HEAD TO CACHEUTA</p>
                 </div>
-                <div id="text-31" class="circle-31 hoverable-p7 gray item-itinerary-31-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="EXPLORE VILLAVICENCIO<br>NATURAL RESERVE">EXPLORE VILLAVICENCIO<br class="br">NATURAL RESERVE</p>
+                <div id="text-31" class="circle-31 hoverable-p7 gray item-itinerary-p7-4 d-flex flex-column">
+                    <p class="itinerary-text-p7" data-section="page7" data-value="EXPLORE VILLAVICENCIO<br>NATURAL RESERVE">EXPLORE VILLAVICENCIO<br class="br"> NATURAL RESERVE</p>
+                </div>
+                <div id="text-32" class="circle-32 hoverable-p7 gray item-itinerary-p7-5 d-flex flex-column">
+                    <p class="itinerary-text-p7" >USPALLATA - PUENTE DEL INCA<br>
+                        - USPALLATA
+                    </p>
                 </div>
             </div>
         </div>
@@ -247,19 +251,13 @@ include "nav2.php";
                 <p class="end-hour ms-auto">6:00PM</p>
             </div>
             <ul class="timeline-5-p7">
-                <li id="circle-32" class="text-32 hoverable-p7 m1 circle-gray"></li>
-                <li id="circle-33" class="text-33 hoverable-p7 m2 circle-gray"></li>
-                <li id="circle-34" class="text-34 hoverable-p7 m3 circle-gray"></li>
-                <li id="circle-35" class="text-35 hoverable-p7 m4 circle-gray"></li>
+                <li id="circle-33" class="text-33 hoverable-p7 x1 circle-gray"></li>
+                <li id="circle-34" class="text-34 hoverable-p7 x2 circle-gray"></li>
+                <li id="circle-35" class="text-35 hoverable-p7 x3 circle-gray"></li>
             </ul>
         </div>
         <div class="text-items timeline-mobile text-items-mobile">
             <div class="d-flex">
-                <div id="text-32" class="circle-32 hoverable-p7 gray item-itinerary-28-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" >USPALLATA - PUENTE DEL INCA<br>
-                        - USPALLATA
-                    </p>
-                </div>
                 <div id="text-33" class="circle-33 hoverable-p7 gray item-itinerary-29-p7 d-flex flex-column">
                     <p class="itinerary-text-p7"data-section="page7" data-value="LUNCH IN USPALLATA">LUNCH IN USPALLATA
                     </p>
@@ -284,7 +282,7 @@ include "nav2.php";
         <div class="divider-vertical"></div>
             <p class="distance mb-0" data-section="page7" data-value="Distance: 311km">Distance: 311km</p>
         </div>
-        <div class="timeline-container-2-p7 timeline-pc">
+        <div class="timeline-container-2-p7">
             <div class="hour-container-2">
                 <p class="start-hour-2">9:00AM</p>
                 <p class="end-hour-2">4:00PM</p>
@@ -297,7 +295,7 @@ include "nav2.php";
                 <li id="circle-13" class="text-13 hoverable-p7 p5 circle-gray"></li>
             </ul>
         </div>
-        <div class="text-items-2 timeline-pc">
+        <div class="text-items-2">
             <div class="d-flex">
                 <div id="text-9" class="circle-9 hoverable-p7 gray item-itinerary-9-p7 d-flex flex-column">
                     <p class="itinerary-text-p7" data-section="page7" data-value="DEPARTURE FROM VIVACS<br>DEL PLATA OR MENDOZA<br>DOWNTOWN">DEPARTURE FROM VIVACS<br>DEL PLATA OR MENDOZA<br>DOWNTOWN
@@ -321,7 +319,7 @@ include "nav2.php";
                 </div>
             </div>
         </div>
-        <div class="timeline-container-2-p7 timeline-mobile">
+        <!-- <div class="timeline-container-2-p7 timeline-mobile">
             <div class="hour-container-2">
                 <p class="start-hour-2">9:00AM</p>
             </div>
@@ -367,13 +365,13 @@ include "nav2.php";
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="d-flex align-items-center w-75 w-sm-50 mt-5">
             <p class="mt-0 fw-bold distance mb-0" data-section="page7" data-value="DAY 2">DAY 2</p>
         <div class="divider-vertical"></div>
             <p class="distance mb-0" data-section="page7" data-value="Distance: 262km">Distance: 262km</p>
         </div>
-        <div class="timeline-container-2-p7 timeline-pc">
+        <div class="timeline-container-2-p7">
             <div class="hour-container-2">
                 <p class="start-hour-2">9:00AM</p>
                 <p class="end-hour-3">4:00PM</p>
@@ -387,7 +385,7 @@ include "nav2.php";
                 <li id="circle-19" class="text-19 hoverable-p7 d6 circle-gray"></li>
             </ul>
         </div>
-        <div class="text-items-2 timeline-pc">
+        <div class="text-items-2">
             <div class="d-flex">
                 <div id="text-14" class="circle-14 hoverable-p7 gray item-itinerary-14-p7 d-flex flex-column">
                     <p class="itinerary-text-p7" data-section="page7" data-value="ENJOY BREAKFAST<br>AT THE HOTEL">ENJOY BREAKFAST<br>AT THE HOTEL
@@ -415,7 +413,7 @@ include "nav2.php";
                 </div>
             </div>
         </div>
-        <div class="timeline-container-2-p7 timeline-mobile mt-1">
+        <!-- <div class="timeline-container-2-p7 timeline-mobile mt-1">
             <div class="hour-container-2">
                 <p class="start-hour-2 mb-2">9:00AM</p>
             </div>
@@ -442,11 +440,6 @@ include "nav2.php";
                 </div>
             </div>
         </div>
-        
-
-        <!-- SIGUE ACA -->
-
-
         <div class="timeline-container-2-p7 timeline-mobile">
             <div class="hour-container-2">
                 <p class="end-hour-3-mobile mb-1 ms-auto">4:00PM</p>
@@ -472,7 +465,7 @@ include "nav2.php";
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="d-flex align-items-center w-75 w-sm-50 mt-5">
             <p class="mt-0 fw-bold distance mb-0" data-section="page7" data-value="DAY 3">DAY 3</p>
             <div class="divider-vertical"></div>
@@ -534,28 +527,34 @@ include "nav2.php";
         <div class="timeline-container-p7 timeline-mobile mt-1">
             <div class="hour-container">
                 <p class="start-hour">8:00AM</p>
+                <p class="middle-hour">9:00AM</p>
             </div>
-            <ul class="timeline-5-p7">
-                <li id="circle-43" class="text-43 hoverable-p7 m1 circle-gray"></li>
-                <li id="circle-44" class="text-44 hoverable-p7 m2 circle-gray"></li>
-                <li id="circle-45" class="text-45 hoverable-p7 m3 circle-gray"></li>
-                <li id="circle-46" class="text-46 hoverable-p7 m4 circle-gray"></li>
+            <ul class="timeline-full-day-trip">
+                <li id="circle-43" class="text-43 hoverable-p7 p1 circle-gray"></li>
+                <li id="circle-44" class="text-44 hoverable-p7 p2 circle-gray"></li>
+                <li id="circle-45" class="text-45 hoverable-p7 p3 circle-gray"></li>
+                <li id="circle-46" class="text-46 hoverable-p7 p4 circle-gray"></li>
+                <li id="circle-47" class="text-47 hoverable-p7 p5 circle-gray"></li>
             </ul>
         </div>
         <div class="text-items timeline-mobile text-items-mobile m-t-mobile-2">
             <div class="d-flex">
-                <div id="text-43" class="circle-43 hoverable-p7 gray item-itinerary-28-p7 d-flex flex-column">
+                <div id="text-43" class="circle-43 hoverable-p7 gray item-itinerary-p7 d-flex flex-column">
                     <p class="itinerary-text-p7 " data-section="page7" data-value="START THE DAY WITH<br>BREAKFAST AT THE HOTEL">START THE DAY WITH<br class="br">BREAKFAST AT THE HOTEL
                     </p>
                 </div>
-                <div id="text-44" class="circle-44 hoverable-p7 gray item-itinerary-29-p7 d-flex flex-column">
+                <div id="text-44" class="circle-44 hoverable-p7 gray item-itinerary-p7-2 d-flex flex-column">
                     <p class="itinerary-text-p7" data-section="page7" data-value="DEPART FROM HOTEL<br>MALARGUE">DEPART FROM HOTEL<br class="br">MALARGUE</p>
                 </div>
-                <div id="text-45" class="circle-45 hoverable-p7 gray item-itinerary-30-p7 d-flex flex-column">
+                <div id="text-45" class="circle-45 hoverable-p7 gray item-itinerary-p7-3 d-flex flex-column">
                     <p class="itinerary-text-p7" data-section="page7" data-value="HEAD NORTHBOUND<br>TO EL SOSNEADO">HEAD NORTHBOUND<br class="br">TO EL SOSNEADO</p>
                 </div>
-                <div id="text-46" class="circle-46 hoverable-p7 gray item-itinerary-31-p7 d-flex flex-column">
+                <div id="text-46" class="circle-46 hoverable-p7 gray item-itinerary-p7-4 d-flex flex-column">
                     <p class="itinerary-text-p7" data-section="page7" data-value="TAKE ROUTE 144<br>TO EL NIHUIL">TAKE ROUTE 144<br class="br">TO EL NIHUIL</p>
+                </div>
+                <div id="text-47" class="circle-47 hoverable-p7 gray item-itinerary-p7-5 d-flex flex-column">
+                    <p class="itinerary-text-p7" data-section="page7" data-value="EXPLORE VALLE GRANDE">EXPLORE VALLE GRANDE
+                    </p>
                 </div>
             </div>
         </div>
@@ -564,18 +563,13 @@ include "nav2.php";
                 <p class="end-hour ms-auto">6:00PM</p>
             </div>
             <ul class="timeline-5-p7">
-                <li id="circle-47" class="text-47 hoverable-p7 m1 circle-gray"></li>
-                <li id="circle-48" class="text-48 hoverable-p7 m2 circle-gray"></li>
-                <li id="circle-49" class="text-49 hoverable-p7 m3 circle-gray"></li>
-                <li id="circle-50" class="text-50 hoverable-p7 m4 circle-gray"></li>
+                <li id="circle-48" class="text-48 hoverable-p7 x1 circle-gray"></li>
+                <li id="circle-49" class="text-49 hoverable-p7 x2 circle-gray"></li>
+                <li id="circle-50" class="text-50 hoverable-p7 x3 circle-gray"></li>
             </ul>
         </div>
         <div class="text-items timeline-mobile text-items-mobile mb-5">
             <div class="d-flex">
-                <div id="text-47" class="circle-47 hoverable-p7 gray item-itinerary-28-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="EXPLORE VALLE GRANDE">EXPLORE VALLE GRANDE
-                    </p>
-                </div>
                 <div id="text-48" class="circle-48 hoverable-p7 gray item-itinerary-29-p7 d-flex flex-column">
                     <p class="itinerary-text-p7" data-section="page7" data-value="LUNCH AT SAN RAFAEL">LUNCH AT SAN RAFAEL
                     </p>
@@ -661,16 +655,16 @@ include "nav2.php";
             <div id="swiper3P7" class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Golf/golf_resize.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Golf/golf_resize.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Golf/IMG_20200224_145226381.jpeg" alt="Sailing_2"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Golf/IMG_20200224_145226381.webp" alt="Sailing_2"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img"  src="assets/images/Imágenes Golf/golfing_resize.jpg" alt="Sailing_1"></img>
+                        <img class="trip-img"  src="assets/images/Imágenes Golf/golfing_resize.webp" alt="Sailing_1"></img>
                     </div>
                     <div class="swiper-slide ss">
-                        <img class="trip-img" src="assets/images/Imágenes Golf/2018-10-13.jpeg" alt="Sailing_1"></img>
+                        <img class="trip-img" src="assets/images/Imágenes Golf/2018-10-13.webp" alt="Sailing_1"></img>
                     </div>
                 </div>
             </div>
@@ -680,6 +674,6 @@ include "nav2.php";
 </section>
 <?php
 
-include "footer2.php";
+include "footer2.php"
 
 ?>

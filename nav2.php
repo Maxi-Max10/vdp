@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="Mobirise v5.8.14, mobirise.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<!--<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
@@ -21,7 +21,9 @@
 <link rel="manifest" href="favicon/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#ffffff">-->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta name="description" content="">
     <title>Vivacs del Plata | <?php print $campo ?></title>
     <link rel="stylesheet" href="assets/css/normalize.css">

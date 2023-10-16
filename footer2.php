@@ -18,9 +18,9 @@
             <div class="col-12 col-md-6 col-lg-3 text-center text-md-end footer-edit">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <ul class="list mbr-fonts-style display-5">
-                <a href="gallery"><li class="mbr-text item-wrap" data-section="nav" data-value="gallery">Gallery</li></a>
-                    <a href="fac"><li class="mbr-text item-wrap" data-section="nav" data-value="FAC">FAQ´s</li></a>
-                    <a href="contact-us"><li class="mbr-text item-wrap" data-section="nav" data-value="contact">Contact</li></a>
+                <a href="gallery"><li class="mbr-text item-wrap" data-section="nav" data-value="gallery"><?php echo $palabras ['nav']['gallery']; ?></li></a>
+                    <a href="fac"><li class="mbr-text item-wrap" data-section="nav" data-value="FAC"><?php echo $palabras ['nav']['FAC']; ?></li></a>
+                    <a href="contact-us"><li class="mbr-text item-wrap" data-section="nav" data-value="contact"><?php echo $palabras ['nav']['contact']; ?></li></a>
                 </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
@@ -62,8 +62,7 @@
             <div class="col-12 col-md-12 copyright text-center">
             <div class="col-md-12 copyright">
                 <p class="mbr-text mbr-fonts-style display-4" data-section="nav" data-value="todos">
-                &copy;<script>document.write(new Date().getFullYear());</script> Vivacs del Plata - All Rights Reserved&nbsp; &nbsp;Terms &amp; Conditions&nbsp;
-                    &nbsp; Privacy Policy</p>
+                <?php echo $palabras ['nav']['todos']; ?></p>
             </div>
         </div>
     </div>

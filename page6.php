@@ -10,12 +10,9 @@ include "nav2.php";
     <div class="container">
         <div class="row">
             <div class="content-wrap">
-                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"data-section="page6" data-value="title1A">All Inclusive Experience</h1>
+                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"data-section="page6" data-value="title1A"><?php echo $palabras ['page6']['title1A']; ?></h1>
 
-                <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7" data-section="page6" data-value="descrip1A">
-                    We strive to make your experience <br>effortless and unforgettable. From <br>horseback riding through
-                    rolling hills to <br>hiking along picturesque trails, you can <br>discover enchanting landscapes at your <br>own pace.
-                    Engage in exciting farm tours, <br>learn about our traditional practices, or <br>simply relax amidst the serenity of nature.
+                <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7" data-section="page6" data-value="descrip1A"><?php echo $palabras ['page6']['descrip1A']; ?>
                 </p>
             </div>
         </div>
@@ -25,8 +22,8 @@ include "nav2.php";
 <section>
   <div class="slider-plan margin-slider-top">
     <div class="plan">
-      <p class="plan-title" data-section="page6" data-value="title2A">PLAN YOUR STAY</p>
-      <p class="plan-text" data-section="page6" data-value="descrip2A">Whether you seek adventure <br>or relaxation, Vivacs del Plata <br> is the perfect retreat.</p>
+      <p class="plan-title" data-section="page6" data-value="title2A"><?php echo $palabras ['page6']['title2A']; ?></p>
+      <p class="plan-text" data-section="page6" data-value="descrip2A"><?php echo $palabras ['page6']['descrip2A']; ?></p>
     </div>
     <div class="col-10 col-xl-8 col-xxl-7 ms-auto me-xl-0">
       <div class="swiperScroll swiper">
@@ -80,12 +77,12 @@ include "nav2.php";
      
      <section class="itinerary-section">
         <div class="d-flex align-items-center justify-content-between itinerary">
-            <h2 class="itinerary-title" data-section="page6" data-value="title3A">SAMPLE ITINERARY</h2>
-            <a class="btn btn-inquire btn-outline-dark me-5" href="page4.php" data-section="page6" data-value="inquireA">INQUIRE</a>
+            <h2 class="itinerary-title" data-section="page6" data-value="title3A"><?php echo $palabras ['page6']['title3A']; ?></h2>
+            <a class="btn btn-inquire btn-outline-dark me-5" href="page4.php" data-section="page6" data-value="inquireA"><?php echo $palabras ['page6']['inquireA']; ?></a>
         </div>
         <div class="divider mt-3"></div>
         <div id="itinerary" class="d-flex align-items-center width-50">
-            <h6 class="itinerary-subtitle my-3 fw-bold pointer" data-section="page6" data-value="COUNTRY RETREAT DAILY EXPERIENCE">COUNTRY RETREAT DAILY EXPERIENCE</h6>
+            <h6 class="itinerary-subtitle my-3 fw-bold pointer" data-section="page6" data-value="COUNTRY RETREAT DAILY EXPERIENCE"><?php echo $palabras ['page6']['COUNTRY RETREAT DAILY EXPERIENCE']; ?></h6>
             <p id="plusIcon" class="plus mb-0 fw-bold ms-5 fs-4 pointer">+</p>
         </div>
         <section id="prices" class="hidden fade-slide-down">
@@ -104,23 +101,23 @@ include "nav2.php";
           </div>
           <div class="d-flex pt-4 pb-5 fade-slide-down">
               <div id="text-1" class="circle-1 hoverable gray item-itinerary d-flex flex-column">
-                  <p class="pointer fade-slide-down text-item itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS">WELCOME WITH COFFEE <br> AND TEMPTING SNACKS</p>
+                  <p class="pointer fade-slide-down text-item itinerary-text fw-bold"data-section="page6" data-value="WELCOME WITH COFFEE <br> AND TEMPTING SNACKS"><?php echo $palabras ['page6']['title1A']; ?></p>
               </div>
               <div id="text-2" class="circle-2 hoverable gray item-itinerary-2 d-flex flex-column">
-                  <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
-                  <p class="pointer text-item fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
-                  <p class="pointer text-item fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
-                  <p class="pointer text-item fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
-                  <p class="pointer text-item fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
+                  <p class="pointer text-item fade-slide-down itinerary-text fw-bold" data-section="page6" data-value="MORNING ADVENTURE"><?php echo $palabras ['page6']['MORNING ADVENTURE']; ?></p>
+                  <p class="pointer text-item fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Horseback riding"><?php echo $palabras ['page6']['Horseback riding']; ?></p>
+                  <p class="pointer text-item fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade"><?php echo $palabras ['page6']['4x4 off-road escapade']; ?></p>
+                  <p class="pointer text-item fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Cycling"><?php echo $palabras ['page6']['Cycling']; ?></p>
+                  <p class="pointer text-item fade-slide-down itinerary-text pb-1 fw-bold mb-0" data-section="page6" data-value="Trekking expedition"><?php echo $palabras ['page6']['Trekking expedition']; ?></p>
               </div>
               <div id="text-3" class="circle-3 hoverable gray item-itinerary-3 d-flex flex-column">
-                  <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
+                  <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="LUNCH"><?php echo $palabras ['page6']['LUNCH']; ?></p>
               </div>
               <div id="text-4" class="circle-4 hoverable gray item-itinerary-4 d-flex flex-column">
-                  <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br> OR RELAX IN THE HOUSE</p>
+                  <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE"><?php echo $palabras ['page6']['AFTERNOON OUTING <br> OR RELAX IN THE HOUSE']; ?></p>
               </div>
               <div id="text-5" class="circle-5 hoverable gray item-itinerary-5 d-flex flex-column">
-                  <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+                  <p class="pointer fade-slide-down text-item itinerary-text fw-bold" data-section="page6" data-value="EA TIME BY 6PM"><?php echo $palabras ['page6']['EA TIME BY 6PM']; ?></p>
               </div>
           </div>
 
@@ -161,20 +158,20 @@ include "nav2.php";
             </div>
         </div> -->
 
-          <div class="py-3 fade-slide-down d-flex align-items-center width-50">
-              <p class="text-item itinerary-text fade-slide-down mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
+                    <div class="py-3 fade-slide-down d-flex align-items-center width-50">
+              <p class="text-item itinerary-text fade-slide-down mb-0 roboto-medium" data-section="page6" data-value="Base 4"><?php echo $palabras ['page6']['Base 4']; ?></p>
                 <div class="divider-light fade-slide-down ms-3 p-end"></div>
-              <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold">USD 250 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
+              <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold">USD 250 </span><span class="italic" data-section="page6" data-value="per guest"><?php echo $palabras ['page6']['per guest']; ?></span></p>
           </div>
           <div class="pb-5 fade-slide-down d-flex align-items-center width-50">
-              <p class="me-1 text-item fade-slide-down itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
+              <p class="me-1 text-item fade-slide-down itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4"><?php echo $palabras ['page6']['Base +4']; ?></p>
                 <div class="divider-light fade-slide-down"></div>
-              <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold">USD 210 </span><span class="italic" data-section="page6" data-value="per guest">per guest</span></p>
+              <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold">USD 210 </span><span class="italic" data-section="page6" data-value="per guest"><?php echo $palabras ['page6']['per guest']; ?></span></p>
           </div>
         </section>
         <div class=" divider mt-2"></div>
         <div id="itinerary2" class="d-flex align-items-center width-50">
-            <h6 class="itinerary-subtitle my-3 fw-bold pointer" data-section="page6" data-value="COUNTRY RETREAT AND OVERNIGHT EXPERIENCE">COUNTRY RETREAT AND OVERNIGHT EXPERIENCE</h6>
+            <h6 class="itinerary-subtitle my-3 fw-bold pointer" data-section="page6" data-value="COUNTRY RETREAT AND OVERNIGHT EXPERIENCE"><?php echo $palabras ['page6']['COUNTRY RETREAT AND OVERNIGHT EXPERIENCE']; ?></span></h6>
             <p id="plusIcon2" class="plus mb-0 fw-bold ms-5 fs-4 pointer">+</p>
         </div>
         <section id="prices2" class="hidden fade-slide-down">
@@ -197,35 +194,35 @@ include "nav2.php";
           </div>
             <div class="d-flex pb-3">
                 <div id="text-6" class="circle-6 hoverable gray item-itinerary-6 d-flex flex-column">
-                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold" data-section="page6" data-value="WELCOME WITH COFFE <br> AND TEMPTING SNACKS">WELCOME WITH COFFE <br> AND TEMPTING SNACKS</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold" data-section="page6" data-value="WELCOME WITH COFFE <br> AND TEMPTING SNACKS"><?php echo $palabras ['page6']['WELCOME WITH COFFE <br> AND TEMPTING SNACKS']; ?></p>
                 </div>
                 <div id="text-7" class="circle-7 hoverable gray item-itinerary-7 d-flex flex-column">
-                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold" data-section="page6" data-value="ROOMS ALOCATION">ROOMS ALOCATION</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold" data-section="page6" data-value="ROOMS ALOCATION"><?php echo $palabras ['page6']['ROOMS ALOCATION']; ?></p>
                 </div>
                 <div id="text-8" class="circle-8 hoverable gray item-itinerary-8 d-flex flex-column">
-                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold" data-section="page6" data-value="MORNING ADVENTURE">MORNING ADVENTURE</p>
-                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold mb-0" data-section="page6" data-value="Horseback riding">Horseback riding</p>
-                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade">4x4 off-road escapade</p>
-                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold mb-0" data-section="page6" data-value="Cycling">Cycling</p>
-                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold mb-0" data-section="page6" data-value="Trekking expedition">Trekking expedition</p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold" data-section="page6" data-value="MORNING ADVENTURE"><?php echo $palabras ['page6']['MORNING ADVENTURE']; ?></p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold mb-0" data-section="page6" data-value="Horseback riding"><?php echo $palabras ['page6']['Horseback riding']; ?></p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold mb-0" data-section="page6" data-value="4x4 off-road escapade"><?php echo $palabras ['page6']['4x4 off-road escapade']; ?></p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold mb-0" data-section="page6" data-value="Cycling"><?php echo $palabras ['page6']['Cycling']; ?></p>
+                    <p class="pointer fade-slide-down text-item itinerary-text-x fw-bold mb-0" data-section="page6" data-value="Trekking expedition"><?php echo $palabras ['page6']['Trekking expedition']; ?></p>
                 </div>
                 <div id="text-9" class="circle-9 hoverable gray item-itinerary-9 d-flex flex-column">
-                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="LUNCH">LUNCH</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="LUNCH"><?php echo $palabras ['page6']['LUNCH']; ?></p>
                 </div>
                 <div id="text-10" class="circle-10 hoverable gray item-itinerary-10 d-flex flex-column">
-                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE">AFTERNOON OUTING <br> OR RELAX IN THE HOUSE</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="AFTERNOON OUTING <br> OR RELAX IN THE HOUSE"><?php echo $palabras ['page6']['AFTERNOON OUTING <br> OR RELAX IN THE HOUSE']; ?></p>
                 </div>
                 <div id="text-11" class="circle-11 hoverable gray item-itinerary-11 d-flex flex-column">
-                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="EA TIME BY 6PM">TEA TIME BY 6PM</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="EA TIME BY 6PM"><?php echo $palabras ['page6']['EA TIME BY 6PM']; ?></p>
                 </div>
                 <div id="text-12" class="circle-12 hoverable gray item-itinerary-12 d-flex flex-column">
-                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold"data-section="page6" data-value="DINNER PREPARATION WITH OPTIONAL PARTICIPATION">DINNER PREPARATION <br>WITH OPTIONAL <br>PARTICIPATION</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold"data-section="page6" data-value="DINNER PREPARATION WITH OPTIONAL PARTICIPATION"><?php echo $palabras ['page6']['DINNER PREPARATION WITH OPTIONAL PARTICIPATION']; ?></p>
                 </div>
                 <div id="text-13" class="circle-13 hoverable gray item-itinerary-13 d-flex flex-column">
-                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="FIREPLACE GATHERING">FIREPLACE <br>GATHERING</p>
+                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="FIREPLACE GATHERING"><?php echo $palabras ['page6']['FIREPLACE GATHERING']; ?>/p>
                 </div>
                 <div id="text-13-2" class="circle-13-2 hoverable gray item-itinerary-13 d-flex flex-column">
-                  <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="SLEEP & FOLLOWING">SLEEP & FOLLOWING<br> DAY BREAKFAST</p>
+                  <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="SLEEP & FOLLOWING"><?php echo $palabras ['page6']['SLEEP & FOLLOWING']; ?></p>
                 </div>
             </div>
 
@@ -292,30 +289,28 @@ include "nav2.php";
           </div> -->
 
             <div class="pt-5 d-flex align-items-center width-50">
-                <p class="text-item fade-slide-down itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4">Base 4</p>
+                <p class="text-item fade-slide-down itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4"><?php echo $palabras ['page6']['Base 4']; ?></p>
                 <div class="divider-light fade-slide-down ms-3 p-end"></div>
-                <p class="text-item fade-slide-down itinerary-text mb-0"><span class="itinerary-text text-item fw-bold">USD 450</span><span class="italic text-item" data-section="page6" data-value="per guest"> per guest</span></p>
+                <p class="text-item fade-slide-down itinerary-text mb-0"><span class="itinerary-text text-item fw-bold">USD 450</span><span class="italic text-item" data-section="page6" data-value="per guest"> <?php echo $palabras ['page6']['per guest']; ?></span></p>
             </div>
             <div class="pb-5 pt-3 d-flex align-items-center width-50">
-                <p class="me-1 fade-slide-down text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4">Base +4</p>
+                <p class="me-1 fade-slide-down text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4"><?php echo $palabras ['page6']['Base +4']; ?></p>
                 <div class="divider-light fade-slide-down"></div>
-                <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold">USD 400</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span></p>
+                <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold">USD 400</span><span class="italic" data-section="page6" data-value="per guest"> <?php echo $palabras ['page6']['per guest']; ?></span></p>
             </div>
         </section>
         <div class=" divider mt-2"></div>
         <div id="itinerary3" class="d-flex align-items-center w-50">
-            <h6 class="pointer itinerary-subtitle my-3 fw-bold" data-section="page6" data-value="HALF DAY">HALF DAY</h6>
+            <h6 class="pointer itinerary-subtitle my-3 fw-bold" data-section="page6" data-value="HALF DAY"><?php echo $palabras ['page6']['HALF DAY']; ?></h6>
             <p id="plusIcon3" class="plus mb-0 fw-bold ms-5 pointer fs-4">+</p>
         </div>
         <section id="prices3" class="fade-slide-down hidden">
-            <p class="itinerary-text-half lh-sm width-50 fade-slide-down" data-section="page6" data-value="Halfday1">
-                Short on time? Experience a taste of the Argentinian countryside with our flexible <br> outing package. Choose an activity accompanied by delightful wine in the Heights <br>and delicious bites.
+            <p class="itinerary-text-half lh-sm width-50 fade-slide-down" data-section="page6" data-value="Halfday1"><?php echo $palabras ['page6']['Halfday1']; ?>
             </p>
-            <p class="itinerary-text-half width-50 fade-slide-down" data-section="page6" data-value="Halfday2">
-                Our half day experience lasts no more than 4 hours allowing you to seamlessly <br> fit into your morning morning or afternoon schedule.
+            <p class="itinerary-text-half width-50 fade-slide-down" data-section="page6" data-value="Halfday2"><?php echo $palabras ['page6']['Halfday2']; ?>
             </p>
             <p class="itinerary-text-half lh-sm pt-3 fade-slide-down">
-                <span class="fw-bold half-day-price">USD 150</span><span class="italic" data-section="page6" data-value="per guest"> per guest</span>
+                <span class="fw-bold half-day-price">USD 150</span><span class="italic" data-section="page6" data-value="per guest"> <?php echo $palabras ['page6']['per guest']; ?></span>
             </p>
         </section>
     </section> 
@@ -326,18 +321,13 @@ include "nav2.php";
             <div class="swiper-slide" id="slide1">
               <div class="subseccion-1-p6">
                 <div class="elemento-1 text-start">
-                  <h2 class="h2-subseccion-1-1" data-section="page6" data-value="HORSEBACK RIDING">HORSEBACK RIDING</h2>
+                  <h2 class="h2-subseccion-1-1" data-section="page6" data-value="HORSEBACK RIDING"><?php echo $palabras ['page6']['HORSEBACK RIDING']; ?></h2>
                   <div class="divisor-1 mx-xl-0"></div>
-                  <p class="parrafo-subseccion-1-1" data-section="page6" data-value="horseback descrip">
-                    Experiencie the thrill of our guest-favorite horseback riding tour! <br class="br-carrusel">
-                    Let us guide you through 400 hectares of Vivacs del Plata, where you'll encounter diverse
-                    flora and fauna, surrounded by the natural beauty of the mountains.
-                    Choose between a short ride of 45 minutes or opt <br class="br-carrusel"> for the long option, which takes you
-                    on a captivating journey lasting 3 hours.
+                  <p class="parrafo-subseccion-1-1" data-section="page6" data-value="horseback descrip"><?php echo $palabras ['page6']['horseback descrip']; ?>
                   </p>
                 </div>
                 <div class="elemento-2">
-                  <h2 class="h2-subseccion-1-2 roboto-regular text-start" data-section="page6" data-value="Activities">Activities</h2>
+                  <h2 class="h2-subseccion-1-2 roboto-regular text-start" data-section="page6" data-value="Activities"><?php echo $palabras ['page6']['Activities']; ?></h2>
                   <div class="carrusel-container-p6">
                     <div class="carrusel-p6">
                       <img
@@ -372,21 +362,13 @@ include "nav2.php";
             <div class="swiper-slide" id="slide2">
               <div class="subseccion-1-p6">
                 <div class="elemento-1 text-start">
-                  <h2 class="h2-subseccion-1-1" data-section="page6" data-value="4X4 GUIDED TOUR">4X4 GUIDED TOUR</h2>
+                  <h2 class="h2-subseccion-1-1" data-section="page6" data-value="4X4 GUIDED TOUR"><?php echo $palabras ['page6']['4X4 GUIDED TOUR']; ?></h2>
                   <div class="divisor-1 mx-xl-0"></div>
-                  <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajode4x4">
-                    Sit back and relax as our <br class="br-carrusel">
-                      experienced drivers take <br class="br-carrusel">
-                      you on a guided 4x4 tour of <br class="br-carrusel"> 
-                      Vivacs del Plata. Explore the <br class="br-carrusel">
-                      vast landscape, from the <br class="br-carrusel">
-                      ranch itself to the majestic <br class="br-carrusel">
-                      mountains, all from the <br class="br-carrusel">
-                      comfort of your seat.
+                  <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajode4x4"><?php echo $palabras ['page6']['debajode4x4']; ?>
                   </p>
                 </div>
                 <div class="elemento-2">
-                  <h2 class="h2-subseccion-1-2 roboto-regular text-start" data-section="page6" data-value="Activities">Activities</h2>
+                  <h2 class="h2-subseccion-1-2 roboto-regular text-start" data-section="page6" data-value="Activities"><?php echo $palabras ['page6']['Activities']; ?></h2>
                   <div class="carrusel-container-p6">
                     <div class="carrusel-p6">
                       <img
@@ -421,26 +403,14 @@ include "nav2.php";
             <div class="swiper-slide" id="slide3">
               <div class="subseccion-1-p6">
                 <div class="elemento-1 text-start">
-                  <h2 class="h2-subseccion-1-1" data-section="page6" data-value="CYCLING">CYCLING</h2>
+                  <h2 class="h2-subseccion-1-1" data-section="page6" data-value="CYCLING"><?php echo $palabras ['page6']['CYCLING']; ?></h2>
                   <div class="divisor-1 mx-xl-0"></div>
-                  <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajodecicl">
-                    For an unparalleled cycling <br class="br-carrusel">
-                    experience in nature at an <br class="br-carrusel">
-                    altitude of 2,100 meters above <br class="br-carrusel">
-                    sea level, Vivacs del Plata is <br class="br-carrusel">
-                    a dream come true. While it <br class="br-carrusel">
-                    can be challenging at times, <br class="br-carrusel">
-                    the rewards of cycling in the <br class="br-carrusel">
-                    Andes are truly worth the effort. <br class="br-carrusel">
-                    Our knowledgeable guide will <br class="br-carrusel">
-                    accompany you and select the <br class="br-carrusel">
-                    trail that best matches your <br class="br-carrusel">
-                    ability.
+                  <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajodecicl"><?php echo $palabras ['page6']['debajodecicl']; ?>
                   </p>
                 </div>
         
                 <div class="elemento-2">
-                  <h2 class="h2-subseccion-1-2 roboto-regular text-start" data-section="page6" data-value="Activities">Activities</h2>
+                  <h2 class="h2-subseccion-1-2 roboto-regular text-start" data-section="page6" data-value="Activities"><?php echo $palabras ['page6']['Activities']; ?></h2>
                   <div class="carrusel-container-p6">
                     <div class="carrusel-p6">
                       <img
@@ -474,24 +444,15 @@ include "nav2.php";
             <div class="swiper-slide" id="slide4">
               <div class="subseccion-1-p6">
                 <div class="elemento-1 text-start">
-                  <h2 class="h2-subseccion-1-1" data-section="page6" data-value="TREKKING">TREKKING</h2>
+                  <h2 class="h2-subseccion-1-1" data-section="page6" data-value="TREKKING"><?php echo $palabras ['page6']['TREKKING']; ?></h2>
                   <div class="divisor-1 mx-xl-0"></div>
-                  <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajodetrekk">
-                    Unleash your adventurous spirit <br class="br-carrusel">
-                    and immerse yourself in nature <br class="br-carrusel">
-                    by embarking on a trekking <br class="br-carrusel">
-                    adventure through the prairies <br class="br-carrusel">
-                    and hills of Vivacs del Plata. <br class="br-carrusel">
-                    It's an excellent opportunity 
-                    to<br class="br-carrusel"> find tranquility and engage in <br class="br-carrusel">
-                    meditation. You can request a <br class="br-carrusel">
-                    guide or, go exploring by yourself.
+                  <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajodetrekk"><?php echo $palabras ['page6']['debajodetrekk']; ?>
 
                   </p>
                 </div>
         
                 <div class="elemento-2">
-                  <h2 class="h2-subseccion-1-2 roboto-regular text-start" data-section="page6" data-value="Activities">Activities</h2>
+                  <h2 class="h2-subseccion-1-2 roboto-regular text-start" data-section="page6" data-value="Activities"><?php echo $palabras ['page6']['Activities']; ?></h2>
                   <div class="carrusel-container-p6">
                     <div class="carrusel-p6">
                       <img
@@ -533,7 +494,7 @@ include "nav2.php";
         
     
       <div class="subseccion-2">
-        <h2 class="subtitulo-subseccion-2 slide-m" data-section="page6" data-value="Culinary Experience">Culinary Experience</h2>
+        <h2 class="subtitulo-subseccion-2 slide-m" data-section="page6" data-value="Culinary Experience"><?php echo $palabras ['page6']['Culinary Experience']; ?></h2>
         <div id="swiperCulinary" class="swiper slide-m">
           <div class="swiper-wrapper ul-slider-subseccion-2">
                   <div id="slide1" class="swiper-slide">
@@ -544,11 +505,7 @@ include "nav2.php";
                       alt=""
                       />
                       <div class="parrafo-slider" >
-                          <p data-section="page6" data-value="1" class="parrafo">Whether you crave traditional 
-                            Argentinean barbecue, fresh 
-                            vegetables, or exquisite local 
-                            wines, every meal is a celebration 
-                            of our rich gastronomic heritage.</p>
+                          <p data-section="page6" data-value="1" class="parrafo"><?php echo $palabras ['page6']['1']; ?></p>
                       </div>
                   </div>
                   </div>
@@ -571,10 +528,7 @@ include "nav2.php";
                   <div id="slide3" class="swiper-slide">
                     <div class="flex-column d-flex slide-item">
                       <div class="parrafo-slider">
-                          <p class="parrafo" data-section="page6" data-value="2">The culinary journey is led by our 
-                            talented chef who is not only an 
-                            experienced “asador” but also <br class="br-culinary">
-                            a true mountain man.</p>
+                          <p class="parrafo" data-section="page6" data-value="2"><?php echo $palabras ['page6']['2']; ?></p>
                       </div>
                       <img
                         class="imagen-subseccion-5"
@@ -609,10 +563,7 @@ include "nav2.php";
                         alt=""
                       />
                       <div class="parrafo-slider">
-                        <p class="parrafo" data-section="page6" data-value="3">With a deep understanding of <br> 
-                          the art of grilling our chef brings <br class="br-culinary">
-                          a unique blend of expertise and <br class="br-culinary">
-                          passion to each culinary creation.</p>
+                        <p class="parrafo" data-section="page6" data-value="3"><?php echo $palabras ['page6']['3']; ?></p>
                     </div>
                     
                   </div>
@@ -635,12 +586,7 @@ include "nav2.php";
                   <div id="slide7" class="swiper-slide">
                     <div class="flex-column d-flex slide-item">
                       <div class="parrafo-slider">
-                          <p class="parrafo" data-section="page6" data-value="4">While beef is the quintessential <br>
-                            choice at Vivacs del Plata, we are <br class="br-culinary">
-                            delighted to accommodate your <br class="br-culinary">
-                            preferences with options such as <br class="br-culinary">
-                            lamb, pork, fish or goat, provided <br class="br-culinary">
-                            you inform us in advance.</p>
+                          <p class="parrafo" data-section="page6" data-value="4"><?php echo $palabras ['page6']['4']; ?></p>
                       </div>
                       <img
                         class="imagen-subseccion-5"
@@ -674,16 +620,7 @@ include "nav2.php";
                           alt=""
                         />
                         <div class="parrafo-slider">
-                          <p class="parrafo" data-section="page6" data-value="5">We understand the importance <br>
-                            of catering to individual dietary <br class="br-culinary">
-                            needs, and we are pleased to <br class="br-culinary">
-                            offer vegetarian options for <br class="br-culinary">
-                            guests who prefer plant-based <br class="br-culinary">
-                            delights. Simply let us know <br class="br-culinary">
-                            about any special dietary <br class="br-culinary">
-                            requirements, and we will ensure <br class="br-culinary">
-                            that your culinary experience is <br class="br-culinary">
-                            tailored to your preferences.</p>
+                          <p class="parrafo" data-section="page6" data-value="5"><?php echo $palabras ['page6']['5']; ?></p>
                       </div>
                       
                     </div>
@@ -706,12 +643,7 @@ include "nav2.php";
                   <div id="slide11" class="swiper-slide">
                     <div class="flex-column d-flex slide-item">
                       <div class="parrafo-slider">
-                        <p class="parrafo" data-section="page6" data-value="6">Rest assured, all of these <br>
-                          delectable dining experiences <br class="br-culinary">
-                          are included under the daily <br class="br-culinary">
-                          rate, allowing you to indulge <br class="br-culinary">
-                          in a range of culinary delights <br class="br-culinary">
-                          without any additional cost.
+                        <p class="parrafo" data-section="page6" data-value="6"><?php echo $palabras ['page6']['6']; ?>
                           </p>
                         </div>
                         <img
@@ -728,7 +660,7 @@ include "nav2.php";
       </div>
   
         <div class="subseccion-3">
-          <h3 class="accomodation" data-section="page6" data-value="Accomodation">Accomodation</h3>
+          <h3 class="accomodation" data-section="page6" data-value="Accomodation"><?php echo $palabras ['page6']['Accomodation']; ?></h3>
           <div class="swiper-accomodation swiper">
             <div id="accomodation-wrapper" class="swiper-wrapper">
               <div id="accomodationImg" class="swiper-slide">
@@ -753,12 +685,9 @@ include "nav2.php";
   
         <div class="subseccion-4">
           <div class="elemento-1-subseccion-4">
-            <h4 class="subtitulo-subseccion-4" data-section="page6" data-value="DISCOVER OUR NEW COUNTRY HOUSE">DISCOVER OUR NEW COUNTRY HOUSE</h4>
+            <h4 class="subtitulo-subseccion-4" data-section="page6" data-value="DISCOVER OUR NEW COUNTRY HOUSE"><?php echo $palabras ['page6']['DISCOVER OUR NEW COUNTRY HOUSE']; ?></h4>
             <p class="parrafo-subseccion-4-1 mb-0" data-section="page6" data-value="des1">
-              Whether you're traveling <br class="br-culinary">
-               with family or friends, our  <br class="br-culinary"> 
-               accomodations are designed  <br class="br-culinary">
-               to cater to your every need.
+            <?php echo $palabras ['page6']['title1A']; ?>
             </p>
             <img
               class="imagen-grande-subseccion-4"
@@ -897,8 +826,7 @@ include "nav2.php";
             <img src="/assets/img/icons/flecha.svg" class="flecha-p6-croquis" alt="flecha_derecha_3">
             <img src="/assets/img/icons/flecha.svg" class="flecha-p6-prev-croquis hide-flecha" alt="flecha_izquierda_3">
             <p class="parrafo-subseccion-4-2" data-section="page6" data-value="des2">
-              Each space is meticulously designed to provide a haven of tranquility,  <br class="croquis-br">
-              offering panoramic views that will take your breath away.
+            <?php echo $palabras ['page6']['title1A']; ?>
             </p>
           </div>
         </div>
@@ -912,13 +840,10 @@ include "nav2.php";
             <a href="https://www.tripadvisor.com.ar/Attraction_Review-g664097-d25241616-Reviews-Vivacs_Del_Plata-Tupungato_Province_of_Mendoza_Cuyo.html" target="_blank">
             <h3 class="h3-subseccion-5-name">BOB B</h3>
             <h3 class="h3-subseccion-5" data-section="page6" data-value="A Dream Come True">
-              A Dream Come True
+            <?php echo $palabras ['page6']['A Dream Come True']; ?>
             </h3>
             <p class="parrafo-subseccion-5" data-section="page6" data-value="n1">
-              Our day in Vivacs del Plata in early  <br>
-              January has got to be one of the best  <br>
-              experiences that my wife and I have  <br>
-              ever been on...
+            <?php echo $palabras ['page6']['n1']; ?>
             </p>
             </a>
           </div>
@@ -932,13 +857,10 @@ include "nav2.php";
                         
             <h3 class="h3-subseccion-5-name">FERNANDA M</h3>
             <h3 class="h3-subseccion-5" data-section="page6" data-value="Fun Tupungato Adventure!">
-              Fun Tupungato Adventure!
+            <?php echo $palabras ['page6']['Fun Tupungato Adventure!']; ?>
             </h3>
             <p class="parrafo-subseccion-5" data-section="page6" data-value="n2">
-              We wanted a escape from wine country  <br>
-              and a chance to see the spectacular  <br>
-              Andes mountains and experience an  <br>
-              authentic Mendocino barbecue...
+            <?php echo $palabras ['page6']['n2']; ?>
             </p>
             </a>
           </div>

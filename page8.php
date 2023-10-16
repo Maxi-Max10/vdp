@@ -10,9 +10,8 @@ include "nav2.php";
   <div class="container">
     <div class="row">
       <div class="content-wrap mt-2">
-        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1" data-section="page8" data-value="Our Story">Our Story</h1>
-        <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7 animate__animated animate__delay-1s animate__fadeInUp" data-section="page8" data-value="DESO1">
-          As a family-run retreat, we take <br>immense pride in our rich heritage <br>spanning over 200 years. Now, we <br>invite you to be a part of our story as <br>we open our doors to share our <br>culture, traditions, and an array of<br> unforgettable experiences with guests <br>from around the globe.
+        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1" data-section="page8" data-value="Our Story"><?php echo $palabras ['page8']['Our Story']; ?></h1>
+        <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7 animate__animated animate__delay-1s animate__fadeInUp" data-section="page8" data-value="DESO1"><?php echo $palabras ['page8']['DESO1']; ?>
         </p>
       </div>
     </div>
@@ -22,23 +21,17 @@ include "nav2.php";
 
 <section>
     <div class="container">
-        <h2 class="mt-5 mb-4 text-center text-lg-start title" data-section="page8" data-value="YOUR HOST FAMILY">YOUR HOST FAMILY</h2>
+        <h2 class="mt-5 mb-4 text-center text-lg-start title" data-section="page8" data-value="YOUR HOST FAMILY"><?php echo $palabras ['page8']['YOUR HOST FAMILY']; ?></h2>
         <div class="row">
             <div class="col-12 col-lg-8 mb-3 mb-lg-0">
                 <img src="./assets/images/foto familia 2.jpg" alt="image" class="responsive-img host-img" width="100rem" height="400rem"></img>
             </div>
             <div class="col-12 col-lg-3 text-center text-md-start mt-3 mt-md-auto px-3 px-sm-0">
                 <p class="family-text" data-section="page8" data-value="DESO2">
-                    Steeped in history and nestled in the 
-                    heart of The Andes, Vivacs del Plata 
-                    offers an exclusive escape like no other.
+                <?php echo $palabras ['page8']['DESO2']; ?>
                 </p>
                 <p class="family-text" data-section="page8" data-value="DESO3">        
-                    Our family, including Fabián, Carolina, 
-                    Juan Cruz, Sofía, and Camila Palma, 
-                    personally oversee every detail of your 
-                    stay, ensuring that warmth and genuine 
-                    hospitality are woven into every moment
+                <?php echo $palabras ['page8']['DESO3']; ?>
                 </p>
             </div>
         </div>
@@ -94,15 +87,11 @@ include "nav2.php";
         <div class="row d-flex flex-column-reverse flex-lg-row">
             <div class="px-3 px-sm-0 col-12 col-lg-4 mt-3 mt-md-auto text-center text-lg-start">
                 <p class="the-ranch-text" data-section="page8" data-value="DESO5">
-                    Vivacs del Plata is a family-<br class="the-ranch-br">
-                    owned ranch situated in<br class="the-ranch-br">
-                    “La Carrera”, a hidden gem<br class="the-ranch-br">
-                    in the Andes Mountain range<br class="the-ranch-br">
-                    in Mendoza, Argentina
+                <?php echo $palabras ['page8']['DESO5']; ?>
                 </p>            
             </div>
             <div class="col-12 col-lg-8 justify-content-center">
-                <h2 class="text-center text-lg-start mt-0 mt-xl-5 mb-4 title" data-section="page8" data-value="THE RANCH">THE RANCH</h2>
+                <h2 class="text-center text-lg-start mt-0 mt-xl-5 mb-4 title" data-section="page8" data-value="THE RANCH"><?php echo $palabras ['page8']['THE RANCH']; ?></h2>
                 <img src="assets/images/The ranch.jpeg" 
                 alt="image" class="responsive-img ranch-img host-img"></img>
             </div>
@@ -128,12 +117,12 @@ include "nav2.php";
                     </div>
                 </div>
                 <div id="cardTitle" class="d-flex align-items-center justify-content-center">
-                    <h5 class="my-3 title-card pointer" data-section="page8" data-value="ANIMAL BREEDING">ANIMAL BREEDING</h5>
+                    <h5 class="my-3 title-card pointer" data-section="page8" data-value="ANIMAL BREEDING"><?php echo $palabras ['page8']['ANIMAL BREEDING']; ?></h5>
                     <p id="cardIcon" class="plus1 mb-0 fw-bold ms-auto fs-5 transition pt-3 pointer">+</p>
                 </div>
                 <div class="divider mb-2"></div>
                 <div id="textoDesplegable" class="hidden fade-slide-down">
-                    <p class="text-card my-3 fade-slide-down" data-section="page8" data-value="AS1"  style="text-align:justify">We are proud to raise high-quality Aberdeen Angus and Hereford cattle, ensuring the finest breeds on our land at Vivacs del Plata. While previously focused solely on our cattle operations, we have recently opened our doors to guests, offering them a unique opportunity to witness our passion for animal husbandry firsthand.</p>
+                    <p class="text-card my-3 fade-slide-down" data-section="page8" data-value="AS1"  style="text-align:justify"><?php echo $palabras ['page8']['AS1']; ?></p>
                 </div>
                 <div class="swiper" id="swiper2P8">
                     <div class="swiper-wrapper">
@@ -152,15 +141,13 @@ include "nav2.php";
                     </div>
                 </div>
                 <div id="cardTitle2" class="d-flex align-items-center justify-content-center">
-                    <h5 class="my-3 title-card pointer" data-section="page8" data-value="CROPS">CROPS</h5>
+                    <h5 class="my-3 title-card pointer" data-section="page8" data-value="CROPS"><?php echo $palabras ['page8']['CROPS']; ?></h5>
                     <p id="cardIcon2" class="plus2 mb-0 fw-bold ms-auto fs-5 transition pointer">+</p>
                 </div>
                 <div class="divider mb-2"></div>
                 <div id="textoDesplegable2" class="hidden fade-slide-down">
                     <p class="text-card my-3 fade-slide-down" data-section="page8" data-value="AS2" style="text-align:justify">
-                        At Vivacs del Plata, we are not only stewards 
-                        of animals but also cultivators of the land. Our fields flourish with an array of crops including 
-                        potatoes, peas, and rye.
+                    <?php echo $palabras ['page8']['AS2']; ?>
                     </p>
                 </div>
             </div>
@@ -186,12 +173,12 @@ include "nav2.php";
                         </div>
                     </div>
                 <div id="cardTitle3" class="d-flex align-items-center justify-content-center">
-                    <h5 class="my-3 title-card pointer" data-section="page8" data-value="HORSES">HORSES</h5>
+                    <h5 class="my-3 title-card pointer" data-section="page8" data-value="HORSES"><?php echo $palabras ['page8']['HORSES']; ?></h5>
                     <p id="cardIcon3" class="plus3 mb-0 fw-bold ms-auto fs-5 transition pointer">+</p>
                 </div>
                 <div class="divider mb-2"></div>
                 <div id="textoDesplegable3" class="hidden fade-slide-down">
-                    <p class="text-card my-3" data-section="page8" data-value="AS3"  style="text-align:justify">Within our picturesque estate, we maintain a cherished herd of  12 tame horses. These majestic creatures hold a special place in our hearts, and we take great pride in their well-being. With gentle care and a deep bond, we ensure our horses thrive in their natural environment, offering guests the opportunity to engage in memorable horseback riding experiences amidst the stunning mountain landscape.</p>
+                    <p class="text-card my-3" data-section="page8" data-value="AS3"  style="text-align:justify"><?php echo $palabras ['page8']['AS3']; ?></p>
                 </div>
                     <div class="swiper" id="swiper4P8">
                         <div class="swiper-wrapper">
@@ -210,12 +197,12 @@ include "nav2.php";
                         </div>
                     </div>
                 <div id="cardTitle4" class="d-flex align-items-center justify-content-center">
-                    <h5 class="my-3 title-card pointer" data-section="page8" data-value="PETS">PETS</h5>
+                    <h5 class="my-3 title-card pointer" data-section="page8" data-value="PETS"><?php echo $palabras ['page8']['PETS']; ?></h5>
                     <p id="cardIcon4" class="plus4 mb-0 fw-bold ms-auto fs-5 transition pointer">+</p>
                 </div>
                 <div class="divider mb-2"></div>
                 <div id="textoDesplegable4" class="hidden fade-slide-down" >
-                    <p class="text-card my-3 fade-slide-down" data-section="page8" data-value="AS4"  style="text-align:justify">In our family, the love for animals extends beyond our livestock. Meet Lucho, Roco, and Picardía, our three beloved dogs who bring boundless joy and playfulness to the ranch. Their wagging tails add warmth to our guests' experience. <br>And let's not forget El Gordo, our friendly feline companion who roams the estate, captivating everyone with his charm. <br>These furry friends complete our close-knit family and are always ready to offer a warm welcome to our visitors.</p>
+                    <p class="text-card my-3 fade-slide-down" data-section="page8" data-value="AS4"  style="text-align:justify"><?php echo $palabras ['page8']['AS4']; ?></p>
                 </div>
             </div>
         </div>

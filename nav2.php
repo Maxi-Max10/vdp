@@ -1,3 +1,20 @@
+<?php
+
+session_start();
+if (isset($_SESSION['lang'])) {
+    $idioma = $_SESSION['lang'];
+}else{
+    $idioma = 'en';
+}
+
+$archivo = file_exists("languages/$idioma.json")?
+                        "languages/$idioma.json":
+                        "languages/en.json";
+
+$contenido = file_get_contents($archivo);
+$palabras = json_decode($contenido, true);
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +22,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="Mobirise v5.8.14, mobirise.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
@@ -70,11 +87,17 @@
                     </span>
                 </div>
                 <ul class="nav col-auto mb-2 justify-content-center mb-md-0 col-1-margin"  id="flags">
-                    <li id="closeLi" class="nav-item hidden responsive-nav"><a id="close" class="nav-link padding-x link-light tes text-nav"data-section="nav" data-value="cerrar">CLOSE</a></li>
-                    <li id="li1" class="nav-item flags responsive-nav es" ><a id="tes-1" data-language="es" class="nav-link padding-x link-light tes text-nav flags__item" >ES</a></li>
+                    <li id="closeLi" class="nav-item hidden responsive-nav"><a id="close" class="nav-link padding-x link-light tes text-nav"data-section="nav" data-value="cerrar"><?php echo $palabras ['nav']['cerrar']; ?></a></li>
+                    <!--
+                        <li id="li1" class="nav-item flags responsive-nav es" ><a id="tes-1" data-language="es" class="nav-link padding-x link-light tes text-nav flags__item" >ES</a></li>
                     <li id="separator" class="nav-link padding-x link-light tes text-nav responsive-nav separator-top" style="top: -6px;">|</li>
                     <li id="li2" class="nav-item flags responsive-nav en"><a id="tes-2" data-language="en"  class="nav-link padding-x link-light tes text-nav flags__item">EN</a></li>
-                    <li id="li3" class="nav-item responsive-nav cont"><a id="tes-3" href="contact-us" class="nav-link padding-x link-light tes text-nav" data-section="nav" data-value="CONTACTMAY">CONTACT</a></li>
+                    -->
+                    <li id="li1" class="nav-item flags responsive-na " ><a href="lang.php?l=es" id="tes-1"  class="nav-link padding-x link-light tes text-nav" >ES</a></li>
+                    <li id="separator" class="nav-link padding-x link-light tes text-nav responsive-nav separator-top" style="top: -6px;">|</li>
+                    <li id="li2" class="nav-item flags responsive-nav"><a href="lang.php?l=en" id="tes-2"  class="nav-link padding-x link-light tes text-nav">EN</a></li>
+
+                    <li id="li3" class="nav-item responsive-nav cont"><a id="tes-3" href="contact-us" class="nav-link padding-x link-light tes text-nav" data-section="nav" data-value="CONTACTMAY"><?php echo $palabras ['nav']['CONTACTMAY']; ?></a></li>
                     <li class="ms-2 responsive-nav burger-negative"> <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <div class="hamburger">
                                 <span id="burger-1" class="tes-2"></span>
@@ -91,21 +114,19 @@
                         <div class="fade-slide-down row fuente-Vidaloka fs-2 fw-normal justify-content-around mt-3 mt-sm-5" data-app-modern-menu="true">
                             <div class="col-12 col-sm-7 col-1-padding">
                                 <ul class="no-bullets dropdown-transition ul-1-padding">
-                                    <li id="nav-href-1" class="fs-3 fs-sm-1 dropdown-transition vidaloka-nav  menu-vidaloka"><a href="our-story" style="line-height: 2"  class="text-decoration-none link-light" data-section="nav" data-value="ourStory">Our Story</a></li>
-                                    <li id="nav-href-2" class="fs-3 fs-sm-1 dropdown-transition  menu-vidaloka"><a href="all-inclusive-experience" style="line-height: 2" class="text-decoration-none link-light all-inclusive vidaloka-nav"data-section="nav" data-value="allInclusive">All-Inclusive
-                                            Experience</a></li>
-                                    <li id="nav-href-3" class="fs-3 fs-sm-1 dropdown-transition  menu-vidaloka"><a href="getting-here" style="line-height: 2" class="text-decoration-none link-light vidaloka-nav"data-section="nav" data-value="gettinghere">Getting Here</a>
+                                    <li id="nav-href-1" class="fs-3 fs-sm-1 dropdown-transition vidaloka-nav  menu-vidaloka"><a href="our-story" style="line-height: 2"  class="text-decoration-none link-light" data-section="nav" data-value="ourStory"><?php echo $palabras ['nav']['ourStory']; ?></a></li>
+                                    <li id="nav-href-2" class="fs-3 fs-sm-1 dropdown-transition  menu-vidaloka"><a href="all-inclusive-experience" style="line-height: 2" class="text-decoration-none link-light all-inclusive vidaloka-nav"data-section="nav" data-value="allInclusive"><?php echo $palabras ['nav']['allInclusive']; ?></a></li>
+                                    <li id="nav-href-3" class="fs-3 fs-sm-1 dropdown-transition  menu-vidaloka"><a href="getting-here" style="line-height: 2" class="text-decoration-none link-light vidaloka-nav"data-section="nav" data-value="gettinghere"><?php echo $palabras ['nav']['gettinghere']; ?></a>
                                     </li>
-                                    <li id="nav-href-4" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="trip-enhancements" style="line-height: 2"  class="text-decoration-none link-light vidaloka-nav "data-section="nav" data-value="tripEnhancements">Trip
-                                            Enhancements</a></li>
+                                    <li id="nav-href-4" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="trip-enhancements" style="line-height: 2"  class="text-decoration-none link-light vidaloka-nav "data-section="nav" data-value="tripEnhancements"><?php echo $palabras ['nav']['tripEnhancements']; ?></a></li>
                                 </ul>
                             </div>
 
                             <div class="col-12 col-sm-5 col-2-padding">
                                 <ul class="list-unstyled dropdown-transition ul-2-padding">
-                                    <li id="nav-href-5" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="gallery" style="line-height: 2"  class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gallery">Gallery</a></li>
-                                    <li id="nav-href-6" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="fac" style="line-height: 2"  class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="FAC">FAQ´s </a></li>
-                                    <li id="nav-href-7" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="contact-us" style=""  class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact">Contact</a></li>
+                                    <li id="nav-href-5" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="gallery" style="line-height: 2"  class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="gallery"><?php echo $palabras ['nav']['gallery']; ?></a></li>
+                                    <li id="nav-href-6" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="fac" style="line-height: 2"  class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="FAC"><?php echo $palabras ['nav']['FAC']; ?></a></li>
+                                    <li id="nav-href-7" class="fs-3 fs-sm-1 dropdown-transition menu-vidaloka"><a href="contact-us" style=""  class="text-decoration-none link-light vidaloka-nav" data-section="nav" data-value="contact"><?php echo $palabras ['nav']['contact']; ?></a></li>
                                 </ul>
                                 <div id="nav-href-8" class="social-row display-5 nav col-md-5 justify-content-start ">
                                     <div class="soc-item ms-2 icon-index2">

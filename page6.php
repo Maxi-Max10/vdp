@@ -363,7 +363,7 @@ include "nav2.php";
               <div class="subseccion-1-p6">
                 <div class="elemento-1 text-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="4X4 GUIDED TOUR"><?php echo $palabras ['page6']['4X4 GUIDED TOUR']; ?></h2>
-                  <div class="divisor-1 mx-xl-0"></div>
+                  <div class="divisor-1 mx-xl-0"></div> <!-- ACA MAXI ESTOS TEXTOS SE DEFORMAN CON EL <BR> -->
                   <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajode4x4"><?php echo $palabras ['page6']['debajode4x4']; ?>
                   </p>
                 </div>
@@ -404,7 +404,7 @@ include "nav2.php";
               <div class="subseccion-1-p6">
                 <div class="elemento-1 text-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="CYCLING"><?php echo $palabras ['page6']['CYCLING']; ?></h2>
-                  <div class="divisor-1 mx-xl-0"></div>
+                  <div class="divisor-1 mx-xl-0"></div> <!-- ACA MAXI ESTOS TEXTOS SE DEFORMAN CON EL <BR> -->
                   <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajodecicl"><?php echo $palabras ['page6']['debajodecicl']; ?>
                   </p>
                 </div>
@@ -445,7 +445,7 @@ include "nav2.php";
               <div class="subseccion-1-p6">
                 <div class="elemento-1 text-start">
                   <h2 class="h2-subseccion-1-1" data-section="page6" data-value="TREKKING"><?php echo $palabras ['page6']['TREKKING']; ?></h2>
-                  <div class="divisor-1 mx-xl-0"></div>
+                  <div class="divisor-1 mx-xl-0"></div><!-- ACA MAXI ESTOS TEXTOS SE DEFORMAN CON EL <BR> -->
                   <p class="parrafo-subseccion-1-1" data-section="page6" data-value="debajodetrekk"><?php echo $palabras ['page6']['debajodetrekk']; ?>
 
                   </p>

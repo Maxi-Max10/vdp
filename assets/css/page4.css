@@ -3,6 +3,20 @@
   margin: 2.5rem auto;
   width: 100%;
 }
+.contact-title{
+  font-size: 1.5rem;
+}
+@media(width <= 1200px){
+  .input-container {
+    position: relative;
+    margin: 1.5rem auto;
+    width: 100%;
+  }
+  .contact-title{
+    font-size: 1rem;
+  }
+}
+
 
 .input-container input[type="text"] {
   font-size: 20px;

@@ -16,7 +16,16 @@
 
 @media(max-width:1200px) {
   .subseccion-2 {
-    margin-top: 6rem;
+    margin-top: -25rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 4rem;
+  }
+}
+@media(max-width:780px) {
+  .subseccion-2 {
+    margin-top: -15rem;
     width: 100%;
     margin-right: auto;
     margin-left: auto;

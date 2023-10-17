@@ -32,7 +32,7 @@ include "nav2.php"
               </span>
             </div>
           </div> -->
-        <h5 data-section="page4" data-value="descrip2" class="roboto-regular" style="line-height: 1.2;">
+        <h5 data-section="page4" data-value="descrip2" class="roboto-regular contact-title" style="line-height: 1.2;">
         <?php echo $palabras ['page4']['descrip2']; ?>
         </h5>
         <div id="mensajeC"></div>

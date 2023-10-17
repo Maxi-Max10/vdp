@@ -121,7 +121,7 @@ include "nav2.php";
             <img id="swiper-button-prev2-p7" src="/assets/img/icons/flecha.svg" class="flecha-2-p7-prev" alt="flecha_svg">
         </div>
         <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-auto trip-info-2">
-            <h2 class="trip-title2 mb-5 mt-5 mt-xl-0 mb-xl-5 text-center text-xl-start" data-section="page7" data-value="Motorcycle road trip">Motorcycle road trip</h2>
+            <h2 class="trip-title2 mb-5 mt-5 mt-xl-0 mb-xl-5 text-xl-start" data-section="page7" data-value="Motorcycle road trip">Motorcycle road trip</h2>
             <div class="w-0 w-xl-50 mx-auto mx-xl-0">
                 <p class="trip-paragraph mb-1" data-section="page7" data-value="Mendoza province and surroundings">
                     <span class="fw-bold">Location:</span> Mendoza province and surroundings
@@ -590,7 +590,7 @@ include "nav2.php";
     </section>
     <div class="slide-container">
         <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-auto trip-info mb-3 mb-xl-auto">
-            <h2 class="trip-title mb-3 mb-xl-5 text-center text-xl-start" data-section="page7" data-value="Golf outing">Golf outing</h2>
+            <h2 class="trip-title mb-3 mb-xl-5 text-xl-start" data-section="page7" data-value="Golf outing">Golf outing</h2>
             <div class="w-100 w-xl-50 mx-auto mx-xl-0">
                 <div class="d-flex align-items-end">
                     <div class="col-11">

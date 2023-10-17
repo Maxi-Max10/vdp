@@ -361,6 +361,16 @@
     margin-bottom: 10rem;
   }
 }
+@media(width <=450px) {
+  .slide-container-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -7rem;
+    margin-bottom: 10rem;
+  }
+}
 
 .trip-slide {
   --swiffy-slider-item-gap-totalwidth: 0.5rem !important

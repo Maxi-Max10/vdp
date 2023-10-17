@@ -156,6 +156,14 @@ const swiper2P7 = new Swiper("#swiper2P7", {
       slidesPerView: 1,
       spaceBetween: -70,
     },
+    400: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    450: {
+      slidesPerView: 2,
+      spaceBetween: -20,
+    },
     511: {
       slidesPerView: 2,
       spaceBetween: 10,

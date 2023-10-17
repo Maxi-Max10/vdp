@@ -668,7 +668,7 @@ include "nav2.php";
                     </div>
                 </div>
             </div>
-            <img id="swiper-button-next3-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7" alt="flecha2_svg">
+            <img id="swiper-button-next3-p7" src="/assets/img/icons/flecha2.svg" class="flecha-1-p7 no_animated" alt="flecha2_svg">
         </div>
     </div>
 </section>

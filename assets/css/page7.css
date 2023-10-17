@@ -2216,7 +2216,7 @@ svg {
   position: relative;
   width: 12rem;
   z-index: 1;
-  transform: translate(48vw, -418%);
+  transform: translate(48vw, -245%);
 }
 
 @media(width <=1768px) {
@@ -2225,7 +2225,7 @@ svg {
     position: relative;
     width: 12rem;
     z-index: 1;
-    transform: translate(47vw, -399%);
+    transform: translate(47vw, -230%);
   }
 }
 
@@ -2235,7 +2235,7 @@ svg {
     position: relative;
     width: 12rem;
     z-index: 1;
-    transform: translate(47vw, -372%);
+    transform: translate(47vw, -220%);
   }
 }
 
@@ -2244,17 +2244,16 @@ svg {
     position: relative;
     width: 12rem;
     z-index: 1;
-    transform: translate(52vw, -372%);
+    transform: translate(52vw, -215%);
   }
 }
 
 @media(width <=1300px) {
-
   .flecha-1-p7 {
     position: relative;
     width: 12rem;
     z-index: 1;
-    transform: translate(53vw, -364%);
+    transform: translate(53vw, -210%);
   }
 }
 

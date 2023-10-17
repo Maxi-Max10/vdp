@@ -2697,3 +2697,7 @@ svg {
     display: none;
   }
 }
+
+.price-text{
+  font-size: 1rem;
+}

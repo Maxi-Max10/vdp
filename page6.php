@@ -159,14 +159,14 @@ include "nav2.php";
         </div> -->
 
                     <div class="py-3 fade-slide-down d-flex align-items-center width-50">
-              <p class="text-item itinerary-text fade-slide-down mb-0 roboto-medium" data-section="page6" data-value="Base 4"><?php echo $palabras ['page6']['Base 4']; ?></p>
+              <p class="text-item itinerary-text fade-slide-down mb-0 roboto-medium price-text" data-section="page6" data-value="Base 4"><?php echo $palabras ['page6']['Base 4']; ?></p>
                 <div class="divider-light fade-slide-down ms-3 p-end"></div>
-              <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold">USD 250 </span><span class="italic" data-section="page6" data-value="per guest"><?php echo $palabras ['page6']['per guest']; ?></span></p>
+              <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold price-text">USD 250 </span><span class="italic" data-section="page6" data-value="per guest"><?php echo $palabras ['page6']['per guest']; ?></span></p>
           </div>
           <div class="pb-5 fade-slide-down d-flex align-items-center width-50">
-              <p class="me-1 text-item fade-slide-down itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4"><?php echo $palabras ['page6']['Base +4']; ?></p>
+              <p class="me-1 text-item fade-slide-down itinerary-text mb-0 roboto-medium price-text" data-section="page6" data-value="Base +4"><?php echo $palabras ['page6']['Base +4']; ?></p>
                 <div class="divider-light fade-slide-down"></div>
-              <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold">USD 210 </span><span class="italic" data-section="page6" data-value="per guest"><?php echo $palabras ['page6']['per guest']; ?></span></p>
+              <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold price-text">USD 210 </span><span class="italic" data-section="page6" data-value="per guest"><?php echo $palabras ['page6']['per guest']; ?></span></p>
           </div>
         </section>
         <div class=" divider mt-2"></div>
@@ -289,14 +289,14 @@ include "nav2.php";
           </div> -->
 
             <div class="pt-5 d-flex align-items-center width-50">
-                <p class="text-item fade-slide-down itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base 4"><?php echo $palabras ['page6']['Base 4']; ?></p>
+                <p class="text-item fade-slide-down itinerary-text mb-0 roboto-medium price-text" data-section="page6" data-value="Base 4"><?php echo $palabras ['page6']['Base 4']; ?></p>
                 <div class="divider-light fade-slide-down ms-3 p-end"></div>
-                <p class="text-item fade-slide-down itinerary-text mb-0"><span class="itinerary-text text-item fw-bold">USD 450</span><span class="italic" data-section="page6" data-value="per guest"> <?php echo $palabras ['page6']['per guest']; ?></span></p>
+                <p class="text-item fade-slide-down itinerary-text mb-0"><span class="price-text fw-bold">USD 450</span><span class="italic" data-section="page6" data-value="per guest"> <?php echo $palabras ['page6']['per guest']; ?></span></p>
             </div>
             <div class="pb-5 pt-3 d-flex align-items-center width-50">
-                <p class="me-1 fade-slide-down text-item itinerary-text mb-0 roboto-medium" data-section="page6" data-value="Base +4"><?php echo $palabras ['page6']['Base +4']; ?></p>
+                <p class="me-1 fade-slide-down text-item itinerary-text mb-0 roboto-medium price-text" data-section="page6" data-value="Base +4"><?php echo $palabras ['page6']['Base +4']; ?></p>
                 <div class="divider-light fade-slide-down"></div>
-                <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold">USD 400</span><span class="italic" data-section="page6" data-value="per guest"> <?php echo $palabras ['page6']['per guest']; ?></span></p>
+                <p class="text-item fade-slide-down itinerary-text mb-0"><span class="fw-bold price-text">USD 400</span><span class="italic" data-section="page6" data-value="per guest"> <?php echo $palabras ['page6']['per guest']; ?></span></p>
             </div>
         </section>
         <div class=" divider mt-2"></div>
@@ -310,7 +310,7 @@ include "nav2.php";
             <p class="itinerary-text-half width-50 fade-slide-down" data-section="page6" data-value="Halfday2"><?php echo $palabras ['page6']['Halfday2']; ?>
             </p>
             <p class="itinerary-text lh-sm pt-3 fade-slide-down">
-                <span class="fw-bold">USD 150</span><span class="italic" data-section="page6" data-value="per guest"> <?php echo $palabras ['page6']['per guest']; ?></span>
+                <span class="fw-bold price-text">USD 150</span><span class="italic" data-section="page6" data-value="per guest"> <?php echo $palabras ['page6']['per guest']; ?></span>
             </p>
         </section>
     </section> 

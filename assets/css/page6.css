@@ -2701,3 +2701,8 @@ svg {
 .price-text{
   font-size: 1rem;
 }
+@media(width <= 450px){
+  .price-text{
+    font-size: 0.8rem;
+  }
+}

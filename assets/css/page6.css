@@ -1151,6 +1151,14 @@ svg {
   transform: translateX(-50%);
   z-index: 2;
 }
+@media(width <= 450px){
+  .p4{
+    left: 65%;
+  }
+  .p3{
+    left: 49%;
+  }
+}
 
 .p5 {
   position: relative;
@@ -2628,6 +2636,27 @@ svg {
 
   .item-itinerary-5 {
     width: 17%;
+  }
+}
+@media(width <=450px) {
+  .item-itinerary {
+    width: 20.5%;
+  }
+
+  .item-itinerary-2 {
+    width: 18.5%;
+  }
+
+  .item-itinerary-3 {
+    width: 13%;
+  }
+
+  .item-itinerary-4 {
+    width: 27%;
+  }
+
+  .item-itinerary-5 {
+    width: 25%;
   }
 }
 

@@ -7,10 +7,9 @@ include "nav2.php";
     <div class="container">
         <div class="row">
             <div class="content-wrap">
-                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1" data-section="page7" data-value="title1T">Trip Enhacements</h1>
+                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1" data-section="page7" data-value="title1T"><?php echo $palabras ['page7']['title1T']; ?></h1>
 
-                <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7" data-section="page7" data-value="descrip1T">
-                    Besides the experiences at the farmstead in the heart of the Andes, Vivacs del Plata has curated a selection of extraordinary activities in other breathtaking locations throughout Mendoza. Whether you're staying with us or elsewhere, you can still participate in these captivating adventures.</p>
+                <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7" data-section="page7" data-value="descrip1T"><?php echo $palabras ['page7']['descrip1T']; ?></p>
             </div>
         </div>
     </div>
@@ -20,31 +19,23 @@ include "nav2.php";
 <section>
     <div class="slide-container">
         <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-5 trip-info">
-            <h2 class="trip-title mb-5 mb-xl-5 text-center text-xl-start" data-section="page7" data-value="Sailing">Sailing</h2>
+            <h2 class="trip-title mb-5 mb-xl-5 text-center text-xl-start" data-section="page7" data-value="Sailing"><?php echo $palabras ['page7']['Sailing']; ?></h2>
             <div class="w-0 w-xl-50 mx-auto mx-xl-0">
                 <p class="trip-paragraph mb-1 pe-0" data-section="page7" data-value="Location">
-                    <span class="fw-bold">Location:</span> Potrerillos Dam<span class="font-light"> (30 minutes away <br class="description-br"> 
-                        from Vivacs del Plata)</span>
+                <?php echo $palabras ['page7']['Location']; ?>
                     </p>
                     <p class="trip-paragraph mb-4 pe-0" data-section="page7" data-value="Availability">
-               <span class="fw-bold">Availability:</span> All year <span class="font-light">(subject to climate <br class="description-br">
-                conditions)</span>
+                    <?php echo $palabras ['page7']['Availability']; ?>
                 </p>
                 <p class="trip-paragraph pe-0" data-section="page7" data-value="DE2">
-                    Hop on board our sailboat “Prana” and <br class="description-br">
-                    experience the beauty of Potrerillos Dam, a <br class="description-br">
-                    stunning water mirror surrounded by desertic <br class="description-br">
-                    mountains. Helmed by Patrón Pedro, you’ll <br class="description-br">
-                    sail on a 24.5 ft MASTRACCHIO boat, while <br class="description-br">
-                    relishing the picturesque views and indulging <br class="description-br">
-                    in wine and snacks.
+                <?php echo $palabras ['page7']['DE2']; ?>
                 </p>
                 <div id="dropdown-trip">
                     <p class="trip-paragraph pe-0 mb-1" data-section="page7" data-value="Sailing trip">
-                        <span class="fw-bold"> Sailing trip:</span> USD 130 per crew member
+                    <?php echo $palabras ['page7']['Sailing trip']; ?>
                     </p>
                     <p class="trip-paragraph pe-0" data-section="page7" data-value="Round-trip">
-                        <span class="fw-bold"> Round-trip transfer:</span> USD 100 4 PAX max
+                    <?php echo $palabras ['page7']['Round-trip']; ?>
                     </p>
                 </div>
             </div>
@@ -121,25 +112,17 @@ include "nav2.php";
             <img id="swiper-button-prev2-p7" src="/assets/img/icons/flecha.svg" class="flecha-2-p7-prev" alt="flecha_svg">
         </div>
         <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-auto trip-info-2">
-            <h2 class="trip-title2 mb-5 mt-5 mt-xl-0 mb-xl-5 text-xl-start" data-section="page7" data-value="Motorcycle road trip">Motorcycle road trip</h2>
+            <h2 class="trip-title2 mb-5 mt-5 mt-xl-0 mb-xl-5 text-xl-start" data-section="page7" data-value="Motorcycle road trip"><?php echo $palabras ['page7']['Motorcycle road trip']; ?></h2>
             <div class="w-0 w-xl-50 mx-auto mx-xl-0">
                 <p class="trip-paragraph mb-1" data-section="page7" data-value="Mendoza province and surroundings">
-                    <span class="fw-bold">Location:</span> Mendoza province and surroundings
+                <?php echo $palabras ['page7']['Mendoza province and surroundings']; ?>
                 </p>
                 <p class="trip-paragraph mb-4" data-section="page7" data-value="at">
-                    <span class="fw-bold">Availability:</span> Throughout the year
+                <?php echo $palabras ['page7']['at']; ?>
                 </p>
                 <div class="d-flex align-items-end">
                     <p class="trip-paragraph" data-section="page7" data-value="DE3">
-                        At Vivacs del Plata, we have a deep passion <br class="description-br">
-                        for outdoor activities, and motorcycling <br class="description-br">
-                        holds a special place in our hearts. Mendoza <br class="description-br">
-                        offers the perfect combination of weather, <br class="description-br">
-                        roads, and landscapes for an unforgettable <br class="description-br">
-                        motorcycle road trip. Choose between KTM or <br class="description-br">
-                        BMW GS motorcycles and let our experienced <br class="description-br">
-                        guides show you the hidden gems of <br class="description-br">
-                        Mendoza’s mountains.
+                    <?php echo $palabras ['page7']['DE3']; ?>
                     </p>
                     <span id="dropdownButtonMotorcycle" class="dropdown-button-motorcycle plus">+</span>
                 </div>
@@ -148,13 +131,13 @@ include "nav2.php";
     </div>
     <section id="itineraryMotorcycle" class="itinerary-container fade-slide-down hidden">
         <div class="d-flex align-items-center justify-content-between itinerary-p7">
-            <h2 class="sample-title" data-section="page7" data-value="SAMPLE ITINERARY*">SAMPLE ITINERARY*</h2>
+            <h2 class="sample-title" data-section="page7" data-value="SAMPLE ITINERARY*"><?php echo $palabras ['page7']['SAMPLE ITINERARY*']; ?></h2>
         </div>
         <div class="divider mt-3"></div>
         <div id="itinerary" class="d-flex align-items-center w-50">
-            <h6 class="my-3 fw-bold itinerary-subtitle" data-section="page7" data-value="FULL DAY TRIP">FULL DAY TRIP</h6>
+            <h6 class="my-3 fw-bold itinerary-subtitle" data-section="page7" data-value="FULL DAY TRIP"><?php echo $palabras ['page7']['FULL DAY TRIP']; ?></h6>
                 <div class="divider-vertical"></div>
-            <p class="distance mb-0" data-section="page7" data-value="Distance: 314km">Distance: 314km</p>
+            <p class="distance mb-0" data-section="page7" data-value="Distance: 314km"><?php echo $palabras ['page7']['Distance: 314km']; ?></p>
         </div>
         <div class="timeline-container-p7 timeline-pc">
             <div class="hour-container">
@@ -175,21 +158,17 @@ include "nav2.php";
         <div class="text-items timeline-pc">
             <div class="d-flex">
                 <div id="text-1" class="circle-1 hoverable-p7 gray item-itinerary-1-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7 " data-section="page7" data-value="DEPARTURE FROM<br>VIVACS DEL PLATA">DEPARTURE FROM<br>
-                        VIVACS DEL PLATA
+                    <p class="itinerary-text-p7 " data-section="page7" data-value="DEPARTURE FROM<br>VIVACS DEL PLATA"><?php echo $palabras ['page7']['DEPARTURE FROM<br>VIVACS DEL PLATA']; ?>
                     </p>
                 </div>
                 <div id="text-2" class="circle-2 hoverable-p7 gray item-itinerary-2-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="NORTHBOUND JOURNE">NORTHBOUND JOURNEY<br>
-                    TO POTRERILLOS</p>
+                    <p class="itinerary-text-p7" data-section="page7" data-value="NORTHBOUND JOURNE"><?php echo $palabras ['page7']['NORTHBOUND JOURNE']; ?></p>
                 </div>
                 <div id="text-3" class="circle-3 hoverable-p7 gray item-itinerary-3-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="ROUND POTRERILLOS DAM<br>AND HEAD TO CACHEUTA">ROUND POTRERILLOS DAM<br>
-                    AND HEAD TO CACHEUTA</p>
+                    <p class="itinerary-text-p7" data-section="page7" data-value="ROUND POTRERILLOS DAM<br>AND HEAD TO CACHEUTA"><?php echo $palabras ['page7']['ROUND POTRERILLOS DAM<br>AND HEAD TO CACHEUTA']; ?></p>
                 </div>
                 <div id="text-4" class="circle-4 hoverable-p7 gray item-itinerary-4-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="EXPLORE VILLAVICENCIO<br>NATURAL RESERVE">EXPLORE VILLAVICENCIO<br>
-                        NATURAL RESERVE</p>
+                    <p class="itinerary-text-p7" data-section="page7" data-value="EXPLORE VILLAVICENCIO<br>NATURAL RESERVE"><?php echo $palabras ['page7']['EXPLORE VILLAVICENCIO<br>NATURAL RESERVE']; ?></p>
                 </div>
                 <div id="text-5" class="circle-5 hoverable-p7 gray item-itinerary-5-p7 d-flex flex-column">
                     <p class="itinerary-text-p7">USPALLATA - PUENTE DEL INCA<br>
@@ -197,16 +176,15 @@ include "nav2.php";
                     </p>
                 </div>
                 <div id="text-6" class="circle-6 hoverable-p7 gray item-itinerary-6-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="LUNCH IN USPALLATA">LUNCH IN USPALLATA
+                    <p class="itinerary-text-p7" data-section="page7" data-value="LUNCH IN USPALLATA"><?php echo $palabras ['page7']['LUNCH IN USPALLATA']; ?>
                     </p>
                 </div>
                 <div id="text-7" class="circle-7 hoverable-p7 gray item-itinerary-7-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="RETURN VIA RUTA NACIONAL 7<br>TO POTRERILLOS">RETURN VIA RUTA NACIONAL 7<br>
-                        TO POTRERILLOS
+                    <p class="itinerary-text-p7" data-section="page7" data-value="RETURN VIA RUTA NACIONAL 7<br>TO POTRERILLOS"><?php echo $palabras ['page7']['RETURN VIA RUTA NACIONAL 7<br>TO POTRERILLOS']; ?>
                     </p>
                 </div>
                 <div id="text-8" class="circle-8 hoverable-p7 gray item-itinerary-8-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="ARRIVAL AT VIVACS DEL PLATA">ARRIVAL AT VIVACS DEL PLATA
+                    <p class="itinerary-text-p7" data-section="page7" data-value="ARRIVAL AT VIVACS DEL PLATA"><?php echo $palabras ['page7']['ARRIVAL AT VIVACS DEL PLATA']; ?>
                     </p>
                 </div>
             </div>
@@ -226,18 +204,17 @@ include "nav2.php";
         <div class="text-items timeline-mobile text-items-mobile m-t-mobile">
             <div class="d-flex">
                 <div id="text-28" class="circle-28 hoverable-p7 gray item-itinerary-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7 " data-section="page7" data-value="DEPARTURE FROM<br>VIVACS DEL PLATA">DEPARTURE FROM<br class='br'>
-                        VIVACS DEL PLATA
+                    <p class="itinerary-text-p7 " data-section="page7" data-value="DEPARTURE FROM<br>VIVACS DEL PLATA"><?php echo $palabras ['page7']['DEPARTURE FROM<br>VIVACS DEL PLATA']; ?>
                     </p>
                 </div>
                 <div id="text-29" class="circle-29 hoverable-p7 gray item-itinerary-p7-2 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="NORTHBOUND JOURNE">NORTHBOUND JOURNEY<br class="br">TO POTRERILLOS</p>
+                    <p class="itinerary-text-p7" data-section="page7" data-value="NORTHBOUND JOURNE"><?php echo $palabras ['page7']['NORTHBOUND JOURNE']; ?></p>
                 </div>
                 <div id="text-30" class="circle-30 hoverable-p7 gray item-itinerary-p7-3 d-flex flex-column">
-                    <p class="itinerary-text-p7"  data-section="page7" data-value="ROUND POTRERILLOS DAM<br>AND HEAD TO CACHEUTA">ROUND POTRERILLOS DAM<br class="br"> AND HEAD TO CACHEUTA</p>
+                    <p class="itinerary-text-p7"  data-section="page7" data-value="ROUND POTRERILLOS DAM<br>AND HEAD TO CACHEUTA"><?php echo $palabras ['page7']['ROUND POTRERILLOS DAM<br>AND HEAD TO CACHEUTA']; ?></p>
                 </div>
                 <div id="text-31" class="circle-31 hoverable-p7 gray item-itinerary-p7-4 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="EXPLORE VILLAVICENCIO<br>NATURAL RESERVE">EXPLORE VILLAVICENCIO<br class="br"> NATURAL RESERVE</p>
+                    <p class="itinerary-text-p7" data-section="page7" data-value="EXPLORE VILLAVICENCIO<br>NATURAL RESERVE"><?php echo $palabras ['page7']['EXPLORE VILLAVICENCIO<br>NATURAL RESERVE']; ?></p>
                 </div>
                 <div id="text-32" class="circle-32 hoverable-p7 gray item-itinerary-p7-5 d-flex flex-column">
                     <p class="itinerary-text-p7" >USPALLATA - PUENTE DEL INCA<br>
@@ -259,28 +236,27 @@ include "nav2.php";
         <div class="text-items timeline-mobile text-items-mobile">
             <div class="d-flex">
                 <div id="text-33" class="circle-33 hoverable-p7 gray item-itinerary-29-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7"data-section="page7" data-value="LUNCH IN USPALLATA">LUNCH IN USPALLATA
+                    <p class="itinerary-text-p7"data-section="page7" data-value="LUNCH IN USPALLATA"><?php echo $palabras ['page7']['LUNCH IN USPALLATA']; ?>
                     </p>
                 </div>
                 <div id="text-34" class="circle-34 hoverable-p7 gray item-itinerary-30-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="RETURN VIA RUTA NACIONAL 7<br>TO POTRERILLOS">RETURN VIA RUTA NACIONAL 7<br>
-                        TO POTRERILLOS
+                    <p class="itinerary-text-p7" data-section="page7" data-value="RETURN VIA RUTA NACIONAL 7<br>TO POTRERILLOS"><?php echo $palabras ['page7']['RETURN VIA RUTA NACIONAL 7<br>TO POTRERILLOS']; ?>
                     </p>
                 </div>
                 <div id="text-35" class="circle-35 hoverable-p7 gray item-itinerary-31-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="ARRIVAL AT VIVACS DEL PLATA">ARRIVAL AT VIVACS DEL PLATA
+                    <p class="itinerary-text-p7" data-section="page7" data-value="ARRIVAL AT VIVACS DEL PLATA"><?php echo $palabras ['page7']['ARRIVAL AT VIVACS DEL PLATA']; ?>
                     </p>
                 </div>
             </div>
         </div>
         <div class="divider mt-5"></div>
         <div id="itinerary2" class="d-flex align-items-center w-75 w-sm-50">
-            <h6 class="itinerary-subtitle my-3" data-section="page7" data-value="THREE-DAY ESCAPADE">THREE-DAY ESCAPADE</h6>
+            <h6 class="itinerary-subtitle my-3" data-section="page7" data-value="THREE-DAY ESCAPADE"><?php echo $palabras ['page7']['THREE-DAY ESCAPADE']; ?></h6>
         </div>
         <div class="d-flex align-items-center w-75 w-sm-50">
-            <p class="mt-0 fw-bold distance mb-0" data-section="page7" data-value="DAY 1">DAY 1</p>
+            <p class="mt-0 fw-bold distance mb-0" data-section="page7" data-value="DAY 1"><?php echo $palabras ['page7']['DAY 1']; ?></p>
         <div class="divider-vertical"></div>
-            <p class="distance mb-0" data-section="page7" data-value="Distance: 311km">Distance: 311km</p>
+            <p class="distance mb-0" data-section="page7" data-value="Distance: 311km"><?php echo $palabras ['page7']['Distance: 311km']; ?></p>
         </div>
         <div class="timeline-container-2-p7">
             <div class="hour-container-2">
@@ -298,23 +274,23 @@ include "nav2.php";
         <div class="text-items-2">
             <div class="d-flex">
                 <div id="text-9" class="circle-9 hoverable-p7 gray item-itinerary-9-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="DEPARTURE FROM VIVACS<br>DEL PLATA OR MENDOZA<br>DOWNTOWN">DEPARTURE FROM VIVACS<br>DEL PLATA OR MENDOZA<br>DOWNTOWN
+                    <p class="itinerary-text-p7" data-section="page7" data-value="DEPARTURE FROM VIVACS<br>DEL PLATA OR MENDOZA<br>DOWNTOWN"><?php echo $palabras ['page7']['DEPARTURE FROM VIVACS<br>DEL PLATA OR MENDOZA<br>DOWNTOWN']; ?>
                     </p>
                 </div>
                 <div id="text-10" class="circle-10 hoverable-p7 gray item-itinerary-10-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="RUTA 40 SOUTH TO<br>PAREDITAS">RUTA 40 SOUTH TO<br>PAREDITAS
+                    <p class="itinerary-text-p7" data-section="page7" data-value="RUTA 40 SOUTH TO<br>PAREDITAS"><?php echo $palabras ['page7']['RUTA 40 SOUTH TO<br>PAREDITAS']; ?>
                     </p>
                 </div>
                 <div id="text-11" class="circle-11 hoverable-p7 gray item-itinerary-11-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="RIGTH DETOUR INTO THE OLD<br>ROUTE 40 VIA LA JAULA">RIGTH DETOUR INTO THE OLD<br>ROUTE 40 VIA LA JAULA
+                    <p class="itinerary-text-p7" data-section="page7" data-value="RIGTH DETOUR INTO THE OLD<br>ROUTE 40 VIA LA JAULA"><?php echo $palabras ['page7']['RIGTH DETOUR INTO THE OLD<br>ROUTE 40 VIA LA JAULA']; ?>
                     </p>
                 </div>
                 <div id="text-12" class="circle-12 hoverable-p7 gray item-itinerary-12-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="COFFEE BREAK AT EL<br>SOSNEADO">COFFEE BREAK AT EL<br>SOSNEADO
+                    <p class="itinerary-text-p7" data-section="page7" data-value="COFFEE BREAK AT EL<br>SOSNEADO"><?php echo $palabras ['page7']['COFFEE BREAK AT EL<br>SOSNEADO']; ?>
                     </p>
                 </div>
                 <div id="text-13" class="circle-13 hoverable-p7 gray item-itinerary-13-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="ARRIVE AT HOTEL MALARGUE IN<br> MALARGUE">ARRIVE AT HOTEL MALARGUE IN<br> MALARGUE
+                    <p class="itinerary-text-p7" data-section="page7" data-value="ARRIVE AT HOTEL MALARGUE IN<br> MALARGUE"><?php echo $palabras ['page7']['ARRIVE AT HOTEL MALARGUE IN<br> MALARGUE']; ?>
                     </p>
                 </div>
             </div>
@@ -367,9 +343,9 @@ include "nav2.php";
             </div>
         </div> -->
         <div class="d-flex align-items-center w-75 w-sm-50 mt-5">
-            <p class="mt-0 fw-bold distance mb-0" data-section="page7" data-value="DAY 2">DAY 2</p>
+            <p class="mt-0 fw-bold distance mb-0" data-section="page7" data-value="DAY 2"><?php echo $palabras ['page7']['DAY 2']; ?></p>
         <div class="divider-vertical"></div>
-            <p class="distance mb-0" data-section="page7" data-value="Distance: 262km">Distance: 262km</p>
+            <p class="distance mb-0" data-section="page7" data-value="Distance: 262km"><?php echo $palabras ['page7']['Distance: 262km']; ?></p>
         </div>
         <div class="timeline-container-2-p7">
             <div class="hour-container-2">
@@ -388,27 +364,27 @@ include "nav2.php";
         <div class="text-items-2">
             <div class="d-flex">
                 <div id="text-14" class="circle-14 hoverable-p7 gray item-itinerary-14-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="ENJOY BREAKFAST<br>AT THE HOTEL">ENJOY BREAKFAST<br>AT THE HOTEL
+                    <p class="itinerary-text-p7" data-section="page7" data-value="ENJOY BREAKFAST<br>AT THE HOTEL"><?php echo $palabras ['page7']['ENJOY BREAKFAST<br>AT THE HOTEL']; ?>
                     </p>
                 </div>
                 <div id="text-15" class="circle-15 hoverable-p7 gray item-itinerary-15-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="DEPART FROM HOTEL<br>MALARGUE">DEPART FROM HOTEL<br>MALARGUE
+                    <p class="itinerary-text-p7" data-section="page7" data-value="DEPART FROM HOTEL<br>MALARGUE"><?php echo $palabras ['page7']['DEPART FROM HOTEL<br>MALARGUE']; ?>
                     </p>
                 </div>
                 <div id="text-16" class="circle-16 hoverable-p7 gray item-itinerary-16-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="WAY THROUGH<br>CASTILLOS DE PINCHEIRA,<br>PASO EL CARQUEQUE<br>AND LAS LOICAS">WAY THROUGH<br>CASTILLOS DE PINCHEIRA,<br>PASO EL CARQUEQUE<br>AND LAS LOICAS<br>
+                    <p class="itinerary-text-p7" data-section="page7" data-value="WAY THROUGH<br>CASTILLOS DE PINCHEIRA,<br>PASO EL CARQUEQUE<br>AND LAS LOICAS"><?php echo $palabras ['page7']['WAY THROUGH<br>CASTILLOS DE PINCHEIRA,<br>PASO EL CARQUEQUE<br>AND LAS LOICAS']; ?>
                     </p>
                 </div>
                 <div id="text-17" class="circle-17 hoverable-p7 gray item-itinerary-17-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="HAVE LUNCH AT TERMAS DE<br>CAJON GRANDE">HAVE LUNCH AT TERMAS DE<br>CAJON GRANDE
+                    <p class="itinerary-text-p7" data-section="page7" data-value="HAVE LUNCH AT TERMAS DE<br>CAJON GRANDE"><?php echo $palabras ['page7']['HAVE LUNCH AT TERMAS DE<br>CAJON GRANDE']; ?>
                     </p>
                 </div>
                 <div id="text-18" class="circle-18 hoverable-p7 gray item-itinerary-18-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7"data-section="page7" data-value="RETURN VIABARDAS BLANCAS">RETURN VIA<br> BARDAS BLANCAS
+                    <p class="itinerary-text-p7"data-section="page7" data-value="RETURN VIABARDAS BLANCAS"><?php echo $palabras ['page7']['RETURN VIABARDAS BLANCAS']; ?>
                     </p>
                 </div>
                 <div id="text-19" class="circle-19 hoverable-p7 gray item-itinerary-19-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="ARRIVE BACK AT HOTELMALARGUE">ARRIVE BACK AT HOTEL<br>MALARGUE
+                    <p class="itinerary-text-p7" data-section="page7" data-value="ARRIVE BACK AT HOTELMALARGUE"><?php echo $palabras ['page7']['ARRIVE BACK AT HOTELMALARGUE']; ?>
                     </p>
                 </div>
             </div>
@@ -467,9 +443,9 @@ include "nav2.php";
             </div>
         </div> -->
         <div class="d-flex align-items-center w-75 w-sm-50 mt-5">
-            <p class="mt-0 fw-bold distance mb-0" data-section="page7" data-value="DAY 3">DAY 3</p>
+            <p class="mt-0 fw-bold distance mb-0" data-section="page7" data-value="DAY 3"><?php echo $palabras ['page7']['DAY 3']; ?></p>
             <div class="divider-vertical"></div>
-            <p class="distance mb-0" data-section="page7" data-value="Distance: 434km">Distance: 434km</p>
+            <p class="distance mb-0" data-section="page7" data-value="Distance: 434km"><?php echo $palabras ['page7']['Distance: 434km']; ?></p>
         </div>
         <div class="timeline-container-2-p7 timeline-pc">
             <div class="hour-container-2">
@@ -491,35 +467,34 @@ include "nav2.php";
         <div class="text-items timeline-pc">
             <div class="d-flex">
                 <div id="text-20" class="circle-20 hoverable-p7 gray item-itinerary-20-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="START THE DAY WITH<br>BREAKFAST AT THE HOTEL">START THE DAY WITH<br>BREAKFAST AT THE HOTEL
+                    <p class="itinerary-text-p7" data-section="page7" data-value="START THE DAY WITH<br>BREAKFAST AT THE HOTEL"><?php echo $palabras ['page7']['START THE DAY WITH<br>BREAKFAST AT THE HOTEL']; ?>
                     </p>
                 </div>
                 <div id="text-21" class="circle-21 hoverable-p7 gray item-itinerary-21-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="DEPART FROM HOTEL<br>MALARGUE">DEPART FROM HOTEL<br>MALARGUE
+                    <p class="itinerary-text-p7" data-section="page7" data-value="DEPART FROM HOTEL<br>MALARGUE"><?php echo $palabras ['page7']['DEPART FROM HOTEL<br>MALARGUE']; ?>
                     </p>
                 </div>
                 <div id="text-22" class="circle-22 hoverable-p7 gray item-itinerary-22-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="HEAD NORTHBOUND<br>TO EL SOSNEADO">HEAD NORTHBOUND<br>TO EL SOSNEADO
-                    </p>
+                    <p class="itinerary-text-p7" data-section="page7" data-value="HEAD NORTHBOUND<br>TO EL SOSNEADO"><?php echo $palabras ['page7']['HEAD NORTHBOUND<br>TO EL SOSNEADO']; ?>
                 </div>
                 <div id="text-23" class="circle-23 hoverable-p7 gray item-itinerary-23-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="TAKE ROUTE 144<br>TO EL NIHUIL">TAKE ROUTE 144<br>TO EL NIHUIL
+                    <p class="itinerary-text-p7" data-section="page7" data-value="TAKE ROUTE 144<br>TO EL NIHUIL"><?php echo $palabras ['page7']['TAKE ROUTE 144<br>TO EL NIHUIL']; ?>
                     </p>
                 </div>
                 <div id="text-24" class="circle-24 hoverable-p7 gray item-itinerary-24-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="EXPLORE VALLE GRANDE">EXPLORE VALLE GRANDE
+                    <p class="itinerary-text-p7" data-section="page7" data-value="EXPLORE VALLE GRANDE"><?php echo $palabras ['page7']['EXPLORE VALLE GRANDE']; ?>
                     </p>
                 </div>
                 <div id="text-25" class="circle-25 hoverable-p7 gray item-itinerary-25-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="LUNCH AT SAN RAFAEL">LUNCH AT SAN RAFAEL
+                    <p class="itinerary-text-p7" data-section="page7" data-value="LUNCH AT SAN RAFAEL"><?php echo $palabras ['page7']['LUNCH AT SAN RAFAEL']; ?>
                     </p>
                 </div>
                 <div id="text-26" class="circle-26 hoverable-p7 gray item-itinerary-26-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="RETURN TO MENDOZA<br>VIA ROUTE 143<br>AND THEN ROUTE 40">RETURN TO MENDOZA<br>VIA ROUTE 143<br>AND THEN ROUTE 40
+                    <p class="itinerary-text-p7" data-section="page7" data-value="RETURN TO MENDOZA<br>VIA ROUTE 143<br>AND THEN ROUTE 40"><?php echo $palabras ['page7']['RETURN TO MENDOZA<br>VIA ROUTE 143<br>AND THEN ROUTE 40']; ?>
                     </p>
                 </div>
                 <div id="text-27" class="circle-27 hoverable-p7 gray item-itinerary-27-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="PASS THROUGH<br>PAREDITAS, TUNUYAN,<br>AND FINALLY REACH<br>MENDOZA">PASS THROUGH<br>PAREDITAS, TUNUYAN,<br>AND FINALLY REACH<br>MENDOZA
+                    <p class="itinerary-text-p7" data-section="page7" data-value="PASS THROUGH<br>PAREDITAS, TUNUYAN,<br>AND FINALLY REACH<br>MENDOZA"><?php echo $palabras ['page7']['PASS THROUGH<br>PAREDITAS, TUNUYAN,<br>AND FINALLY REACH<br>MENDOZA']; ?>
                     </p>
                 </div>
             </div>
@@ -540,20 +515,20 @@ include "nav2.php";
         <div class="text-items timeline-mobile text-items-mobile m-t-mobile-2">
             <div class="d-flex">
                 <div id="text-43" class="circle-43 hoverable-p7 gray item-itinerary-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7 " data-section="page7" data-value="START THE DAY WITH<br>BREAKFAST AT THE HOTEL">START THE DAY WITH<br class="br">BREAKFAST AT THE HOTEL
+                    <p class="itinerary-text-p7 " data-section="page7" data-value="START THE DAY WITH<br>BREAKFAST AT THE HOTEL"><?php echo $palabras ['page7']['START THE DAY WITH<br>BREAKFAST AT THE HOTEL']; ?>
                     </p>
                 </div>
                 <div id="text-44" class="circle-44 hoverable-p7 gray item-itinerary-p7-2 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="DEPART FROM HOTEL<br>MALARGUE">DEPART FROM HOTEL<br class="br">MALARGUE</p>
+                    <p class="itinerary-text-p7" data-section="page7" data-value="DEPART FROM HOTEL<br>MALARGUE"><?php echo $palabras ['page7']['DEPART FROM HOTEL<br>MALARGUE']; ?></p>
                 </div>
                 <div id="text-45" class="circle-45 hoverable-p7 gray item-itinerary-p7-3 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="HEAD NORTHBOUND<br>TO EL SOSNEADO">HEAD NORTHBOUND<br class="br">TO EL SOSNEADO</p>
+                    <p class="itinerary-text-p7" data-section="page7" data-value="HEAD NORTHBOUND<br>TO EL SOSNEADO"><?php echo $palabras ['page7']['HEAD NORTHBOUND<br>TO EL SOSNEADO']; ?></p>
                 </div>
                 <div id="text-46" class="circle-46 hoverable-p7 gray item-itinerary-p7-4 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="TAKE ROUTE 144<br>TO EL NIHUIL">TAKE ROUTE 144<br class="br">TO EL NIHUIL</p>
+                    <p class="itinerary-text-p7" data-section="page7" data-value="TAKE ROUTE 144<br>TO EL NIHUIL"><?php echo $palabras ['page7']['TAKE ROUTE 144<br>TO EL NIHUIL']; ?></p>
                 </div>
                 <div id="text-47" class="circle-47 hoverable-p7 gray item-itinerary-p7-5 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="EXPLORE VALLE GRANDE">EXPLORE VALLE GRANDE
+                    <p class="itinerary-text-p7" data-section="page7" data-value="EXPLORE VALLE GRANDE"><?php echo $palabras ['page7']['EXPLORE VALLE GRANDE']; ?>
                     </p>
                 </div>
             </div>
@@ -571,30 +546,28 @@ include "nav2.php";
         <div class="text-items timeline-mobile text-items-mobile mb-5">
             <div class="d-flex">
                 <div id="text-48" class="circle-48 hoverable-p7 gray item-itinerary-29-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="LUNCH AT SAN RAFAEL">LUNCH AT SAN RAFAEL
+                    <p class="itinerary-text-p7" data-section="page7" data-value="LUNCH AT SAN RAFAEL"><?php echo $palabras ['page7']['LUNCH AT SAN RAFAEL']; ?>
                     </p>
                 </div>
                 <div id="text-49" class="circle-49 hoverable-p7 gray item-itinerary-30-p7 d-flex flex-column">
-                    <p class="itinerary-text-p7" data-section="page7" data-value="RETURN TO MENDOZA<br>VIA ROUTE 143<br>AND THEN ROUTE 40">RETURN TO MENDOZA<br class="br">
-                        VIA ROUTE 143<br class="br">
-                        AND THEN ROUTE 40
+                    <p class="itinerary-text-p7" data-section="page7" data-value="RETURN TO MENDOZA<br>VIA ROUTE 143<br>AND THEN ROUTE 40"><?php echo $palabras ['page7']['RETURN TO MENDOZA<br>VIA ROUTE 143<br>AND THEN ROUTE 40']; ?>
                     </p>
                 </div>
                 <div id="text-50" class="circle-50 hoverable-p7 gray item-itinerary-31-p7 d-flex flex-column" >
-                    <p class="itinerary-text-p7" data-section="page7" data-value="PASS THROUGHPAREDITAS, TUNUYAN,AND FINALLY REACHMENDOZA">PASS THROUGH<br class="br">PAREDITAS, TUNUYAN,<br class="br">AND FINALLY REACH<br class="br">MENDOZA
+                    <p class="itinerary-text-p7" data-section="page7" data-value="PASS THROUGHPAREDITAS, TUNUYAN,AND FINALLY REACHMENDOZA"><?php echo $palabras ['page7']['PASS THROUGHPAREDITAS, TUNUYAN,AND FINALLY REACHMENDOZA']; ?>
                     </p>
                 </div>
             </div>
         </div>
-        <div class="itinerary-end m-top" data-section="page7" data-value="DESC71"><span class="">*</span>To ensure that your motorcycle trip is tailored to your preferences and desires we encouraged riders to contact our dedicated staff. Whether you have specific landmarks you want to visit, prefer scenic routes over challenging terrains, or have any other personalization request our guides are ready to work with you on the customization of your trip</div>
+        <div class="itinerary-end m-top" data-section="page7" data-value="DESC71"><?php echo $palabras ['page7']['DESC71']; ?></div>
     </section>
     <div class="slide-container">
         <div class="col-7 col-xl-4 col-xxl-5 d-flex flex-column mt-auto trip-info mb-3 mb-xl-auto">
-            <h2 class="trip-title mb-3 mb-xl-5 text-xl-start" data-section="page7" data-value="Golf outing">Golf outing</h2>
+            <h2 class="trip-title mb-3 mb-xl-5 text-xl-start" data-section="page7" data-value="Golf outing"><?php echo $palabras ['page7']['Golf outing']; ?></h2>
             <div class="w-100 w-xl-50 mx-auto mx-xl-0">
                 <div class="d-flex align-items-end">
                     <div class="col-11">
-                        <h6 class="trip-paragraph fw-bold mb-0" data-section="page7" data-value="ATAMISQUE">ATAMISQUE</h6>
+                        <h6 class="trip-paragraph fw-bold mb-0" data-section="page7" data-value="ATAMISQUE"><?php echo $palabras ['page7']['ATAMISQUE']; ?></h6>
                     </div>
                     <div class="col-1">
                         <span id="dropdownButtonAtamisque" class="dropdown-button-atamisque ms-5 ms-xl-auto plusx">+</span>
@@ -602,28 +575,23 @@ include "nav2.php";
                 </div>
                 <div id="dropdownAtamisque" class="hidden fade-slide-down">
                     <p class="trip-paragraph mb-1 fade-slide-down" data-section="page7" data-value="DESC72">
-                    <span class="fw-bold fade-slide-down">Location:</span> Atamisque, San José, Tupungato<span class="font-light"> (20 minutes away 
-                        from Vivacs del Plata)</span>
+                    <span class="fw-bold fade-slide-down"><?php echo $palabras ['page7']['DESC72']; ?>
                     </p>
                     <p class="trip-paragraph my-3 fade-slide-down" data-section="page7" data-value="DESC73">
-                        Play 9 Holes of Par 3 Bliss, just 20 Minutes 
-                        from Vivacs del Plata in a guided visit. 
-                        Transportation is included if you are staying 
-                        at Vivacs del Plata. Immerse yourself in the 
-                        scenic beauty of the Atamisque golf course.
+                    <?php echo $palabras ['page7']['DESC73']; ?>
                     </p>
                     <div id="dropdown-trip fade-slide-down">
                         <p class="trip-paragraph fade-slide-down mb-0 lh-sm" data-section="page7" data-value="DESC74">
-                            <span class="fw-bold"> Green fee:</span> USD 100 per player
+                        <?php echo $palabras ['page7']['DESC74']; ?>
                         </p>
                         <p class="trip-paragraph fade-slide-down" data-section="page7" data-value="DESC75">
-                            <span class="fw-bold"> Caddie:</span> USD 75 per bag (double bag)
+                        <?php echo $palabras ['page7']['DESC75']; ?>
                         </p>
                     </div>
                 </div>
                 <div class="d-flex align-items-end justify-content-xl-start">
                     <div class="col-11">
-                        <h6 class="trip-paragraph fw-bold mb-1" data-section="page7" data-value="CUNTRY CLUB">CLUB DE CAMPO</h6>
+                        <h6 class="trip-paragraph fw-bold mb-1" data-section="page7" data-value="CUNTRY CLUB"><?php echo $palabras ['page7']['CUNTRY CLUB']; ?></h6>
                     </div>
                     <div class="col-1">
                         <span id="dropdownButtonCountry" class="dropdown-button-atamisque plusx ms-5 ms-xl-auto">+</span>
@@ -631,21 +599,20 @@ include "nav2.php";
                 </div>
                 <div id="dropdownCountry" class="hidden fade-slide-down">
                     <p class="trip-paragraph mb-1 fade-slide-down" data-section="page7" data-value="DESC76">
-                    <span class="fw-bold fade-slide-down">Location:</span> Guaymallen, Mendoza<span class="font-light"> (1 hr 20 min away from Vivacs del Plata )</span>
+                    <?php echo $palabras ['page7']['DESC76']; ?>
                     </p>
                     <p class="trip-paragraph my-3 fade-slide-down" data-section="page7" data-value="DESC77">
-                        Play in the only 18 holes yard of Mendoza guided by skilled caddy scratch players who are esteemed club members. The course is par 72, has 6700 yards, and a stunning view to The Andes Mountain range. 
+                    <?php echo $palabras ['page7']['DESC77']; ?>
                     </p>
                     <div id="dropdown-trip fade-slide-down">
                         <p class="trip-paragraph fade-slide-down mb-0 lh-sm" data-section="page7" data-value="DESC78">
-                            <span class="fw-bold"> Green fee:</span> U$D 100 per player
+                        <?php echo $palabras ['page7']['DESC78']; ?>
                         </p>
                         <p class="trip-paragraph fade-slide-down" data-section="page7" data-value="DESC79">
-                            <span class="fw-bold"> Caddie:</span> USD 75 per bag (double bag) or 
-                            USD 100 per bag (simple bag)
+                        <?php echo $palabras ['page7']['DESC79']; ?>
                         </p>
                         <p class="trip-paragraph fade-slide-down" data-section="page7" data-value="DESC80">
-                            <span class="fw-bold"> Round-trip transfer:</span> U$D 120 4 PAX max
+                        <?php echo $palabras ['page7']['DESC80']; ?>
                         </p>
                     </div>
                 </div>

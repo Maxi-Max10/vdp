@@ -490,7 +490,7 @@ include "nav2.php";
 
         
     
-      <div class="subseccion-2">
+      <div class="subseccion-2 mt-3">
         <h2 class="subtitulo-subseccion-2 slide-m" data-section="page6" data-value="Culinary Experience"><?php echo $palabras ['page6']['Culinary Experience']; ?></h2>
         <div id="swiperCulinary" class="swiper slide-m">
           <div class="swiper-wrapper ul-slider-subseccion-2">

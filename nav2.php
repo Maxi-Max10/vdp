@@ -22,6 +22,7 @@ $palabras = json_decode($contenido, true);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="Mobirise v5.8.14, mobirise.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="facebook-domain-verification" content="1tpv9k4lc2sfpn8jrdrwvzccobkfxb" />
 <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">

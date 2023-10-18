@@ -687,7 +687,7 @@ include "nav2.php";
           <div class="elemento-1-subseccion-4">
             <h4 class="subtitulo-subseccion-4" data-section="page6" data-value="DISCOVER OUR NEW COUNTRY HOUSE"><?php echo $palabras ['page6']['DISCOVER OUR NEW COUNTRY HOUSE']; ?></h4>
             <p class="parrafo-subseccion-4-1 mb-0" data-section="page6" data-value="des1">
-            <?php echo $palabras ['page6']['title1A']; ?>
+            <?php echo $palabras ['page6']['des1']; ?>
             </p>
             <img
               class="imagen-grande-subseccion-4"
@@ -826,7 +826,7 @@ include "nav2.php";
             <img src="/assets/img/icons/flecha.svg" class="flecha-p6-croquis" alt="flecha_derecha_3">
             <img src="/assets/img/icons/flecha.svg" class="flecha-p6-prev-croquis hide-flecha" alt="flecha_izquierda_3">
             <p class="parrafo-subseccion-4-2" data-section="page6" data-value="des2">
-            <?php echo $palabras ['page6']['title1A']; ?>
+            <?php echo $palabras ['page6']['des2']; ?>
             </p>
           </div>
         </div>

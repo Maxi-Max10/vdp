@@ -219,7 +219,7 @@ include "nav2.php";
                     <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold"data-section="page6" data-value="DINNER PREPARATION WITH OPTIONAL PARTICIPATION"><?php echo $palabras ['page6']['DINNER PREPARATION WITH OPTIONAL PARTICIPATION']; ?></p>
                 </div>
                 <div id="text-13" class="circle-13 hoverable gray item-itinerary-13 d-flex flex-column">
-                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="FIREPLACE GATHERING"><?php echo $palabras ['page6']['FIREPLACE GATHERING']; ?>/p>
+                    <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="FIREPLACE GATHERING"><?php echo $palabras ['page6']['FIREPLACE GATHERING']; ?></p>
                 </div>
                 <div id="text-13-2" class="circle-13-2 hoverable gray item-itinerary-13 d-flex flex-column">
                   <p class="pointer text-item fade-slide-down itinerary-text-x fw-bold" data-section="page6" data-value="SLEEP & FOLLOWING"><?php echo $palabras ['page6']['SLEEP & FOLLOWING']; ?></p>

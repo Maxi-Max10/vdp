@@ -1,5 +1,5 @@
 <?php 
-$campo = "All Inclusive Experience";
+$campo = "Trip Enhancements";
 include "nav2.php";
 ?>
 <section data-bs-version="5.1" class="header4 cid-tMz88lY0XA mbr-fullscreen mbr-parallax-background" id="header4-2c">

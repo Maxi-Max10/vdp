@@ -10,8 +10,13 @@
                     </a>
                 </div>
             </div>
-           
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
+                <p class="mbr-text mbr-fonts-style mb-4 display-4"></p>
+                
+            </div>
             <div class="col-12 col-md-6 col-lg-3 text-center text-md-end footer-edit">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <ul class="list mbr-fonts-style display-5">
                 <a href="gallery"><li class="mbr-text item-wrap" data-section="nav" data-value="gallery"><?php echo $palabras ['nav']['gallery']; ?></li></a>
                     <a href="fac"><li class="mbr-text item-wrap" data-section="nav" data-value="FAC"><?php echo $palabras ['nav']['FAC']; ?></li></a>
@@ -19,6 +24,7 @@
                 </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
                 <div class="social-row display-7 me-4 me-sm-0">
                   <div class="soc-item">
                     <a href="https://maps.app.goo.gl/YZDKpfVicwxZ4hYp6" target="_blank">

@@ -29,7 +29,7 @@
                   <div class="soc-item">
                     <a href="https://maps.app.goo.gl/YZDKpfVicwxZ4hYp6" target="_blank">
                      
-                      <span class="mbr-iconfont socicon"> <img src="assets/img/icons/icon2.svg" style="width: 45%;"></span>
+                      <span class="mbr-iconfont socicon"> <img src="assets/img/icons/icon3.svg" style="width: 45%;"></span>
                     </a>
                     
                   </div>

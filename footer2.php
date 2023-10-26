@@ -28,7 +28,8 @@
                 <div class="social-row display-7 me-4 me-sm-0">
                   <div class="soc-item">
                     <a href="https://maps.app.goo.gl/YZDKpfVicwxZ4hYp6" target="_blank">
-                      <img src="assets/img/icons/icon2.svg" class="icon-svg2-footer" alt="location">
+                     
+                      <span class="mbr-iconfont socicon"> <img src="assets/img/icons/icon2.svg" style="width: 45%;"></span>
                     </a>
                     
                   </div>

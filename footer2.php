@@ -54,7 +54,7 @@
                
 
             </div>
-            <div class="mt-5 mb-4" style="height: 1px; background-color: white; text-align: center">
+            <div class="mt-1 mb-1" style="height: 1px; background-color: white; text-align: center">
             <span style="background-color: white; position: relative; top: -0.5em;">
                 
             </span>

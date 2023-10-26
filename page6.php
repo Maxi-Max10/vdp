@@ -78,7 +78,7 @@ include "nav2.php";
      <section class="itinerary-section">
         <div class="d-flex align-items-center justify-content-between itinerary">
             <h2 class="itinerary-title" data-section="page6" data-value="title3A"><?php echo $palabras ['page6']['title3A']; ?></h2>
-            <a class="btn btn-inquire btn-outline-dark me-5" href="page4.php" data-section="page6" data-value="inquireA"><?php echo $palabras ['page6']['inquireA']; ?></a>
+            <a class="btn btn-inquire btn-outline-dark me-3" href="page4.php" data-section="page6" data-value="inquireA"><?php echo $palabras ['page6']['inquireA']; ?></a>
         </div>
         <div class="divider mt-3"></div>
         <div id="itinerary" class="d-flex align-items-center width-50">

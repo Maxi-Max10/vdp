@@ -984,8 +984,8 @@ svg {
 @media(max-width:450px) {
   .btn-inquire {
     font-family: 'Roboto-Bold';
-    font-size: 0.8rem;
-    padding: 0.4% 1.5% !important;
+    font-size: 0.63rem;
+    padding: 2% 1.5% !important;
     border-radius: 0px !important;
   }
 }

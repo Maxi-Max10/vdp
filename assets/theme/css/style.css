@@ -966,14 +966,14 @@ blockquote {
 @media (max-width:991px){
   .nav-dropdown{
     height: 80vh !important;
-    margin-left: 5rem;
+    margin-left: 3rem;
     overflow: hidden;
   }
 }
 @media (max-width:400px){
   .nav-dropdown{
     height: 80vh !important;
-    margin-left: 0rem;
+    margin-left: 2rem;
     overflow: hidden;
   }
 }

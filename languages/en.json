@@ -38,7 +38,7 @@
         "preg5":"What is the overnight capacity of the inn?",
         "resp5":"We offer 3 cozy suits to suit your preferences. ",
         "preg6":"Still need help?",
-        "resp6":"For any other questions, please contact us here <br> or write us at <strong> contact@vivacsdelplata.com </strong>"
+        "resp6":"For any other questions, please contact us <a href='contact-us'><strong>here</strong></a> <br> or write us at <strong> contact@vivacsdelplata.com </strong>"
     },
 
     "index":{

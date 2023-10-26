@@ -39,7 +39,7 @@
         "preg5":"¿Cuál es la capacidad nocturna de la posada?",
         "resp5":"Ofrecemos 3 acogedoras suites para adaptarse a tus preferencias.",
         "preg6":"¿Necesitas más ayuda?",
-        "resp6":"Para cualquier otra pregunta, contáctanos <br> en  <strong> contact@vivacsdelplata.com </strong>"
+        "resp6":"Para cualquier otra pregunta, <a href='contact-us'><strong>contáctanos</strong></a> <br> en  <strong> contact@vivacsdelplata.com </strong>"
     },
 
     "index":{

@@ -89,7 +89,7 @@ include "nav2.php";
                             </a>
                             <div id="collapse5_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
                             <div class="panel-body">
-                                <p class="mbr-fonts-style panel-text display-4" data-section="page2" data-value="resp4"><?php echo $palabras ['page2']['resp4']; ?></strong></p>
+                                <p class="mbr-fonts-style panel-text display-4" data-section="page2" data-value="resp4"><?php echo $palabras ['page2']['resp4']; ?></p>
                             </div>
                         </div>
                         </div>
@@ -103,7 +103,7 @@ include "nav2.php";
                             </a>
                             <div id="collapse6_1" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_1">
                             <div class="panel-body">
-                                <p class="mbr-fonts-style panel-text display-4" data-section="page2" data-value="resp5"><?php echo $palabras ['page2']['resp5']; ?></strong></p>
+                                <p class="mbr-fonts-style panel-text display-4" data-section="page2" data-value="resp5"><?php echo $palabras ['page2']['resp5']; ?></p>
                             </div>
                         </div>
                         </div>

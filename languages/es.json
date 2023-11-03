@@ -48,7 +48,7 @@
     },
 
     "page4":{
-        "descrip":"Lo que nos distingue es nuestro compromiso inquebrantable con un servicio exclusivo y personalizado.",
+        "descrip":"Lo que nos distingue es nuestro<br>compromiso inquebrantable con un servicio<br>exclusivo y personalizado.",
         "descrip2":" Si tienes alguna pregunta o necesitas información,  <br> general, por favor completa este formulario para <br>solicitar la información que necesitas. Estaremos <br>encantados  de ayudarte.",
         "name": "Tu nombre",
         "email": "Tu correo electrónico",
